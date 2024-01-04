@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="cdae6b38-4d49-4461-9474-12ecead51f74" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US"># of Case Layers</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="4000" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Provide the number of case layers that make up a shipping pallet. Values less than 1 are not valid.</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">The number of case layers that make up an entire pallet</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">Maximum of 4000 added as a validation rule on 12/11/2012 per GAR recommendations. Attribute is not required and should only be provided if shipped palletized</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="55c3368c-0f69-4adc-a011-3e552209b26c">Used by logistics/supply chain</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="CM_Edit"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DC_CHANNELMGT_PORTAL"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DIMS"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySCApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySIApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichPL"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSNinreview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Multibox_ Objects"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Pallet Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PrepackSupplyChain"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SODCandStoreApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApproveHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Editable"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplyChainFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_DQSC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_SupplyChain"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Vmod_MultiboxEach"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

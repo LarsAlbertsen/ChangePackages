@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="c5e5327d-d7e9-415c-b8ec-878945dd0275" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">Quantity</Name>
+            <Validation BaseType="integer" MinValue="1" MaxValue="50000" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9"># of units per hierarchy level. Only integers between 2 and 9999 are valid.</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">The total quantity of units per the given hierarcy level</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">Attribute is a placeholder in quicksheets-It is not neccessarily filled out on items because this attribute is really just a placeholder for quicksheets to work allowing vendors to enter a value in quicksheets that then gets tied to the packaging hierarchy relationship.</Value>
+                <Value AttributeID="4c6c2772-7d77-47d7-8594-5da477fce5c2">DO NOT DELETE THIS ATTRIBUTE-Required for quicksheets to function properly-Serves a a placeholder in quicksheets that gets manifested in the packagining hierarchy once successfully submitted to the IDM Vendor portal. </Value>
+                <Value AttributeID="55c3368c-0f69-4adc-a011-3e552209b26c">Used by Supply Chain to determine the quantity of units per existing hierarchies. </Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="36ae8a76-cd2b-41cf-978c-ba1132ccd267"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DIMS"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySCApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySIApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Dimensions"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSNinreview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PrepackApprovalDefinition"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SODCandStoreApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApproveHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Editable"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplyChainFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="b24cc656-2c2d-45e4-8ad5-f850ea801892"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="bc4b707c-fa6b-429f-a1a5-978b7ae04691"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Prepack"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

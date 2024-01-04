@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="cc511a67-846b-420f-83c1-49d749c3e1e4" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">CARB-VOC Level</Name>
+            <Validation BaseType="number" MinValue="0" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Input the Volatile Organic Compound Level for items Classified for VOC regulations other than SCAQMD.  Used for local and state regulatory compliance - vendors will be held accountable for an incorrect value.</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Combo Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Compliance"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalYowAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichAllConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Interline Enrich Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineEnrichCoreCondRequiredQs"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MaintConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MaintQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecEnrichQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Enrich Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Maint Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Maint Required"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyEnrichConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyEnrichCoreCondRequiredQS"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyMaintQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApproveHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Editable"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Group"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_DQSI"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichInterline"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceConfig"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceInterline"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_DQ_Specs&amp;Images_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Combo_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Config_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_DataStandards_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Regular_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="catSpecLegal"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="dataquality"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

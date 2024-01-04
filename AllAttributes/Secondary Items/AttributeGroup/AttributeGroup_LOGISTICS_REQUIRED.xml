@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="LOGISTICS_REQUIRED" ShowInWorkbench="true" ManuallySorted="true" ParentID="Special Groups">
+            <Name QualifierID="Qualifier root">LOGISTICS_REQUIRED</Name>
+            <AttributeSequence></AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

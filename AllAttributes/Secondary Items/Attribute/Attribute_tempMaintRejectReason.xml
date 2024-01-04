@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="tempMaintRejectReason" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Enter Reject Reason</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">DESC: Temporary Maintenance Reject Reason holder for menu commands.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Copywriters"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DCC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DCM"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="TempAtts"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="dataquality"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

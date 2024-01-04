@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="b0358509-6171-4cc9-9d2c-7f44aa2961f2" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">IBI USN</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="12" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+Legacy:= prodval('b228b575-320d-4aa1-916f-9994379f8f80')
+
+}
+
+if(trim(Legacy)&amp;gt;0, Legacy, StepID())"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="58dcac5f-273a-4ed1-b2af-4c8baaef81c8"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IBIChannelManagement"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IBIComplianceReview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IBIMerchantReview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IBIPDTRequired"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="IBIProductDataTeamReview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineAttGroup"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlinePartialApproveGroup"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MIO_PORTAL"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

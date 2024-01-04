@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="1da37552-4445-4844-97c0-af2affcbf739" MultiValued="false" DefaultUnitID="unece.unit.LBR" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">THD Measured Weight (lb)</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask="">
+                <UnitLink UnitID="unece.unit.LBR"></UnitLink>
+            </Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="DIMS"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSNinreview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Editable"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplyChainFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="_AttUnitLinked"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

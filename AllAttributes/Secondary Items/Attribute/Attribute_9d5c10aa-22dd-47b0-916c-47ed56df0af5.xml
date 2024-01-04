@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="9d5c10aa-22dd-47b0-916c-47ed56df0af5" MultiValued="false" DefaultUnitID="unece.unit.INH" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Nested Increment (in)</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask="">
+                <UnitLink UnitID="unece.unit.INH"></UnitLink>
+            </Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Increment from top of base item to top of next nested item</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="CopySupplyChainAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DC_CHANNELMGT_PORTAL"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DIMS"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySCApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DataQualitySIApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalYowAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DqScSummary"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EDQSC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichCA"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichEA"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichPK"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichPL"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="GDSNinreview"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Multibox_ Objects"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Packaged Dimensions"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SODCandStoreApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderOnlyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApprove"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreDotComItemApproveHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="StoreFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Supply Chain Editable"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SupplyChainFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_DQSC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_GDSN"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_SupplyChain"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_SupplyChain_SupplyChain_Case"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_SupplyChain_SupplyChain_Each"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_SupplyChain_SupplyChain_Pack"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_SupplyChain_SupplyChain_Pallet"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Vmod_MultiboxEach"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
