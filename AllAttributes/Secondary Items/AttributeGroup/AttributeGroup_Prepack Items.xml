@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Prepack Items" ShowInWorkbench="false" ManuallySorted="true" ParentID="Initiate">
+            <Name QualifierID="Qualifier root">Prepack Initiate</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+                <AttributeLink AttributeID="0994d0f8-35e7-4a6d-9cd9-2ae97cd8b993"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

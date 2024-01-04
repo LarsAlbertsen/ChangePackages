@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="DQHazSummary" ShowInWorkbench="false" ManuallySorted="true" ParentID="DQHazmat">
+            <Name QualifierID="Qualifier root">Data Quality Hazmat Summary</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="8294b0d1-a0f9-4e12-802c-0d04a2e00b5e"></AttributeLink>
+                <AttributeLink AttributeID="b9d1081d-9e7c-4b73-834c-70fc79ccd8f7"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="FlexWriteAttributes" ShowInWorkbench="false" ManuallySorted="true" ParentID="FLEX Attributes">
+            <Name QualifierID="Qualifier root">PLM (FLEX) Editable Attributes</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="a47bfc56-c6cc-4b62-9e7c-49e94296239c"></AttributeLink>
+                <AttributeLink AttributeID="1d473170-1142-4194-95a3-64f679734ade"></AttributeLink>
+                <AttributeLink AttributeID="9456caa0-3856-4dd3-91b9-1d19ff130e2b"></AttributeLink>
+                <AttributeLink AttributeID="f7e66e4f-d14a-4665-a40b-720b82d4bb20"></AttributeLink>
+                <AttributeLink AttributeID="bc79d3ef-18fd-4891-8b2c-1fdae404318c"></AttributeLink>
+                <AttributeLink AttributeID="cb837c32-e0a2-485e-88bb-dab7fa91f976"></AttributeLink>
+                <AttributeLink AttributeID="f54bf49d-70b5-41e9-81fd-2231ac058393"></AttributeLink>
+                <AttributeLink AttributeID="c1c325b2-3e85-4dba-80b5-2035bc4b8b0e"></AttributeLink>
+                <AttributeLink AttributeID="98c71cea-b001-4e22-8aa7-e97fab7ef6dd"></AttributeLink>
+                <AttributeLink AttributeID="aaccafe7-2aed-422d-bd71-b21132b84673"></AttributeLink>
+                <AttributeLink AttributeID="f40de39b-d5b3-4dc5-b17e-b9c134aaaf0a"></AttributeLink>
+                <AttributeLink AttributeID="b78d2457-1ca8-4b77-b4bc-64a6b0de48d5"></AttributeLink>
+                <AttributeLink AttributeID="a0ea125d-0b46-428f-8694-192f0054c390"></AttributeLink>
+                <AttributeLink AttributeID="b2678225-9500-49cd-a3e0-36a729f901c3"></AttributeLink>
+                <AttributeLink AttributeID="08250001-d545-48b6-a2b4-af3cc61e59a0"></AttributeLink>
+                <AttributeLink AttributeID="f85abef2-7945-4889-9796-3ebff6d3e348"></AttributeLink>
+                <AttributeLink AttributeID="2e824d83-8b70-443a-8883-4330f9480331"></AttributeLink>
+                <AttributeLink AttributeID="3606c2cc-8cac-43cd-beae-91705b13bf82"></AttributeLink>
+                <AttributeLink AttributeID="6710ad06-8409-46f1-b972-a44abc3a4785"></AttributeLink>
+                <AttributeLink AttributeID="64d850d1-a8b4-4197-a214-9c8799310915"></AttributeLink>
+                <AttributeLink AttributeID="b711ccb9-ec96-4fbb-8188-8972df5678b3"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

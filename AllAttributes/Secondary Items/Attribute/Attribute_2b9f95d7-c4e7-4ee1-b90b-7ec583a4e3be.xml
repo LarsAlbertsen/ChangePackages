@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="2b9f95d7-c4e7-4ee1-b90b-7ec583a4e3be" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Nominal Thickness x Width x Length</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="CONCATENATE ( PRODVAL ( &amp;quot;10639ee6-3294-459e-891a-818417b9373d&amp;quot; ), &amp;quot; in.&amp;quot; , &amp;quot; x &amp;quot; , PRODVAL ( &amp;quot;d96321d5-d842-4336-9f94-450cca976319&amp;quot; ), &amp;quot; ft.&amp;quot; , &amp;quot; x &amp;quot; , PRODVAL ( &amp;quot;a9e07313-9d47-448b-9307-28bcc45e4a53&amp;quot; ) , &amp;quot; ft.&amp;quot; )"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">EXB3731 thickness x width x length using nominal values for request 1463</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

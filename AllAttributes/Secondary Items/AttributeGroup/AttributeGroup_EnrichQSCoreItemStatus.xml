@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichQSCoreItemStatus" ShowInWorkbench="false" ManuallySorted="true" ParentID="EnrichQSCore">
+            <Name QualifierID="Qualifier root">Enrich QS Core Item Status</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="6482b959-c014-4ef5-82c1-359dbf357027"></AttributeLink>
+                <AttributeLink AttributeID="b8ae5f26-2131-4b25-9563-0fa47cba4fd4"></AttributeLink>
+                <AttributeLink AttributeID="a1578e7f-9e9d-458e-bb96-d81e2e877b26"></AttributeLink>
+                <AttributeLink AttributeID="40b9d5b6-1087-424f-9d21-e2ca2d85500f"></AttributeLink>
+                <AttributeLink AttributeID="106bd1da-c6c4-4c82-971b-8209ded0b986"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

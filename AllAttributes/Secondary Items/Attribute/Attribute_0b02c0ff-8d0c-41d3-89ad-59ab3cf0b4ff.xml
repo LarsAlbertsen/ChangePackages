@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeList>
+        <Attribute ID="0b02c0ff-8d0c-41d3-89ad-59ab3cf0b4ff" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="Combo Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Combo_Core_Health"></AttributeGroupLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

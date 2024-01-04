@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="a6724fd2-0321-4971-9025-e51a29b29b11" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Size</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;3X Large&amp;quot;,
+		&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;2X Large&amp;quot;,
+		&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;4X Large&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;5X Large&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;6X Large&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;a21ce898-a13d-4050-8c77-d676e67851f0&amp;quot;)=&amp;quot;7X Large&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;b732dc94-7b5d-4a35-b183-78a824bd6c1b&amp;quot;)=&amp;quot;Tall&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;b732dc94-7b5d-4a35-b183-78a824bd6c1b&amp;quot;)=&amp;quot;X-Tall&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+IF(PRODVAL(&amp;quot;b732dc94-7b5d-4a35-b183-78a824bd6c1b&amp;quot;)=&amp;quot;XX-Tall&amp;quot;,
+&amp;quot;Big and Tall&amp;quot;,
+
+			&amp;quot;&amp;quot;)))))))))"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

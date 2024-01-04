@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichDotcomEcommConditional" ShowInWorkbench="false" ManuallySorted="false" ParentID="EnrichConditional">
+            <Name QualifierID="Qualifier root">Enrich Dotcom Ecomm Conditional Attributes</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

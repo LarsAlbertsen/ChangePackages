@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="InterlineEnrichCoreQs" ShowInWorkbench="false" ManuallySorted="true" ParentID="InterlineEnrichRequiredAttributes">
+            <Name QualifierID="Qualifier root">Interline Enrich Core Attributes</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="cd250fb8-fb00-4f9d-813a-dea949605715"></AttributeLink>
+                <AttributeLink AttributeID="2bce6533-87c7-4646-a3b7-d5efb49bf927"></AttributeLink>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+                <AttributeLink AttributeID="939521f8-07c5-44fc-ac6e-2c9eba4daecb"></AttributeLink>
+                <AttributeLink AttributeID="71c66892-e793-4415-abab-b58556fc16ab"></AttributeLink>
+                <AttributeLink AttributeID="789e9714-d059-4eec-aacc-c36d432d32e9"></AttributeLink>
+                <AttributeLink AttributeID="5e92d511-8359-42fc-bc18-d45f7f4b684e"></AttributeLink>
+                <AttributeLink AttributeID="482298b3-5f79-4dd7-9c09-5d99d3df2303"></AttributeLink>
+                <AttributeLink AttributeID="b032f687-1e0d-40f8-b3ca-e57d9fc6d1b9"></AttributeLink>
+                <AttributeLink AttributeID="aee97348-db1c-4e33-a1d8-932f31f2ed35"></AttributeLink>
+                <AttributeLink AttributeID="1f67d10f-be16-4a22-8b08-031d2a6ed35c"></AttributeLink>
+                <AttributeLink AttributeID="204aa061-885a-4adf-b9fd-e57f1f203a3a"></AttributeLink>
+                <AttributeLink AttributeID="e9afe208-5d38-4056-8d20-c349e592b00e"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

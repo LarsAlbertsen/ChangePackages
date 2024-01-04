@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Smart Home Review - Read Only" ShowInWorkbench="true" ManuallySorted="true" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Smart Home Portal View</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="fc01b304-59a3-406a-80d7-03f1494d956c"></AttributeLink>
+                <AttributeLink AttributeID="8d900170-1b6a-45e9-b486-b2a082fbf908"></AttributeLink>
+                <AttributeLink AttributeID="b1adbec8-ec71-456a-a467-e13d09071a87"></AttributeLink>
+                <AttributeLink AttributeID="344fa012-9387-42df-bbb3-638997ea592e"></AttributeLink>
+                <AttributeLink AttributeID="81fe9cc3-79f5-48e0-b78f-21ac1f4c03db"></AttributeLink>
+                <AttributeLink AttributeID="110776e4-99f3-414c-9f1f-5e49356782da"></AttributeLink>
+                <AttributeLink AttributeID="aa1e356a-e3f9-484f-91ff-d1551021647e"></AttributeLink>
+                <AttributeLink AttributeID="b4bfcc23-c9ad-4a24-948b-4ae32f6d7bf5"></AttributeLink>
+                <AttributeLink AttributeID="7850c60f-10bc-459f-8a4d-c3ab81d7b9e3"></AttributeLink>
+                <AttributeLink AttributeID="2050cead-7bf9-4395-ad92-4ee6465ff9ff"></AttributeLink>
+                <AttributeLink AttributeID="bc1ac07a-d9db-412b-8c22-30eb9a939f86"></AttributeLink>
+                <AttributeLink AttributeID="29d438d9-64f2-4623-8f4e-09f9368e93bb"></AttributeLink>
+                <AttributeLink AttributeID="2bce6533-87c7-4646-a3b7-d5efb49bf927"></AttributeLink>
+                <AttributeLink AttributeID="cd250fb8-fb00-4f9d-813a-dea949605715"></AttributeLink>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+                <AttributeLink AttributeID="27156dfb-3ce8-4307-bd7e-b36cae566a3f"></AttributeLink>
+                <AttributeLink AttributeID="6d030ff8-72ce-4f42-ba53-023f55c53a20"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

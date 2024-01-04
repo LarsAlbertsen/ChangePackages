@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="c11256f3-dd10-49cf-bbf2-d99f4d21491d" ShowInWorkbench="false" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Interline Regulatory Temp</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

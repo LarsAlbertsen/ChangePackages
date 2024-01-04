@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="909c8102-5ab4-49fe-a4cf-61a500525b34" ShowInWorkbench="false" ManuallySorted="false" ParentID="e8a027bf-02f8-4331-99c5-02d7f2a7fca5">
+            <Name QualifierID="Qualifier root">Brand Development Level 1</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

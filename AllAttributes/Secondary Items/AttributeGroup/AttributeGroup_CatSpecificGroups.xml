@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CatSpecificGroups" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Category Specific Attribute Groupings</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_VCdbVehicleTypeGroup" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">VCdb Vehicle Type Group</Name>
+            <ListOfValueLink ListOfValueID="AC_VehicleTypeGroup"></ListOfValueLink>
+            <AttributeGroupLink AttributeGroupID="AC_VCdbAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_VehicleType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ScOtherConditional" ShowInWorkbench="false" ManuallySorted="false" ParentID="SupplyChainConditional">
+            <Name QualifierID="Qualifier root">SupplyChain Other Conditional Attributes</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

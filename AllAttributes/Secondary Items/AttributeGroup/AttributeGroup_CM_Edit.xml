@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CM_Edit" ShowInWorkbench="true" ManuallySorted="true" ParentID="Editable_Special Group">
+            <Name QualifierID="Qualifier root">CM_Edit</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="f0e96edb-7f93-46a1-bba0-f87c11d2adcc"></AttributeLink>
+                <AttributeLink AttributeID="a91fa6bd-c9c5-43b5-a05b-87607b5c15a2"></AttributeLink>
+                <AttributeLink AttributeID="40b9d5b6-1087-424f-9d21-e2ca2d85500f"></AttributeLink>
+                <AttributeLink AttributeID="106bd1da-c6c4-4c82-971b-8209ded0b986"></AttributeLink>
+                <AttributeLink AttributeID="e1d40475-cb59-42b2-89be-3ae5a9d647f1"></AttributeLink>
+                <AttributeLink AttributeID="e8bcb6de-c9eb-493c-a6c7-2fbb1f7f25e5"></AttributeLink>
+                <AttributeLink AttributeID="d5986f5f-5e0a-4576-9361-bfa361736f72"></AttributeLink>
+                <AttributeLink AttributeID="be22d203-318d-49fa-a248-a201af5cf918"></AttributeLink>
+                <AttributeLink AttributeID="812fcf72-7fbc-473f-93de-ce9acdc0ecac"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+                <AttributeLink AttributeID="c1ba7181-5ae3-4954-94c2-4aca970c8816"></AttributeLink>
+                <AttributeLink AttributeID="085a6fd5-54af-4344-86e6-7f6021e7c29f"></AttributeLink>
+                <AttributeLink AttributeID="99c80265-38ec-46e0-a91e-95dd80ad5070"></AttributeLink>
+                <AttributeLink AttributeID="3b075f1d-6fd2-4d33-b1e6-5f3d3f0a58ab"></AttributeLink>
+                <AttributeLink AttributeID="094490f1-1b18-4fcf-8858-d5fb47c867c9"></AttributeLink>
+                <AttributeLink AttributeID="ba5bbbf2-01bd-4b0c-bc68-025df2150266"></AttributeLink>
+                <AttributeLink AttributeID="cdae6b38-4d49-4461-9474-12ecead51f74"></AttributeLink>
+                <AttributeLink AttributeID="770b0397-4cff-4e8d-8a0b-dd11ccc77e9e"></AttributeLink>
+                <AttributeLink AttributeID="20a3dc42-bb92-4182-ba53-8836a4ff0089"></AttributeLink>
+                <AttributeLink AttributeID="b744dd5d-f6e4-40c3-b161-3b32c3ff8ae3"></AttributeLink>
+                <AttributeLink AttributeID="7c01a296-2d67-4ffb-9deb-fad3355f09ee"></AttributeLink>
+                <AttributeLink AttributeID="9d89e567-5e61-402d-a87b-5c64ceb37c05"></AttributeLink>
+                <AttributeLink AttributeID="dcb9d5d4-e1ac-4e82-9ede-702c43250462"></AttributeLink>
+                <AttributeLink AttributeID="PackagingQuantity"></AttributeLink>
+                <AttributeLink AttributeID="3735eab9-2ab3-4eeb-b5c3-d538d42dea73"></AttributeLink>
+                <AttributeLink AttributeID="7eb1e571-64d3-4800-85ff-7bae9f84e334"></AttributeLink>
+                <AttributeLink AttributeID="c2adae09-ecfa-41d4-8fd9-e95ecb7e114d"></AttributeLink>
+                <AttributeLink AttributeID="94a5b204-df2c-43e1-9e59-1e2c758e214d"></AttributeLink>
+                <AttributeLink AttributeID="7f450581-08c1-40ea-a448-486d42d25345"></AttributeLink>
+                <AttributeLink AttributeID="32ae4ddf-126a-419d-afc8-03b0c4651ea5"></AttributeLink>
+                <AttributeLink AttributeID="bbcbfdb4-f509-4a45-86c6-61d6b165feeb"></AttributeLink>
+                <AttributeLink AttributeID="Dotcom Shipping Calc Depth"></AttributeLink>
+                <AttributeLink AttributeID="1eca5c94-30c2-4895-a705-eafae040c182"></AttributeLink>
+                <AttributeLink AttributeID="de4c01a3-183c-47b1-bec1-263fa12f664f"></AttributeLink>
+                <AttributeLink AttributeID="5b6b7cfa-c2b9-43e5-8db3-1c13203dd388"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

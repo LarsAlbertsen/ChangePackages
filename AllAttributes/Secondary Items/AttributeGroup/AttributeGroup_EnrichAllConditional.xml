@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichAllConditional" ShowInWorkbench="false" ManuallySorted="true" ParentID="EnrichConditional">
+            <Name QualifierID="Qualifier root">Enrich All Conditional Attributes</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="cc511a67-846b-420f-83c1-49d749c3e1e4"></AttributeLink>
+                <AttributeLink AttributeID="1be37f0d-f428-40a6-a75d-128da4ee3efa"></AttributeLink>
+                <AttributeLink AttributeID="1414a4b4-06f9-4eb4-a8fb-8de535ec1048"></AttributeLink>
+                <AttributeLink AttributeID="812fcf72-7fbc-473f-93de-ce9acdc0ecac"></AttributeLink>
+                <AttributeLink AttributeID="6013739a-4343-4579-b770-ae00e49d1b52"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+                <AttributeLink AttributeID="c1ba7181-5ae3-4954-94c2-4aca970c8816"></AttributeLink>
+                <AttributeLink AttributeID="1747512e-40a3-4674-8ae3-99843f657f2d"></AttributeLink>
+                <AttributeLink AttributeID="e4a4c8d5-1db4-44a5-8b0d-19240c5d499e"></AttributeLink>
+                <AttributeLink AttributeID="80806a1b-6fda-4896-bdc5-d440b831e9c5"></AttributeLink>
+                <AttributeLink AttributeID="20a3dc42-bb92-4182-ba53-8836a4ff0089"></AttributeLink>
+                <AttributeLink AttributeID="b744dd5d-f6e4-40c3-b161-3b32c3ff8ae3"></AttributeLink>
+                <AttributeLink AttributeID="42606248-bcf4-46f6-a5c1-8acaa6885433"></AttributeLink>
+                <AttributeLink AttributeID="20a10a23-9fbb-4b97-95ca-edcb57d9961b"></AttributeLink>
+                <AttributeLink AttributeID="2bce6533-87c7-4646-a3b7-d5efb49bf927"></AttributeLink>
+                <AttributeLink AttributeID="a716b931-e723-4276-b428-06b6bff9fd17"></AttributeLink>
+                <AttributeLink AttributeID="7931A7D3-953F-4133-8CB6-0283EBD23814"></AttributeLink>
+                <AttributeLink AttributeID="D96EBA76-875A-42D2-9205-F329ABAFD2D9"></AttributeLink>
+                <AttributeLink AttributeID="a7d2f639-721a-4d10-9c9d-9a59e5d85a81"></AttributeLink>
+                <AttributeLink AttributeID="085c54f8-9aea-45e9-a289-1af628de11d6"></AttributeLink>
+                <AttributeLink AttributeID="218194d9-dd8d-42db-95e7-be7f9593d9af"></AttributeLink>
+                <AttributeLink AttributeID="b5af0cd6-aa36-4293-80ef-e449a9c0e82d"></AttributeLink>
+                <AttributeLink AttributeID="12f329f9-6a2c-4907-8314-159966827774"></AttributeLink>
+                <AttributeLink AttributeID="9eadf5b1-1727-478c-ad59-5f46e666bd3b"></AttributeLink>
+                <AttributeLink AttributeID="3ED0E928-4A00-40F2-8123-A0734B71C922"></AttributeLink>
+                <AttributeLink AttributeID="3894F31C-A9F4-42BA-803F-ACD33FD6CD5E"></AttributeLink>
+                <AttributeLink AttributeID="abfc7092-250c-4393-b00e-e225f485cf0a"></AttributeLink>
+                <AttributeLink AttributeID="61d67536-be69-46c7-a7a5-f928c1c867a4"></AttributeLink>
+                <AttributeLink AttributeID="d8edb80a-ff81-4f63-b8d2-894c34bfd3e6"></AttributeLink>
+                <AttributeLink AttributeID="f3ec73d3-2da1-4317-aaf3-69377fb505b4"></AttributeLink>
+                <AttributeLink AttributeID="c2adae09-ecfa-41d4-8fd9-e95ecb7e114d"></AttributeLink>
+                <AttributeLink AttributeID="94a5b204-df2c-43e1-9e59-1e2c758e214d"></AttributeLink>
+                <AttributeLink AttributeID="7f450581-08c1-40ea-a448-486d42d25345"></AttributeLink>
+                <AttributeLink AttributeID="32ae4ddf-126a-419d-afc8-03b0c4651ea5"></AttributeLink>
+                <AttributeLink AttributeID="e1d40475-cb59-42b2-89be-3ae5a9d647f1"></AttributeLink>
+                <AttributeLink AttributeID="c40a57b3-e657-4acd-8586-a7edfe905eca"></AttributeLink>
+                <AttributeLink AttributeID="6473868b-de9b-41b3-9e64-11f424dfed92"></AttributeLink>
+                <AttributeLink AttributeID="23c23ab8-334a-4ba3-b73b-e64afd2af096"></AttributeLink>
+                <AttributeLink AttributeID="1cb684c6-c9a0-4af1-9738-e7a7a23a30fc"></AttributeLink>
+                <AttributeLink AttributeID="106bd1da-c6c4-4c82-971b-8209ded0b986"></AttributeLink>
+                <AttributeLink AttributeID="8d900170-1b6a-45e9-b486-b2a082fbf908"></AttributeLink>
+                <AttributeLink AttributeID="b1adbec8-ec71-456a-a467-e13d09071a87"></AttributeLink>
+                <AttributeLink AttributeID="344fa012-9387-42df-bbb3-638997ea592e"></AttributeLink>
+                <AttributeLink AttributeID="110776e4-99f3-414c-9f1f-5e49356782da"></AttributeLink>
+                <AttributeLink AttributeID="81fe9cc3-79f5-48e0-b78f-21ac1f4c03db"></AttributeLink>
+                <AttributeLink AttributeID="b4bfcc23-c9ad-4a24-948b-4ae32f6d7bf5"></AttributeLink>
+                <AttributeLink AttributeID="aa1e356a-e3f9-484f-91ff-d1551021647e"></AttributeLink>
+                <AttributeLink AttributeID="3fba94a4-19d5-406b-b7c0-6a5f7d00f4b8"></AttributeLink>
+                <AttributeLink AttributeID="4af55aab-5df4-4318-a2ae-684420f160b8"></AttributeLink>
+                <AttributeLink AttributeID="9ec670bc-95ce-429d-8f0a-fc4e7598a63c"></AttributeLink>
+                <AttributeLink AttributeID="17a1e519-2dbd-43a7-9bca-8194769e817d"></AttributeLink>
+                <AttributeLink AttributeID="02c55f3c-caf9-432a-a601-f43dfce520ef"></AttributeLink>
+                <AttributeLink AttributeID="9ce56208-9d5f-4afd-b981-0a0950dce2da"></AttributeLink>
+                <AttributeLink AttributeID="563f4d74-1d9d-4204-9061-eecc4822dcc2"></AttributeLink>
+                <AttributeLink AttributeID="15fb735d-a77f-4438-9598-25b01a897856"></AttributeLink>
+                <AttributeLink AttributeID="316af78e-aae2-4815-aafd-d36c3d18f28c"></AttributeLink>
+                <AttributeLink AttributeID="4c042c71-20ad-4e03-bf45-7914ad626ee3"></AttributeLink>
+                <AttributeLink AttributeID="0f5cf14b-6d6f-45bb-a613-a5ee577b3fb3"></AttributeLink>
+                <AttributeLink AttributeID="08a12537-8015-4e2c-891d-bd9e65bbc4c9"></AttributeLink>
+                <AttributeLink AttributeID="b46f09bf-2f49-4622-ad1d-feff577e146d"></AttributeLink>
+                <AttributeLink AttributeID="67b1d24f-4f58-4707-9d10-077d73bc3cb0"></AttributeLink>
+                <AttributeLink AttributeID="a992df29-db6b-47d6-8fe6-b194e76bc120"></AttributeLink>
+                <AttributeLink AttributeID="110a8e70-698d-4fe0-89f8-d9155c705640"></AttributeLink>
+                <AttributeLink AttributeID="8334da4b-0e02-45af-b3f8-952db2d7c8a5"></AttributeLink>
+                <AttributeLink AttributeID="5dfcdee5-9b1b-4411-8961-36f8cfdc0e1c"></AttributeLink>
+                <AttributeLink AttributeID="1d7c4afd-4939-49e8-88c0-8012ae3050d5"></AttributeLink>
+                <AttributeLink AttributeID="b711ccb9-ec96-4fbb-8188-8972df5678b3"></AttributeLink>
+                <AttributeLink AttributeID="dc45b4d6-871f-48af-8c16-7214e6b5019b"></AttributeLink>
+                <AttributeLink AttributeID="beaaa532-3e95-4355-8980-195537d7f531"></AttributeLink>
+                <AttributeLink AttributeID="2b795a6e-8c03-4fd2-bfdc-6687ca510b35"></AttributeLink>
+                <AttributeLink AttributeID="31f5e45c-f875-4cb7-b515-1d4ad149d61a"></AttributeLink>
+                <AttributeLink AttributeID="b60f19b8-4f56-4004-915e-9b19af9948c2"></AttributeLink>
+                <AttributeLink AttributeID="72688bad-c281-4bd7-aabf-afc99aea96d4"></AttributeLink>
+                <AttributeLink AttributeID="ad4e7712-f762-4c14-b121-4f3e52707cf1"></AttributeLink>
+                <AttributeLink AttributeID="1814a7be-79e3-44fb-aa8d-0dec84ef1b4a"></AttributeLink>
+                <AttributeLink AttributeID="13cc1e38-59b7-41b4-9baf-65e6be745fe1"></AttributeLink>
+                <AttributeLink AttributeID="8a1082db-3ee0-4d93-8292-0bd993de3570"></AttributeLink>
+                <AttributeLink AttributeID="102700d3-9aa7-4cad-bfbf-63f4e2083c74"></AttributeLink>
+                <AttributeLink AttributeID="b827861e-4df9-408c-8b20-cc44f14b792f"></AttributeLink>
+                <AttributeLink AttributeID="6048a943-4fc9-42a5-b421-bc74c4095417"></AttributeLink>
+                <AttributeLink AttributeID="3e9b73e8-aa13-48f4-be99-5756a5fa6611"></AttributeLink>
+                <AttributeLink AttributeID="49ec811c-2a95-4aee-8d36-13269bbb9329"></AttributeLink>
+                <AttributeLink AttributeID="ce1eb5b0-0319-4b95-9348-2eb65726a5a7"></AttributeLink>
+                <AttributeLink AttributeID="111d711e-7a72-47c4-83ed-db8a9110c192"></AttributeLink>
+                <AttributeLink AttributeID="a1642c8b-23f9-4c10-9f82-b1386715bb3c"></AttributeLink>
+                <AttributeLink AttributeID="ade20764-0f58-4a71-9b84-fb8701e10fc6"></AttributeLink>
+                <AttributeLink AttributeID="cfacb350-805c-4020-a633-54f50c8aa7c4"></AttributeLink>
+                <AttributeLink AttributeID="7d13728a-24d5-4eaf-8255-4f36bdcf832f"></AttributeLink>
+                <AttributeLink AttributeID="4674ce3b-41de-4fd3-b568-222f4999123e"></AttributeLink>
+                <AttributeLink AttributeID="77b9ef51-44a3-4f1f-9a2f-301fbb437d51"></AttributeLink>
+                <AttributeLink AttributeID="4eb99dc3-79a9-44d0-a8d9-50ec559e0516"></AttributeLink>
+                <AttributeLink AttributeID="347e077f-7884-4755-affa-d8b82ebaf879"></AttributeLink>
+                <AttributeLink AttributeID="a4ff0765-5896-433c-b337-a63f34bcc444"></AttributeLink>
+                <AttributeLink AttributeID="06c658b5-2e9d-4619-aacf-94d858f7095d"></AttributeLink>
+                <AttributeLink AttributeID="4c7aa0ed-3e2f-40a1-80c1-273d6ce96aa5"></AttributeLink>
+                <AttributeLink AttributeID="571aec11-d2aa-403a-98fb-60e11b862066"></AttributeLink>
+                <AttributeLink AttributeID="13d6668b-6b81-40c0-8fa5-6da1d3cf2e17"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Channel" ShowInWorkbench="false" ManuallySorted="true" ParentID="Enrich Core">
+            <Name QualifierID="Qualifier root">Channel</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="fa1d897f-143c-47e4-b1f7-9901c58b2538"></AttributeLink>
+                <AttributeLink AttributeID="6bcd2f6c-1dab-4eb2-93a4-9398e4919269"></AttributeLink>
+                <AttributeLink AttributeID="939521f8-07c5-44fc-ac6e-2c9eba4daecb"></AttributeLink>
+                <AttributeLink AttributeID="e9afe208-5d38-4056-8d20-c349e592b00e"></AttributeLink>
+                <AttributeLink AttributeID="c9ff1a67-ef70-4423-9a10-96c29eecdf33"></AttributeLink>
+                <AttributeLink AttributeID="a4ff0765-5896-433c-b337-a63f34bcc444"></AttributeLink>
+                <AttributeLink AttributeID="06c658b5-2e9d-4619-aacf-94d858f7095d"></AttributeLink>
+                <AttributeLink AttributeID="13d6668b-6b81-40c0-8fa5-6da1d3cf2e17"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

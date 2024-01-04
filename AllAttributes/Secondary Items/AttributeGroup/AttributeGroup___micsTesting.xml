@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="__micsTesting" ShowInWorkbench="true" ManuallySorted="false" ParentID="micsAttributes">
+            <Name QualifierID="Qualifier root">__micsTesting</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

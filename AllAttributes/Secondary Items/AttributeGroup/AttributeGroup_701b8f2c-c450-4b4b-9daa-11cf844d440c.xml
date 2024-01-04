@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="701b8f2c-c450-4b4b-9daa-11cf844d440c" ShowInWorkbench="false" ManuallySorted="false" ParentID="0b273de1-5f7d-4f6b-b5a0-79914bcd1a03">
+            <Name QualifierID="Qualifier root">IDM Governance - Level 1</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

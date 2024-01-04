@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CopyFromUpcExcludeList" ShowInWorkbench="false" ManuallySorted="false" ParentID="Workflow and Presentation Configuration">
+            <Name QualifierID="Qualifier root">Copy From Upc Exclude List</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_PIES_EXPIREF" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Refurbished Part</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="1" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="AC_PIESExtendedProductInfoSegmentEXPI"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_PIESItem"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

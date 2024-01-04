@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Combo Child Safety and Protection" ShowInWorkbench="false" ManuallySorted="false" ParentID="Combo Enrich Core">
+            <Name QualifierID="Qualifier root">Child Safety and Protection</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

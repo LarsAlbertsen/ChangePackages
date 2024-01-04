@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="05cdab68-76ed-4bae-b028-698aed8322da" ShowInWorkbench="true" ManuallySorted="true" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Alternative Pricing</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="b7bd6ac1-9e6f-4733-8198-403f05b9de57"></AttributeLink>
+                <AttributeLink AttributeID="ba5bbbf2-01bd-4b0c-bc68-025df2150266"></AttributeLink>
+                <AttributeLink AttributeID="ec5a31e1-1b7a-4376-848a-d4c598666637"></AttributeLink>
+                <AttributeLink AttributeID="a78b4ce1-62cf-412d-95f1-dbabbdd241cf"></AttributeLink>
+                <AttributeLink AttributeID="1d250e09-e6d7-4906-b0d2-b2047f4c86f4"></AttributeLink>
+                <AttributeLink AttributeID="0095124e-6957-41a0-bd3f-5bb46c2fff2a"></AttributeLink>
+                <AttributeLink AttributeID="b26cb364-a765-448a-9763-8792093f1c05"></AttributeLink>
+                <AttributeLink AttributeID="4d6a228f-f278-4e22-9a2f-0c8fba822680"></AttributeLink>
+                <AttributeLink AttributeID="fd9a6f61-07a3-4775-a9db-06501ffb79f6"></AttributeLink>
+                <AttributeLink AttributeID="23eb81e2-107a-4151-88e9-4e43974d9e86"></AttributeLink>
+                <AttributeLink AttributeID="63194e0a-0afd-47a1-bdb2-5a99bef3d224"></AttributeLink>
+                <AttributeLink AttributeID="79ca557e-d1af-454d-b23c-3a29cc73eb49"></AttributeLink>
+                <AttributeLink AttributeID="c17a2643-1084-492c-b377-33ceb83db0a3"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

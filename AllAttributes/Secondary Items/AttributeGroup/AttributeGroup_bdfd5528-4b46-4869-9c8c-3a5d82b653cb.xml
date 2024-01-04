@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="bdfd5528-4b46-4869-9c8c-3a5d82b653cb" ShowInWorkbench="false" ManuallySorted="false" ParentID="2ec27659-0010-4a68-9af7-b9c2482f407e">
+            <Name QualifierID="Qualifier root">Online Merchandise Solutions Level 1</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

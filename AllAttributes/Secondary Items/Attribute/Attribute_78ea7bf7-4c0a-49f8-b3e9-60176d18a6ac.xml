@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="78ea7bf7-4c0a-49f8-b3e9-60176d18a6ac" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Grill Size</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+cap:=PRODVAL(&amp;quot;e05ae976-03bc-4374-9bec-f556dbf11dce&amp;quot;),
+sml:=400,
+lrg:=521,
+capIsSml:=IF(AND(cap &amp;gt; 0, cap &amp;lt;= sml), &amp;quot;Small&amp;quot;, &amp;quot;&amp;quot;),
+capIsMed:=IF(AND(cap &amp;gt; sml, cap &amp;lt;= lrg), &amp;quot;Medium&amp;quot;,&amp;quot;&amp;quot;),
+capIsLrg:=IF(cap &amp;gt; lrg, &amp;quot;Large&amp;quot;, &amp;quot;&amp;quot;)
+}
+CONCATENATE(capIsSml,capIsMed,capIsLrg)"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Objects"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

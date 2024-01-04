@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="CatSpecificNotReqd" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Category Specific - Internal Not Required</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

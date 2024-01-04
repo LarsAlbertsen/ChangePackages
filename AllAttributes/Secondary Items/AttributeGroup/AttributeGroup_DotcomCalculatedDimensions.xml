@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="DotcomCalculatedDimensions" ShowInWorkbench="true" ManuallySorted="true" ParentID="InternalPortalAttributes">
+            <Name QualifierID="Qualifier root">DotcomShippingDimensions (Read only)</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="Dotcom Shipping Carton Height Calc"></AttributeLink>
+                <AttributeLink AttributeID="Dotcom Shipping Carton Width Calc"></AttributeLink>
+                <AttributeLink AttributeID="Dotcom Shipping Carton Depth Calc"></AttributeLink>
+                <AttributeLink AttributeID="calcd41c-6545-4ee7-bf5c-3b25ca57b94a"></AttributeLink>
+                <AttributeLink AttributeID="overboxCalc"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

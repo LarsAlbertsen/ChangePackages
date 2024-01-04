@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="DQQSAttributeGroups" ShowInWorkbench="false" ManuallySorted="false" ParentID="SupplyChainQS">
+            <Name QualifierID="Qualifier root">DQ QS AttributeGroups</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="StoreFinalApprovalAttr" ShowInWorkbench="false" ManuallySorted="false" ParentID="StoreFinalApproval">
+            <Name QualifierID="Qualifier root">Store Final Approval Attributes</Name>
+            <MetaData>
+                <Value AttributeID="ItemToClassification">true</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

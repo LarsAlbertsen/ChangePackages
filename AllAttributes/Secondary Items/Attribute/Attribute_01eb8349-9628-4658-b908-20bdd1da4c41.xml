@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="01eb8349-9628-4658-b908-20bdd1da4c41" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Sink Location</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="
+//54ed27c3-4a02-4f58-800d-2619d3824577  //Node
+//306156518
+
+//IF(find(&amp;quot;Single Sink&amp;quot;,PRODVAL(&amp;quot;ad436ee2-a92b-4fda-811c-e7a7e0bc3ce7&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot;Sink on &amp;quot;)
+
+//{
+//cTemp := IF(find(&amp;quot;Single Sink&amp;quot;,PRODVAL(&amp;quot;ad436ee2-a92b-4fda-811c-e7a7e0bc3ce7&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot;Sink&amp;quot;),
+//cName := IF(find(&amp;quot;Right&amp;quot;,PRODVAL(&amp;quot;7dff359a-20dc-4f8c-99f8-1b32a6d966cf&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot; on Right Side&amp;quot;),
+//cNamed := IF(find(&amp;quot;Left&amp;quot;,PRODVAL(&amp;quot;7dff359a-20dc-4f8c-99f8-1b32a6d966cf&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot; on Left Side&amp;quot;),
+//cFull := AND(LEN(cTemp)&amp;gt;0,LEN(cName)&amp;gt;0),
+//cFull2 := AND(LEN(cTemp)&amp;gt;0,LEN(cNamed)&amp;gt;0),
+//cAll := CONCATENATE(cTemp, cName),
+//cAll2 := CONCATENATE(cTemp, cNamed)
+//}
+//IF(cFull,cAll,IF(cFull2,cAll2,&amp;quot;&amp;quot;))
+
+
+{
+cTemp := IF(find(&amp;quot;Single Sink&amp;quot;,PRODVAL(&amp;quot;ad436ee2-a92b-4fda-811c-e7a7e0bc3ce7&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot;Sink&amp;quot;),
+cName := IF(find(&amp;quot;Right&amp;quot;,PRODVAL(&amp;quot;7dff359a-20dc-4f8c-99f8-1b32a6d966cf&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot; on Right Side&amp;quot;),
+cNamed := IF(find(&amp;quot;Left&amp;quot;,PRODVAL(&amp;quot;7dff359a-20dc-4f8c-99f8-1b32a6d966cf&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot; on Left Side&amp;quot;),
+cNamed1 := IF(find(&amp;quot;Center&amp;quot;,PRODVAL(&amp;quot;7dff359a-20dc-4f8c-99f8-1b32a6d966cf&amp;quot;))=&amp;quot;N/A&amp;quot;,&amp;quot;&amp;quot;,&amp;quot; in Center&amp;quot;),
+cFull := AND(LEN(cTemp)&amp;gt;0,LEN(cName)&amp;gt;0),
+cFull2 := AND(LEN(cTemp)&amp;gt;0,LEN(cNamed)&amp;gt;0),
+cFull3 := AND(LEN(cTemp)&amp;gt;0,LEN(cNamed1)&amp;gt;0),
+cAll := CONCATENATE(cTemp, cName),
+cAll2 := CONCATENATE(cTemp, cNamed),
+cAll3 := CONCATENATE(cTemp, cNamed1)
+}
+IF(cFull,cAll,IF(cFull2,cAll2,IF(cFull3,cAll3,&amp;quot;&amp;quot;)))"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">created for EXB3731 created for refinement as part of bath vanity refresh</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

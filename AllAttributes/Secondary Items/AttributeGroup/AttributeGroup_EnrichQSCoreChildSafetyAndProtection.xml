@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichQSCoreChildSafetyAndProtection" ShowInWorkbench="false" ManuallySorted="true" ParentID="EnrichQSCore">
+            <Name QualifierID="Qualifier root">Enrich QS Core Child Safety And Protection</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="71c66892-e793-4415-abab-b58556fc16ab"></AttributeLink>
+                <AttributeLink AttributeID="789e9714-d059-4eec-aacc-c36d432d32e9"></AttributeLink>
+                <AttributeLink AttributeID="5e92d511-8359-42fc-bc18-d45f7f4b684e"></AttributeLink>
+                <AttributeLink AttributeID="482298b3-5f79-4dd7-9c09-5d99d3df2303"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

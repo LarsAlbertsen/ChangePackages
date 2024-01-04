@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="SpecialOrderOnlyFinalApproval" ShowInWorkbench="false" ManuallySorted="false" ParentID="SpecialorderApprovalDefinitions">
+            <Name QualifierID="Qualifier root">Special Order Only Final Approval</Name>
+            <MetaData>
+                <Value AttributeID="ItemToClassification">true</Value>
+                <MultiValue AttributeID="LinkedAttributeGroups">
+                    <Value>Category Specific</Value>
+                    <Value>Hazmat</Value>
+                    <Value>Hazmat Questions</Value>
+                    <Value>CatSpecificInternalRequired</Value>
+                    <Value>Compliance</Value>
+                    <Value>CatSpecificNotReqd</Value>
+                    <Value>ItemReview</Value>
+                </MultiValue>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

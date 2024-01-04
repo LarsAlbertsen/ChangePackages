@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VP_VHaz_FullyReg" ShowInWorkbench="false" ManuallySorted="false" ParentID="VP_VHaz">
+            <Name QualifierID="Qualifier root">Fully Regulated</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

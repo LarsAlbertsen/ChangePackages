@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Logistics_Edit" ShowInWorkbench="false" ManuallySorted="false" ParentID="Editable_Special Group">
+            <Name QualifierID="Qualifier root">Logistics_Edit</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

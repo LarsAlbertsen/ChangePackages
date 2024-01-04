@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="RevisionHistory" ShowInWorkbench="false" ManuallySorted="false" ParentID="Workflow and Presentation Configuration">
+            <Name QualifierID="Qualifier root">Revision History</Name>
+            <MetaData>
+                <Value AttributeID="76bc1f4d-e330-4034-b7c7-6fbca643f3b2">Approved</Value>
+                <Value AttributeID="a079e519-96b6-41a6-b781-dec7037f700c">9</Value>
+                <MultiValue AttributeID="3ef64670-0405-41cc-b0f6-15f041b04796">
+                    <Value>3b8d7d7e-9ff9-4b2b-99ca-57a1ba19eb94</Value>
+                    <Value>543ab816-5598-44fb-92cd-fc131ed7b8df</Value>
+                    <Value>e78a9b12-e44a-4dd0-9052-e466a3d0249d</Value>
+                    <Value>d87df1c3-50ef-4720-894a-06c714e6e1ed</Value>
+                    <Value>15b1aa18-6b8e-4d70-afed-19746853eb5b</Value>
+                    <Value>8cd2457b-d47e-4bfe-b1fb-38eef56eb94d</Value>
+                    <Value>c69c774b-774d-4887-9656-c77807342c64</Value>
+                    <Value>15271107-6854-40a9-bcd6-b320407d8544</Value>
+                    <Value>db7ffb34-7fcf-4167-a8c3-1af4ae8d981a</Value>
+                    <Value>a68db77c-c72e-45ed-b51d-497f218c0dc9</Value>
+                    <Value>823d8237-b5fe-41dc-aa74-0c7ae9048267</Value>
+                    <Value>8736c9b6-a1db-4bd9-a9b5-938234b899ec</Value>
+                    <Value>fed33381-f352-458d-9732-11e1053008c2</Value>
+                    <Value>543f5200-b1f2-4826-b9aa-547c7341f520</Value>
+                    <Value>3acca797-8968-45f5-9b2c-2bcbbe35341a</Value>
+                    <Value>bbebf017-9c1f-4c78-bd49-c2981e8a04d1</Value>
+                    <Value>dc178130-aeed-4c0f-9fc4-39521ded5adf</Value>
+                    <Value>1905c003-bc16-459c-848d-930ce2db71bb</Value>
+                    <Value>e3c42525-70f9-4121-a1cb-b1550db51803</Value>
+                </MultiValue>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

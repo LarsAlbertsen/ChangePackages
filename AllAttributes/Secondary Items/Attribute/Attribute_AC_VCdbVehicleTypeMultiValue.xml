@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_VCdbVehicleTypeMultiValue" MultiValued="true" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">VCdb Vehicle Type Multi Value</Name>
+            <ListOfValueLink ListOfValueID="AC_VehicleType"></ListOfValueLink>
+            <AttributeGroupLink AttributeGroupID="AC_VCdbAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_VehicleType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

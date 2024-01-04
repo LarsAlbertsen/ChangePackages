@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="8919cf68-8ddb-4f45-ac3c-3db347aa2cad" ShowInWorkbench="true" ManuallySorted="false" ParentID="d71a2722-9c08-4d1f-b367-e937f9252af3">
+            <Name QualifierID="Qualifier root">Offshore Contingency Attribute Group</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

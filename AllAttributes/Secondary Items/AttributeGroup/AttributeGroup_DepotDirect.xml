@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="DepotDirect" ShowInWorkbench="false" ManuallySorted="false" ParentID="ExcludeDisplay">
+            <Name QualifierID="Qualifier root">Depot_Direct</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

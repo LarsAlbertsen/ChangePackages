@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Specialty Enrich Item Status" ShowInWorkbench="false" ManuallySorted="false" ParentID="Specialty Core">
+            <Name QualifierID="Qualifier root">Item Status</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

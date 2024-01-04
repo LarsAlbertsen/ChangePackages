@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Smart Home Review" ShowInWorkbench="true" ManuallySorted="true" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Smart Home Review</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="fc01b304-59a3-406a-80d7-03f1494d956c"></AttributeLink>
+                <AttributeLink AttributeID="8d900170-1b6a-45e9-b486-b2a082fbf908"></AttributeLink>
+                <AttributeLink AttributeID="b1adbec8-ec71-456a-a467-e13d09071a87"></AttributeLink>
+                <AttributeLink AttributeID="344fa012-9387-42df-bbb3-638997ea592e"></AttributeLink>
+                <AttributeLink AttributeID="81fe9cc3-79f5-48e0-b78f-21ac1f4c03db"></AttributeLink>
+                <AttributeLink AttributeID="110776e4-99f3-414c-9f1f-5e49356782da"></AttributeLink>
+                <AttributeLink AttributeID="b4bfcc23-c9ad-4a24-948b-4ae32f6d7bf5"></AttributeLink>
+                <AttributeLink AttributeID="7850c60f-10bc-459f-8a4d-c3ab81d7b9e3"></AttributeLink>
+                <AttributeLink AttributeID="aa1e356a-e3f9-484f-91ff-d1551021647e"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

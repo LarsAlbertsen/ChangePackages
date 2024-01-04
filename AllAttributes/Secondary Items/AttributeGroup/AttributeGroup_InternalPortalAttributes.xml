@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="InternalPortalAttributes" ShowInWorkbench="false" ManuallySorted="false" ParentID="Workflow and Presentation Configuration">
+            <Name QualifierID="Qualifier root">Internal Portal Attribute Groups</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

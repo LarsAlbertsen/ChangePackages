@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="1610e038-03af-403b-a23a-d55b07455ce3" ShowInWorkbench="true" ManuallySorted="true" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">Exclusive Product</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="13d6668b-6b81-40c0-8fa5-6da1d3cf2e17"></AttributeLink>
+                <AttributeLink AttributeID="06c658b5-2e9d-4619-aacf-94d858f7095d"></AttributeLink>
+                <AttributeLink AttributeID="a4ff0765-5896-433c-b337-a63f34bcc444"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

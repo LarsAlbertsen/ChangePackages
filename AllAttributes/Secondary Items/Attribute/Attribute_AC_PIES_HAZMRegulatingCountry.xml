@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_PIES_HAZMRegulatingCountry" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Regulating Country</Name>
+            <ListOfValueLink ListOfValueID="AC_PIESCountryCode"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="AttributeHelpText">PIES J10</Value>
+                <Value AttributeID="DisplaySequence">10</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AC_PIESHazMatPackSegmentHAZM"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_PIESHazMat"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

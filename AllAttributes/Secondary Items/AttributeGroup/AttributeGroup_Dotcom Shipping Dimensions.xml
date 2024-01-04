@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Dotcom Shipping Dimensions" ShowInWorkbench="false" ManuallySorted="true" ParentID="SupplyChain">
+            <Name QualifierID="Qualifier root">Dotcom Shipping Dimensions</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="02c55f3c-caf9-432a-a601-f43dfce520ef"></AttributeLink>
+                <AttributeLink AttributeID="812fcf72-7fbc-473f-93de-ce9acdc0ecac"></AttributeLink>
+                <AttributeLink AttributeID="6013739a-4343-4579-b770-ae00e49d1b52"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+                <AttributeLink AttributeID="c1ba7181-5ae3-4954-94c2-4aca970c8816"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="d71a2722-9c08-4d1f-b367-e937f9252af3" ShowInWorkbench="false" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">___Business User Permission Attribute Groups</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

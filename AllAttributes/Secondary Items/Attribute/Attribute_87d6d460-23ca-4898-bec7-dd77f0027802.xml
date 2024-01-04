@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="87d6d460-23ca-4898-bec7-dd77f0027802" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Product Width (in.)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+cap:=PRODVAL(&amp;quot;fac03a00-67f9-402b-a121-fb9448fc552d&amp;quot;),
+sml:=20.0,
+lrg:=40.5,
+over:=60.5,
+capIsSmall:=IF(AND(cap &amp;gt; 0, cap &amp;lt;= sml), &amp;quot;Small (Under 20 in.)&amp;quot;, &amp;quot;&amp;quot;),
+capIsMed:=IF(AND(cap &amp;gt; sml, cap &amp;lt;= lrg), &amp;quot;Medium (20-40 in.)&amp;quot;,&amp;quot;&amp;quot;),
+capIsLar:=IF(AND(cap &amp;gt;=lrg, cap &amp;lt;= over), &amp;quot;Large (40-60 in.)&amp;quot;,&amp;quot;&amp;quot;),
+capIsOversized:=IF(cap &amp;gt; over, &amp;quot;Oversized (60+ in.)&amp;quot;, &amp;quot;&amp;quot;)
+}
+CONCATENATE(capIsSmall,capIsMed,capIsLar,capIsOversized)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">2</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

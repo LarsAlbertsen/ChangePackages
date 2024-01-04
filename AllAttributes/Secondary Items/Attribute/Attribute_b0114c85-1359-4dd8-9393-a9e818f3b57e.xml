@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="b0114c85-1359-4dd8-9393-a9e818f3b57e" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Shape, W x L</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+// Get Product Data - Rounding Measurements to Integers
+pWid := INT(PRODVAL(&amp;quot;fac03a00-67f9-402b-a121-fb9448fc552d&amp;quot;)),
+pLen := INT(PRODVAL(&amp;quot;06418054-e9e2-416f-870c-05484e27a3ab&amp;quot;)),
+pSha := IF(PRODVAL(&amp;quot;94f711b4-98e2-4726-a9f7-6f5dc0159aeb&amp;quot;) = &amp;quot;&amp;quot;,
+	PRODVAL(&amp;quot;898f3d5b-b204-4e05-85b1-7f8674f5eaab&amp;quot;),
+	PRODVAL(&amp;quot;94f711b4-98e2-4726-a9f7-6f5dc0159aeb&amp;quot;)),
+
+// Setup Measurements as Text
+inMark := &amp;quot;\&amp;quot;&amp;quot;,	// Backslash to mark Exception on Quote
+ftMark := &amp;quot;\'&amp;quot;,	// Backslash to mark Exception on Quote
+convertFeet := 1,	// 1 for ON - 0 for OFF
+
+// convertFeet - not used if marked off above
+oWid := if(convertFeet,
+	CONCATENATE(TRUNC(pWid/12), ftMark, pWid-(TRUNC(pWid/12)*12), inMark),
+	CONCATENATE(pWid-TRUNC(pwid/12), inMark)
+	),
+oLen := if(convertFeet,
+	CONCATENATE(TRUNC(pLen/12), ftMark, pLen-(TRUNC(pLen/12)*12), inMark),
+	CONCATENATE(pLen, inMark)
+	),
+
+// Roundness Check Checks that Dims Match and Round is Selected
+isRound := AND(pWid = pLen,
+	pSha = &amp;quot;Round&amp;quot;
+	),
+
+// Build Output Checking Roundness to Set Format
+outPut := IF (isRound,
+	CONCATENATE(oWid, &amp;quot; &amp;quot;, pSha),
+	CONCATENATE(pSha, &amp;quot;, &amp;quot;, oWid, &amp;quot; x &amp;quot;, oLen)
+	),
+
+// Check Product Data for Zeros and Empties
+hasEmpty := OR(pLen=0,pWid=0,LEN(pSha)=0)
+}
+IF(hasEmpty,&amp;quot;&amp;quot;,outPut)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="CatSpecificDoNotDisplay"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

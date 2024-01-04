@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VP_MNTN_Combo_Core_Ship" ShowInWorkbench="false" ManuallySorted="true" ParentID="VP_MNTN_Combo_Core">
+            <Name QualifierID="Qualifier root">Shipping and Logistics</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="1f67d10f-be16-4a22-8b08-031d2a6ed35c"></AttributeLink>
+                <AttributeLink AttributeID="90c8023b-39e6-43dd-91b1-7d1df23fa356"></AttributeLink>
+                <AttributeLink AttributeID="52e9de41-b217-4e70-9079-c6dbdb175540"></AttributeLink>
+                <AttributeLink AttributeID="65309957-6a39-4bdd-bfd7-608787a3a1b9"></AttributeLink>
+                <AttributeLink AttributeID="addc782e-3366-4aba-8792-7036d3a40e3e"></AttributeLink>
+                <AttributeLink AttributeID="e1d40475-cb59-42b2-89be-3ae5a9d647f1"></AttributeLink>
+                <AttributeLink AttributeID="8a258ebf-c389-46ff-b748-e672d06f751c"></AttributeLink>
+                <AttributeLink AttributeID="3735eab9-2ab3-4eeb-b5c3-d538d42dea73"></AttributeLink>
+                <AttributeLink AttributeID="ba5bbbf2-01bd-4b0c-bc68-025df2150266"></AttributeLink>
+                <AttributeLink AttributeID="7eb1e571-64d3-4800-85ff-7bae9f84e334"></AttributeLink>
+                <AttributeLink AttributeID="c2adae09-ecfa-41d4-8fd9-e95ecb7e114d"></AttributeLink>
+                <AttributeLink AttributeID="94a5b204-df2c-43e1-9e59-1e2c758e214d"></AttributeLink>
+                <AttributeLink AttributeID="7f450581-08c1-40ea-a448-486d42d25345"></AttributeLink>
+                <AttributeLink AttributeID="32ae4ddf-126a-419d-afc8-03b0c4651ea5"></AttributeLink>
+                <AttributeLink AttributeID="61d67536-be69-46c7-a7a5-f928c1c867a4"></AttributeLink>
+                <AttributeLink AttributeID="d8edb80a-ff81-4f63-b8d2-894c34bfd3e6"></AttributeLink>
+                <AttributeLink AttributeID="20a3dc42-bb92-4182-ba53-8836a4ff0089"></AttributeLink>
+                <AttributeLink AttributeID="b744dd5d-f6e4-40c3-b161-3b32c3ff8ae3"></AttributeLink>
+                <AttributeLink AttributeID="f3ec73d3-2da1-4317-aaf3-69377fb505b4"></AttributeLink>
+                <AttributeLink AttributeID="e5271c05-f70f-4dd4-bc89-2e559827f8c8"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="IBIComplianceReview_Edit" ShowInWorkbench="true" ManuallySorted="false" ParentID="Editable_Special Group">
+            <Name QualifierID="Qualifier root">IBI Compliance Review - Edit</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

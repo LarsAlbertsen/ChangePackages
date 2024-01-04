@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ec593410-205d-4db5-96f1-2d9792f26779" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Nominal Gate Width (ft.)  x Nominal Gate Height (ft.)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="concatenate(
+if(
+and(prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0,prodval('a4a91edb-5d2d-40d9-8a43-5d288d2f25c6') != 0),prodval('8226e8c8-9c5e-4397-994d-450d449c5132'),''
+),
+if(
+and(prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0,prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0),' ft. x ',''
+),
+if(
+and(prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0,prodval('a4a91edb-5d2d-40d9-8a43-5d288d2f25c6') != 0),prodval('a4a91edb-5d2d-40d9-8a43-5d288d2f25c6'),''
+),
+if(
+and(prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0,prodval('8226e8c8-9c5e-4397-994d-450d449c5132') != 0),' ft.',''
+)
+
+)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">uses Nominal gate width (ft.) (8226e8c8-9c5e-4397-994d-450d449c5132) and Nominal gate height (ft.) (a4a91edb-5d2d-40d9-8a43-5d288d2f25c6)</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

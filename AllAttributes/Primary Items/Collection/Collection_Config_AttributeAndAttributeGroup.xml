@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="Config_AttributeAndAttributeGroup" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=nodetype%3dattributegroup%2cobjecttype%3dstibo.grouping+attribute&amp;args1.0=nodetype%3dattribute%2cobjecttype%3dstibo.normalattribute&amp;search0.0=ObjectTypeCriteria&amp;search1.0=ObjectTypeCriteria">
+            <Name>Config_AttributeAndAttributeGroup</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

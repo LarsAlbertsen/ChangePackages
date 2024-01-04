@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichPL" ShowInWorkbench="false" ManuallySorted="true" ParentID="EnrichQSAttributeGroups">
+            <Name QualifierID="Qualifier root">Enrich PL Level Attribute Group</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+                <AttributeLink AttributeID="0994d0f8-35e7-4a6d-9cd9-2ae97cd8b993"></AttributeLink>
+                <AttributeLink AttributeID="cb837c32-e0a2-485e-88bb-dab7fa91f976"></AttributeLink>
+                <AttributeLink AttributeID="6d030ff8-72ce-4f42-ba53-023f55c53a20"></AttributeLink>
+                <AttributeLink AttributeID="2bce6533-87c7-4646-a3b7-d5efb49bf927"></AttributeLink>
+                <AttributeLink AttributeID="6b076a68-bf54-473d-9dd4-fb877675d229"></AttributeLink>
+                <AttributeLink AttributeID="f85abef2-7945-4889-9796-3ebff6d3e348"></AttributeLink>
+                <AttributeLink AttributeID="2e824d83-8b70-443a-8883-4330f9480331"></AttributeLink>
+                <AttributeLink AttributeID="3606c2cc-8cac-43cd-beae-91705b13bf82"></AttributeLink>
+                <AttributeLink AttributeID="6710ad06-8409-46f1-b972-a44abc3a4785"></AttributeLink>
+                <AttributeLink AttributeID="dd50e248-34f8-4ea4-9c15-7b0080c5550d"></AttributeLink>
+                <AttributeLink AttributeID="9d5c10aa-22dd-47b0-916c-47ed56df0af5"></AttributeLink>
+                <AttributeLink AttributeID="bbcbfdb4-f509-4a45-86c6-61d6b165feeb"></AttributeLink>
+                <AttributeLink AttributeID="cdae6b38-4d49-4461-9474-12ecead51f74"></AttributeLink>
+                <AttributeLink AttributeID="02c55f3c-caf9-432a-a601-f43dfce520ef"></AttributeLink>
+                <AttributeLink AttributeID="812fcf72-7fbc-473f-93de-ce9acdc0ecac"></AttributeLink>
+                <AttributeLink AttributeID="6013739a-4343-4579-b770-ae00e49d1b52"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+                <AttributeLink AttributeID="c1ba7181-5ae3-4954-94c2-4aca970c8816"></AttributeLink>
+                <AttributeLink AttributeID="2c9e36f9-9099-4505-8c7d-7ddd06afc99c"></AttributeLink>
+                <AttributeLink AttributeID="98462aa2-e48b-44c5-9a37-f4531ccaf48d"></AttributeLink>
+                <AttributeLink AttributeID="196e5db8-ee8b-4b4c-bb9d-6944d2a9a5e3"></AttributeLink>
+                <AttributeLink AttributeID="04431ce7-b862-4f48-9e50-76797e985019"></AttributeLink>
+                <AttributeLink AttributeID="75f7c2ea-316b-49f6-abf5-5cf6099d446f"></AttributeLink>
+                <AttributeLink AttributeID="e8e4b3c9-f434-4a2a-b78a-7ce28017ab9d"></AttributeLink>
+                <AttributeLink AttributeID="7c8094a4-66f5-4654-af15-7dba2a25e2e6"></AttributeLink>
+                <AttributeLink AttributeID="dcd02bd2-c48b-4022-82d8-5e5f1a482aa8"></AttributeLink>
+                <AttributeLink AttributeID="3181490d-c367-4332-9a9a-4a505ed75886"></AttributeLink>
+                <AttributeLink AttributeID="8963d33d-2d01-488b-b9d1-013253445be4"></AttributeLink>
+                <AttributeLink AttributeID="be6eeb60-6c72-4844-b943-31e746de1353"></AttributeLink>
+                <AttributeLink AttributeID="b36c8740-d600-41b0-b728-24b8e7c72ce9"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

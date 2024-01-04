@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="71efbf4e-e8e6-4253-86f8-75b5caa2403b" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Durability</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+thic := PRODVAL(&amp;quot;cb65fee1-952b-488d-9707-eb45745f6261&amp;quot;),
+tSml := thic &amp;lt; 5,
+tMed := thic &amp;lt; 9,
+tOut := IF(tSml, &amp;quot;Light Duty&amp;quot;,	IF(tMed, &amp;quot;Medium Duty&amp;quot;, &amp;quot;Heavy Duty&amp;quot;))
+}
+IF(len(thic)=0,&amp;quot;&amp;quot;,tOut)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="04aab7a5-af3b-4ef1-944e-16296183ae2a">true</Value>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="55c3368c-0f69-4adc-a011-3e552209b26c">Text Conversion -- Calculation per Susie Kim and India Christie</Value>
+                <Value AttributeID="7ab1de4c-727f-4baa-8156-4fbc94ca287c">true</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+                <Value AttributeID="b2c83d7f-91fd-41c6-a12d-8f2cf300a488">true</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Families Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Objects"></UserTypeLink>
+            <UserTypeLink UserTypeID="Prepack"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Vendor Families"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

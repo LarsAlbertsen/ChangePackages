@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="AC_PIESHazMatPackSegmentHAZM" ShowInWorkbench="true" ManuallySorted="false" ParentID="AC_PIESAttributes">
+            <Name QualifierID="Qualifier root">PIES Hazardous Material Package Segment HAZM</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

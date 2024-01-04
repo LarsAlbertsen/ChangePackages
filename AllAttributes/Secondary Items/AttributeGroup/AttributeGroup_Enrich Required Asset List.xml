@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Enrich Required Asset List" ShowInWorkbench="false" ManuallySorted="false" ParentID="Enrich Regular Items">
+            <Name QualifierID="Qualifier root">Required Asset List</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

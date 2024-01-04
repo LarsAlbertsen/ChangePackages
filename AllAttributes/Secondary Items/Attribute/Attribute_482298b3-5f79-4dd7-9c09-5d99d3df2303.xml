@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="482298b3-5f79-4dd7-9c09-5d99d3df2303" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Will children be exposed to your product for more than an hour (Ex. clothing, footwear, jewelry, certain toys)?</Name>
+            <ListOfValueLink ListOfValueID="697f7e06-bbed-413f-9708-f6d8d0036e18"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">The Washington and Maine Children’s Safe Products Acts require that manufacturers provide written notice to the State when a children’s product contains a high priority chemical. This attribute helps to identify children’s products in order for The Home Depot to comply with the Act.</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Child Safety and Protection"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Combo Child Safety and Protection"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Compliance"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ConfigurableEnrichAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ConfigurableMaintenanceAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Configurable_Enrich_Required_Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalAttr"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DotComFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichCore"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichQSCoreChildSafetyAndProtection"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Interline Enrich Child Safety"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineEnrichCoreQs"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MaintenanceCore"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PRO Minimum"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PresetSafety"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SSKUChild Safety and Protection"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SSKUEnrichCore"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SSKUEnrichObjectCore"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecEnrichQSCoreChildSafetyReq"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecMaintQSCoreChildSafetyReq"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialOrderVenMaintain_Required"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Enrich Child Safety"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Maint Child Safety"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyFinalApprovalHaz"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_DQSI"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichConfig"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichInterline"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichSSKU"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_InitiateSSKUObjects"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceConfig"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceInterline"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSSKU"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_DQ_Specs&amp;Images_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_Enrich_Config_Core_ChildSafety"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Combo_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Config_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_DataStandards_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Regular_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_SSKU_Core_Child"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="configFinalApproval"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="configFinalApprovalAttributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="vendorfacing"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

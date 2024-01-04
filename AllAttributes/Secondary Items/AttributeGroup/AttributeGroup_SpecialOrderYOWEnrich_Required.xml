@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="SpecialOrderYOWEnrich_Required" ShowInWorkbench="false" ManuallySorted="true" ParentID="RequiredAttributeGroups">
+            <Name QualifierID="Qualifier root">Special Order YOW Enrich Required</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="cdca4473-4693-4d3f-a917-1e45db88f20b"></AttributeLink>
+                <AttributeLink AttributeID="bdab747d-a645-4192-8140-3af803154c25"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

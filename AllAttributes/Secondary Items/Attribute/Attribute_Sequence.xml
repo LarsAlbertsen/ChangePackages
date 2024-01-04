@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="Sequence" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Sequence</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">true</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">The sequence number indicating the order in which the attributes should display on screen</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="D04182018_Dummy"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="D05042018_Dummy"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="ViewConfiguration"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="View Attribute Group"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.grouping attribute"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+            <LinkType LinkTypeID="CA"></LinkType>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

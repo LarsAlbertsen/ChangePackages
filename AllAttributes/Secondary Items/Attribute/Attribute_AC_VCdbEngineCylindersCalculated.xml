@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_VCdbEngineCylindersCalculated" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">VCdb Engine Cylinders Calculated</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="50" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="iterate(iterate(references('AC_EngineBase', 'AC_EngineConfigToEngineBase'),'referencetarget()'),'value(&amp;quot;AC_VCdbEngineCylinders&amp;quot;)')"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="AC_VCdbAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_EngineConfig"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

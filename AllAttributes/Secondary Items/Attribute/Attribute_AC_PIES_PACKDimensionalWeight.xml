@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_PIES_PACKDimensionalWeight" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Dimensional Weight</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="9999999999" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="AttributeHelpText">PIES H50 Cubed weight for US Domestic Air Freight Calc. User Current UPS/FedEx Formula</Value>
+                <Value AttributeID="DisplaySequence">50</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AC_PIESPackagingSegmentPACK"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_PIESPackage"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

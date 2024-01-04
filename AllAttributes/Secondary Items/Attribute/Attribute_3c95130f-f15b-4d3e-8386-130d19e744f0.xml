@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="3c95130f-f15b-4d3e-8386-130d19e744f0" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Length Range (In.)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="CONCATENATE (
+	 if(
+		and(prodval(&amp;quot;b2e5b6fd-b410-40b8-8590-f80577cfe141&amp;quot;)!= 			NULL,PRODVAL (&amp;quot;9f4a0d81-f64d-4784-9df1-28b76da7304f&amp;quot;) != 			NULL)
+		,prodval(&amp;quot;b2e5b6fd-b410-40b8-8590-f80577cfe141&amp;quot;), NULL
+	),
+	if(
+		and(prodval(&amp;quot;b2e5b6fd-b410-40b8-8590-f80577cfe141&amp;quot;)!= 			NULL,PRODVAL (&amp;quot;9f4a0d81-f64d-4784-9df1-28b76da7304f&amp;quot;) != 			NULL),
+		&amp;quot; - &amp;quot;,NULL
+	),
+	if(and(prodval(&amp;quot;b2e5b6fd-b410-40b8-8590-f80577cfe141&amp;quot;)!= 			NULL,PRODVAL (&amp;quot;9f4a0d81-f64d-4784-9df1-28b76da7304f&amp;quot;) != 			NULL),
+	 PRODVAL (&amp;quot;9f4a0d81-f64d-4784-9df1-28b76da7304f&amp;quot;), NULL)
+)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="CatSpecificDoNotDisplay"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PAM20"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ConfigurableEnrichQSCoreHealthAirQuality" ShowInWorkbench="false" ManuallySorted="true" ParentID="ConfigurableEnrichQSCore">
+            <Name QualifierID="Qualifier root">Configurable Enrich QS Core Health And Air Quality</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="b032f687-1e0d-40f8-b3ca-e57d9fc6d1b9"></AttributeLink>
+                <AttributeLink AttributeID="42606248-bcf4-46f6-a5c1-8acaa6885433"></AttributeLink>
+                <AttributeLink AttributeID="218194d9-dd8d-42db-95e7-be7f9593d9af"></AttributeLink>
+                <AttributeLink AttributeID="2cf7778b-c686-4e43-82b2-566c9eb13968"></AttributeLink>
+                <AttributeLink AttributeID="b5af0cd6-aa36-4293-80ef-e449a9c0e82d"></AttributeLink>
+                <AttributeLink AttributeID="12f329f9-6a2c-4907-8314-159966827774"></AttributeLink>
+                <AttributeLink AttributeID="b711ccb9-ec96-4fbb-8188-8972df5678b3"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

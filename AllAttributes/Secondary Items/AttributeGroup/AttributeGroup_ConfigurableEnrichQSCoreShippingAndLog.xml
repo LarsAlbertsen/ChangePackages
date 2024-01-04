@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ConfigurableEnrichQSCoreShippingAndLog" ShowInWorkbench="false" ManuallySorted="true" ParentID="ConfigurableEnrichQSCore">
+            <Name QualifierID="Qualifier root">Configurable Enrich QS Core Shipping And Logistics</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="1f67d10f-be16-4a22-8b08-031d2a6ed35c"></AttributeLink>
+                <AttributeLink AttributeID="52e9de41-b217-4e70-9079-c6dbdb175540"></AttributeLink>
+                <AttributeLink AttributeID="19e476b8-e751-4b8d-b372-d4d2b62b6a21"></AttributeLink>
+                <AttributeLink AttributeID="90c8023b-39e6-43dd-91b1-7d1df23fa356"></AttributeLink>
+                <AttributeLink AttributeID="e5271c05-f70f-4dd4-bc89-2e559827f8c8"></AttributeLink>
+                <AttributeLink AttributeID="8b6366a5-1f08-4573-b3d2-c5a978c6189d"></AttributeLink>
+                <AttributeLink AttributeID="65309957-6a39-4bdd-bfd7-608787a3a1b9"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

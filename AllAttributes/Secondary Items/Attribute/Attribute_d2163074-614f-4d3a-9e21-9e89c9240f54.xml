@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d2163074-614f-4d3a-9e21-9e89c9240f54" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">UNSPSC</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="IBISKULight_Edit"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineAttGroup"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineItemCopy"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlinePartialApproveGroup"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Interline Type"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

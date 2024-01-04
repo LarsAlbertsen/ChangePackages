@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Interline Enrich Product Identifiers" ShowInWorkbench="false" ManuallySorted="true" ParentID="Interline Core">
+            <Name QualifierID="Qualifier root">Product Identifiers</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="0994d0f8-35e7-4a6d-9cd9-2ae97cd8b993"></AttributeLink>
+                <AttributeLink AttributeID="6d030ff8-72ce-4f42-ba53-023f55c53a20"></AttributeLink>
+                <AttributeLink AttributeID="2bce6533-87c7-4646-a3b7-d5efb49bf927"></AttributeLink>
+                <AttributeLink AttributeID="cd250fb8-fb00-4f9d-813a-dea949605715"></AttributeLink>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

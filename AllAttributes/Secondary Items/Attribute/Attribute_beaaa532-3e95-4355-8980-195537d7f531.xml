@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="beaaa532-3e95-4355-8980-195537d7f531" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Is your product a State-Regulated Light Emitting Diode (LED) Lamp regulated by the California Energy Commission (CEC)?</Name>
+            <ListOfValueLink ListOfValueID="YesNo"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Combo Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Compliance"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DqsIConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichAllConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="EnrichQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MaintConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="MaintQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecEnrichQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Enrich Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Maint Health and Air Quality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Specialty Maint Required"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyEnrichConditional"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="SpecialtyMaintQSCoreHealthAndAirQuality"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_DQSI"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_EnrichSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceRegular"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VMod_MaintenanceSpecialty"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_DQ_Specs&amp;Images_Core_Health"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="VP_MNTN_Regular_Core_Health"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

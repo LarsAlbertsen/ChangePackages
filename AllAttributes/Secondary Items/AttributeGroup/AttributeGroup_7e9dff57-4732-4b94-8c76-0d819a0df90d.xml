@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="7e9dff57-4732-4b94-8c76-0d819a0df90d" ShowInWorkbench="true" ManuallySorted="false" ParentID="2ec27659-0010-4a68-9af7-b9c2482f407e">
+            <Name QualifierID="Qualifier root">Vendor Processing Days Specialty</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

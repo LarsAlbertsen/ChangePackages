@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="Interline Enrich Health and Air Quality" ShowInWorkbench="false" ManuallySorted="true" ParentID="Interline Core">
+            <Name QualifierID="Qualifier root">Health and Air Quality</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="aee97348-db1c-4e33-a1d8-932f31f2ed35"></AttributeLink>
+                <AttributeLink AttributeID="b032f687-1e0d-40f8-b3ca-e57d9fc6d1b9"></AttributeLink>
+                <AttributeLink AttributeID="1414a4b4-06f9-4eb4-a8fb-8de535ec1048"></AttributeLink>
+                <AttributeLink AttributeID="cae8235b-3533-4f9f-a8e5-37e6a137ce4e"></AttributeLink>
+                <AttributeLink AttributeID="cc511a67-846b-420f-83c1-49d749c3e1e4"></AttributeLink>
+                <AttributeLink AttributeID="1be37f0d-f428-40a6-a75d-128da4ee3efa"></AttributeLink>
+                <AttributeLink AttributeID="8c7dc45e-f78f-410d-8c63-26114422e016"></AttributeLink>
+                <AttributeLink AttributeID="42606248-bcf4-46f6-a5c1-8acaa6885433"></AttributeLink>
+                <AttributeLink AttributeID="218194d9-dd8d-42db-95e7-be7f9593d9af"></AttributeLink>
+                <AttributeLink AttributeID="2cf7778b-c686-4e43-82b2-566c9eb13968"></AttributeLink>
+                <AttributeLink AttributeID="b5af0cd6-aa36-4293-80ef-e449a9c0e82d"></AttributeLink>
+                <AttributeLink AttributeID="12f329f9-6a2c-4907-8314-159966827774"></AttributeLink>
+                <AttributeLink AttributeID="563f4d74-1d9d-4204-9061-eecc4822dcc2"></AttributeLink>
+                <AttributeLink AttributeID="4c042c71-20ad-4e03-bf45-7914ad626ee3"></AttributeLink>
+                <AttributeLink AttributeID="b46f09bf-2f49-4622-ad1d-feff577e146d"></AttributeLink>
+                <AttributeLink AttributeID="a992df29-db6b-47d6-8fe6-b194e76bc120"></AttributeLink>
+                <AttributeLink AttributeID="110a8e70-698d-4fe0-89f8-d9155c705640"></AttributeLink>
+                <AttributeLink AttributeID="8334da4b-0e02-45af-b3f8-952db2d7c8a5"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

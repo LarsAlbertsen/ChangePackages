@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="afd99ce8-397d-4296-9fff-063efb7ca86a" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">testIBI Product Manager Number</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="
+
+//{
+//b:=LISTITEM(prodval(&amp;quot;5d1d94f2-bc8a-4385-b6af-180fe5c184f4&amp;quot;),1),
+//a:=LISTitem(iterate(classifications('Interline'), b),1),
+//Interline:=prodval(&amp;quot;e9afe208-5d38-4056-8d20-c349e592b00e&amp;quot;),
+//c:=if(a=&amp;quot;N/A&amp;quot;, &amp;quot;&amp;quot;, a)
+//}
+
+//if(Interline=&amp;quot;Y&amp;quot;, trim(c), &amp;quot;&amp;quot;)
+
+
+
+{
+a:=LISTitem(iterate(classifications('Interline'), 'prodval(&amp;quot;43a06f8b-2e6a-4726-824a-50014c694489&amp;quot;)'),1)
+,b:=if(a=&amp;quot;N/A&amp;quot;, &amp;quot;&amp;quot;, a)
+,Interline:=prodval(&amp;quot;e9afe208-5d38-4056-8d20-c349e592b00e&amp;quot;)
+}
+
+if(Interline=&amp;quot;Y&amp;quot;, trim(b), &amp;quot;&amp;quot;)"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="InterlineAttGroup"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

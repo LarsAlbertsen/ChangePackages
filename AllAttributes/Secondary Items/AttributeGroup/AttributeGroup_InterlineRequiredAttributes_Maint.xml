@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="InterlineRequiredAttributes_Maint" ShowInWorkbench="true" ManuallySorted="true" ParentID="VP_MNTN_Regular_Core">
+            <Name QualifierID="Qualifier root">Interline Attributes</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="7d49ea93-0757-4c77-80b9-3b90ce282365"></AttributeLink>
+                <AttributeLink AttributeID="81823ef6-03ef-4b11-8f5c-7a6511a5e922"></AttributeLink>
+                <AttributeLink AttributeID="a8e4b3a1-af73-49ca-855d-bd011f0e52ac"></AttributeLink>
+                <AttributeLink AttributeID="e53d50ef-f8d3-497d-87dd-109d4743611a"></AttributeLink>
+                <AttributeLink AttributeID="4c759b29-2a09-46ae-9e07-a1c110f4de64"></AttributeLink>
+                <AttributeLink AttributeID="0dcbf7a0-cb0f-4e7b-9c4d-4797fc9a7b2c"></AttributeLink>
+                <AttributeLink AttributeID="a5599ed0-7007-43cb-80df-ada7d406445b"></AttributeLink>
+                <AttributeLink AttributeID="c34a5087-e6b0-4656-8854-2c1d5c41110c"></AttributeLink>
+                <AttributeLink AttributeID="73c42335-a639-4a75-b867-68116018d6a0"></AttributeLink>
+                <AttributeLink AttributeID="232c727c-cbb9-48cb-8edb-2140efb79957"></AttributeLink>
+                <AttributeLink AttributeID="44e0e858-4779-462b-b760-00705bfd3492"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="EnrichCore" ShowInWorkbench="false" ManuallySorted="true" ParentID="EnrichRequiredAttributes">
+            <Name QualifierID="Qualifier root">Enrich Core Required Attributes</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="_micsTestAtt"></AttributeLink>
+                <AttributeLink AttributeID="a40be0d3-5c49-446d-a835-ef6af29c016e"></AttributeLink>
+                <AttributeLink AttributeID="71c66892-e793-4415-abab-b58556fc16ab"></AttributeLink>
+                <AttributeLink AttributeID="52e9de41-b217-4e70-9079-c6dbdb175540"></AttributeLink>
+                <AttributeLink AttributeID="204aa061-885a-4adf-b9fd-e57f1f203a3a"></AttributeLink>
+                <AttributeLink AttributeID="b032f687-1e0d-40f8-b3ca-e57d9fc6d1b9"></AttributeLink>
+                <AttributeLink AttributeID="98c71cea-b001-4e22-8aa7-e97fab7ef6dd"></AttributeLink>
+                <AttributeLink AttributeID="789e9714-d059-4eec-aacc-c36d432d32e9"></AttributeLink>
+                <AttributeLink AttributeID="5e92d511-8359-42fc-bc18-d45f7f4b684e"></AttributeLink>
+                <AttributeLink AttributeID="29d438d9-64f2-4623-8f4e-09f9368e93bb"></AttributeLink>
+                <AttributeLink AttributeID="37f3fed4-5bf3-4bf8-88bd-310bd2addb56"></AttributeLink>
+                <AttributeLink AttributeID="cd250fb8-fb00-4f9d-813a-dea949605715"></AttributeLink>
+                <AttributeLink AttributeID="aee97348-db1c-4e33-a1d8-932f31f2ed35"></AttributeLink>
+                <AttributeLink AttributeID="6bcd2f6c-1dab-4eb2-93a4-9398e4919269"></AttributeLink>
+                <AttributeLink AttributeID="482298b3-5f79-4dd7-9c09-5d99d3df2303"></AttributeLink>
+                <AttributeLink AttributeID="cf01153b-859f-4111-b963-0a257e748102"></AttributeLink>
+                <AttributeLink AttributeID="13d6668b-6b81-40c0-8fa5-6da1d3cf2e17"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

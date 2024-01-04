@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="a8d42879-4936-4bd8-8438-dfa5d3daa7c6" ShowInWorkbench="false" ManuallySorted="false" ParentID="2c52af98-89dd-4f9f-9726-d55c0964c71b">
+            <Name QualifierID="Qualifier root">Logistics Approval</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

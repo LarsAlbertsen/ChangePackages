@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VendorHazmatDispute" ShowInWorkbench="false" ManuallySorted="true" ParentID="VendorHazmat">
+            <Name QualifierID="Qualifier root">Dispute</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="79e2dca3-003d-4cad-9a45-0115394638db"></AttributeLink>
+                <AttributeLink AttributeID="9f0e6b75-fc65-499d-87ae-c08ef7341dbc"></AttributeLink>
+                <AttributeLink AttributeID="d62f5b8e-45a9-45b5-84b6-119159cf06fb"></AttributeLink>
+                <AttributeLink AttributeID="aac7e304-192b-4e4c-9ed9-00cdfa594268"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

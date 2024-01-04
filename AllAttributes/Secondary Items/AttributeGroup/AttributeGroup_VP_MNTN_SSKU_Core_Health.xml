@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VP_MNTN_SSKU_Core_Health" ShowInWorkbench="false" ManuallySorted="false" ParentID="VP_MNTN_SSKU_Core">
+            <Name QualifierID="Qualifier root">Health and Air Quality</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

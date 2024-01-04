@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="SOYOW_CHANNELMGT_PORTAL" ShowInWorkbench="false" ManuallySorted="true" ParentID="SOYOW_Workflow">
+            <Name QualifierID="Qualifier root">Channel Management</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="f0e96edb-7f93-46a1-bba0-f87c11d2adcc"></AttributeLink>
+                <AttributeLink AttributeID="cadaa7d8-4d27-47b1-9021-08840aa7a2b5"></AttributeLink>
+                <AttributeLink AttributeID="cdca4473-4693-4d3f-a917-1e45db88f20b"></AttributeLink>
+                <AttributeLink AttributeID="e1d40475-cb59-42b2-89be-3ae5a9d647f1"></AttributeLink>
+                <AttributeLink AttributeID="be22d203-318d-49fa-a248-a201af5cf918"></AttributeLink>
+                <AttributeLink AttributeID="6013739a-4343-4579-b770-ae00e49d1b52"></AttributeLink>
+                <AttributeLink AttributeID="812fcf72-7fbc-473f-93de-ce9acdc0ecac"></AttributeLink>
+                <AttributeLink AttributeID="5ddbe247-f603-48b7-8476-245c990f2b0f"></AttributeLink>
+                <AttributeLink AttributeID="c1ba7181-5ae3-4954-94c2-4aca970c8816"></AttributeLink>
+                <AttributeLink AttributeID="65309957-6a39-4bdd-bfd7-608787a3a1b9"></AttributeLink>
+                <AttributeLink AttributeID="085a6fd5-54af-4344-86e6-7f6021e7c29f"></AttributeLink>
+                <AttributeLink AttributeID="3b075f1d-6fd2-4d33-b1e6-5f3d3f0a58ab"></AttributeLink>
+                <AttributeLink AttributeID="094490f1-1b18-4fcf-8858-d5fb47c867c9"></AttributeLink>
+                <AttributeLink AttributeID="ba5bbbf2-01bd-4b0c-bc68-025df2150266"></AttributeLink>
+                <AttributeLink AttributeID="b8ae5f26-2131-4b25-9563-0fa47cba4fd4"></AttributeLink>
+                <AttributeLink AttributeID="be3e0087-2ef2-4105-bdc4-101d2585f3b3"></AttributeLink>
+                <AttributeLink AttributeID="20a10a23-9fbb-4b97-95ca-edcb57d9961b"></AttributeLink>
+                <AttributeLink AttributeID="cd250fb8-fb00-4f9d-813a-dea949605715"></AttributeLink>
+                <AttributeLink AttributeID="72547a38-be0e-4520-b1e9-48845ef8abd0"></AttributeLink>
+                <AttributeLink AttributeID="3735eab9-2ab3-4eeb-b5c3-d538d42dea73"></AttributeLink>
+                <AttributeLink AttributeID="7eb1e571-64d3-4800-85ff-7bae9f84e334"></AttributeLink>
+                <AttributeLink AttributeID="e05d9fe5-6b54-458b-b8e5-f25d88c1051c"></AttributeLink>
+                <AttributeLink AttributeID="e1c570f5-c401-4816-8589-4d48d954e3ca"></AttributeLink>
+                <AttributeLink AttributeID="e1cdad22-21f0-4a7c-bd34-2c1ba00f62f3"></AttributeLink>
+                <AttributeLink AttributeID="c40a57b3-e657-4acd-8586-a7edfe905eca"></AttributeLink>
+                <AttributeLink AttributeID="40b9d5b6-1087-424f-9d21-e2ca2d85500f"></AttributeLink>
+                <AttributeLink AttributeID="106bd1da-c6c4-4c82-971b-8209ded0b986"></AttributeLink>
+                <AttributeLink AttributeID="759e5e06-3ba0-44e2-826b-6fe9dcb5f910"></AttributeLink>
+                <AttributeLink AttributeID="587fcedc-1dfd-4c40-84b7-dad8f8c7d239"></AttributeLink>
+                <AttributeLink AttributeID="e8bcb6de-c9eb-493c-a6c7-2fbb1f7f25e5"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

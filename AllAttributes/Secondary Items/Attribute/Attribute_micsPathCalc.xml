@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="micsPathCalc" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">micsPathCalc</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="1000" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+// Get a list of internal IDs of Prod 2 Class Links where the meta data value is equal to &amp;quot;Primary&amp;quot;
+prim := filter(classificationproductlinks(&amp;quot;Display&amp;quot;), 'exact(value(&amp;quot;micsPrimaryMetadata&amp;quot;), &amp;quot;Primary&amp;quot;)'),
+ 
+// Check to make sure the list of IDs is just ONE, otherwise display the error message. If only 1 Primary, get the target classification's ID and its path, getting step names of each level.
+primpath := if(exact(listlen(prim), 1), iterate(iterate(iterate(prim, 'cplclassification()'), 'path()'), &amp;quot;stepname()&amp;quot;), &amp;quot;Error, More Than One Primary&amp;quot;),
+ 
+msg := &amp;quot;use DCEM Part 2 for eval&amp;quot;
+}
+//format the list of levels in the path, using a space-slash-space is shown as an example
+list(primpath, &amp;quot; / &amp;quot;)"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="micsAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_ACESApplication"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_ACESApplicationNote"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_ACESApplicationNoteGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_ACESApplicationNoteRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_AutoCareRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESBrand"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESHazMat"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESInterchangeBrand"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESInterchangeItem"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESInterchangeProducts"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESItem"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESPCdbCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESPCdbPartTerminology"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESPCdbSubCategory"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESPackage"></UserTypeLink>
+            <UserTypeLink UserTypeID="AC_PIESProducts"></UserTypeLink>
+            <UserTypeLink UserTypeID="AltBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="AltLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="AltSSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="AltSSKUItem"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Families Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="HOMEUS"></UserTypeLink>
+            <UserTypeLink UserTypeID="HOMEUS_SKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Objects"></UserTypeLink>
+            <UserTypeLink UserTypeID="Prepack"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Vendor Families"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

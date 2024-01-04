@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="aefad089-1f97-45d1-826b-5cf625203972" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Pest Location</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+diseasedList := MULTIVALUE2LIST(PRODVAL('e5b3c580-465c-47e6-a91b-0516c8e667ac')),
+isPerennials := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Astilbes&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Begonias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Bougainvillea&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Brambles (Blackberries, Raspberries)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Burning Bush&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Butterfly Bush&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Clematis&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Coreopsis&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Daylilies&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Echinacea&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Ferns&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Garden Mums&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Grass&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Guara&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Hedera (Ivy)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Heucheras&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Honeysuckle&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Hostas&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Irises&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Jasmine&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Lantana&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Lilies&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Lily-of-the-Valley&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Narcissus (Daffodil, Jonquil)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Osteospermum&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Peonies (Tree and Herbaceous)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Phlox&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rhubarb&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rosemary&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rudbeckias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Sedum&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Tulip&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Verbena&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Yarrows&amp;quot;)
+),
+
+isVegetables := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Asparagus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Beans&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Corn&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Cucurbits (melons, cucumbers, squash, zucchini)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Greek Oregano&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Lettuce&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Sage&amp;quot;)
+),
+
+isShadeTrees := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Acer (Maple, Box Elder)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Ash Tree&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Magnolia&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Oak&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pine&amp;quot;)),
+
+
+isOrnamentals := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Crape Myrtle&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Mapple Tree&amp;quot;)),
+
+isIndoorPlants := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Cactus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Ficus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Fig&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Hibiscus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Palm&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pothos&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rubber Plant&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Schlumbergera (Christmas Cactus)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Snake Plant&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Spathiphyllum&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Spathiphyllum (Peace lily)&amp;quot;)),
+
+isFruits := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Apple&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Avocados&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Blackberries&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Blueberries&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Cherries&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Citrus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Crabapple&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Grapes&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Mangos&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Strawberries&amp;quot;)),
+
+isFruitNutsTrees := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Peaches and Nectarines&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pears&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pecan&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Plums&amp;quot;)),
+
+isAnnuals := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Angelonias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Boston Ivy&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Cilantro&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Coleus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Dianthuess&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Dusty Miller&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Gazanias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Geraniums&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Gerber Daisy&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Impatiens&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Mandevilla&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Marigolds&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;New Guinea Impatiens&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Okra&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Onion Family (Including Garlic)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Orchids&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pansies&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Parsley&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Pentas&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Peppers&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Petunias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Potatoes&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Saintpaulia (African Violet)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Salvias&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Scabiosas&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Snapdragons&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Star of Bethlehem&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Sun Coleus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Sweet Basil&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Sweet Marjoram&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Thyme&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Tomatoes&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Vinca&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Vincas&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Yucca&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Zinnias&amp;quot;)),
+
+isEvergreens := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Bamboo&amp;quot;)),
+
+isShrubs := OR(
+LISTCONTAINS(diseasedList,&amp;quot;Buxus (Boxwood)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Camellia&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Crimson Pygmy Barberry&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Cypress Family (Arborvitae)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Euonymus&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Gardenia&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Holly&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Hydrangea&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Juniper&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Ligustrum (Privet)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Lilac&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Raspberries&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rhododendron (Azalea)&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Rose&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Spirea&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Spruce&amp;quot;),
+LISTCONTAINS(diseasedList,&amp;quot;Taxus (Yew)&amp;quot;)),
+
+
+outPut := IF(AND(isPerennials,isVegetables),&amp;quot;Perennials and Vegetables&amp;quot;,
+	IF(isPerennials,&amp;quot;Perennials&amp;quot;,
+	IF(isVegetables,&amp;quot;Vegetables&amp;quot;,
+	IF(isShadeTrees,&amp;quot;Shade Trees&amp;quot;,
+	IF(isOrnamentals,&amp;quot;Ornamentals&amp;quot;,
+	IF(isIndoorPlants,&amp;quot;Indoor Plants&amp;quot;,
+	IF(isFruits,&amp;quot;Fruits&amp;quot;,
+	IF(isFruitNutsTrees,&amp;quot;Fruit Nuts &amp;amp; Trees&amp;quot;,
+	IF(isAnnuals,&amp;quot;Annuals&amp;quot;,
+	IF(isEvergreens,&amp;quot;Evergreens&amp;quot;,
+	IF(isShrubs,&amp;quot;Shrubs&amp;quot;,&amp;quot;&amp;quot;)))))))))))
+}
+trim(outPut)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DoNotDuplicate"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

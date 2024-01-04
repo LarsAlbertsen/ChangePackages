@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="VP_MNTN_Config_Core_Core" ShowInWorkbench="false" ManuallySorted="true" ParentID="VP_MNTN_Config_Core">
+            <Name QualifierID="Qualifier root">Core</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="93bd3557-ebf5-4119-a69e-537b3add2c8a"></AttributeLink>
+                <AttributeLink AttributeID="290500e7-d4e2-4558-9baa-b0eaac28789e"></AttributeLink>
+                <AttributeLink AttributeID="e0533ab3-0c16-430c-b206-9e11aab14a3b"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

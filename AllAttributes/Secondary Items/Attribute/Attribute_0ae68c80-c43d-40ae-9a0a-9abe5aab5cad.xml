@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="0ae68c80-c43d-40ae-9a0a-9abe5aab5cad" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Container Size (oz)</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+cSize := PRODVAL(&amp;quot;0dc5b9af-9f9a-4366-8a27-54b3b32e542a&amp;quot;),
+csNum := LEFT(cSize,FIND(&amp;quot; &amp;quot;,cSize)-1),
+csUnit := MID(cSize,FIND(&amp;quot; &amp;quot;,cSize)+1,2),
+
+unitConv := IF(csUnit=&amp;quot;OZ&amp;quot;,1,
+    IF(csUnit=&amp;quot;PT&amp;quot;,16,
+    IF(csUnit=&amp;quot;QT&amp;quot;,32,
+    IF(csUnit=&amp;quot;GA&amp;quot;,128, 0)))),
+ozNum := ROUND(csNum*unitConv, 0)
+}
+IF(ozNum=&amp;quot;NaN&amp;quot;,&amp;quot;&amp;quot;,ozNum)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="04aab7a5-af3b-4ef1-944e-16296183ae2a">true</Value>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">Convert Container Size to Ounces for Endeca Ranges for ease of incorporation into other setups.</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">true</Value>
+                <Value AttributeID="7ab1de4c-727f-4baa-8156-4fbc94ca287c">true</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+                <Value AttributeID="b2c83d7f-91fd-41c6-a12d-8f2cf300a488">false</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Calculated Attributes"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="DO NOT USE"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Families Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Objects"></UserTypeLink>
+            <UserTypeLink UserTypeID="Prepack"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackBranch"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="PrepackRoot"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="SSKU Grouping"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Vendor Families"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

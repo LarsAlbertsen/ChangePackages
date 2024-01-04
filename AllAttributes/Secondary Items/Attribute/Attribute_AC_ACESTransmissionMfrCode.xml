@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_ACESTransmissionMfrCode" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Transmission Mfr Code</Name>
+            <ListOfValueLink ListOfValueID="AC_TransmissionMfrCode"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="AutomotiveValidationPath">child.reference[type:'AC_VehicleToTransmission'].attribute[id:'AC_VCdbTransmissionMfrCode']</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AC_ACESAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_ACESApplication"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

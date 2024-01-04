@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AC_QdbText" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Text</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="AttributeHelpText">Store the text for a qualifier on a specific application (on the reference between the application and the qualifier)</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AC_QdbAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AC_PIESProducts"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

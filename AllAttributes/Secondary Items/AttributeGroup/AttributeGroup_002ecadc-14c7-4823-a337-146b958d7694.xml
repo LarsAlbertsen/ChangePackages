@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="002ecadc-14c7-4823-a337-146b958d7694" ShowInWorkbench="true" ManuallySorted="false" ParentID="f1a1b1e3-7115-4661-9211-baceca63aeb4">
+            <Name QualifierID="Qualifier root">Assortment Growth Elevated Access</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

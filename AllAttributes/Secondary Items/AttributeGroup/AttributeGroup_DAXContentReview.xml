@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="DAXContentReview" ShowInWorkbench="false" ManuallySorted="false" ParentID="InternalPortalAttributes">
+            <Name QualifierID="Qualifier root">DAX Content Review</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

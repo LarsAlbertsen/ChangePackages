@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="FinalValidationConfigRequiredAttributes" ShowInWorkbench="false" ManuallySorted="false" ParentID="FinalValidationRequiredAttributes">
+            <Name QualifierID="Qualifier root">Final Validation Configurable Required Attributes</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
