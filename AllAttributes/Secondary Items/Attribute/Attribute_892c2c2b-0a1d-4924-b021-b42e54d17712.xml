@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="892c2c2b-0a1d-4924-b021-b42e54d17712" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Freezer Type</Name>
+            <ListOfValueLink ListOfValueID="f3bdbb54-ae3b-4cb3-8e70-399f800bb674"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select freezer type? (Upright or Chest)</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

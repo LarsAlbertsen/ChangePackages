@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="e09230b0-5fb2-4372-a357-b99fd7e23b85" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Frame Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="50d50f15-0397-4b69-93c9-e575144d4cac"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="FamilyLeaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

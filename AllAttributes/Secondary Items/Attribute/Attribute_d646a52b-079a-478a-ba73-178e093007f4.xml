@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d646a52b-079a-478a-ba73-178e093007f4" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Number of Compartments</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Number Of Compartments</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="f1bbf52a-cb41-49c7-af59-87772bf82dbe"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

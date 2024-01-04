@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="a96918e1-b75c-4d46-89e0-bd4b5e4917b0" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Number of Speeds</Name>
+            <Validation BaseType="integer" MinValue="1" MaxValue="20" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Provide the number of speeds available on the featured item. Only values between 1 and 50 are valid</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">Number of speed settings available on a given item.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">Validation parameters updated to a min of 1 and max of 50 to prevent incorrect data. (Ticket # 863488)</Value>
+                <Value AttributeID="4c6c2772-7d77-47d7-8594-5da477fce5c2">Displayed within the specifications tab on homedepot.com. Also used as a Endeca navicable attribute for some of the linked categories.</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

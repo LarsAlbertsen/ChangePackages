@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="0d4d1d4c-a058-4f89-8513-4189ba0065da" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Temperature Rating (F)</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select the range that the minimum temperature rating falls into. For example- if the sleeping bag as a 35 degrees fahrenheit minimum temperature rating, select "Cool (30-35 degrees)"</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">PXS1217; Request #1226; Requested by Lauren Tereshkow</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Temperature Rating (F)</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="f1bbf52a-cb41-49c7-af59-87772bf82dbe"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

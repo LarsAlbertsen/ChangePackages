@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d7389f88-fac4-43a9-baba-4d47c8ee816a" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Operation</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">Created in support of Digital Decor Cookware refresh MMB401 08.03.16</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

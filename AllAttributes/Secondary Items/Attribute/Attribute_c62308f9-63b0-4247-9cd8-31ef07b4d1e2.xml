@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="c62308f9-63b0-4247-9cd8-31ef07b4d1e2" MultiValued="false" DefaultUnitID="unece.unit.FAH" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Working Temperature</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask="">
+                <UnitLink UnitID="unece.unit.FAH"></UnitLink>
+            </Validation>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="_AttUnitLinked"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

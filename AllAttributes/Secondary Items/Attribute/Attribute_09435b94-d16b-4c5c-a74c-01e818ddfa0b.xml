@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="09435b94-d16b-4c5c-a74c-01e818ddfa0b" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Maximum Story Number</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="04aab7a5-af3b-4ef1-944e-16296183ae2a">false</Value>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Please select the maximum story number that your product can access.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">LCD6WES. Created for Ladders refresh Jan 2019.</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="7ab1de4c-727f-4baa-8156-4fbc94ca287c">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Maximum story number</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="f1bbf52a-cb41-49c7-af59-87772bf82dbe"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

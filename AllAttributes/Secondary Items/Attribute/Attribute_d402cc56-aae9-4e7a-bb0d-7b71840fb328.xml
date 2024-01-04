@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d402cc56-aae9-4e7a-bb0d-7b71840fb328" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Pieces/Bundle</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Enter how many pieces are in each bundle. If you do not see an applicable value for your item, please submit an MST ticket.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">#414; psullivan; Savang</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

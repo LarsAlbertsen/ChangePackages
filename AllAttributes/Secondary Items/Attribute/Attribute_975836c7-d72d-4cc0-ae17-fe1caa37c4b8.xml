@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="975836c7-d72d-4cc0-ae17-fe1caa37c4b8" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Application Method</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="820" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Explain how item is used/utilized/applied.</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Application Method</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="f1bbf52a-cb41-49c7-af59-87772bf82dbe"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="tempdel"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="6cda682c-ebb8-47db-9773-44b73ef7ae22" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Handle Finish</Name>
+            <ListOfValueLink ListOfValueID="2d098b85-2931-44ea-a060-399980727aaa"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Please select the finish of the  shower or tub door handle.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">Moore, Katherine #1339 SXB0987</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Handle Finish</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Color_Finish"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="TubShower"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="f1bbf52a-cb41-49c7-af59-87772bf82dbe"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Combo"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="Super SKU Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="SuperSKU"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
