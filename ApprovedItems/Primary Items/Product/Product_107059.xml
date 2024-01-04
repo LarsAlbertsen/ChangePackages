@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="107059" UserTypeID="Item" ParentID="DiscontinuedProductsRoot">
+            <Name>Tue Mar 14 13:29:30 EDT 2023 count=10</Name>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
