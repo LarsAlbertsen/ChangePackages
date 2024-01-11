@@ -1,0 +1,498 @@
+{
+  "version" : "2",
+  "id" : "VideoTest1",
+  "name" : "VideoTest1",
+  "metadata" : {
+    "ChangePackageDescription" : [ {
+      "value" : "Just a description of my project",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "CPFeatures",
+  "uniqueId" : "cpk-efcc4fca-714e-4240-a093-ca9e5bda8d27",
+  "origin" : "laal-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "ELFRLovAttr",
+    "itemURL" : "step://attribute?id=ELFRLovAttr",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRCalc",
+    "itemURL" : "step://attribute?id=ELFRCalc",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GTIN",
+    "itemURL" : "step://attribute?id=GTIN",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Variant",
+    "itemURL" : "step://objecttype?id=Variant",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 1",
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Right Side View",
+    "itemURL" : "step://referencetype?id=Right+Side+View",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ArchivedLOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=ArchivedLOVs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lifestyle Image",
+    "itemURL" : "step://referencetype?id=Lifestyle+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Retail Price",
+    "itemURL" : "step://attribute?id=RetailPrice",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Linked Attribute Groups",
+    "itemURL" : "step://attribute?id=LinkedAttributeGroups",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 4",
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 3",
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 2",
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global",
+    "itemURL" : "step://attributegroup?id=Global",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Promoted from requirement-section.",
+    "recursive" : false
+  }, {
+    "name" : "ELFRISODate",
+    "itemURL" : "step://attribute?id=ELFRISODate",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRAttr1",
+    "itemURL" : "step://attribute?id=ELFRAttr1",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Leaf",
+    "itemURL" : "step://objecttype?id=Leaf",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRAttr2",
+    "itemURL" : "step://attribute?id=ELFRAttr2",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFR Attr3",
+    "itemURL" : "step://attribute?id=ELFRAttr3",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assortments",
+    "itemURL" : "step://attributegroup?id=ELFRAttrGroup",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "JSON Export",
+    "itemURL" : "step://asset?id=107411",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MFG Part #",
+    "itemURL" : "step://attribute?id=MFGPartNo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Cost Price",
+    "itemURL" : "step://attribute?id=CostPrice",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Left Side View",
+    "itemURL" : "step://referencetype?id=Left+Side+View",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Name",
+    "itemURL" : "step://attribute?id=ProductName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UPC",
+    "itemURL" : "step://attribute?id=UPC",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRFraction",
+    "itemURL" : "step://attribute?id=ELFRFraction",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "German",
+    "itemURL" : "step://dimensionpoint?id=German",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country of Origin",
+    "itemURL" : "step://attribute?id=CountryOfOrigin",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRISODateTime",
+    "itemURL" : "step://attribute?id=ELFRISODateTime",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRFamilyAttr",
+    "itemURL" : "step://attribute?id=ELFRFamilyAttr",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ValidForShop",
+    "itemURL" : "step://attribute?id=ValidForShop",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Top View",
+    "itemURL" : "step://referencetype?id=Top+View",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Discontinued Products (German)",
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Attribute With Space In Name",
+    "itemURL" : "step://attribute?id=AssetAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GetCompleteness",
+    "itemURL" : "step://attribute?id=GetCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configurations",
+    "itemURL" : "step://classification?id=ConfigurationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Family",
+    "itemURL" : "step://objecttype?id=Family",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tree",
+    "itemURL" : "step://objecttype?id=Tree",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProductRoot",
+    "itemURL" : "step://objecttype?id=ProductRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MFG Brand Name",
+    "itemURL" : "step://attribute?id=BrandName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Short Description",
+    "itemURL" : "step://attribute?id=ShortDescription",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRLargeLOV",
+    "itemURL" : "step://ListOfValues?id=ELFRLargeLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description",
+    "itemURL" : "step://attribute?id=Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.Quark",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.Quark",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Export Manager Configuration",
+    "itemURL" : "step://objecttype?id=stibo.ExportManagerConfig",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item Weight",
+    "itemURL" : "step://attribute?id=228a54a1-045b-4ca4-9c0a-02df98efd77b",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stibo.DefaultPageTemplate.InDesign",
+    "itemURL" : "step://referencetype?id=stibo.DefaultPageTemplate.InDesign",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Help Text",
+    "itemURL" : "step://attribute?id=27715ad5-b32c-46de-9819-a6f4d2916ef9",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Export Configurations",
+    "itemURL" : "step://classification?id=stibo.EMConfigFolder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Branch",
+    "itemURL" : "step://objecttype?id=Branch",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-01-11 08:28:36\"    UseContextLocale=\"false\">\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"Global\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">Global</Name>\n    <Configuration>H4sIAAAAAAAAAH2RT2+DMAzF7/0UUe4ZKQn/JKjUlm2qNO1U9W4Ss0WFUCVB+/rrxiincfPPfn6ynst9CM40Y8BXN4y3i8GvGltjTTCDJS+D6yFc0Pk7VXT7xOluQ0i5SDw5g/vA8LDxR7AHfNYmoK5oC51HGv0uHYdu7K3/qe+09zdUYeqRCSp6/hz7xoLpppX/ZKd6ff4OPS6K+bJZNPOprihI3iDXgiVKFkzKVDPIRcKwTaGNC8W36eL0Zux11S0BTEFmmmU5j5mMhWC54orpRolMJbJAFH9hRI80ymjtBbvNN5bvmxmiAQAA</Configuration>\n  </AttributeGroup>\n  <AttributeGroup ID=\"ELFRAttrGroup\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">Assortments</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"ELFRAttr3\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFR Attr3</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRISODateTime\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRISODateTime</Name>\n      <Validation BaseType=\"isodatetime\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRFraction\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRFraction</Name>\n      <Validation BaseType=\"fraction\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ValidForShop\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ValidForShop</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <LinkType LinkTypeID=\"PA\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRLovAttr\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRLovAttr</Name>\n      <ListOfValueLink ListOfValueID=\"ELFRLargeLOV\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"RetailPrice\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">Retail Price</Name>\n      <Validation BaseType=\"number\" MinValue=\"0.01\" MaxValue=\"50000\" MaxLength=\"\" InputMask=\"9999#.##\"/>\n      <MetaData>\n        <Value AttributeID=\"27715ad5-b32c-46de-9819-a6f4d2916ef9\">Retail across all markets where your product is being sold by comparable retailers. Only values between 0.01 and 50000.00 are valid. Only data in the standard currency format #####.## will be accepted.</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Global\"/>\n      <UserTypeLink UserTypeID=\"Family\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRFamilyAttr\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRFamilyAttr</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Family\"/>\n    </Attribute>\n\n    <Attribute ID=\"GTIN\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">GTIN</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value AttributeID=\"27715ad5-b32c-46de-9819-a6f4d2916ef9\">14 digit item level identifier. Can be input as 0 + EAN or 00 + UPC. Visit www.gs1.org for additional details. NOTE: This attribute will NOT be editable once the item is submitted successfully</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Global\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRAttr2\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRAttr2</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"25\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRAttr1\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRAttr1</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"999999\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRCalc\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"true\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRCalc</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueTemplate>&lt;derive expr=&quot;value('ELFRAttr2')&quot;/&gt;</ValueTemplate>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ELFRISODate\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">ELFRISODate</Name>\n      <Validation BaseType=\"isodate\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ELFRAttrGroup\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"UPC\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">UPC</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <MetaData>\n        <Value AttributeID=\"27715ad5-b32c-46de-9819-a6f4d2916ef9\">Universal Product Code</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"Global\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n      <UserTypeLink UserTypeID=\"Variant\"/>\n    </Attribute>\n\n  </AttributeList>\n\n<ImportConfigurations/>\n<ExportConfigurations>\n  <ExportConfiguration ID=\"107411\">\n<!-- Definition:\n<?xml version=\"1.0\"?>\n<ExportManagerConfig Version=\"2\" Name=\"LAAL_JSON\" ContextID=\"Context1\" WorkspaceID=\"Main\" UseContextLocale=\"false\" ResolveInlineRefs=\"false\" ExportDerivedAttrs=\"false\" EffectiveDate=\"\" EffectiveDateTimeZoneID=\"America/New_York\" ECatalogID=\"\" SelfContainedReferences=\"false\" VersionID=\"\" ScheduleDate=\"\" ProcessTemplate=\"Exporter\" ContentMode=\"\" ExecutionMode=\"\" InheritProductData=\"false\" LeafProductExport=\"true\" ExportSelectedProducts=\"false\" isSorted=\"false\">\n  <ProductSelection>\n    <URL>step://product?id=107407</URL>\n  </ProductSelection>\n  <Format Name=\"GenericJSON\">\n    <Parameter Name=\"Template\">{\n  &quot;products&quot;: [\n    {\n      &quot;__type&quot;: &quot;__record&quot;,\n      &quot;id&quot;: &quot;__target ID&quot;,\n      &quot;name&quot;: &quot;__target Name&quot;,\n      &quot;values&quot;: [\n        {\n          &quot;attributeID&quot;: &quot;__target&quot;,\n          &quot;value&quot;: &quot;__target&quot;\n        }\n      ],\n      &quot;priceRanges&quot;: [\n        {\n          &quot;dcId&quot;: &quot;__target&quot;,\n         &quot;from&quot;: &quot;__target&quot;,\n         &quot;to&quot;: &quot;__target&quot;,\n          &quot;price&quot;: &quot;__target&quot;\n        }\n      ]\n    }\n  ]\n}</Parameter>\n    <Parameter Name=\"FormatDocument\">true</Parameter>\n  </Format>\n  <ProductMapping SelectedURLType=\"product\">\n    <Map Target=\"ID\">\n      <Trigger><IDSource Aspect=\"ID\"/></Trigger>\n      <Expression><IDSource Aspect=\"ID\"/></Expression>\n    </Map>\n    <Map Target=\"Name\">\n      <Trigger><NameSource/></Trigger>\n      <Expression><NameSource/></Expression>\n    </Map>\n    <CompositeMap Target=\"values\">\n      <Trigger><AttributeSource AttributeID=\"*\" Aspect=\"ValueAndUnit\" AttributeGroupID=\"Attribute group root\" MultiValueSeparator=\";\"/></Trigger>\n    <Map Target=\"attributeID\">\n      <Expression><AttributeSource AttributeID=\"*\" Aspect=\"ID\" AttributeGroupID=\"Attribute group root\" MultiValueSeparator=\";\"/></Expression>\n    </Map>\n    <Map Target=\"value\">\n      <Expression><AttributeSource AttributeID=\"*\" Aspect=\"ValueAndUnit\" AttributeGroupID=\"Attribute group root\" MultiValueSeparator=\";\"/></Expression>\n    </Map>\n    </CompositeMap>\n    <CompositeMap Target=\"priceRanges\">\n      <Trigger><DataContainerSource DataContainerTypeID=\"ItemPrices\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\" MultiDataSeparator=\"#\"/></Trigger>\n    <Map Target=\"dcId\">\n      <Expression><DataContainerIDSource Aspect=\"ID\" DataContainerTypeID=\"ItemPrices\" PullData=\"true\" MultiDataSeparator=\"#\"/></Expression>\n    </Map>\n    <Map Target=\"from\">\n      <Expression><DataContainerAttributeSource AttributeID=\"ItemPriceFrom\" DataContainerTypeID=\"ItemPrices\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\" MultiDataSeparator=\"#\"/></Expression>\n    </Map>\n    <Map Target=\"to\">\n      <Expression><DataContainerAttributeSource AttributeID=\"ItemPriceTo\" DataContainerTypeID=\"ItemPrices\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\" MultiDataSeparator=\"#\"/></Expression>\n    </Map>\n    <Map Target=\"price\">\n      <Expression><DataContainerAttributeSource AttributeID=\"ItemPrice\" DataContainerTypeID=\"ItemPrices\" Aspect=\"ValueAndUnit\" MultiValueSeparator=\";\" MultiDataSeparator=\"#\"/></Expression>\n    </Map>\n    </CompositeMap>\n  </ProductMapping>\n  <Delivery Name=\"Email\">\n    <Parameter Name=\"Address\">laal@stibosystems.com</Parameter>\n    <Parameter Name=\"SubjectText\">Product data export</Parameter>\n    <Parameter Name=\"BodyText\">Please find enclosed the latest product data delivery</Parameter>\n    <Parameter Name=\"Zip\">ZipNo</Parameter>\n    <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n  </Delivery>\n</ExportManagerConfig>\n -->\n    <Name>JSON Export</Name>\n    <MetaData>\n      <Value AttributeID=\"asset.extension\">xml</Value>\n      <Value AttributeID=\"asset.filename\">ExportConfig14282741692557262938.xml</Value>\n      <Value AttributeID=\"asset.format\">XML (Extensible Markup Language document)</Value>\n      <Value AttributeID=\"asset.mime-type\">application/xml</Value>\n      <Value AttributeID=\"asset.size\">3714</Value>\n      <Value AttributeID=\"asset.uploaded\">2023-05-08 10:26:00</Value>\n    </MetaData>\n    <ClassificationReference ClassificationID=\"stibo.EMConfigFolder\"/>\n    <Configuration>H4sIAAAAAAAAAM1XbW/jNgz+nl8haMWwDWvcDgMOuEvcZc29ZEiyoklv2A2HQLXoVJtseZLcNTjcfx9ly46TOi/FiuHyIbCph+RDipSp3sVDIsk9aCNU2qfn3TN6EXZ6rx8ype2EpWwJ+lKlsViS9xXoB0qmLIE+HQ8G48Uvs1+nlCDGwoMdDfvUP55T8pvSf5mMReDEEyZSSm4M+PWxiphEIzGTBii5BqPkPYxSKVK4htjUKyWXIWhxD3xgrW4sxTFEFuVDZtHUlmAuEvig0sL7IEH9iAVT+GfxO9JC6CWzTKqlW6VkBjJ2xJAkcHQPGtII1p588B4c3QHPZe31SivEmjkkmSxEJWXQPi+pnShe8nuAKLdoqBKM0jskZtECzyOLBlntcgws9vLSXp9andcJQcYYKnAPWVMVZuac80oQdgjpeVSphP6dEMU31+PQWMheBkFWIi4E75+fvfjx7EUvcKtOOWjT7r1ROmHWl8JbSF2Ci2Lwtq+YxiXMgodU6aHhJwR8/Xeu7Cvv1JRvL8kfheqn4r/CLBZ2lUGFqGQaIqV5+fb9Bl7wbaxlegmWjIZt8BTJ7VCY1kubKvdM5rDFucl7jWRYruI2t1D53vaxaX7LxT6VWuOzf/q4yTHD3YBrli6PI8qj0Y60PWJYCmKtkicpWPW0DBQBPC0DnertY+czFm1VfzvqsazfoYryBDuUhq65trR6QQlqttCEZZlIl6TqP2ySOdZnn/parsofcWRe0O3T0dBLUT7XYomHatgbDWcq1xGQgcnQUoEKwl5QASoFbHeNp4tru506DUzpPUD3LURc5C1UnLg0fIjAJnKf20uVZMoIC03/Zee0MBhUjVLFt26cPv2O1vG+dwYGKb9JhaVr1Fut8qw45ysJWToR0UohbpJLKwrVGWS4wVbpPn31ONsbuWr0Lm3NxbGcUf85mB67x0WO/xvjZ8/yPu5Bs1L2FU/jSGupIPftrL7g2se3IXNd6siPLCRXzpTZFfCOQEq5s9kQf3WgitzB2r4ZG+TaGvsw/atcynJmKCeD3QSPLR53rB9Bd28h1QzfOGP/3yYcG6NVzxbhXH2B8RV98mwhfiEBPjol6qnUf5AL2RAkDv965T/xrxMm5K55dMC580ZDyZj8yVhxq8wKh+HEdCOVHJ4fZvntnxj2HO8yNPRcCMe4CBQD+mELPyu+8uoSmAESi5QTvHhIZYATewfEDczGkqxpnvsgDzv4IDIa4t9UHTEOCQnuaT2mn8QocuPx6YnFq5SxLMm+WeHvdDI55Xzx7l03SbrGfNs9wSAgdRv3aICqdgQvlUHLrTLs/AvJa2Pzgg4AAA==</Configuration>\n  </ExportConfiguration>\n</ExportConfigurations>\n<TranslationConfigurations/>\n<BulkUpdateConfigurations/>\n<TransformationLookupTableConfigurations/>\n<ImageConversionConfigurations/>\n</STEP-ProductInformation>\n",
+  "signatory" : "LAAL",
+  "comment" : ""
+}
