@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="Product to Classification Links" ShowInWorkbench="true" ManuallySorted="false" ParentID="References">
-            <Name QualifierID="Qualifier root">Product to Classification Links</Name>
-            <Configuration>H4sIAAAAAAAAAH2QzQ6CMAyA7zzFsgcQvTMSBDUkajwY7hWKaWQb2UqMby+KzJPe+rVff9IkY3Z0GRh3zg59RXgvsCVDTNaIrXUauELnR1JytVjKNBIi+SpenMFdkcMYn4NZ46YhxkbJFjqPMn435bYbtPGveKTM91jzlBMTKFkWk/urfgSNwdiTuYW1szhzWSipqfYnRxrc44AMDTB8TonDLUn87wFp9AR+F0kGIAEAAA==</Configuration>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

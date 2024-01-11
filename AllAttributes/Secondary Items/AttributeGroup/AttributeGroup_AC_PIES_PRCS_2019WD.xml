@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="AC_PIES_PRCS_2019WD" ShowInWorkbench="true" ManuallySorted="false" ParentID="AC_PIESPriceSegmentPRCS">
-            <Name QualifierID="Qualifier root">PIES Pricesheet 2019WD</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

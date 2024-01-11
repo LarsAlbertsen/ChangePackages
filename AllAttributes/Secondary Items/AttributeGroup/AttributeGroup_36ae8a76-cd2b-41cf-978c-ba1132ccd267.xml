@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="36ae8a76-cd2b-41cf-978c-ba1132ccd267" ShowInWorkbench="false" ManuallySorted="false" ParentID="01762f75-34ff-4b8b-8cd2-05548ff84cd3">
-            <Name QualifierID="Qualifier root">Supply Chain Data Quality Approve</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

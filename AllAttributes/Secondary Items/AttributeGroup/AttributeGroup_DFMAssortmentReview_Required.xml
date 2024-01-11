@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="DFMAssortmentReview_Required" ShowInWorkbench="false" ManuallySorted="false" ParentID="RequiredAttributeGroups">
-            <Name QualifierID="Qualifier root">DFM Assortment Review Required Attributes</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

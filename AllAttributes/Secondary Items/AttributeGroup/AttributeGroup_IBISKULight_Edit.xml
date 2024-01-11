@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="IBISKULight_Edit" ShowInWorkbench="true" ManuallySorted="false" ParentID="Editable_Special Group">
-            <Name QualifierID="Qualifier root">IBI SKU Light - Edit</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="FinalValidationBrowseRequiredAttributes" ShowInWorkbench="false" ManuallySorted="false" ParentID="f47ca60d-f2af-43a9-8db5-ba11783b02c8">
-            <Name QualifierID="Qualifier root">Final Validation Browse Required Attributes</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

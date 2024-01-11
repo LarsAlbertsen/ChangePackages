@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="b58ba107-acce-4d75-97c7-9989d0aaee36" ShowInWorkbench="true" ManuallySorted="false" ParentID="CertificationsANDListings">
-            <Name QualifierID="Qualifier root">CertListingsLegacy</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

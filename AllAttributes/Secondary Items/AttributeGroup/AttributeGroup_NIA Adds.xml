@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="NIA Adds" ShowInWorkbench="true" ManuallySorted="false" ParentID="Category Specific">
-            <Name QualifierID="Qualifier root">NIA Adds</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

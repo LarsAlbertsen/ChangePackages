@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="168ae4cb-309b-405c-9a72-d1b8cf277ea7" ShowInWorkbench="false" ManuallySorted="false" ParentID="16544ab6-bb7a-4ddb-a7cd-7c1feae6e78e">
-            <Name QualifierID="Qualifier root">Direct Fulfillment Merchandising Level 1</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

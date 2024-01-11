@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="AC_PIESKitSegmentKITS" ShowInWorkbench="true" ManuallySorted="false" ParentID="AC_PIESAttributes">
-            <Name QualifierID="Qualifier root">PIES Kit Segment KITS</Name>
-            <Configuration>H4sIAAAAAAAAAKWSXU+DMBSG7/0VpD9A9B6WdICmYR8acLdLNw7mRDjF9jTGfy8Rwcxki9t6954850nTt5FktrjzDI/W+G6D8JFCjYSMhoIHY1vNG7CuT7G4v70Ts5ugP9Ev5IJS21fgSeQSTXPIKmSoYlHrxoEIf9YS0/iW3JC+J9J1sOdhHgwhFiodN44zK93CAbVAepsuMcJjVmksZLJ9UlmxzVVZFPDugfY9V11hSUzbGQJilT573WCNYC+39Qpi5E9FOfL1mpf18vAV/yNQZbacW02VlEr+reEswULvoJmKD6fmo/DUl5t9AeNaikyRAgAA</Configuration>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

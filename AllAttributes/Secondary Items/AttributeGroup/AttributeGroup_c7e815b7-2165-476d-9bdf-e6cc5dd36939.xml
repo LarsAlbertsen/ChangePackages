@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="c7e815b7-2165-476d-9bdf-e6cc5dd36939" ShowInWorkbench="false" ManuallySorted="false" ParentID="2c2015f7-e19a-448c-b41a-e629f7898e24">
-            <Name QualifierID="Qualifier root">Private Brand Maintenance</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

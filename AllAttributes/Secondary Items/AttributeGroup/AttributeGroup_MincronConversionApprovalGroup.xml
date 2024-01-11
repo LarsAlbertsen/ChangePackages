@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="MincronConversionApprovalGroup" ShowInWorkbench="false" ManuallySorted="false" ParentID="Channel Approval Definitions">
-            <Name QualifierID="Qualifier root">Mincron Conversion Approval Group</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

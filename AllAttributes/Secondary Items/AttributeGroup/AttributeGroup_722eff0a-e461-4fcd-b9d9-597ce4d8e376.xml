@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="722eff0a-e461-4fcd-b9d9-597ce4d8e376" ShowInWorkbench="false" ManuallySorted="false" ParentID="cc5948e2-4760-452a-8a3f-1cc3ee289fb0">
-            <Name QualifierID="Qualifier root">Content Operations Level 1</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

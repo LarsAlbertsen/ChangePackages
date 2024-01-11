@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="348b0652-5a78-4c85-9261-d35ace025bac" ShowInWorkbench="false" ManuallySorted="false" ParentID="81641856-c683-4b20-a794-49d86829cc7b">
-            <Name QualifierID="Qualifier root">Channel Management Level 2</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="f2a51eab-7995-4810-8b5d-10b7ed6318a0" ShowInWorkbench="true" ManuallySorted="false" ParentID="14cb07c8-efbe-4e7e-b422-32865164a2f3">
-            <Name QualifierID="Qualifier root">Digital Content - Data Standards</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

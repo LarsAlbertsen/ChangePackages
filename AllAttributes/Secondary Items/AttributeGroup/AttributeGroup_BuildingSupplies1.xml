@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="BuildingSupplies1" ShowInWorkbench="false" ManuallySorted="false" ParentID="CL">
-            <Name QualifierID="Qualifier root">BuildingSupplies1</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="Store_Obsolete_Reveiw" ShowInWorkbench="false" ManuallySorted="false" ParentID="Discontinued">
-            <Name QualifierID="Qualifier root">Store Obsolete Review</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

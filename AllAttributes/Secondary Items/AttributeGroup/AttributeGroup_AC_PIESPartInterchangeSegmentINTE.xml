@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="AC_PIESPartInterchangeSegmentINTE" ShowInWorkbench="true" ManuallySorted="false" ParentID="AC_PIESAttributes">
-            <Name QualifierID="Qualifier root">PIES Part Interchange Segment INTE</Name>
-            <Configuration>H4sIAAAAAAAAAK2S0WrDMAxF3/sVwR+wbO9JwU2yYghhpaGvRa3VzsyRg6209O8XliWlg42NTm9XHF2uLSWS2Ztdx7j0rms3Bs85HgwZNo6iZ+cb4A360KtUPD08ivks6iu5QiGqwR+RJ6OQAS2w0IZRp+IANqCIP8cyZ7uGwqA+OjK0uOehHw0iFSofJ75nKmjwhioNvU0hRnjUKk+FzLYvqlhvVVUXihg9ga1cH/hOm/0r0BH/z6m+tD2u73jdqgNr+LL0oLHEE9rb7/ytzcIDaSmV/LqPPxmUsLsGSOLpBJL4p9ubz94BH+0RbpsCAAA=</Configuration>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

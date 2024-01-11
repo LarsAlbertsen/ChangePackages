@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="SODCandStoreApproval" ShowInWorkbench="false" ManuallySorted="false" ParentID="SpecialorderApprovalDefinitions">
-            <Name QualifierID="Qualifier root">Special Order, Dot Com and Store Approval</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

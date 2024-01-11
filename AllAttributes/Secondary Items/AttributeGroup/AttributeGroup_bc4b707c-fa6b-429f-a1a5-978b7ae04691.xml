@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="bc4b707c-fa6b-429f-a1a5-978b7ae04691" ShowInWorkbench="true" ManuallySorted="false" ParentID="34aa54ad-db5b-42cc-8465-7b30ba262c85">
-            <Name QualifierID="Qualifier root">IDM Operations Level 1</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="f1bbf52a-cb41-49c7-af59-87772bf82dbe" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
-            <Name QualifierID="Qualifier root">Category Specific - Interline</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

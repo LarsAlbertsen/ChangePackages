@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="4ab9c4a8-c4b4-4ec2-b778-47ea31e8ca05" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
-            <Name QualifierID="Qualifier root">B2B Experience</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

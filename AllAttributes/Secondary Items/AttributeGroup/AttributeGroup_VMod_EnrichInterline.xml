@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="VMod_EnrichInterline" ShowInWorkbench="false" ManuallySorted="false" ParentID="User Privileges">
-            <Name QualifierID="Qualifier root">Interline Enrich</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

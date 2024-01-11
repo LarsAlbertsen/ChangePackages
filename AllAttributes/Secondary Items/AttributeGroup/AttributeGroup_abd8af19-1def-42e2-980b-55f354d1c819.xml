@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="abd8af19-1def-42e2-980b-55f354d1c819" ShowInWorkbench="true" ManuallySorted="false" ParentID="1103d948-381c-471a-b953-432c7a0bf1e9">
-            <Name QualifierID="Qualifier root">Brand Advocate - PB Patio</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

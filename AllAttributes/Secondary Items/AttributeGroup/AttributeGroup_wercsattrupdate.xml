@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="wercsattrupdate" ShowInWorkbench="false" ManuallySorted="false" ParentID="HazmatApprovalDefinitions">
-            <Name QualifierID="Qualifier root">MSDS Fully Reg Hazardous Code Approval</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>

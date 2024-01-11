@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <AttributeGroupList>
-        <AttributeGroup ID="AC_VCdbAttributes" ShowInWorkbench="true" ManuallySorted="false" ParentID="AC_TopLevelAttrGroup">
-            <Name QualifierID="Qualifier root">AutoCare VCdb Attributes</Name>
-        </AttributeGroup>
-    </AttributeGroupList>
-</STEP-ProductInformation>
