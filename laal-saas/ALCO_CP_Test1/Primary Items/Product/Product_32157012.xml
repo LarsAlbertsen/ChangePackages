@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="32157012" UserTypeID="Branch" ParentID="32157010">
+            <Name>ALCO_Branch2</Name>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
