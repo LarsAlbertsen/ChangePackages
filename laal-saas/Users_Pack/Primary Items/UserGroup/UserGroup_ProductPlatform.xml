@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <UserGroupList>
+        <UserGroup ID="ProductPlatform" ReadOnly="false">
+            <Name QualifierID="Qualifier root">Product Platform</Name>
+            <MetaData>
+                <MultiValue AttributeID="ConfigurationEntityReferences">
+                    <Value>WorkArea#Instrument#Default System For Value Holder#32158923</Value>
+                    <Value>Perspective#Instrument#Default System For Value Holder#32158924</Value>
+                    <Value>PerspectiveTableConfiguration#Instrument#Default System For Value Holder#32158924</Value>
+                    <Value>PerspectiveFilterItem#Instrument#Default System For Value Holder#32158924</Value>
+                </MultiValue>
+            </MetaData>
+        </UserGroup>
+    </UserGroupList>
+</STEP-ProductInformation>
