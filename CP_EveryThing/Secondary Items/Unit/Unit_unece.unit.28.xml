@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <UnitList>
+        <UnitFamily ID="Pressure">
+            <Unit ID="unece.unit.28">
+                <Name QualifierID="Qualifier root">kg/m²</Name>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

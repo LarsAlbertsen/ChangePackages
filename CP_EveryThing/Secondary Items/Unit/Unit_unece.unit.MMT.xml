@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <UnitList>
+        <UnitFamily ID="Length">
+            <Unit ID="unece.unit.MMT">
+                <Name QualifierID="Qualifier root">mm</Name>
+                <UnitConversion BaseUnitID="unece.unit.MTR" Factor=".001" Offset="0"></UnitConversion>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

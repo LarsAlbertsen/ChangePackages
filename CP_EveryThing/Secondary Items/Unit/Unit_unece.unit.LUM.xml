@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <UnitList>
+        <UnitFamily ID="Light and Related Electromagnetic Radiat">
+            <Unit ID="unece.unit.LUM">
+                <Name QualifierID="Qualifier root">lm</Name>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>
