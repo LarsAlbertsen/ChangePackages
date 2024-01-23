@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="AssetLevel2" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]">
-            <Name QualifierID="Qualifier root">Asset Level 2</Name>
-            <UserTypeLink UserTypeID="AssetLevel1"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

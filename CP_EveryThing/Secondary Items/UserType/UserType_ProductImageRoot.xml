@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="ProductImageRoot" ClassificationOwnsProductLinks="false" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" ReferenceTargetLockPolicy="Strict" IDPattern="ProductImageRoot">
-            <Name QualifierID="Qualifier root">Product Images</Name>
-            <UserTypeLink UserTypeID="AssetRoot"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>
