@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <UnitList>
+        <UnitFamily ID="Angle">
+            <Unit ID="unece.unit.D61">
+                <Name QualifierID="Qualifier root">'</Name>
+            </Unit>
+        </UnitFamily>
+    </UnitList>
+</STEP-ProductInformation>

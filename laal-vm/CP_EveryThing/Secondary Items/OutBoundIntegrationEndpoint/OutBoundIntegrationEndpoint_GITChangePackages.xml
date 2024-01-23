@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <OutBoundIntegrationEndpoint ID="GITChangePackages" UserTypeID="OutboundEndpoint user-type root" ProcessPluginID="Export" QueueForEndpoint="OutboundQueue" QueueForProcssing="Out" MaxNumberOfActiveBackgroundProcesses="1" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="STRICT" ResponsibleUserID="STEPSYS" EnableRetry="false" UseCrossContext="false" DataSourcePluginID="EventQueueDataSourcePlugin" DeliveryMethodPluginID="com.stibo.configurationmanagement.repository.delivery.ChangePackageGitDeliveryPlugin" MultiThreadCount="1" RefreshCollections="false"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.ScheduleDefinition$ScheduleEveryMinute" every="1"/>
+</entries>
+
+DataSourcePluginConfiguration:
+<Parameters>
+  <Parameter ID="DaysToRetainEvents" Type="java.lang.Integer">0</Parameter>
+  <Parameter ID="eventQueueBatching" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+  <Parameter ID="eventQueueBundleMessages" Type="com.stibo.util.integrationendpoints.BooleanIntegerParameter">1</Parameter>
+</Parameters>
+
+DeliveryMethodPluginConfiguration:
+<Parameters>
+  <Parameter ID="ContextId" Type="com.stibo.util.integrationendpoints.ContextParameter">Context1</Parameter>
+  <Parameter ID="ConvertBusinessRulesToEditableFormat" Type="java.lang.Boolean">true</Parameter>
+  <Parameter ID="DirectoryTemplate" Type="java.lang.String">$systemname$/$changepackageid$</Parameter>
+  <Parameter ID="RemoteRepositoryUri" Type="com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter">ChangePackageGitDelivery.RemoteRepoUri._5</Parameter>
+  <Parameter ID="RepositoryAccessMethod" Type="com.stibo.configurationmanagement.repository.changepackagedelivery.ChangePackageGitDeliveryPlugin$RepositoryAccessMethod">HTTPS</Parameter>
+  <Parameter ID="RepositoryBranchName" Type="com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter">ChangePackageGitDelivery.Branch._2</Parameter>
+  <Parameter ID="RepositorySshUri" Type="com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter"/>
+  <Parameter ID="RepositoryUsername" Type="com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter">ChangePackageGitDelivery.RemoteRepoUsername._1</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<EventSpecificExportConfiguration>
+  <ExportConfiguration MatchAllTypes="false">
+    <EventType>15</EventType>
+    <EventType>16</EventType>
+    <EventType>17</EventType>
+    <ExportManagerConfig>
+      <ExportManagerConfig ContentMode="" ContextID="Context1" ECatalogID="" EffectiveDate="" EffectiveDateTimeZoneID="America/New_York" ExecutionMode="" ExportSelectedProducts="false" InheritProductData="true" LeafProductExport="true" Name="" ProcessTemplate="Exporter" ResolveInlineRefs="true" ScheduleDate="" SelfContainedReferences="false" UseContextLocale="false" Version="2" VersionID="" WorkspaceID="Main" isSorted="false">
+        <Delivery Name="File">
+          <Parameter Name="FileNameTemplate">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>
+        </Delivery>
+        <Format Name="AdvancedSTEPXML">
+          <Parameter Name="CrossContextChooser">No</Parameter>
+          <Parameter Name="Recorder">&lt;?xml version='1.0'?&gt;&lt;STEP-ProductInformation&gt;&lt;ChangePackages ExportSize=&quot;Selected&quot;/&gt;&lt;/STEP-ProductInformation&gt;</Parameter>
+        </Format>
+        <ProductMapping SelectedURLType="product"/>
+        <ProductSelection/>
+      </ExportManagerConfig>
+    </ExportManagerConfig>
+    <ObjectType>stibo.chgpck.groupvalidity</ObjectType>
+    <ObjectType>stibo.chgpck.verified</ObjectType>
+  </ExportConfiguration>
+</EventSpecificExportConfiguration>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Outbound Integration Endpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">GIT ChangePackages</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1Cyt+OySc0rKcpMLbbjUlAAsysVknMSi4ttlZLzc/WKSzKT8vVKSzJz9IKTM1JTSnNSXVLTMvMyS4BmqMCEXIGGVvpm5pWWpCoBjYGCVJAo0B4lfaAt+jBrADtwci2GAAAA</ScheduleSpecification>
+            <DataSourcePluginConfiguration>H4sIAAAAAAAAALWQuwrCQBBFe79imd7VdBZ5QIhCCkElfsCYDHFlMxuym2D+3g1otLCwsTww99zLhMm90WKgzirDEQRyDYK4NJXiOoJzsVtuIIkX4QE7bMj5u3ghxBtFnkWQ4WgLcyKHircDsbMgirGlCG44oNTItczZUU0dxOtwNae/uGjKH3vqKUVXXv2Ml6s0jbROXYzsndJSTcIOnd9NXLXGs5WpMZqQn2WzGeLg59aeK017shZrsn/o/gD/ywe3+NFpgAEAAA==</DataSourcePluginConfiguration>
+            <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAL2SyU7DMBBA73xFZOWKC0hIHNog2rJJLFWbcq2MM6QGeyayJ4j+PS6BUugCB8RxbI/fm6V9/OJs8gw+GMKO2Jd7IgHUVBgsO2Kcn+0eiSSwwkJZQugIJHGctQfKKwcc07KdJPkMk8t+RwzBEcMQKgqGyc/G3ogkn1UxW5OTgc09yZqNlQYZSq84sgGLimIcZI/wwZQj9lGhR9aCnt9f3d4tKCLrTRWWMFD6SZVwbrgP1sQiZvKTHalycthuLbLWmn44dr1CPb2Jd/+m2iDl5OC3jidaQwjXwFMqVi31m0vdKDqFkeYAWfpFvtRvKlWjUnx4bBIc2Lo0mG7gZxd5Phj9Vn0cwON/NndpD97RcrL/zXab8ChM/35tW+upfePj4wjNwVVW8aJLj+pZSRsrlM23IkvDLDC4eT1pK/0yT1Ok26cRBWNruFsHg3GOw9pCyOm0MKzuLZyRd4pXyV0iCwpFxr6GHwEML3y5Zjm3tm2etDzT5uTrtJaCkL0Cq2trn7UEAAA=</DeliveryMethodPluginConfiguration>
+            <EventQueue QueueStatus="Read" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="stibo.chgpck.groupvalidity"/>
+    <ObjectType ObjectTypeID="stibo.chgpck.verified"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+context=Context1
+objecttype=stibo.chgpck.groupvalidity;stibo.chgpck.verified -->
+                <Configuration>H4sIAAAAAAAAANVUTW+jMBC991cg7g2teukBp4qSdou0u40S2p4dmNDZGBt5TDbZX78GTFACVdNbewLPl+c9v5kJEZgY8kJwAyy82+XC24ImVJL516Mr3wOZqBRlxvzn+OHy1r8bX4TL+H5+OdcqLRMTybXSOTc2w1sAKbGFSAqUsIA1MX/NBYHvPSgh1N8nW1pjCsty5bK7iPtdobSZgcYtpBNj9ME1vvC8cFI1Si5qif+A+b9QYl7mvjdT0jQXTAUnwjUmdT+xqrNsI6AtDJtidNnUaysGdfGgqW6RBe9AG4dUCDTjqjFclQZ+otxQrDHLbMcyO3V/C0o7LFQR8SH4E3a/AcTjjofl4+RwHOpFMhFlCnNulWOccJxYToqeQVwkU9i9Kp0+Imiuk7d9Tzm/eQ4949PqDyQm3hfwQ6uysA5iYWdclAKo7mnAdmT1ut9oxnwyuFKj5C0rks0oq0pvucAUzb7BeHaufRlLBKQtNb0++iYHrSG2h9hx+OW1FbbRn91ILm9oJ7U1B7XnnqWSSftER7soGJTx4ZrDs/bwth53nGpF1Eur9+Ow64WLEqg9zbjhUwueW7o1fXRrGLhjo56W0zMmqhOOHasNFdwyOSkKrexTuZBniV9fRxZ21ee5G/jFAbhx58RSDTvDps332plVPXPGzhx7f9R7sVdscLZd3H++amDaKggAAA==</Configuration>
+            </EventQueue>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAH1U2Y6jSBB8n69ozSvSYMAclnpawmAOmzLY3LxxXwXFZWP4+rXVu9qRptX1lhGRlQopI98P97SdzC6Ny6yMD48ODZOA2qzMb0M4laj9+PH29v4F/gbCKS54CK2lS8ffP7MQjunPl/qlf336Ij4I+h3/v/qLZb5l2b9ZParS+BMYpzJCv+Ii7+L6Vz6gW3cPYZmU0/KO/yH7vu+eDk/jafJFy6dpELZhng6f3j+U7ajy/z2FsCwfD8Fe2HHLOAqsMvGJNiUXiCQnnw71QSUVOnGgzwmJzyQNYiVjGPQNE0+aya4xpDkyatbsvNUrzKu7lXdPkmPJXKtgBXfu8ttK26TWPFGXNwfveK0PXMKYAMpEIFhCu69VfXUXopQRQ0FldenRcTUeGN1mRma3HQujCIPNo4xGpt7bHelrNjfb3RG5vHLzyQ6stgzbWm+uoHVF0Zs0JIj96RARiFBSWgPCsdpcAsxQcImoi3Mjn01ppU/Lla7Z7lYddNHn8wWJ8nxX49lZzvU1FSh2gLeqdkfDlsIld7p2Vq0A2iMR4W6ihmMi3XoeWn0J1NhJj5vnoJIhk4jncoGis75oVs6ujkAQaSszkZdgO4bjSV+89OGeMIMCm0Pg1XY2CU0g0Am1bjiQpSI7Uxp7dDbUw5vpoBIAPwehP5jENmVMtPPdK72bzkqESpmr2VK0ivZOmlrP9qvLzpbLNj53StZsBuEuV3jz7pwZ9SqhzNrSQIr2kLxMN4QR4FBxhdKS93PqK/ddj/cA03BobDWcsnrDa6xNYjnQEaTwMuDsNVKWrWPBkIi9ASYyT5G8WrN9Q++FOC1Uk2IN+5FhyK0AI+u2ekKZctkGQfTghp66uHgc9Lru7bDsuNh0bIU7GhReXiMWy/ENdTlxAlQGdoVkyntRGGSNkYvPDf39DNAXW/yKNP5l1v8N3Hf34B/+G3V8MgQAAA==</ProcessPluginConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Approved</WorkspaceID>
+        </OutBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>
