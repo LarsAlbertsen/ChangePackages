@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeTransformationGroups>
+        <AttributeTransformationGroup ID="T1" ParentID="stibo.attribute transformation root">
+            <AttributeTransformation ID="Trans1">
+                <Name QualifierID="Qualifier root">Trans1</Name>
+                <AttributeLink AttributeID="PortionOfWood"></AttributeLink>
+                <Configuration>H4sIAAAAAAAAAE3KPQqAMAxA4d1TlBzAn906iSBoHRRxjZCC0FpJ0/tbnFy/99qN8Y42sEe5wh2VSf4kXqyGGtQxTztxzEFDU2Yw6Gn4ZiHWIJwI1Nj/yKKL2ebk5NrRJVrpIUYJuUHVFS8JDiL6cQAAAA==</Configuration>
+            </AttributeTransformation>
+        </AttributeTransformationGroup>
+    </AttributeTransformationGroups>
+</STEP-ProductInformation>
