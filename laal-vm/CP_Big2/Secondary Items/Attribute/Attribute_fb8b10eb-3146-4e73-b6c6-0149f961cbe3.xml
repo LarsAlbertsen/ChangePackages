@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="fb8b10eb-3146-4e73-b6c6-0149f961cbe3" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Drill Bit Type</Name>
+            <ListOfValueLink ListOfValueID="9b0cb833-5ff0-4951-9e0d-8b2485bf70cd"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select type of drill bit from list.</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Drill Bit Type</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>2-Cutter</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-Cutter</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Adapter</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Auger Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bit Extender/ Holder</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Brad/Pilot Point</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bushing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Combination Bit Sets</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Core</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Coring Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Countersink</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Diamond Core</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Extension</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fast Spiral Masonry</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flat Chisel</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Forstner</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Glass &amp; Tile Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Guide Plate</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Hammer Drill Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Hole Saw</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Installer Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Machining Drill Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Masonry Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Nut Driver</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pen Marker</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Percussion Bit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Point Chisel</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Screwdriver</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spade</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spade Chisel</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Specialty</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Step</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tapered</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Twist</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

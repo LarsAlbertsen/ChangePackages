@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d82c329e-42d1-49d0-815c-f1b8a2f81dd3" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Halloween Decor Theme</Name>
+            <ListOfValueLink ListOfValueID="4fb3e309-1c89-4f77-a056-8082d1148ac5"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Bat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Birds</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Blood</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bugs</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bugs and Insects</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cats and Dogs</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cemetery</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Clown</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Day of the Dead</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dinosaur</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dog</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dragon</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Favorite Characters</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gargoyle</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Ghost</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Halloween Colored</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Haunted House</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Headless Horseman</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Horse</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Innovation</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Medieval</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Monster</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Owl</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pirate</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pumpkin</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Rat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Reaper</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scarecrow</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Signs</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Skeleton</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Skull</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spiders</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tombstone</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tombstone/Cemetery</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Trees and Plants</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Trick-or-Treat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Turkey</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Werewolf</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Witch</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Zombie</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

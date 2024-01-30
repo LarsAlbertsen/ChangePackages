@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="4a811c96-0ade-44c3-a08a-47916e7d386d" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Washer Thickness</Name>
+            <ListOfValueLink ListOfValueID="7fe3e937-258e-40dd-8842-d68f67f12fdd"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select the thickness of your washer from the list of values.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">psullivan; #592; Daniel Screptock</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">2</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>0.020 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.032 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.049 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.065 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.082 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.083 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.095 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.109 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.113 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.120 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.134 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.148 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.165 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.180 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.185 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.213 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.734 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/64 in</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
