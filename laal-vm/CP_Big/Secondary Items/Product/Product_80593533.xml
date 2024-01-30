@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="132400" UserTypeID="Tree" ParentID="DeepHiearchyRoot">
+            <Product ID="132401" UserTypeID="Tree">
+                <Product ID="132402" UserTypeID="Tree">
+                    <Product ID="132403" UserTypeID="Tree">
+                        <Product ID="80593533" UserTypeID="Item">
+                            <ProductCrossReference ProductID="80593534" Type="Accessory"></ProductCrossReference>
+                            <Values>
+                                <Value AttributeID="Another Attr" QualifierID="en-US">A Change by LAAL</Value>
+                            </Values>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

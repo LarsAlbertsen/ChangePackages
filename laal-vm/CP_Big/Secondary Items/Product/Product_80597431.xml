@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="132400" UserTypeID="Tree" ParentID="DeepHiearchyRoot">
+            <Product ID="132734" UserTypeID="Tree">
+                <Product ID="132823" UserTypeID="Tree">
+                    <Product ID="132833" UserTypeID="Tree">
+                        <Product ID="80597431" UserTypeID="Item"></Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

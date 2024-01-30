@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="12b088f2-aad8-4f94-b272-bcbe51268001" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Ship Window</Name>
+            <ListOfValueLink ListOfValueID="xTreeShipping"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">NOTE: 2015 dates are still pending -- Select the last week the item will be shipped to the customer. </Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Available In-Store Only, All Season Long</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Available on Homedepot.com all Season Long</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Week 1: Week of November 23rd 2015</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Week 2: Week of November 30th 2015</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Week 3: Week of December 6th 2015</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Week 4: Week of December 13th 2015</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="4b5f39fb-5f38-431e-91ee-4b63abfe80d1" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Nominal Mirror Height (in.)</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Please enter the rounded product height in inches. For example, if your product is 32 1/2 inches enter 33. If your product is 32 inches, simply enter 32. </Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">AML; Attribute created for Bathroom Mirror refresh</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Obsolete_Objects"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

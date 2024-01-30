@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="fb89b7dc-2ac0-43c3-bd4b-d50e3f098220" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Paint Tool Product Type</Name>
+            <ListOfValueLink ListOfValueID="PaintProductType"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Paint Tool Product Type</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Airless</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Airless Cup Gun</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Appliance Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Applicator/Tool</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Auto Decals</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Automotive Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bonding Agents</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Camouflage Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Caulk</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Caulk Guns</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Chalkboard and Whiteboard Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Chalky Finish Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Chemical/Thinner/Stripper</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cleaner/Remover</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Color Chips and Flakes</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Color Chips/Poster</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Concrete Primer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Concrete, Brick and Masonry Sealers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Construction Adhesives</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Craft Duct Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Craft Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Deck and Patio Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Double Sided Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Drop Cloths</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Drywall Patches</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Drywall Primer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Duct Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Exterior Paint/Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fabric Waterproofing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fan Deck</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Farm Equipment Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Faux Paint Finishes and Glazes</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fluorescent Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Frosted Finish Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Furniture and Décor Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gaffers Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gel Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>General Purpose Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Glitter Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gloves</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Glow in the Dark Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Glue Guns</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Glue and Epoxy</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gold Leaf</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>HVLP</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>High Heat Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Interior Paint/Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Interior/Exterior Paint/Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Lead Paint Test Kits</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Marine Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Masking Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Masonry Waterproofing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Metal Primer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Metallic Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mod Podge</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mold and Mildew Product</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mold and Mildew and Insect Prevention</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mold, Mildew and Stain Remover</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Multi-Surface Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non Skid Additives</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Slip Tread Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Odor Remover and Fragrance Additives</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Oil Based</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Oil Based Primer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Overalls and Coveralls</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Additive</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Buckets and Lids</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Cleaners and Removers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Hardener</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Hardeners</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Mixers and Stirrers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Pens and Markers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Sample</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Scrapers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Sprayer Accessories</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Sprayers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint Thinners and Strippers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Paint and Craft Kits</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Painter's Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Painters Masking Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pants and Shorts</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Patching and Joint Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Patching and Repair Product</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Plaster, Stucco and Textured Surface Repair</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Plastic Sheeting</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pneumatic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pool and Pond Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Primer Sealer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Primers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Rags and Cloths</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Reflective</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Respirators and Dust Masks</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Rust Preventative</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Safety and Accessories</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sand Paper</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sand Screens</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Belts</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Discs</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Gaurds</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Pads</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Points, Blades and Files</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Sponges</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanding Supplies and Steel Wool</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sealants</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sealers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Semi-Transparent Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Solid Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spackling Paste</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spray Stain</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Steel Wool</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Stencils</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Striper</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tape</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tape Dispensers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tarps</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tarps, Drop Cloths and Plastic Sheeting</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Test Kit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Textured</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tints</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Traffic, Line and Marking Spray Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Trowels and Putty Knives</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tub and Tile Paint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Water-Based</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Waterproofing Accessory</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wood Filler</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wood Primer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wood Sealers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wood Stain Pencils and Markers</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

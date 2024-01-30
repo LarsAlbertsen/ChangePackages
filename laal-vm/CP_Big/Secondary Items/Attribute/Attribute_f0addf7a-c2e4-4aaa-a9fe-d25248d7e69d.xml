@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="f0addf7a-c2e4-4aaa-a9fe-d25248d7e69d" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Size</Name>
+            <ListOfValueLink ListOfValueID="7fe3e937-258e-40dd-8842-d68f67f12fdd"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select the head size of your item from the provided list of values.  If the value you believe best describes your product is not available in the list, please submit a ticket in the IDM Vendor Portal.</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">psullivan; #644; Daniel Screptock</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Size</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>#0</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#1</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#10</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#12</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#14</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#16</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#18</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#2</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#3</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#4</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#5</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#6</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#7</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#8</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#9</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.082 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.113 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.120 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.275 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M1</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M10</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M12</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M14</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M15</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M16</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M2</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M2.5</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M3</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M4</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M5</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M6</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M8</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

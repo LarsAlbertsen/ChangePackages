@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="94cacab5-5863-445c-b7d8-a3c50d0bc44b" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Minimum Fastener Size</Name>
+            <ListOfValueLink ListOfValueID="7fe3e937-258e-40dd-8842-d68f67f12fdd"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select the minimum fastener size for your item.</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>1 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>18 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9GA</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

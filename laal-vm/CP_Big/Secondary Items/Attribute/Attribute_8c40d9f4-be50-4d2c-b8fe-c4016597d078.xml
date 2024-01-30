@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="8c40d9f4-be50-4d2c-b8fe-c4016597d078" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Fencing Style</Name>
+            <ListOfValueLink ListOfValueID="efe9b414-8c10-4c4e-8292-64ef804856f6"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select style of fence from list.</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Ball Style</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Basket-Weave</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Board on Board</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cresent</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Crossbuck</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dog Ear</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flat Top</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>French Gothic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gothic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Half Moon</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Lattice</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Lattice Top</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>New England Style</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Ornamental</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Picket</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pointed</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Post and Rail</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Privacy</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pyramid Style</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Rail</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scallop</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Semi-Privacy</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Shadow Box</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spaced Picket</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Split Rail</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Square Top</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Statesman Colonial</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Stockade</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Three Rail</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Two Rail</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

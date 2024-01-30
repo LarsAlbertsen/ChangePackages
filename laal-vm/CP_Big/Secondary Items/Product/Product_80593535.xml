@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="132400" UserTypeID="Tree" ParentID="DeepHiearchyRoot">
+            <Product ID="132401" UserTypeID="Tree">
+                <Product ID="132402" UserTypeID="Tree">
+                    <Product ID="132403" UserTypeID="Tree">
+                        <Product ID="80593535" UserTypeID="Item">
+                            <Values>
+                                <Value AttributeID="Another Attr" QualifierID="en-US">Third</Value>
+                            </Values>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

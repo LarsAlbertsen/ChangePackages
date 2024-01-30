@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ProductComposition" ShowInWorkbench="true" ManuallySorted="true" ParentID="Special Groups">
+            <Name QualifierID="Qualifier root">Product Composition</Name>
+            <AttributeSequence>
+                <AttributeLink AttributeID="ContainWood"></AttributeLink>
+                <AttributeLink AttributeID="PortionOfWood"></AttributeLink>
+                <AttributeLink AttributeID="PrimarySpecies"></AttributeLink>
+                <AttributeLink AttributeID="PrimaryMfrLocation"></AttributeLink>
+            </AttributeSequence>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

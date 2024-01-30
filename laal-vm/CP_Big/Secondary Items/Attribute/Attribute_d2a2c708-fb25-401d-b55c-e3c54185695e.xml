@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="d2a2c708-fb25-401d-b55c-e3c54185695e" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Plywood Features</Name>
+            <ListOfValueLink ListOfValueID="cc3f55f7-f40d-4ca4-b4e2-81b6ab36a2fc"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="04aab7a5-af3b-4ef1-944e-16296183ae2a">false</Value>
+                <Value AttributeID="290350c4-d132-48a6-b98a-02067f7fa924">mxds666g; Plywood Refresh; 20190103</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

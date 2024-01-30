@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="b730d9f9-b8ba-4b1a-b0b8-e64bf4854fa7" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Connection 4</Name>
+            <ListOfValueLink ListOfValueID="PlumbingConnection"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Connection 4</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>BE</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Barb</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bolt-in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bolt-on</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>CTS</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Caulk</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Closet</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Comp</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Copper Sweat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Crimp</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FHT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FIP</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FIPT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FPOL</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FPT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>FTG</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Female Comp</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Female Flare</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flanged</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flare</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Hub</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>ID</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>IPS PE</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Inside fit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>LHT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Lav</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>M</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>MHT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>MPOL</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>MPT</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Male Acme</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mechanical</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>No Caulk</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>OD</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>P</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>PTC</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Plain End</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Port</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Press Fit</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Screw on</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Slip-Joint</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Socket</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spigot</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Supply</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sweat</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Swivel</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

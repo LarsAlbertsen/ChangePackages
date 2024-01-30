@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="c8a48380-a1aa-4043-98ca-7084d36d7e45" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Maximum Optimal Temperature (F)</Name>
+            <ListOfValueLink ListOfValueID="bbbd162c-57ed-4a61-8756-be4e6e470fa8"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="04aab7a5-af3b-4ef1-944e-16296183ae2a">false</Value>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Please select the Maximum Optimal Temperature in Fahrenheit for this paint. </Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">SXP5565 Created for purposes of Concrete Waterproof Refresh.</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="7ab1de4c-727f-4baa-8156-4fbc94ca287c">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="b2c83d7f-91fd-41c6-a12d-8f2cf300a488">false</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

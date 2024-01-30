@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="bfd70890-e62d-4ffc-afcb-c95bc2474859" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="en-US">Popular Widths</Name>
+            <Validation BaseType="number" MinValue="8.00" MaxValue="130.00" MaxLength="" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{
+nomVanWid := PRODVAL(&amp;quot;2e8e5c92-41f6-49ec-be3b-62f1502c51ca&amp;quot;),
+underSize := IF(nomVanWid = &amp;quot;23- Under&amp;quot;,&amp;quot;18 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;),
+overSize := IF(OR(nomVanWid = &amp;quot;71-73 in.&amp;quot;, nomVanWid = &amp;quot;Above 73 in.&amp;quot;), &amp;quot;72 Inch Vanities and Larger&amp;quot;,&amp;quot;&amp;quot;),
+
+aSize := LEFT(nomVanWid,2),
+
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;23&amp;quot;,&amp;quot;24 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(OR(aSize=&amp;quot;26&amp;quot;,aSize=&amp;quot;29&amp;quot;),&amp;quot;30 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(OR(aSize=&amp;quot;32&amp;quot;,aSize=&amp;quot;35&amp;quot;),&amp;quot;36 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;38&amp;quot;,&amp;quot;42 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;47&amp;quot;,&amp;quot;48 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;50&amp;quot;,&amp;quot;54 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;59&amp;quot;,&amp;quot;60 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+tSize := CONCATENATE(tSize,IF(aSize=&amp;quot;62&amp;quot;,&amp;quot;66 Inch Vanities&amp;quot;,&amp;quot;&amp;quot;)),
+
+outPut := IF(LEN(underSize)&amp;gt;0,underSize,IF(LEN(overSize)&amp;gt;0,overSize,tSize))
+}
+IF(LEN(nomVanWid)=0,&amp;quot;&amp;quot;,outPut)"/&gt;</ValueTemplate>
+            <MetaData>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Enter the width of the vanity in inches(the base, not the vanity top). </Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">psullivan/ #521/ Deb Gaston</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">13</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

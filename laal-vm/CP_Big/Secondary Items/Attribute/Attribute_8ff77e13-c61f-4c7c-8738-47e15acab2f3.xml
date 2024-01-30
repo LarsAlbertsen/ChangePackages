@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="8ff77e13-c61f-4c7c-8738-47e15acab2f3" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Tile Tool Type</Name>
+            <ListOfValueLink ListOfValueID="Tile Tool Type"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Bridge Saws</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Carbide Hand Saws</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Floats</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Handheld Tile Saws</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Manual Tile Cutters</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Marking Tools</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Miscellaneous Tools</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Mixers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Nippers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Overhead Tile Saws</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Replacement Blades</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scraper/Shavers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Spacers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sponges</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tabletop Tile Saws</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tile Cutter Attachments/ Accessories</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tile Rollers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Tile Saw Stands</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Trowels</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wet Saw Pumps</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="9244c0bc-bf35-41a7-896d-0c948f7b9177" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="true" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Features</Name>
+            <ListOfValueLink ListOfValueID="bdd145c1-aa68-4c4d-9a51-6dd11f4cbccb"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select all values applicable to the item (multi-select).</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">PXS1217; Part of Cleaning Refresh;Values added by AML 4055; </Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">6</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Features</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>Abrasive</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Absorbs Moisture</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Acidic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Ammoniated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Angled Bristles</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Anti-Static</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Antibacterial</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Antimicrobial</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Attached Scrubber</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Automatic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bendable Head</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Biodegradable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Bleach Added</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Buffer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Built-In Accessory Storage</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Certified Kosher</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Child Safe</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Chlorinated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Chlorine Free</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Cleaner Infused</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Clinging</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Coin Operated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Color Safe</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Combustible</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Concentrated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Contains Scrubber</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Corner Bumpers</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>De-Icer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Deodorizing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Detachable Nipple Brush</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Digests Paper</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Disinfecting</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dispenses Soap</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Disposable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Dye-Free</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Eco-Friendly</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Electrostatic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Eliminates Odor</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Embossed</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Enzymatic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fabric Softener Added</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fan-Tail</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Fine Sweep</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flagged Bristles</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Flammable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Food Grade</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Germicidal</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Graduation Markings</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Grip Handle</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gritless</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Gritted</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>HE Compatible</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Hanging Loop/Hole</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Heavy-Duty Sweep</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Hypoallergenic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Individually Wrapped</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Interleaved</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Iron-Shaped Handle</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Kills Mildew</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Kosher</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Locking Casters/Wheels</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Long Handle</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Lotion Added</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Low Odor</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Machine Washable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Made of Recycled Materials</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Medium Sweep</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Moistened</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Multiple Size Sheet Options</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>No Additional Features</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>No-Rinse</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non Abrasive</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Alcohol</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Ammoniated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Corrosive</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Para</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Non-Toxic</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Odor Neutralizing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Oil Based</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Oxygen Formula</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Para</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Perforated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Pet Safe</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Portable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Printed/Patterned</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Rapid Desolving</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Reclaimed</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Recycled</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Removeable Wringer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Reprocessed</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Residue Free</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Resists Fingerprints</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Retractable Cord</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Safe Around Vegetation</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Safe For Fabric</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Safe For Non-Stick Surfaces</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Safe for garbage disposal</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanitizes</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Sanitizing</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scented</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scouring Side</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scrubber</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Scrubbing Side</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Shelves</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Silver Safe</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Soaping</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Static Control</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Streak Free</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Swivel Heads</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Telescoping Handle</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Textured</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Time Release Sprays</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Treated</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>UV Protection</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Unscented</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Utility Hooks</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Variable Steam Options</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Washable/Reusable</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wheels</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wringer</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>Wrinkle Prevention</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="f65ac7d0-1133-4ca8-8c98-0d1887a57474" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Bit Diameter</Name>
+            <ListOfValueLink ListOfValueID="7fe3e937-258e-40dd-8842-d68f67f12fdd"></ListOfValueLink>
+            <MetaData>
+                <Value AttributeID="13445ab3-bd1a-4c7c-a269-d97428626687">false</Value>
+                <Value AttributeID="27715ad5-b32c-46de-9819-a6f4d2916ef9">Select the size for this drill bit. If the size you need is not listed, open a ticket to support with the OMSID and Size Needed</Value>
+                <Value AttributeID="3c7b1851-29d5-40e3-9d10-3a119442cbc3">2014/03/26 AD6302; #592 Daniel Screptock</Value>
+                <Value AttributeID="46fd0f80-df89-4ea8-ad9b-fd058c1e7083">false</Value>
+                <Value AttributeID="9648dded-4f9f-4c51-aa10-83823d75ed2e">2</Value>
+                <Value AttributeID="9d632ae4-1ffd-4736-b6e2-c5a84a1d62fb">Bit Diameter</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="Category Specific"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="202051420"></UserTypeLink>
+            <UserTypeLink UserTypeID="Branch"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
+            <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Placeholders"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Alpha"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Sequence LOV"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD"></UserTypeLink>
+            <UserTypeLink UserTypeID="THD_Holding_Leaf"></UserTypeLink>
+            <UserTypeLink UserTypeID="Templevel"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <UserTypeLink UserTypeID="std.AdaptorType"></UserTypeLink>
+            <ValueFilter>
+                <ValueGroup>
+                    <Value>#1</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#10</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#11</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#12</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#13</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#14</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#15</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#16</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#17</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#18</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#19</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#2</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#20</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#21</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#22</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#23</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#24</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#25</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#26</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#27</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#28</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#29</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#3</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#30</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#31</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#32</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#33</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#34</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#35</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#36</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#37</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#38</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#39</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#4</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#40</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#41</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#42</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#43</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#44</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#45</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#46</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#47</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#48</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#49</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#5</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#50</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#51</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#52</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#53</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#54</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#55</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#56</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#57</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#58</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#59</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#6</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#60</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#61</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#62</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#63</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#64</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#65</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#66</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#67</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#68</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#69</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#7</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#70</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#71</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#72</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#73</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#74</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#75</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#76</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#77</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#78</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#79</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#8</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#80</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>#9</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.734 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>0.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-11/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-13/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-15/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-17/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-19/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-21/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-5/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-5/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-57/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-7/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-7/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1-9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/3 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>10 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>10-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>11 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>11/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>11/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>11/6 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>11/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>12 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>13/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>13/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>13/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>14 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>14-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>15 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>15-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>15/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>15/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>15/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>16-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>16-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>17 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>17/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>17/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>18 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>19/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>19/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-11/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-5/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-5/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2-9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>2.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>20 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>20-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>21/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>21/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>23/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>23/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>24-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>25/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>25/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>27/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>27/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>29/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>29/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3-9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>31/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>31/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>33/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>35/6 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>35/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>37/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>39/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-1/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4-6 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>4.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>41/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>43/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>45/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5-1/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5-3/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>5/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>6.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7-1/2 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/64 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>7/8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>8.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9-3/4 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.1 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.2 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.3 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.4 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.5 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.6 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.7 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.8 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9.9 mm</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/16 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/32 in</Value>
+                </ValueGroup>
+                <ValueGroup>
+                    <Value>9/64 in</Value>
+                </ValueGroup>
+            </ValueFilter>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
