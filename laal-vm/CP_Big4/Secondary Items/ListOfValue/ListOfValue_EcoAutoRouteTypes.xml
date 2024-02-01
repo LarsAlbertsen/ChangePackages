@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="EcoAutoRouteTypes" ParentID="EcoLOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Eco Auto Route Types</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Energy Efficient - CFLs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* A/C</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Air Purifier</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Clothes Washers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Compact Refrigerator</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Dishwashers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Elec Heat Pump</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Freezers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Appliances - Refrigerators</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Battery Chargers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* CFLs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Ceiling Fans</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Dehumidifiers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Dimmers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Home Sealing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Insulation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* LED Holiday Lights</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* LEDs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Lighting</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Patio Doors</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Radiant Barriers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Roofing</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Shingles</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Tankless Water Heaters</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Water Dispensers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - E* Windows</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - LED Bulbs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Efficient - LED Holiday Lights</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Water Conservation - WaterSense Labeled Aerators</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Water Conservation - WaterSense Labeled Faucets</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Water Conservation - WaterSense Labeled Irrigation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Water Conservation - WaterSense Labeled Showerheads</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Water Conservation - WaterSense Labeled Toilets</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

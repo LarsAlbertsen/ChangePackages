@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="workflowmapping" ParentID="datareference" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Workflow Mapping</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="Approved Offline">
+                <Value>APPROVEDOFFLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Approved Online">
+                <Value>APPROVEDONLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Configurable QC">
+                <Value>Configurable_QC</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAX Copy">
+                <Value>DAXCOPY</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAX Images">
+                <Value>DAXIMAGES</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAX Inline Assets">
+                <Value>DAXINLINEASSETS</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAX Video">
+                <Value>DAXVIDEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFM Assortment Review">
+                <Value>DFMASSORTREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Data Quality Hazmat">
+                <Value>DQHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="Data Quality Specs and Images">
+                <Value>DQSPECANDIMAGES</Value>
+            </ValueGroup>
+            <ValueGroup ID="Data Quality Supply Chain">
+                <Value>DQSUPPLYCHAIN</Value>
+            </ValueGroup>
+            <ValueGroup ID="Dotcom Discontinue Review">
+                <Value>DOTCOMDISCONTINUEREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Dotcom">
+                <Value>DOTCOM</Value>
+            </ValueGroup>
+            <ValueGroup ID="Dotcom Review">
+                <Value>DOTCOMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQ">
+                <Value>EDQ</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQ Review">
+                <Value>EDQREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Eco Options">
+                <Value>ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="Enrich All">
+                <Value>ENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hazmat Fully Regulated">
+                <Value>HAZFULLYREG</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hazmat">
+                <Value>Hazmat</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hazmat Maintenance">
+                <Value>APREVIEWMAINT</Value>
+            </ValueGroup>
+            <ValueGroup ID="Internal Maintenance">
+                <Value>INTERNALMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Item Review">
+                <Value>ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Logistics In Review">
+                <Value>LOGISTICS_INREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Maintenance">
+                <Value>MAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Maintenance: Error in Approval">
+                <Value>MAINTERRORONAPPROVAL</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM">
+                <Value>MIOREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM Initiate">
+                <Value>PLMINITIATE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW">
+                <Value>SOYOW</Value>
+            </ValueGroup>
+            <ValueGroup ID="SSKU Enrich">
+                <Value>SSKUENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="Seeded Items">
+                <Value>seeded_items</Value>
+            </ValueGroup>
+            <ValueGroup ID="Special Order">
+                <Value>SPECIALORDER</Value>
+            </ValueGroup>
+            <ValueGroup ID="Store">
+                <Value>STORE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Store Obsolete Review">
+                <Value>STOREOBSOLETEREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Super SKU Item Review">
+                <Value>SSKUITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Super SKU Item Validate">
+                <Value>SSKUITEMVALIDATE</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Content Review">
+                <Value>DAXVENDORREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Copy Item">
+                <Value>VENDORCOPYITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Copy Review">
+                <Value>VENDORCOPYREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Discontinued">
+                <Value>VENDORDISCONTINUED</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Enrich Supply Chain">
+                <Value>SUPPLYCHAINENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vendor Maintenance Supply Chain">
+                <Value>SUPPLYCHAINMAINT</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

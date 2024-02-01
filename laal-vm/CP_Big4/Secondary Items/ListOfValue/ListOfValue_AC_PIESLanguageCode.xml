@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESLanguageCode" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Language Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="DE">
+                <Value>German</Value>
+            </ValueGroup>
+            <ValueGroup ID="EN">
+                <Value>German</Value>
+            </ValueGroup>
+            <ValueGroup ID="ES">
+                <Value>Spanish</Value>
+            </ValueGroup>
+            <ValueGroup ID="FR">
+                <Value>French</Value>
+            </ValueGroup>
+            <ValueGroup ID="IT">
+                <Value>Italian</Value>
+            </ValueGroup>
+            <ValueGroup ID="JA">
+                <Value>Japanese</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

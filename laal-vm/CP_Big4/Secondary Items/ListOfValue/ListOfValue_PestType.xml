@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PestType" ParentID="obsoltedLOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">PestType - obsolete</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Aphid</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Bedbug and Dust Mite</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Beetle</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Black Ant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Carpenter Bee</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Caterpillar</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Chinch Bug</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Cicada</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Citrus Fruit and Orchard</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Coyote</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Deer</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Earwigs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Fire Ant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Flea</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Fly</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Flying Insects</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Frog</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Fruit Fly and Gnat</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Grub Worm</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Home Insect</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Houseplant Insect</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Iguana and Lizard</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Lawn and Garden</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Mosquito</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Moth</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Roach</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Rose and Flower</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Scorpion</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Slug and Snail</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Snake</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Spider</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Termite and Carpenter Ant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Tick</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Wasp and Hornet</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Worms</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Yellow Jacket</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

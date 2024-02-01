@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="523517d7-0e1c-45d6-b036-c8cf213756a9" ParentID="datareference" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Channel Status Definitions</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="200" InputMask=""></Validation>
+            <ValueGroup ID="DOTCOM_CERTIFIED">
+                <Value>Item has completed all required workflows for publication and production online.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DISCONTINUED">
+                <Value>Item has been discontinued by vendor, but will still have details published online until sold out.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_ININITIATE">
+                <Value>Item has been nelwly initiated or added to the DOTCOM channel.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INMAINTENANCE">
+                <Value>Production item has been edited or pushed into revision.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_OBSOLETE">
+                <Value>Item was removed from production and publication.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_PENDING">
+                <Value>Item is currently in enrichment, and pending publication/ production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_REJECTED">
+                <Value>Item was rejected by DCA/WMM after it was during the initiate process and pushed out of workflows.</Value>
+            </ValueGroup>
+            <ValueGroup ID="NOT_CERTIFIED">
+                <Value>Seeded item which was not put into any channel.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_CERTIFIED">
+                <Value>Item has completed all required workflows for production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_ININITIATE">
+                <Value>Item has been nelwly initiated or added to the SOYOW channel.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INMAINTENANCE">
+                <Value>Production item has been edited or pushed into revision.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_OBSOLETE">
+                <Value>Item was removed from production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_PENDING">
+                <Value>Item is currently in enrichment, and pending production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_CERTIFIED">
+                <Value>Item has completed all required workflows for production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_ININITIATE">
+                <Value>Item has been nelwly initiated or added to the SPECIALORDER channel.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INMAINTENANCE">
+                <Value>Production item has been edited or pushed into revision.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_OBSOLETE">
+                <Value>Item was removed from production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_PENDING">
+                <Value>Item is currently in enrichment, and pending production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_REJECTED">
+                <Value>Item was rejected by DCA/WMM after it was during the initiate process and pushed out of workflows.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_CERTIFIED">
+                <Value>Item has completed all required workflows for production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_ININITIATE">
+                <Value>Item has been nelwly initiated or added to the STORE channel.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INMAINTENANCE">
+                <Value>Production item has been edited or pushed into revision.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_OBSOLETE">
+                <Value>Item was removed from production and publication.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_PENDING">
+                <Value>Item is currently in enrichment, and pending production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_REJECTED">
+                <Value>Item was rejected by DCA/WMM after it was during the initiate process and pushed out of workflows.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_CERTIFIED">
+                <Value>Item has completed all required workflows for production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_ININITIATE">
+                <Value>SuperSKU object has been newly initiated.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_INMAINTENANCE">
+                <Value>Production item has been edited or pushed into revision.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_OBSOLETE">
+                <Value>Item was removed from production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_PENDING">
+                <Value>SuperSKU was rejected by DCA/WMM after it was during the initiate process and pushed out of workflows.</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

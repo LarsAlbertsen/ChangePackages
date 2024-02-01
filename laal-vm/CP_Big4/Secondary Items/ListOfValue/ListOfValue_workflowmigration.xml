@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="workflowmigration" ParentID="datareference" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Workflow Migration</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="200" InputMask=""></Validation>
+            <ValueGroup ID="DATAQUALITY">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYDCR">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYDCRERROR">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYERROR">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYHAZ">
+                <Value>DQHAZMAT DATAQUALITYHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYHAZERROR">
+                <Value>DQHAZMAT DATAQUALITYHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYMTC">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSC">
+                <Value>DQSUPPLYCHAIN DATAQUALITYSC</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSCERROR">
+                <Value>DQSUPPLYCHAIN DATAQUALITYSC</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSO">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSOERROR">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITY_INREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITY_REVIEWCOMPLETE">
+                <Value>DQSPECANDIMAGES DATAQUALITYSI</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXCOPY">
+                <Value>DAXCOPY DAX_COPY</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXCOPYERROR">
+                <Value>DAXCOPY DAX_COPY</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXIMAGE">
+                <Value>DAXIMAGES DAX_IMAGES</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXIMAGEERROR">
+                <Value>DAXIMAGES DAX_IMAGES</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXINLINE">
+                <Value>DAXINLINEASSETS DAX_INLINEASSETS</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXINLINEERROR">
+                <Value>DAXINLINEASSETS DAX_INLINEASSETS</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXREVIEW">
+                <Value>VENDORCOPYREVIEW VENDOR_COPY_REVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXREVIEWERROR">
+                <Value>VENDORCOPYREVIEW VENDOR_COPY_REVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVENDORREVIEW">
+                <Value>DAXVENDORREVIEW DAX_VENDOR_REVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVENDORREVIEWERROR">
+                <Value>DAXVENDORREVIEW DAX_VENDOR_REVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVIDEO">
+                <Value>DAXVIDEO DAX_VIDEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVIDEOERROR">
+                <Value>DAXVIDEO DAX_VIDEO</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFMHAZFULLYREG">
+                <Value>DOTCOM DFMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFMHAZFULLYREGERROR">
+                <Value>DOTCOM DFMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMREVIEW">
+                <Value>DOTCOMREVIEW DOTCOMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APHAZMATREVIEW">
+                <Value>Hazmat APREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPROVEDOFFLINE">
+                <Value>APPROVEDOFFLINE REGAPPROVEDOFFLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPROVEDONLINE">
+                <Value>APPROVEDONLINE REGAPPROVEDONLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHANNELMGT">
+                <Value>DOTCOM CHANNELMGT</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGAPPROVEDOFFLINE">
+                <Value>APPROVEDOFFLINE CONFIGAPPROVEDOFFLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGAPPROVEDONLINE">
+                <Value>APPROVEDONLINE CONFIGAPPROVEDONLINE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGENRICH">
+                <Value>ENRICH Configurable_Enrich</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGENRICHERROR">
+                <Value>ENRICH Configurable_Enrich</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINITITEM">
+                <Value>ENRICH Configurable_Enrich</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINITITEMERROR">
+                <Value>ENRICH Configurable_Enrich</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGMAINT">
+                <Value>MAINTENANCE CONFIGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGMAINTERROR">
+                <Value>MAINTENANCE CONFIGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGQCSTEP">
+                <Value>Configurable_QC QC_Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGQCSTEPERROR">
+                <Value>Configurable_QC QC_Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMASSORTREV">
+                <Value>DFMASSORTREVIEW DFMASSORTREV</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMREVIEW">
+                <Value>DOTCOM DFMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMREVIEWERROR">
+                <Value>DOTCOM DFMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_EDQENRICH">
+                <Value>ENRICH ENRICHWAIT</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_HAZMATLOCK">
+                <Value>DOTCOM WAITSUPPLYCHAIN true</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITEXISTING">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITITEM">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITITEMERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_LOGISTICS">
+                <Value>DOTCOM WAITSUPPLYCHAIN true</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_LOGISTICSERROR">
+                <Value>DOTCOM WAITSUPPLYCHAIN true</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MAPPSERR">
+                <Value>MAINTERRORONAPPROVAL MAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MNTVENCH">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MNTVENCHERROR">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MTHDAPPR">
+                <Value>TBD</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVENDCHG">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVENDCHGERROR">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1">
+                <Value>DOTCOM QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1ERROR">
+                <Value>DOTCOM QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENHAZMAT">
+                <Value>Hazmat VENDORHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENRITEM">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENRITEMERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITSKU">
+                <Value>DOTCOM WAIT4THDSKU</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITVEND">
+                <Value>DOTCOM WAITFORVENDORTEST</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITVENDERROR">
+                <Value>DOTCOM WAITFORVENDORTEST</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_YOWSTEP">
+                <Value>DOTCOM WAITSUPPLYCHAIN true</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_YOWSTEPERROR">
+                <Value>DOTCOM WAITSUPPLYCHAIN true</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONS">
+                <Value>ECOOPTIONS ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSERROR">
+                <Value>ECOOPTIONS ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSFEEDBACK">
+                <Value>ECOOPTIONS ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSFEEDBACKERROR">
+                <Value>ECOOPTIONS ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQ">
+                <Value>EDQ EDQ_RESPONSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQMAINT">
+                <Value>EDQ EDQ_RESPONSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQRESPONSE">
+                <Value>EDQ EDQ_RESPONSE</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQREVIEW">
+                <Value>EDQREVIEW EDQ_REVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZFULLYREG">
+                <Value>HAZFULLYREG HAZFULLYREG</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZFULLYREGERROR">
+                <Value>HAZFULLYREG HAZFULLYREG</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZMAINT">
+                <Value>APREVIEWMAINT STARTAPREVIEWMAINT</Value>
+            </ValueGroup>
+            <ValueGroup ID="ITEMDUPINIT">
+                <Value>VENDORCOPYITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="LOGISTICS_INREVIEW">
+                <Value>LOGISTICS_INREVIEW LOGISTICS_INREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOMAINTREVIEW">
+                <Value>MIOREVIEW MIOMAINT</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOREVIEW">
+                <Value>MIOREVIEW MIO</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOREVIEWERROR">
+                <Value>MIOREVIEW MIO</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMINITITEM">
+                <Value>PLMINITIATE PLMINITITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMINITITEMERROR">
+                <Value>PLMINITIATE PLMINITITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="RTP_SERVICE">
+                <Value>RTP_SERVICE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SKUSETUP_SERVICE">
+                <Value>SKUSETUP_SERVICE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_APHAZMATREVIEW">
+                <Value>Hazmat APREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_CHANNELMGT">
+                <Value>SOYOW SOYOWCHANNELMGT</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_EDQENRICHSOYOW_EDQENRICH">
+                <Value>ENRICH ENRICHWAIT</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_HAZMATLOCK">
+                <Value>SOYOW SOYOWYOWENRICH true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INITEXISTING">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INITEXISTINGERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_MERCHREVIEW">
+                <Value>SOYOW STARTSOYOW true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_MERCHREVIEWERROR">
+                <Value>SOYOW STARTSOYOW true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_QCSTEP1">
+                <Value>SOYOW STARTSOYOW true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_QCSTEP1ERROR">
+                <Value>SOYOW STARTSOYOW true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VENHAZMAT">
+                <Value>Hazmat VENDORHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VINITENRICH">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VINITENRICHERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VMAINTITEM">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VMAINTITEMERROR">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWENRICH">
+                <Value>SOYOW SOYOWYOWENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWENRICHERROR">
+                <Value>SOYOW SOYOWYOWENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_APHAZMATREVIEW">
+                <Value>Hazmat APREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_EDQENRICH">
+                <Value>ENRICH ENRICHWAIT</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_HAZMATLOCK">
+                <Value>SPECIALORDER QCSTEP true</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INITEXISTING">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INITEXISTINGERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_QCSTEP1">
+                <Value>SPECIALORDER QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_QCSTEP1ERROR">
+                <Value>SPECIALORDER QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VENHAZMAT">
+                <Value>Hazmat VENDORHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VINITENRICH">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VINITENRICHERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VMAINTITEM">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VMAINTITEMERROR">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SSKUITEMVALIDATERR">
+                <Value>SSKUITEMVALIDATE</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_APHAZMATREVIEW">
+                <Value>Hazmat APREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_EDQENRICH">
+                <Value>ENRICH ENRICHWAIT</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMATLOCK">
+                <Value>STORE QCSTEP true</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INITEXISTING">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INITEXISTINGERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INREVIEW">
+                <Value>ITEMREVIEW ITEMREVIEW</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_QCSTEP1">
+                <Value>STORE QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_QCSTEP1ERROR">
+                <Value>STORE QCSTEP</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENHAZMAT">
+                <Value>Hazmat VENDORHAZMAT</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENINITENRICH">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENINITENRICHERROR">
+                <Value>ENRICH STARTENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENMAINTENRICH">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENMAINTENRICHERROR">
+                <Value>MAINTENANCE REGMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_ENRICH">
+                <Value>SSKUENRICH ENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_ENRICHERROR">
+                <Value>SSKUENRICH ENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_INITITEMERROR">
+                <Value>SSKUENRICH ENRICH</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_MAINTAIN">
+                <Value>MAINTENANCE SSKUMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_MAINTAINERROR">
+                <Value>MAINTENANCE SSKUMAINTENANCE</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS">
+                <Value>WERCS</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="OMRIListedAssetTypes" ParentID="EcoLOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">OMRI Listed Asset Types</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Healthy Home - NOP/OMRI Listed Fertilizers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - NOP/OMRI Listed Pesticides</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - NOP/OMRI Listed Plant Food</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - NOP/OMRI Listed Soils</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - OMRI Listed Fertilizers</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - OMRI Listed Pesticides</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - OMRI Listed Plant Food</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Healthy Home - OMRI Listed Soils</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESDimensionCodes" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">PIES Dimension Codes</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>BX</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CA</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CM</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EA</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IN</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PK</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PL</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_ACESImportHandlingUPDATE" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">ACES Import Handling UPDATE</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <ValueGroup ID="PARTIAL">
+                <Value>Partial Replacement: 
+      Evaluate the combinations of Brand, Part Terminology, and Base Vehicle of each record provided in the file. 
+      For each combination found, replace all records in the database with those in the input file.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STANDARD">
+                <Value>Standard Update: 
+      Delete records with action="D" 
+      Add records with action="A"</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_ACESImportHandlingFULL" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">ACES Import Handling FULL</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <ValueGroup ID="BRAND">
+                <Value>Brand: 
+      Replacement of application records is within the brand. 
+      All applications for all brands in the input file are replaced, regardless of part terminology.</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRAND_PART_NUMBER">
+                <Value>Brand + Part Number: 
+      Replacement of application records is within the brand and part number. 
+      All applications for a particular brand are replaced for all part numbers that are in the input file. 
+      Applications for part numbers that are NOT in the input file are left untouched.</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRAND_PART_TERMINOLOGY">
+                <Value>Brand + Part Terminology: 
+      Replacement of application records is within the brand and part terminology. 
+      All applications for a particular brand are replaced for all part terminologies that are present in the input file. 
+      Applications for part terminologies NOT in the input file are left untouched.</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

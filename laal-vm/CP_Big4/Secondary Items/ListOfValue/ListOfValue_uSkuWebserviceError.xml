@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="uSkuWebserviceError" ParentID="mappedLovs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Mapped Unique SKU Webservice Error</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="400" InputMask=""></Validation>
+            <ValueGroup ID="1">
+                <Value>Provided mvndrNbr is not a SO mvndr type</Value>
+            </ValueGroup>
+            <ValueGroup ID="10">
+                <Value>HTTP error while calling SkuSetup service</Value>
+            </ValueGroup>
+            <ValueGroup ID="11">
+                <Value>Error reading web service response</Value>
+            </ValueGroup>
+            <ValueGroup ID="12">
+                <Value>Error parsing input XML provided by client / Illegal hex characters in escape</Value>
+            </ValueGroup>
+            <ValueGroup ID="13">
+                <Value>Service rejected transaction/SKU and Vendor Dept not matching/UPC already attached to a SKU/Unexpected DB error/Batch jobs running/Duplicate insert on SKU table/Deadlock on SKU table/Connection pool timeout</Value>
+            </ValueGroup>
+            <ValueGroup ID="14">
+                <Value>URL for SkuSetup webservice not set properly</Value>
+            </ValueGroup>
+            <ValueGroup ID="15">
+                <Value>mVndrNumber is required to create HD.com shell sku</Value>
+            </ValueGroup>
+            <ValueGroup ID="16">
+                <Value>Unknown action code</Value>
+            </ValueGroup>
+            <ValueGroup ID="17">
+                <Value>Input data error / Invalid parameter</Value>
+            </ValueGroup>
+            <ValueGroup ID="18">
+                <Value>Error creating output JSON</Value>
+            </ValueGroup>
+            <ValueGroup ID="19">
+                <Value>Error verifying that sku exists</Value>
+            </ValueGroup>
+            <ValueGroup ID="2">
+                <Value>Special Order MVndr not found</Value>
+            </ValueGroup>
+            <ValueGroup ID="20">
+                <Value>gtin_gln table row not found for sku desc</Value>
+            </ValueGroup>
+            <ValueGroup ID="21">
+                <Value>Error retrieving sku desc from upc_sku/sku tables</Value>
+            </ValueGroup>
+            <ValueGroup ID="22">
+                <Value>Error retrieving sku desc from gtin/gln tables</Value>
+            </ValueGroup>
+            <ValueGroup ID="23">
+                <Value>Error loading properties file</Value>
+            </ValueGroup>
+            <ValueGroup ID="24">
+                <Value>Error retrieving config data from ssys_parm table</Value>
+            </ValueGroup>
+            <ValueGroup ID="25">
+                <Value>Error deleting row from sku_rsvn table</Value>
+            </ValueGroup>
+            <ValueGroup ID="26">
+                <Value>Error retrieving property</Value>
+            </ValueGroup>
+            <ValueGroup ID="3">
+                <Value>HD.com MVndr not found</Value>
+            </ValueGroup>
+            <ValueGroup ID="30">
+                <Value>Error retrieving pre-shell SKU for HD.com request / There are no SKUs available in available SKU table</Value>
+            </ValueGroup>
+            <ValueGroup ID="34">
+                <Value>Exactly 1 row should exist in upc_sku for upc reassignment task</Value>
+            </ValueGroup>
+            <ValueGroup ID="35">
+                <Value>SkuNbr is required for upc reassignment request</Value>
+            </ValueGroup>
+            <ValueGroup ID="4">
+                <Value>Error retrieving mvndr data for HD.COM sku</Value>
+            </ValueGroup>
+            <ValueGroup ID="5">
+                <Value>Error retrieving mvndr data for SO sku</Value>
+            </ValueGroup>
+            <ValueGroup ID="6">
+                <Value>Org Data or upc_cd not found</Value>
+            </ValueGroup>
+            <ValueGroup ID="7">
+                <Value>Error retrieving org/upc data</Value>
+            </ValueGroup>
+            <ValueGroup ID="8">
+                <Value>Error calling SkuSetup web service for skuNbr / Connection reset</Value>
+            </ValueGroup>
+            <ValueGroup ID="9">
+                <Value>Error creating XML prior to calling SkuSetup web service</Value>
+            </ValueGroup>
+            <ValueGroup ID="ERROR">
+                <Value>Server returned HTTP response code: 500 / Connection reset / Invalid Webservice URL</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

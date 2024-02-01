@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="022b06a3-7ecf-4783-87aa-66eceb975d10" ParentID="datareference" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Workflow State Definitions</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="200" InputMask=""></Validation>
+            <ValueGroup ID="BRANDREVIEW">
+                <Value>Parallel process to add Item Brand Name to the Proprietary List.</Value>
+            </ValueGroup>
+            <ValueGroup ID="BRANDREVIEWERROR">
+                <Value>Item rejected back to Brand Review team after failing automatic BRANDREVIEW validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITY">
+                <Value>Item was pushed to the Vendor by automation because content did not meet Home Depot Guidelines.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYDCR">
+                <Value>Item has been revised by the vendor and is now pending review by the DCC.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYDCRERROR">
+                <Value>Item rejected back to the DC with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYHAZ">
+                <Value>Item was pushed to the Vendor because it was found to have incorrect or incomplete HAZMAT Data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYHAZERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYMTC">
+                <Value>Item was pushed back to vendor for Material Composition upddates</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYQM">
+                <Value>Item was pushed back to the Vendor for Quarterly Maintenance (Category Revision Maintenance)</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYQMERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSC">
+                <Value>Item was pushed back to the Vendor because errors were found in the Supply Chain Data</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSCERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSO">
+                <Value>Item was pushed to the Vendor for review of Special Order/ eCatalog Data</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYSOERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYVOC">
+                <Value>Item was pushed to the Vendor because it was found to require VOC Data (Volatile Organic Components)</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITYVOCERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITY_INREVIEW">
+                <Value>Item has been revised by the vendor and is now pending review by Data Quality.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DATAQUALITY_REVIEWCOMPLETE">
+                <Value>Item was rejected back to Data Quality with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXCOPY">
+                <Value>Item's marketing copy is under review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXCOPYERROR">
+                <Value>Item's marketing copy is under review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXIMAGE">
+                <Value>Item's images are under review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXIMAGEERROR">
+                <Value>Item's images are under review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXINLINE">
+                <Value>Item's inline assets are under review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXINLINEERROR">
+                <Value>Item's inline assets are under review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXREVIEW">
+                <Value>Item is being reviewed internally by Digital Content for DAX</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXREVIEWERROR">
+                <Value>Item is being reviewed internally by Digital Content for DAX</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVENDORREVIEW">
+                <Value>Item is being reviewed by the vendor for DAX updates</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVENDORREVIEWERROR">
+                <Value>Item is being reviewed by the vendor for DAX updates</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVIDEO">
+                <Value>Item's videos are under review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DAXVIDEOERROR">
+                <Value>Item's videos are under review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DCRECOLLECT">
+                <Value>Rejected by Distribution Center, Supply Chain attributes were found to be inaccurate.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DCRECOLLECTERROR">
+                <Value>DCRECOLLECT item failed automatic validation and was pushed back to the vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFMHAZFULLYREG">
+                <Value>Item being reviewed by DFM for fully regulated</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFMHAZFULLYREGERROR">
+                <Value>Item being reviewed by DFM for fully regulated</Value>
+            </ValueGroup>
+            <ValueGroup ID="DFREVIEW">
+                <Value>OBSOLETE - Item reviewed for DQ QM for DF updates</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMCONFIGPRODUCTION">
+                <Value>Configurable Item has completed all required enrichment and is active online in its current state.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMCONFIGPRODUCTIONERROR">
+                <Value>Attempt was made to update Production Configurable Item, but changes were rejected by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMINPRODUCTION">
+                <Value>Item has completed all required enrichment and is active online in its current state.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMINPRODUCTIONERROR">
+                <Value>Attempt was made to update Production item, but changes were rejected by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMNOTINPRODUCTION">
+                <Value>Denotes an item which has been setup and collected for Special Order, but removed from online.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOMREVIEW">
+                <Value>Item undergoing secondary Quality Control review after revisions/ enrichment by DCC.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_ACPTCLFY">
+                <Value>OBSOLETE - Item reviewed by merchant to determine if item should be sold at THD</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_ACPTCLFY_ERROR">
+                <Value>OBSOLETE - Item reviewed by merchant to determine if item should be sold at THD</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_AFTERHAZMAT">
+                <Value>ERROR: This is a transitional workflow state between HAZMAT and Approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_AFTERLOGISTICS">
+                <Value>ERROR: This is a transitional workflow state between Logistics and Approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_AFTERYOW">
+                <Value>ERROR: This is a transitional workflow state between YOW and Approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APHAZMATREVIEW">
+                <Value>Item was flagged HAZMAT by automation; Asset Protection will review and confirm as required.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPITEM">
+                <Value>Internal dotcom approval</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPITEMERROR">
+                <Value>Internal dotcom approval</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPROVEDOFFLINE">
+                <Value>A change was applied to the item, usually by the vendor, which failed DOTCOM Validation or otherwise removed the item from homedepot.com</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_APPROVEDONLINE">
+                <Value>A change was applied to the item, usually by the vendor, which failed DOTCOM Validation but is still available on homedepot.com</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHANNELMGT">
+                <Value>Shipping Channel Management. Item is pending determination between YOW and other shipping resources.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHKAPPAT">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHKCOMAT">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHKTSTVD">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CHKVENOL">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGAPPROVEDOFFLINE">
+                <Value>A change was applied to a Configurable Item, usually by the vendor, which failed DOTCOM Validation or otherwise removed the item from homedepot.com</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGAPPROVEDONLINE">
+                <Value>A change was applied to a Configurable Item, usually by unique SKU service, which failed DOTCOM Validation but it will not remove item from homedepot.com</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGENRICH">
+                <Value>Once approved, Vendor may enrich the Initiated Configurable Item.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGENRICHERROR">
+                <Value>Configurable Item Rejected back Vendor with errors from automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINITITEM">
+                <Value>Very Rare: Configurable Item partially seeded by vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINITITEMERROR">
+                <Value>Configurable Item rejected back to the Vendor after failing automatic validation for DOTCOM_CONFIGINITITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGINREVIEW">
+                <Value>Configurable Item has been revised by the vendor and is now pending review by Quality Control team.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGMAINT">
+                <Value>Configurable Item has been pushed back to the Vendor for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGMAINTERROR">
+                <Value>Configurable Item Rejected back Vendor with errors from automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGOK2APPROVE">
+                <Value>This is a transitional workflow state for Configurable Item approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGQCSTEP">
+                <Value>Configurable Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_CONFIGQCSTEPERROR">
+                <Value>Configurable Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMASSORTREV">
+                <Value>Item has been highlighted for Assortment Review by the DFM (Does not impact other IDM Workflows)</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMREVIEW">
+                <Value>Item pending final approval from Direct Fulfillment Merchant (DFM)</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DFMREVIEWERROR">
+                <Value>Item rejected back to the DFM after failing automatic validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_DISCONTINUEREVIEW">
+                <Value>Vendor has marked item to be discontinued, Digital Content must review to see if there is remaining inventory which must be sold before the item is taken fully offline.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_EDQENRICH">
+                <Value>Item should not remain in this state. Pass through state to DOTCOM_VENRITEM submit.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_FINALREVIEW">
+                <Value>ERROR: Transitional workflow state used for final checks before item is moved to INPRODUCTION. Items should not STOP in this workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_HAZMATLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping Hazmat Team enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_HAZMENRH">
+                <Value>Item pending enrichment/ validation by Hazmat Team for required information.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_HAZMENRHERROR">
+                <Value>Item rejected back to Hazmat team after failing automatic HAZMENRH validation</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_HLOCK">
+                <Value>Item is being locked for Hazmat completion</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITEXISTING">
+                <Value>Item seeded by IDM for Vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITITEM">
+                <Value>Very Rare: Item partially seeded by vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INITITEMERROR">
+                <Value>Item rejected back to the Vendor after failing automatic validation for DOTCOM_INITITEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INREVIEW">
+                <Value>Item has been revised by the vendor and is now pending review by Data Quality.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_INVENCHK">
+                <Value>OBSOLETE - YOW Inventory review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_LLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping Logistics Review/ Enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_LOGISTICS">
+                <Value>Logistics (Shipping/Delivery/Etc.) details required for items shipped to customer from THD</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_LOGISTICSERROR">
+                <Value>Item rejected back to Logistics team after failing automatic validation for DOTCOM_LOGISTICS</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MAINTENANCE_APPROVE">
+                <Value>ERROR: Approval stage for items submitted from Maintenance. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MAPPSERR">
+                <Value>Error in Approval, after final DFM approval. Item is somehow incomplete/ invalid.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MNTVENCH">
+                <Value>Item has been pushed back to the Vendor for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MNTVENCHERROR">
+                <Value>Rejected back to the Vendor with errors from automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MTHDAPPR">
+                <Value>Items approved by automation are sent to Digital Content for a final review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVENDCHG">
+                <Value>Vendor made changes to attributes which affect DOTCOM in another workflow and item pushed to review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVENDCHGERROR">
+                <Value>Rejected back to DCC with errors from automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVPRAPPB">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_MVSTEPAP">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_OK2APPROVE">
+                <Value>ERROR: This is a transitional workflow state for DOTCOM approval. Items should not STOP here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1ERROR">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1RMC">
+                <Value>OBSOLETE - Vendaria marketing copy review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP1RMCERROR">
+                <Value>OBSOLETE - Vendaria marketing copy review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_QCSTEP2">
+                <Value>OBSOLETE - 2nd data quality check for onboarding</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_RMCHOLD">
+                <Value>OBSOLETE - Vendaria marketing copy review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_THDENRBR">
+                <Value>OBSOLETE - Dotcom enrich browse</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_THDENRBR_ERROR">
+                <Value>OBSOLETE - Dotcom enrich browse</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_THDENRCH">
+                <Value>OBSOLETE - Dotcom enrich ecom</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_THDENRCH_ERROR">
+                <Value>OBSOLETE - Dotcom enrich ecom</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_THD_ENRICH_CHECK">
+                <Value>OBSOLETE - Dotcom enrich browse</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VCMSTEP1">
+                <Value>OBSOLETE - vendor compliance review</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENHAZMAT">
+                <Value>Vendor must provide HAZMAT data for this item based on its D/C/S or other content flag.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENRDISCONTINUE">
+                <Value>Vendor discontinued item, but THD still has inventory. Holding state until the item is fully sold out.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENRITEM">
+                <Value>Once approved, Vendor my enrich the Initiated item.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_VENRITEMERROR">
+                <Value>Rejected back to the Vendor with errors from automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITSKU">
+                <Value>Item has completed IDM Enrichment but still needs its SKU added into Base Tables to complete.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITVEND">
+                <Value>Item has completed IDM Enrichment but the Vendor's ID number is not yet active in Base Tables.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_WAITVENDERROR">
+                <Value>Item was rejected back to DFM because Vendor Number is not correct on the item.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_YLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping YOW Review/ Enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_YOWSTEP">
+                <Value>Online item to be distributed by YOW (Your Other Warehouse), pending their product/ shipping data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="DOTCOM_YOWSTEPERROR">
+                <Value>Item rejected back to YOW by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONS">
+                <Value>Item specified as ECO Options Item by the vendor, pending review by ECO Options Team</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSERROR">
+                <Value>Item rejected back to the Vendor after failing automatic validation for ECOOPTIONS</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSFEEDBACK">
+                <Value>Item pushed back to the Vendor for feedback by the Eco Options Team requiring additional information.</Value>
+            </ValueGroup>
+            <ValueGroup ID="ECOOPTIONSFEEDBACKERROR">
+                <Value>Item rejected back to the Vendor after failing automatic validation for ECOOPTIONSFEEDBACK</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQ">
+                <Value>Item sent to Enterprise Data Quality (EDQ) for Onboarding</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQMAINT">
+                <Value>Item sent to Enterprise Data Quality (EDQ) for Maintenance</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQRESPONSE">
+                <Value>Item should not remain in this state. Handles EDQ response logic and corresponding routing of item.</Value>
+            </ValueGroup>
+            <ValueGroup ID="EDQREVIEW">
+                <Value>Item has entered Enterprise Data Quality (EDQ) Internal Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZFULLYREG">
+                <Value>Item is in a fully regulated vendor facing workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZFULLYREGERROR">
+                <Value>Item is in a fully regulated vendor facing workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="HAZMAINT">
+                <Value>Vendor has Changed HAZMAT Relevant Data (Any Change to HAZMAT Relevant Items) - Production Only. As a result the item has been kicked back to HAZMAT for maintenance/ review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="ISVENDOROBSOLETE">
+                <Value>check to see if vendor is obsolete</Value>
+            </ValueGroup>
+            <ValueGroup ID="ITEMDUPINIT">
+                <Value>Item Copy vendor workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="ITEMDUPLICATION">
+                <Value>UPC Copy duplicate</Value>
+            </ValueGroup>
+            <ValueGroup ID="MARKETINGRECOLLECT">
+                <Value>Obsolete - Virtucom recollect</Value>
+            </ValueGroup>
+            <ValueGroup ID="MARKETINGRECOLLECTDCR">
+                <Value>Obsolete - Virtucom recollect</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOMAINTREVIEW">
+                <Value>Item has already been certified by PLM as a valid import product., now in review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOREVIEW">
+                <Value>Item has already been certified by PLM as a valid import product., now in review.</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIOREVIEWERROR">
+                <Value>Item Came from PLM, but the Attribute set in PLM has changed. Or Vendor is not setup as PLM.</Value>
+            </ValueGroup>
+            <ValueGroup ID="NON_NORMAL_SKU">
+                <Value>RARE: Display or Brochure SKU that should not be in production/collection - Any Channel</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM">
+                <Value>OBSOLETE - PLM</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMERROR">
+                <Value>OBSOLETE - PLM</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMINITITEM">
+                <Value>Item seeded to IDM by PLM (Product Lifecycle Management)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMINITITEMERROR">
+                <Value>Item seeded to IDM by PLM (Product Lifecycle Management) and pushed back to them by automation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMINPRODUCTION">
+                <Value>OBSOLETE - PLM</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM_CUSTOMS_REVIEW">
+                <Value>OBSOLETE - PLM Customs Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM_CUSTOMS_REVIEWERROR">
+                <Value>OBSOLETE - PLM Customs Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM_REVIEW">
+                <Value>OBSOLETE - PLM</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLM_REVIEWERROR">
+                <Value>OBSOLETE - PLM</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_ACCESSORY">
+                <Value>Item enabled for Item Relationship: Accessory, an additional product to enhance this one.</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_ACCESSORYHIPRI">
+                <Value>Item enabled for Item Relationship: Accessory and escalated as a priority (usually appliances)</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_ACCY_REVIEW">
+                <Value>Item Relationship: Accessory submitted by the vendor and under review by the SCC</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_FAMILY">
+                <Value>Item enabled for Item Relationship: Product Family, a collection of items related by color or application.</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_FAMILY_REVIEW">
+                <Value>Item Relationship: Family submitted by the vendor and under review by the SCC</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_FAMILY_REVIEWERROR">
+                <Value>Item rejected back to the DCC after failing Automatic Validation (items in other relationship)</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_REQDITEM_REVIEW">
+                <Value>Item Relationship: Required Item submitted by the vendor and under review by the SCC</Value>
+            </ValueGroup>
+            <ValueGroup ID="REL_REQUIREDITEM">
+                <Value>Item enabled for Item Relationship: Required Item, needed for item operation and not included</Value>
+            </ValueGroup>
+            <ValueGroup ID="REVIEWMARKETINGCOPY">
+                <Value>DISUSED: Item pushed to Data Quality to review the Marketing Bullets for improvement/ revision. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="REVIEWMARKETINGCOPYDCR">
+                <Value>DISUSED: Item pushed to Digital Content to review the Marketing Bullets for improvement/ revision. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="REVIEWMARKETINGCOPYHIPRI">
+                <Value>DISUSED: Item pushed to Data Quality to review the Marketing Bullets with Escalation for rapid execution. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="REVIEWMARKETINGCOPYSO">
+                <Value>DISUSED: Item pushed to Data Quality to review the Marketing Bullets per Special Order Product Requirements. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="RTP_SERVICE">
+                <Value>Call RTP webservice</Value>
+            </ValueGroup>
+            <ValueGroup ID="SKUSETUP_SERVICE">
+                <Value>Call USKU webservice</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOWINPRODUCTION">
+                <Value>Item in production/ publication.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOWINPRODUCTIONERROR">
+                <Value>Attempt was made to update Production item, but changes were rejected by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_APHAZMATREVIEW">
+                <Value>Item was flagged HAZMAT by automation; Asset Protection will review and confirm as required.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_CHANNELMGT">
+                <Value>Shipping Channel Management. Item is pending determination between YOW and other shipping resources.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_DCREVIEW">
+                <Value>SOYOW Product is now pending review by DOTCOM (DCC) for channel integration.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_EDQENRICH">
+                <Value>Item should not remain in this state. Pass through state to SOYOW_VINITENRICH submit.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_ENRICHPENDING">
+                <Value>ERROR: Item is in review by Vendor and YOW at the same time. Item should bounce to one or the other or move on into production, not stop here. If it has stopped here, there is a problem.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_FINALREVIEW">
+                <Value>ERROR: Transitional workflow state used for final checks before item is moved to INPRODUCTION. Items should not STOP in this workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_HAZMAT">
+                <Value>DISUSED: Item HAZMAT Data is in review by the Hazmat Team and Pending Approval. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_HAZMATERROR">
+                <Value>DISUSED: Item HAZMAT Data is in review by the Hazmat Team and Pending Approval. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_HAZMATLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping Hazmat Team enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INITEXISTING">
+                <Value>Item has been seeded into IDM by YOW, Vendor is to complete the Initiate Process</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INITEXISTINGERROR">
+                <Value>Item has been seeded into IDM by YOW, Vendor is to complete the Initiate Process, but rejected back by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_INREVIEW">
+                <Value>Item has been revised by the vendor and is now pending review by Data Quality.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_MAINTPENDING">
+                <Value>ERROR: Item is in review by Vendor and YOW at the same time. Item should bounce to one or the other or move on into production, not stop here. If it has stopped here, there is a problem.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_MERCHREVIEW">
+                <Value>Item pending final approval from YOW Merchant</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_MERCHREVIEWERROR">
+                <Value>Item pending final approval from YOW Merchant</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_QCSTEP1">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_QCSTEP1ERROR">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_REVIEWCOMPLETE">
+                <Value>ERROR: Item has completed Maintenance Review, and should move forward. Item should not stop here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_SEED">
+                <Value>OBSOLETE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VENHAZMAT">
+                <Value>Vendor must provide HAZMAT data for this item based on its D/C/S or other content flag.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VINITENRICH">
+                <Value>After initiated by Vendor, item is pending product data (Enrichment) from the Vendor</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VINITENRICHERROR">
+                <Value>Item was pushed back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VMAINTITEM">
+                <Value>Item has been pushed back to the Vendor for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_VMAINTITEMERROR">
+                <Value>Item was pushed back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWENRICH">
+                <Value>After initiated by Vendor, item is pending product data (Enrichment) from YOW for Supply Chain Data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWENRICHERROR">
+                <Value>Item was pushed back to YOW with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWMAINTITEM">
+                <Value>Item has been pushed back to YOW for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SOYOW_YOWMAINTITEMERROR">
+                <Value>Item was pushed back to YOW with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDERINPRODUCTION">
+                <Value>Item in production/ publication.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDERINPRODUCTIONERROR">
+                <Value>Attempt was made to update Production item, but changes were rejected by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_APHAZMATREVIEW">
+                <Value>Item was flagged HAZMAT by automation; Asset Protection will review and confirm as required.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_APPROVE">
+                <Value>After initiated by the Vendor, DFM/DCC must approve or reject the item from IDM enrichment.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_DCREVIEW">
+                <Value>SPECIALORDER Product is now pending review by DOTCOM (DCC) for channel integration.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_EDQENRICH">
+                <Value>Item should not remain in this state. Pass through state to SPECIALORDER_VINITENRICH submit.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_ENRICHPENDING">
+                <Value>ERROR: Workflow is supposed to clear when item passes through WERCS. Item should not stop here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_FINALREVIEW">
+                <Value>ERROR: Transitional workflow state used for final checks before item is moved to INPRODUCTION. Items should not STOP in this workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_HAZMAT">
+                <Value>Item pending review, enrichment and approval by the Hazmat Team</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_HAZMATLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping Hazmat Team enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_HAZMATMAINTAIN">
+                <Value>Hazmat details under review or otherwise in review by the HAZMAT team.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_HAZMATMAINTAINERROR">
+                <Value>Item pushed back with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INITEXISTING">
+                <Value>Item seeded by IDM for Vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INITEXISTINGERROR">
+                <Value>Item rejected back to the vendor after failing automated validation</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INMAINTENANCE">
+                <Value>remove</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_INREVIEW">
+                <Value>Item has been revised by the vendor and is now pending review by Data Quality.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_QCSTEP1">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_QCSTEP1ERROR">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_REJECTED">
+                <Value>OBSOLETE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VENHAZMAT">
+                <Value>Vendor must provide HAZMAT data for this item based on its D/C/S or other content flag.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VINITENRICH">
+                <Value>Approved SO item pending enrichment (adding product data) by the Vendor.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VINITENRICHERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VMAINTITEM">
+                <Value>Item has been pushed back to the Vendor for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SPECIALORDER_VMAINTITEMERROR">
+                <Value>Item rejected back to the Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SSKUITEMVALIDATERR">
+                <Value>ERROR: Used by approval steps for SuperSKU, but items should exit immediately; not stop here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SSKUITEMVALIDATERRBYPASS">
+                <Value>Bypass Super SKU Validation Errors</Value>
+            </ValueGroup>
+            <ValueGroup ID="STOREINPRODUCTION">
+                <Value>Item in production/ publication.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STOREINPRODUCTIONDCR">
+                <Value>Item in production/ publication and currently in review by the DC for initial</Value>
+            </ValueGroup>
+            <ValueGroup ID="STOREINPRODUCTIONERROR">
+                <Value>Attempt was made to update Production item, but changes were rejected by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_APHAZMATREVIEW">
+                <Value>Item was flagged HAZMAT by automation; Asset Protection will review and confirm as required.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_APPROVE">
+                <Value>Supply Chain to approve Enriched (completed) item to move into production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_APPROVEERROR">
+                <Value>Item rejected back to Supply Chain with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_DUPLICATEREVIEW">
+                <Value>OBSOLETE - validate duplicate items for store onboarding</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_DUPLICATEREVIEWERROR">
+                <Value>OBSOLETE - validate duplicate items for store onboarding</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_EDQENRICH">
+                <Value>Item should not remain in this state. Pass through state to STORE_VENINITENRICH submit.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_FINALREVIEW">
+                <Value>ERROR: Transitional workflow state used for final checks before item is moved to INPRODUCTION. Items should not STOP in this workflow</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMAT">
+                <Value>OBSOLETE: Item HAZMAT Data is in review by the Hazmat Team and Pending Approval. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMATERROR">
+                <Value>OBSOLETE: Item HAZMAT Data is in review by the Hazmat Team and Pending Approval. To be removed by configuration team when resources are available.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMATLOCK">
+                <Value>ERROR: Race condition triggered, item locked to prevent skipping Hazmat Team enrich. Items should not stop in this workflow.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMATMAINTAIN">
+                <Value>OBSOLETE</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_HAZMATMAINTAINERROR">
+                <Value>OBSOLETE</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INITEXISTING">
+                <Value>Very Rare: Item partially seeded by IDM For the Vendor</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INITEXISTINGERROR">
+                <Value>Item rejected back to Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_INREVIEW">
+                <Value>Item has been revised by the vendor and is now pending review by Data Quality.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_MAINTAPPROVE">
+                <Value>ERROR: Pre-approval step for items leaving STOREINPRODUCTION. Items should not stop here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_MAINTAPPROVEERROR">
+                <Value>ERROR: Pre-approval step for items leaving STOREINPRODUCTION. Items should not stop here.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_OBSOLETEREVIEW">
+                <Value>DOTCOM Discontinued/ Items in 400 Status are kicked to TCS for review to validate inventory or update.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_QCSTEP1">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_QCSTEP1ERROR">
+                <Value>Item is pending review by Quality Control to ensure it meets Home Depot style and content requirements.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENHAZMAT">
+                <Value>Vendor must provide HAZMAT data for this item based on its D/C/S or other content flag.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENINITENRICH">
+                <Value>Item to be Enriched by the Vendor once initiated (No Approval Necessary)</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENINITENRICHERROR">
+                <Value>Item rejected back to Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENMAINTENRICH">
+                <Value>Item has been pushed back to the Vendor for revision or addition of new product data.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENMAINTENRICHERROR">
+                <Value>Item rejected back to Vendor with errors by automated validation.</Value>
+            </ValueGroup>
+            <ValueGroup ID="STORE_VENMAINTENRICHRMCERROR">
+                <Value>OBSOLETE</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKUINPRODUCTION">
+                <Value>SuperSKU Object valid and in publication/ production.</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_ENRICH">
+                <Value>SuperSKU Object successfully initiated by Vendor, now pending Product data Enrichment</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_ENRICHERROR">
+                <Value>SuperSKU Object rejected back to the Vendor after failing automatic ENRICH Validation</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_INITITEMERROR">
+                <Value>SuperSKU Object rejected back to the Vendor after failing automatic INITIATE Validation</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_MAINTAIN">
+                <Value>SuperSKU Object was pushed back to the Vendor for Maintenance/ Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="SUPERSKU_MAINTAINERROR">
+                <Value>SuperSKU Object rejected back to the Vendor after failing automatic MAINTENANCE Validation</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS">
+                <Value>Item is under review by WERCS Hazmat Team</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_DOTCOM_HAZMENRH">
+                <Value>WERCS DotCom Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_DOTCOM_HAZMENRHERROR">
+                <Value>WERCS DotCom Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SOYOW_HAZMAT">
+                <Value>WERCS SOYOW Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SOYOW_HAZMATERROR">
+                <Value>WERCS SOYOW Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SOYOW_HAZMATMAINTAIN">
+                <Value>WERCS SOYOW Maint Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SOYOW_HAZMATMAINTAINERROR">
+                <Value>WERCS SOYOW Maint Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SPECIALORDER_HAZMAT">
+                <Value>WERCS SO Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SPECIALORDER_HAZMATERROR">
+                <Value>WERCS SO Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SPECIALORDER_HAZMATMAINTAIN">
+                <Value>WERCS SO Maint Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_SPECIALORDER_HAZMATMAINTAINERROR">
+                <Value>WERCS SO Maint Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_STORE_HAZMAT">
+                <Value>WERCS Store Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_STORE_HAZMATERROR">
+                <Value>WERCS Store Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_STORE_HAZMATMAINTAIN">
+                <Value>WERCS Store Maint Hazmat Review</Value>
+            </ValueGroup>
+            <ValueGroup ID="WERCS_STORE_HAZMATMAINTAINERROR">
+                <Value>WERCS Store Maint Hazmat Review</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

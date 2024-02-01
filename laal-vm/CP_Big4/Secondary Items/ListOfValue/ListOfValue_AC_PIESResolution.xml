@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESResolution" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">PIES Resolution</Name>
+            <Validation BaseType="integer" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>1200</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>300</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>600</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>72</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>800</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>96</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESInterchangeTypeCode" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Interchange Type Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="O">
+                <Value>OE - Supplier part number interchanges with OE part number</Value>
+            </ValueGroup>
+            <ValueGroup ID="S">
+                <Value>Substitute Part - Supplier part number interchanges with another aftermarket supplier's product</Value>
+            </ValueGroup>
+            <ValueGroup ID="U">
+                <Value>User Defined - Interchange type used when other types do not apply to interchange</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

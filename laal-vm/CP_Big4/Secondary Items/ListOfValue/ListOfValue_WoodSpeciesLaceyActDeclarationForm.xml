@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="WoodSpeciesLaceyActDeclarationForm" ParentID="specificWoodSpecies" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Specific Wood Species Lacey Act Declaration Form</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Adulsa aka Malabar Nut, Vasaka (Justicia Adhatoda)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Amendoim-Bravo aka Ajunao (Pterogyne nitens Tul.)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Anigre (Aningeria Altissima) or (Pouteria spp.)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Brazilian Mahogany aka Big-Leaf/ Sky Fruit (Swietenia Macrophylla)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Chinese Cedar or Japanese Cedar (cryptomeria fortunei)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Dragon Wood (Centrolobium Yavizanum)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Purpleheart (Peltogyne spp.)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Sumatran Pine (Pinus Merkusii)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Tauari (Couratari Tauari)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Zebrawood (Microberlinia Brazzavillensis)</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

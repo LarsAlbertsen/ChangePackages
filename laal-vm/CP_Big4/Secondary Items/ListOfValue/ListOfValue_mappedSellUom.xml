@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="mappedSellUom" ParentID="mappedLovs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Mapped Sell UOM</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="BD">
+                <Value>BD-Bundle</Value>
+            </ValueGroup>
+            <ValueGroup ID="BF">
+                <Value>BF-Board Feet</Value>
+            </ValueGroup>
+            <ValueGroup ID="BG">
+                <Value>BG-Bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="BM">
+                <Value>BM-Bolt</Value>
+            </ValueGroup>
+            <ValueGroup ID="BX">
+                <Value>BX-Box</Value>
+            </ValueGroup>
+            <ValueGroup ID="CA">
+                <Value>CA-Case</Value>
+            </ValueGroup>
+            <ValueGroup ID="CF">
+                <Value>CF-Cubic Feet</Value>
+            </ValueGroup>
+            <ValueGroup ID="CT">
+                <Value>CT-Carton</Value>
+            </ValueGroup>
+            <ValueGroup ID="CU">
+                <Value>CU-Cup</Value>
+            </ValueGroup>
+            <ValueGroup ID="EA">
+                <Value>EA-Each</Value>
+            </ValueGroup>
+            <ValueGroup ID="FT">
+                <Value>FT-Feet</Value>
+            </ValueGroup>
+            <ValueGroup ID="GA">
+                <Value>GA-Gallon</Value>
+            </ValueGroup>
+            <ValueGroup ID="IN">
+                <Value>IN-Inch</Value>
+            </ValueGroup>
+            <ValueGroup ID="LB">
+                <Value>LB-Pound</Value>
+            </ValueGroup>
+            <ValueGroup ID="LF">
+                <Value>LF-Linear foot</Value>
+            </ValueGroup>
+            <ValueGroup ID="LY">
+                <Value>LY-Linear yard</Value>
+            </ValueGroup>
+            <ValueGroup ID="MR">
+                <Value>MR-Meter</Value>
+            </ValueGroup>
+            <ValueGroup ID="OZ">
+                <Value>OZ-Ounce</Value>
+            </ValueGroup>
+            <ValueGroup ID="PA">
+                <Value>PA-Pail</Value>
+            </ValueGroup>
+            <ValueGroup ID="PC">
+                <Value>PC-Piece</Value>
+            </ValueGroup>
+            <ValueGroup ID="PF">
+                <Value>PF-Pallet(lift)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PK">
+                <Value>PK-Package</Value>
+            </ValueGroup>
+            <ValueGroup ID="PL">
+                <Value>PL-Pallet(unit load)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PR">
+                <Value>PR-Pair</Value>
+            </ValueGroup>
+            <ValueGroup ID="PT">
+                <Value>PT-Pint</Value>
+            </ValueGroup>
+            <ValueGroup ID="QT">
+                <Value>QT-Quart</Value>
+            </ValueGroup>
+            <ValueGroup ID="RL">
+                <Value>RL-Roll</Value>
+            </ValueGroup>
+            <ValueGroup ID="SF">
+                <Value>SF-Square foot</Value>
+            </ValueGroup>
+            <ValueGroup ID="SM">
+                <Value>SM-Square Meter</Value>
+            </ValueGroup>
+            <ValueGroup ID="SQ">
+                <Value>SQ-Square</Value>
+            </ValueGroup>
+            <ValueGroup ID="ST">
+                <Value>ST-Set</Value>
+            </ValueGroup>
+            <ValueGroup ID="SY">
+                <Value>SY-Square yard</Value>
+            </ValueGroup>
+            <ValueGroup ID="YD">
+                <Value>YD-Yard</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

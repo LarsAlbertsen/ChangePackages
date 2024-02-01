@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESCurrencyCode" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Currency Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="50" InputMask=""></Validation>
+            <ValueGroup ID="CAD">
+                <Value>Canadian Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="CNY">
+                <Value>China Yuan Renminbi</Value>
+            </ValueGroup>
+            <ValueGroup ID="EUR">
+                <Value>European EURO</Value>
+            </ValueGroup>
+            <ValueGroup ID="GBP">
+                <Value>United Kingdom Pound Sterling</Value>
+            </ValueGroup>
+            <ValueGroup ID="HKD">
+                <Value>Hong Kong Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="MXN">
+                <Value>Mexican Pesos</Value>
+            </ValueGroup>
+            <ValueGroup ID="USD">
+                <Value>U.S. Dollar</Value>
+            </ValueGroup>
+            <ValueGroup ID="XBA">
+                <Value>European Composite Unit</Value>
+            </ValueGroup>
+            <ValueGroup ID="XBB">
+                <Value>European Monetary Unit</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

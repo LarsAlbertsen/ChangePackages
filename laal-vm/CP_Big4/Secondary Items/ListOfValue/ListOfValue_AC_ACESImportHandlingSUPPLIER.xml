@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_ACESImportHandlingSUPPLIER" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">ACES Import Handling SUPPLIER</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <ValueGroup ID="NO">
+                <Value>No: 
+      Replacements for this brand will replace application records across all Suppliers, regardless of who provided the existing application records.</Value>
+            </ValueGroup>
+            <ValueGroup ID="YES">
+                <Value>Yes: 
+      Replacements for this brand will only replace application records provided by the Supplier in the input file.</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

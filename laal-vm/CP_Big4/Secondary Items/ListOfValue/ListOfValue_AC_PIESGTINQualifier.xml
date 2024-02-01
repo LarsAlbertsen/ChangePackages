@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESGTINQualifier" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES GTINQualifier</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="50" InputMask=""></Validation>
+            <ValueGroup ID="EN">
+                <Value>European Article Number (EAN) (2-5-5-1)</Value>
+            </ValueGroup>
+            <ValueGroup ID="UP">
+                <Value>U.P.C./EAN Consumer Package Code (1-5-5-1)</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

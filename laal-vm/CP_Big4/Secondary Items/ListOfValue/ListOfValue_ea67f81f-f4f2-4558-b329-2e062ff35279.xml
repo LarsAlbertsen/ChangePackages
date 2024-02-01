@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="ea67f81f-f4f2-4558-b329-2e062ff35279" ParentID="Certifications&amp;Listings" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">ProductCertificationsListings</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>1-UL Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>2-UL Recognized</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>3-UL Classified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>4-UL Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ADA Compliant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>AHAM Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>AHRI Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>AMCA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ANSI Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ANSI Compliant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>API Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ASME Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ASTM Compliant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>BMHA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CARB Compliant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CE Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CGA E-4 Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CPC Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CSA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CSA Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CSA-US Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>CertiPUR-US</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Certified Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DOT Rated</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Department of Energy (DOE)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>DfE Certification</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ECO Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EPA Approved</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EPA Safer-Choice Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ETL Classified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ETL Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>EcoLogo Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Energy Star</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FCC Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FVIR Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>FloorScore</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>GOTS Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Green Seal Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Greenguard Gold</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HEPA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>HVI Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IAPMO Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IAPMO Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>IC Rated</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ICC-ES PMG Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>ISO Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>JPMA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MADE IN GREEN by OKEO-TEX</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>MET Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Made in Green</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NIOSH Approved</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NSF Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>NSF Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>No Certifications or Listings</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OEKO-TEX Standard 100</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OSHA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>OSHA Compliant</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PFS Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>PFS Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Responsible Down Standard</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>SSPMA Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Star-K</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Supima Cotton</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>UL Marine Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>USCG Certified</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>USDA Approved</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>USGBC LEED</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>cUL Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>cULus Listed</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>cULus Recognized</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

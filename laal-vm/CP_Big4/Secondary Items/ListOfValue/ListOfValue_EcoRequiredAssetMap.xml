@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="EcoRequiredAssetMap" ParentID="EcoLOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Eco Required Asset Map</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="DfECertificationAssetTypes">
+                <Value>Safer Choice Standard</Value>
+            </ValueGroup>
+            <ValueGroup ID="FSCChainofCustody">
+                <Value>FSC Chain of Custody</Value>
+            </ValueGroup>
+            <ValueGroup ID="FSCForestCertification">
+                <Value>FSC Forest Certification</Value>
+            </ValueGroup>
+            <ValueGroup ID="OMRIListedAssetTypes">
+                <Value>OMRI Listed Certification</Value>
+            </ValueGroup>
+            <ValueGroup ID="USDACertificationAssetTypes">
+                <Value>USDA Certification</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

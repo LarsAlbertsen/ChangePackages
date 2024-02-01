@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESQualityGradeLevel" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Quality Grade Level</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="20" InputMask=""></Validation>
+            <ValueGroup ID="O">
+                <Value>OEM</Value>
+            </ValueGroup>
+            <ValueGroup ID="P">
+                <Value>Premium</Value>
+            </ValueGroup>
+            <ValueGroup ID="S">
+                <Value>Standard</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

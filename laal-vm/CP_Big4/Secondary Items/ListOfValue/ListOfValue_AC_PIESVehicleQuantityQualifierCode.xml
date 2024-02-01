@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESVehicleQuantityQualifierCode" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Vehicle Quantity Qualifier Code</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="50" InputMask=""></Validation>
+            <ValueGroup ID="MAX">
+                <Value>Maximum Used in any Vehicle</Value>
+            </ValueGroup>
+            <ValueGroup ID="MIN">
+                <Value>Minimum Quantity Used in a Vehicle</Value>
+            </ValueGroup>
+            <ValueGroup ID="NOR">
+                <Value>Normal Quantity Used in a Vehicle</Value>
+            </ValueGroup>
+            <ValueGroup ID="NOT">
+                <Value>Not Applicable to Vehicles</Value>
+            </ValueGroup>
+            <ValueGroup ID="REQ">
+                <Value>As Required</Value>
+            </ValueGroup>
+            <ValueGroup ID="VAR">
+                <Value>Variable - See ACES Application Field V91</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ1">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ2">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ3">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ4">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ5">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ6">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ7">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ8">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ9">
+                <Value>User Defined</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESOrientationView" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Orientation View</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="ANG">
+                <Value>Angle</Value>
+            </ValueGroup>
+            <ValueGroup ID="BAC">
+                <Value>Back</Value>
+            </ValueGroup>
+            <ValueGroup ID="BOT">
+                <Value>Bottom</Value>
+            </ValueGroup>
+            <ValueGroup ID="CON">
+                <Value>Connector</Value>
+            </ValueGroup>
+            <ValueGroup ID="FRO">
+                <Value>Front</Value>
+            </ValueGroup>
+            <ValueGroup ID="KIT">
+                <Value>Kit</Value>
+            </ValueGroup>
+            <ValueGroup ID="LEF">
+                <Value>Left</Value>
+            </ValueGroup>
+            <ValueGroup ID="LIF">
+                <Value>Lifestyle</Value>
+            </ValueGroup>
+            <ValueGroup ID="NUL">
+                <Value>Not Applicable</Value>
+            </ValueGroup>
+            <ValueGroup ID="OTH">
+                <Value>Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="RIT">
+                <Value>Right</Value>
+            </ValueGroup>
+            <ValueGroup ID="SID">
+                <Value>Side</Value>
+            </ValueGroup>
+            <ValueGroup ID="TOP">
+                <Value>Top</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ1">
+                <Value>User 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ2">
+                <Value>User 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ3">
+                <Value>User 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ4">
+                <Value>User 4</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ5">
+                <Value>User 5</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ6">
+                <Value>User 6</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ7">
+                <Value>User 7</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ8">
+                <Value>User 8</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ9">
+                <Value>User 9</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

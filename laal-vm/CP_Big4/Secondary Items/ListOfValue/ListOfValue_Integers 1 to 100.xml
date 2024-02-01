@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="Integers 1 to 100" ParentID="Numeric" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Integers 1 to 20</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="3" InputMask="999"></Validation>
+            <ValueGroup>
+                <Value>1</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>10</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>11</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>12</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>13</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>14</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>15</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>16</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>17</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>18</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>19</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>2</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>20</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>3</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>4</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>5</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>6</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>7</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>8</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>9</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

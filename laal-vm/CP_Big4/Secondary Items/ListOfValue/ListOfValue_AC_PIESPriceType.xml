@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AC_PIESPriceType" ParentID="AC_LOV" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">PIES Price Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="50" InputMask=""></Validation>
+            <ValueGroup ID="AC1">
+                <Value>Special Additional Cost 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="AC2">
+                <Value>Special Additional Cost 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="CR1">
+                <Value>Core 1</Value>
+            </ValueGroup>
+            <ValueGroup ID="CR2">
+                <Value>Core 2</Value>
+            </ValueGroup>
+            <ValueGroup ID="CR3">
+                <Value>Core 3</Value>
+            </ValueGroup>
+            <ValueGroup ID="CR4">
+                <Value>Core 4</Value>
+            </ValueGroup>
+            <ValueGroup ID="CRG">
+                <Value>Good Core</Value>
+            </ValueGroup>
+            <ValueGroup ID="CRJ">
+                <Value>Jobber Core</Value>
+            </ValueGroup>
+            <ValueGroup ID="CRW">
+                <Value>WD Core</Value>
+            </ValueGroup>
+            <ValueGroup ID="DLN">
+                <Value>Non-Stock Dealer</Value>
+            </ValueGroup>
+            <ValueGroup ID="DLR">
+                <Value>Dealer</Value>
+            </ValueGroup>
+            <ValueGroup ID="DLV">
+                <Value>Volume Dealer</Value>
+            </ValueGroup>
+            <ValueGroup ID="FLT">
+                <Value>Fleet</Value>
+            </ValueGroup>
+            <ValueGroup ID="INM">
+                <Value>Master Installer</Value>
+            </ValueGroup>
+            <ValueGroup ID="INN">
+                <Value>NS Installer</Value>
+            </ValueGroup>
+            <ValueGroup ID="INP">
+                <Value>Installer Preferred</Value>
+            </ValueGroup>
+            <ValueGroup ID="INS">
+                <Value>Stocking Installer</Value>
+            </ValueGroup>
+            <ValueGroup ID="JBC">
+                <Value>Conf-Jobber</Value>
+            </ValueGroup>
+            <ValueGroup ID="JBN">
+                <Value>NS Jobber</Value>
+            </ValueGroup>
+            <ValueGroup ID="JBR">
+                <Value>Jobber</Value>
+            </ValueGroup>
+            <ValueGroup ID="LST">
+                <Value>List</Value>
+            </ValueGroup>
+            <ValueGroup ID="MEC">
+                <Value>Mechanic</Value>
+            </ValueGroup>
+            <ValueGroup ID="PKP">
+                <Value>Pickup</Value>
+            </ValueGroup>
+            <ValueGroup ID="PRO">
+                <Value>Special Promo</Value>
+            </ValueGroup>
+            <ValueGroup ID="QOT">
+                <Value>Quote</Value>
+            </ValueGroup>
+            <ValueGroup ID="RAC">
+                <Value>Racer</Value>
+            </ValueGroup>
+            <ValueGroup ID="RET">
+                <Value>Retail</Value>
+            </ValueGroup>
+            <ValueGroup ID="RMP">
+                <Value>Retail MAP</Value>
+            </ValueGroup>
+            <ValueGroup ID="TRD">
+                <Value>Trade</Value>
+            </ValueGroup>
+            <ValueGroup ID="UNL">
+                <Value>Unilateral Price</Value>
+            </ValueGroup>
+            <ValueGroup ID="USR">
+                <Value>User</Value>
+            </ValueGroup>
+            <ValueGroup ID="WD1">
+                <Value>Distributor</Value>
+            </ValueGroup>
+            <ValueGroup ID="WLS">
+                <Value>Wholesaler</Value>
+            </ValueGroup>
+            <ValueGroup ID="WMP">
+                <Value>Wholesale MAP</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ1">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ2">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ3">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ4">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ5">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ6">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ7">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ8">
+                <Value>User Defined</Value>
+            </ValueGroup>
+            <ValueGroup ID="ZZ9">
+                <Value>User Defined</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="micsColorLOV" ParentID="testlovs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">micsColorLOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="100">
+                <Value>Blue</Value>
+            </ValueGroup>
+            <ValueGroup ID="200">
+                <Value>Red</Value>
+            </ValueGroup>
+            <ValueGroup ID="300">
+                <Value>Green</Value>
+            </ValueGroup>
+            <ValueGroup ID="400">
+                <Value>Yellow</Value>
+            </ValueGroup>
+            <ValueGroup ID="500">
+                <Value>Cyan</Value>
+            </ValueGroup>
+            <ValueGroup ID="600">
+                <Value>Magenta</Value>
+            </ValueGroup>
+            <ValueGroup ID="700">
+                <Value>Black</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>
