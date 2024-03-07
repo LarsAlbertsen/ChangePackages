@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ATD_ALCO_DescCalc" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">Desc Calc</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="if(exact(value('ATD_ALCO_DescText'),''),'','There is a value in Desc Text so there is one here as well')"/&gt;</ValueTemplate>
+            <AttributeGroupLink AttributeGroupID="ATG_ALCO"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

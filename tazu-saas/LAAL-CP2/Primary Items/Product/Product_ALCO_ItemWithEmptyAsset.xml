@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="Turkey">
+            <DimensionPointLink DimensionPointID="Turkey"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="Palestine">
+            <DimensionPointLink DimensionPointID="Palestine"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="AllCountries">
+            <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="Turkish">
+            <DimensionPointLink DimensionPointID="Turkish"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="Arabic">
+            <DimensionPointLink DimensionPointID="Arabic"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ALCO_PF" UserTypeID="Product Folder" ParentID="Product hierarchy root">
+            <Product ID="ALCO_ItemWithEmptyAsset" UserTypeID="Item">
+                <Name>ALCO_ItemWithEmptyAsset</Name>
+                <AssetCrossReference AssetID="10mb-encrypted-asset" QualifierID="Arabic" Type="ALCO_DimpDepAssetSingle"></AssetCrossReference>
+                <AssetCrossReference AssetID="30mb-encrypted-asset2" QualifierID="Arabic" Type="ALCO_DimDepAssetRef"></AssetCrossReference>
+                <AssetCrossReference AssetID="ALCO_EmptyAsset" QualifierID="std.lang.all" Type="ALCO_DimDepAssetRef"></AssetCrossReference>
+                <AssetCrossReference AssetID="ALCO_EmptyAsset" Type="Primary Image"></AssetCrossReference>
+                <AssetCrossReference AssetID="ALCO_PNGTest" QualifierID="std.lang.all" Type="ALCO_DimpDepAssetSingle"></AssetCrossReference>
+                <ProductCrossReference ProductID="ALCO_Item_AttConsistency_Encrypted" Type="Accessory"></ProductCrossReference>
+                <Values>
+                    <Value AttributeID="ATS_ALCO_SpecText">new spect text value 20240215 1846</Value>
+                    <Value AttributeID="Offers">false</Value>
+                    <ValueGroup AttributeID="ATD_ALCO_2DD">
+                        <Value QualifierID="AllCountries">Value GL</Value>
+                        <Value QualifierID="Palestine">Value Context 1</Value>
+                        <Value QualifierID="Turkey">Value Context2</Value>
+                    </ValueGroup>
+                    <ValueGroup AttributeID="ATD_ALCO_DescText">
+                        <Value QualifierID="Arabic">New value for Desc Text 20240215 1637</Value>
+                        <Value QualifierID="Turkish">new text</Value>
+                        <Value QualifierID="std.lang.all">new desc text value 20240215 1846</Value>
+                    </ValueGroup>
+                    <ValueGroup AttributeID="ATD_ALCO_LOV_Country">
+                        <Value ID="1" QualifierID="Palestine" LOVQualifierID="Arabic">Arabic value 1</Value>
+                        <Value ID="1" QualifierID="Palestine" LOVQualifierID="Turkish">Turkish  value 1</Value>
+                        <Value ID="1" QualifierID="Palestine" LOVQualifierID="std.lang.all">GL value 1</Value>
+                    </ValueGroup>
+                    <ValueGroup AttributeID="ATD_ALCO_Numeric">
+                        <Value QualifierID="Arabic">98</Value>
+                        <Value QualifierID="std.lang.all">97</Value>
+                    </ValueGroup>
+                </Values>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

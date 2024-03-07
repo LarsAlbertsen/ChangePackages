@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Product Folder" ManuallySorted="false" AllowInDesignTemplate="true" AllowQuarkTemplate="true" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="Qualifier root">Product Folder</Name>
+            <UserTypeLink UserTypeID="Manually Sorted Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Packaging hierarchy"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Product user-type root"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

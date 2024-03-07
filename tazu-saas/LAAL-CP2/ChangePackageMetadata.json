@@ -1,0 +1,4189 @@
+{
+  "version" : "2",
+  "id" : "LAAL-CP2",
+  "name" : "LAAL-CP2",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesRoot",
+  "uniqueId" : "cpk-1bd33b8d-2440-4a2c-92db-37e71c6584c1",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Dimensions_1",
+    "itemURL" : "step://attribute?id=BBtool_Dimensions_1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "list_reverse",
+    "itemURL" : "step://attribute?id=list_reverse",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RestictedAttribute",
+    "itemURL" : "step://attribute?id=RestictedAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Heading",
+    "itemURL" : "step://attribute?id=Heading",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (mul val hard lov)",
+    "itemURL" : "step://attribute?id=isodatetime+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (thousand indication and 1 decimal)",
+    "itemURL" : "step://attribute?id=text+%28thousand+indication+and+1+decimal%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (sin val med lov)",
+    "itemURL" : "step://attribute?id=fraction+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (mul val med lov)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "proper",
+    "itemURL" : "step://attribute?id=proper",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (sin val hard lov)",
+    "itemURL" : "step://attribute?id=integer+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (mul val med lov)",
+    "itemURL" : "step://attribute?id=isodate+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product InDesign Template Allowed",
+    "itemURL" : "step://objecttype?id=Product+InDesign+Template+Allowed",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (mul val)",
+    "itemURL" : "step://attribute?id=isodate+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contains Latex",
+    "itemURL" : "step://attribute?id=Contains+Latex",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Pays d'origine",
+    "itemURL" : "step://attribute?id=Country+of+Origin",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (sin val)",
+    "itemURL" : "step://attribute?id=blob+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UNITCONV",
+    "itemURL" : "step://attribute?id=UNITCONV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KeyAProdType",
+    "itemURL" : "step://objecttype?id=KeyAProdType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Of Values Group Type",
+    "itemURL" : "step://objecttype?id=List+Of+Values+group+type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Catalogue sizes",
+    "itemURL" : "step://attribute?id=Catalogue_sizes",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_DimDepAssetSingle",
+    "itemURL" : "step://referencetype?id=ALCO_DimpDepAssetSingle",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "regexpsearchii",
+    "itemURL" : "step://attribute?id=regexpsearchii",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Alternate Description",
+    "itemURL" : "step://attribute?id=Alternate+Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://eventqueue?id=ALCO_OIEP_AdvancedSTEPXML_changed",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable, set to read events and verify event triggers.",
+    "recursive" : false
+  }, {
+    "name" : "List_item",
+    "itemURL" : "step://attribute?id=List_item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contains Rubber",
+    "itemURL" : "step://attribute?id=Contains+Rubber",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D10_Highlight_Dinner",
+    "itemURL" : "step://attribute?id=000000005027",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging hierarchy",
+    "itemURL" : "step://objecttype?id=Packaging+hierarchy",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "range_listconcatenateII",
+    "itemURL" : "step://attribute?id=range_listconcatenateII",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DEOG Packaging Hierarchy",
+    "itemURL" : "step://objecttype?id=DEOGPackagingHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display on web",
+    "itemURL" : "step://attribute?id=sku_web_display_flag",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CarBuyFamily",
+    "itemURL" : "step://objecttype?id=CarBuyFamily",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_index",
+    "itemURL" : "step://attribute?id=List_index",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal isodate (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+isodate+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w unit (mul val)",
+    "itemURL" : "step://attribute?id=number+w+unit+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=OutboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manually Sorted Product Folder",
+    "itemURL" : "step://objecttype?id=Manually+Sorted+Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Image",
+    "itemURL" : "step://referencetype?id=Primary+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=blob+text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (mul val hard lov)",
+    "itemURL" : "step://attribute?id=fraction+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stepsys",
+    "itemURL" : "step://user?id=STEPSYS",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "Attribute ShortName",
+    "itemURL" : "step://attribute?id=AttributeShortName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hyphenated Item",
+    "itemURL" : "step://attribute?id=Hyphenated+Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "width",
+    "itemURL" : "step://attribute?id=width",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ld blob text (sin val)",
+    "itemURL" : "step://attribute?id=ld+blob+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "height",
+    "itemURL" : "step://attribute?id=height",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Major Description",
+    "itemURL" : "step://attribute?id=Major+Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Subtype",
+    "itemURL" : "step://attribute?id=Product+Subtype",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GPC value",
+    "itemURL" : "step://attribute?id=GPC+value",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "totalqtynextlowerlevel",
+    "itemURL" : "step://attribute?id=totalqtynextlowerlevel",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Navigation",
+    "itemURL" : "step://referencetype?id=Navigation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prodval_Unit_ID",
+    "itemURL" : "step://attribute?id=Prodval_Unit+ID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Description 200",
+    "itemURL" : "step://attribute?id=Product+Description+200",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global",
+    "itemURL" : "step://context?id=GL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28mul+val+hard+lov",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "list_sort_numeric_list_concatenate",
+    "itemURL" : "step://attribute?id=list_sort_numeric_list_concatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB2",
+    "itemURL" : "step://attribute?id=PB2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB1",
+    "itemURL" : "step://attribute?id=PB1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (mul val)",
+    "itemURL" : "step://attribute?id=date+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PNG Image",
+    "itemURL" : "step://objecttype?id=PNG+Image",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "HiddenTreasures_Info",
+    "itemURL" : "step://attribute?id=Traf_5192",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Published Tour Title",
+    "itemURL" : "step://attribute?id=Traf_5071",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CompletenessMetricValue",
+    "itemURL" : "step://attribute?id=CompletenessMetricValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GDSN",
+    "itemURL" : "step://attributegroup?id=GDSN",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Weight (table)",
+    "itemURL" : "step://attribute?id=Weight+%28table%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "gtin",
+    "itemURL" : "step://attribute?id=gtin",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tour Ends",
+    "itemURL" : "step://attribute?id=Tour+Ends",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB4",
+    "itemURL" : "step://attribute?id=PB4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB3",
+    "itemURL" : "step://attribute?id=PB3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB6",
+    "itemURL" : "step://attribute?id=PB6",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (mul val med lov)",
+    "itemURL" : "step://attribute?id=embedded+number+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB5",
+    "itemURL" : "step://attribute?id=PB5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB8",
+    "itemURL" : "step://attribute?id=PB8",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PB7",
+    "itemURL" : "step://attribute?id=PB7",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Code UPC",
+    "itemURL" : "step://attribute?id=UPC+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Is Hygiene Product",
+    "itemURL" : "step://attribute?id=Is+Hygiene+Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProductReferencesAutoTestProduct1",
+    "itemURL" : "step://objecttype?id=ProductReferencesAutoTestProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "hack_2024_02",
+    "itemURL" : "step://objecttype?id=hack_2024_02",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RefprodLngDep1",
+    "itemURL" : "step://objecttype?id=RefprodLngDep1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal isodatetime (sin val)",
+    "itemURL" : "step://attribute?id=portal+isodatetime+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ws_prod",
+    "itemURL" : "step://objecttype?id=ws_prod",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SinValBigLovWValID",
+    "itemURL" : "step://attribute?id=SinValBigLovWValID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "upper",
+    "itemURL" : "step://attribute?id=upper",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceClasfcationReferencesTestProduct",
+    "itemURL" : "step://objecttype?id=ReplaceClasfcationReferencesTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Smartsheet Template Product",
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIInteger",
+    "itemURL" : "step://attribute?id=WebUIInteger",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WrapTable Marker",
+    "itemURL" : "step://attribute?id=WrapTable+Marker",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (sin val)",
+    "itemURL" : "step://attribute?id=fraction+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplacementValuesTestProduct",
+    "itemURL" : "step://objecttype?id=ReplacementValuesTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (sin val)",
+    "itemURL" : "step://attribute?id=numeric+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (mul val)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal number (sin val)",
+    "itemURL" : "step://attribute?id=portal+number+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Alternative",
+    "itemURL" : "step://referencetype?id=Alternative",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D03_Hotel",
+    "itemURL" : "step://attribute?id=Traf_5299",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All setup actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D03_Destination",
+    "itemURL" : "step://attribute?id=Traf_5297",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_List_Contatenate",
+    "itemURL" : "step://attribute?id=List_List_Contatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D03_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5298",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5295",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MulValLOVColorWValID",
+    "itemURL" : "step://attribute?id=MulValLOVColorWValID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D03_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5296",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (sin val)",
+    "itemURL" : "step://attribute?id=embedded+number+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Hotel",
+    "itemURL" : "step://attribute?id=Traf_5293",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WsAddDimDep",
+    "itemURL" : "step://attribute?id=WsAddDimDep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Destination",
+    "itemURL" : "step://attribute?id=Traf_5291",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Super User",
+    "itemURL" : "step://group?id=Super+user",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5292",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attr_LngDep",
+    "itemURL" : "step://attribute?id=Attr_LngDep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProdvalSimple_UnitID",
+    "itemURL" : "step://attribute?id=ProdvalSimple_UnitID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTP Managers",
+    "itemURL" : "step://group?id=DTP+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (sin val)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MerchandiserManagers",
+    "itemURL" : "step://group?id=MerchandiserManagers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceProductReferencesTestProduct2",
+    "itemURL" : "step://objecttype?id=ReplaceProductReferencesTestProduct2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Catalogue product name",
+    "itemURL" : "step://attribute?id=catalogue_product_name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceProductReferencesTestProduct0",
+    "itemURL" : "step://objecttype?id=ReplaceProductReferencesTestProduct0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description",
+    "itemURL" : "step://attribute?id=Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceProductReferencesTestProduct1",
+    "itemURL" : "step://objecttype?id=ReplaceProductReferencesTestProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (mul val med lov)",
+    "itemURL" : "step://attribute?id=number+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Catalogue colours",
+    "itemURL" : "step://attribute?id=Catalogue_colours",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions ColSet",
+    "itemURL" : "step://ActionSet?id=All+user+actions+ColSet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (sin val)",
+    "itemURL" : "step://attribute?id=integer+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Nom de Marque",
+    "itemURL" : "step://attribute?id=Brand+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Hotel_Stay",
+    "itemURL" : "step://attribute?id=Traf_5284",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accommodation Winter",
+    "itemURL" : "step://attribute?id=Accommodation+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5282",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description de Commande",
+    "itemURL" : "step://attribute?id=Ordering+Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Hotel",
+    "itemURL" : "step://attribute?id=Traf_5283",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5280",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hazardous Material",
+    "itemURL" : "step://attribute?id=Hazardous+Material",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Destination",
+    "itemURL" : "step://attribute?id=Traf_5281",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5290",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "if_and_exact",
+    "itemURL" : "step://attribute?id=if_and_exact",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Table Export",
+    "itemURL" : "step://objecttype?id=Product+Table+Export",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Resort Winter",
+    "itemURL" : "step://attribute?id=Resort+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=number+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "ProdUnit",
+    "itemURL" : "step://attribute?id=ProdUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Part of Kit",
+    "itemURL" : "step://referencetype?id=Part+of+Kit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Headset",
+    "itemURL" : "step://attribute?id=Traf_5039",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ld text (mul val)",
+    "itemURL" : "step://attribute?id=ld+text+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal integer w unit (sin val)",
+    "itemURL" : "step://attribute?id=portal+integer+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal numeric text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+numeric+text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Queue Object Types",
+    "itemURL" : "step://objecttype?id=Event+Queue+object-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 09",
+    "itemURL" : "step://attribute?id=Traf_5277",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 07",
+    "itemURL" : "step://attribute?id=Traf_5275",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr2A",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr2A",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr2B",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr2B",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Left (first three characters)",
+    "itemURL" : "step://attribute?id=Left+%28first+three+characters%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 05",
+    "itemURL" : "step://attribute?id=Traf_5273",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CAT Header",
+    "itemURL" : "step://attribute?id=CAT+Header",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 06",
+    "itemURL" : "step://attribute?id=Traf_5274",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Freight Charge Class",
+    "itemURL" : "step://attribute?id=Freight+Charge+Class",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (sin val hard lov)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 03",
+    "itemURL" : "step://attribute?id=Traf_5271",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 04",
+    "itemURL" : "step://attribute?id=Traf_5272",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GETEMBEDDEDSUFFIX",
+    "itemURL" : "step://attribute?id=GETEMBEDDEDSUFFIX",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (mul val med lov)",
+    "itemURL" : "step://attribute?id=isodatetime+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 02",
+    "itemURL" : "step://attribute?id=Traf_5270",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIAttrIsodate",
+    "itemURL" : "step://attribute?id=WebUIAttrIsodate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (sin val med lov)",
+    "itemURL" : "step://attribute?id=number+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stateflow Product",
+    "itemURL" : "step://objecttype?id=Stateflow+Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal integer (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+integer+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal number w unit (sin val)",
+    "itemURL" : "step://attribute?id=portal+number+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (mul val med lov)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RAAAtt2",
+    "itemURL" : "step://attribute?id=RAAAtt2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Manufacturer Name",
+    "itemURL" : "step://attribute?id=PDS+Manufacturer+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RAAAtt3",
+    "itemURL" : "step://attribute?id=RAAAtt3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RAAAtt1",
+    "itemURL" : "step://attribute?id=RAAAtt1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manufacturer Part Number",
+    "itemURL" : "step://attribute?id=Manufacturer+Part+Number",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 01",
+    "itemURL" : "step://attribute?id=Traf_5269",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 08",
+    "itemURL" : "step://attribute?id=Traf_5266",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5146",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 06",
+    "itemURL" : "step://attribute?id=Traf_5264",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5143",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Body Copy",
+    "itemURL" : "step://attribute?id=Body+Copy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 07",
+    "itemURL" : "step://attribute?id=Traf_5265",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Calc No Formula",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpecNoFormula",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_DayNumber",
+    "itemURL" : "step://attribute?id=Traf_5141",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_Destination",
+    "itemURL" : "step://attribute?id=Traf_5142",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 05",
+    "itemURL" : "step://attribute?id=Traf_5263",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 03",
+    "itemURL" : "step://attribute?id=Traf_5260",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 04",
+    "itemURL" : "step://attribute?id=Traf_5261",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal text (sin val)",
+    "itemURL" : "step://attribute?id=portal+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Code UNSPSC",
+    "itemURL" : "step://attribute?id=UNSPSC+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "unique_list_concatenate",
+    "itemURL" : "step://attribute?id=unique_list_concatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Features Winter",
+    "itemURL" : "step://attribute?id=Features+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (sin val hard lov)",
+    "itemURL" : "step://attribute?id=blob+text+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ECTAText",
+    "itemURL" : "step://attribute?id=ECTAText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "round (integerII)",
+    "itemURL" : "step://attribute?id=round+%28integerII%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal number (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+number+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SightSeeing 02",
+    "itemURL" : "step://attribute?id=Traf_5259",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_LOV_withIDs",
+    "itemURL" : "step://ListOfValues?id=ALCO_LOV_withIDs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Products",
+    "itemURL" : "step://product?id=ALCO_PF",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (sin val)",
+    "itemURL" : "step://attribute?id=isodatetime+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "FirstClass 01",
+    "itemURL" : "step://attribute?id=Traf_5258",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal numeric text w unit (sin val)",
+    "itemURL" : "step://attribute?id=portal+numeric+text+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attr_LinkedNewRevision",
+    "itemURL" : "step://attribute?id=Attr_LinkedNewRevision",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MandatoryTestSource",
+    "itemURL" : "step://objecttype?id=MandatoryTestSource",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dining 03",
+    "itemURL" : "step://attribute?id=Traf_5253",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dining 04",
+    "itemURL" : "step://attribute?id=Traf_5254",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dining 01",
+    "itemURL" : "step://attribute?id=Traf_5251",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_FarewellDinner",
+    "itemURL" : "step://attribute?id=Traf_5494",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dining 02",
+    "itemURL" : "step://attribute?id=Traf_5252",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_Headset",
+    "itemURL" : "step://attribute?id=Traf_5490",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (one decimal)",
+    "itemURL" : "step://attribute?id=text+%28one+decimal%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (mul val med lov)",
+    "itemURL" : "step://attribute?id=integer+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GDSN Product",
+    "itemURL" : "step://objecttype?id=GDSN+Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w unit (sin val hard lov)",
+    "itemURL" : "step://attribute?id=number+w+unit+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D11_BookEarly",
+    "itemURL" : "step://attribute?id=00005527",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MergeAttributeMaster",
+    "itemURL" : "step://attribute?id=MergeAttributeMaster",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MandatoryAtt",
+    "itemURL" : "step://attribute?id=MandatoryAtt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://objecttype?id=Asset+Push+EventQueue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (mul val)",
+    "itemURL" : "step://attribute?id=number+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tour Pace",
+    "itemURL" : "step://attribute?id=Traf_5248",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2 Night StopOvers",
+    "itemURL" : "step://attribute?id=Traf_5249",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "If_true",
+    "itemURL" : "step://attribute?id=If_true",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Countries Visited",
+    "itemURL" : "step://attribute?id=Traf_5246",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Days",
+    "itemURL" : "step://attribute?id=Traf_5247",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (mul val hard lov)",
+    "itemURL" : "step://attribute?id=integer+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tour Type",
+    "itemURL" : "step://attribute?id=Traf_5363",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr1A",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr1A",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr1B",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr1B",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Languages",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr1C",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr1C",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=4875",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ERP ID US",
+    "itemURL" : "step://attribute?id=ERP+ID+US",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUICondProdAttr1D",
+    "itemURL" : "step://attribute?id=WebUICondProdAttr1D",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=4876",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Group Information",
+    "itemURL" : "step://attribute?id=4878",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "regexpsearchi",
+    "itemURL" : "step://attribute?id=regexpsearchi",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal numeric text (sin val)",
+    "itemURL" : "step://attribute?id=portal+numeric+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (sin val hard lov)",
+    "itemURL" : "step://attribute?id=isodatetime+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Offers",
+    "itemURL" : "step://attribute?id=Offers",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D02_Headset",
+    "itemURL" : "step://attribute?id=Traf_5473",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (mul val hard lov)",
+    "itemURL" : "step://attribute?id=isodate+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal fraction (sin val)",
+    "itemURL" : "step://attribute?id=portal+fraction+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D16_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5593",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Description",
+    "itemURL" : "step://attribute?id=4941",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DescAttCheckProd",
+    "itemURL" : "step://objecttype?id=DescAttCheckProd",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (mul val hard lov)",
+    "itemURL" : "step://attribute?id=number+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Domains",
+    "itemURL" : "step://objecttype?id=Domain+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "lng",
+    "itemURL" : "step://objecttype?id=lng",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Standard Product-Override",
+    "itemURL" : "step://objecttype?id=std.AdaptorType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "regexpsearch",
+    "itemURL" : "step://attribute?id=regexpsearch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Placeholders",
+    "itemURL" : "step://objecttype?id=Product+Placeholders",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EventQueueTriggerProd",
+    "itemURL" : "step://objecttype?id=EventQueueTriggerProd",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inheritance",
+    "itemURL" : "step://objecttype?id=Inheritance",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIAttrText",
+    "itemURL" : "step://attribute?id=WebUIAttrText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ExportAutoTestProduct",
+    "itemURL" : "step://objecttype?id=ExportAutoTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (mul val med lov)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LookupRep Sin Val",
+    "itemURL" : "step://attribute?id=LookupRep+Sin+Val",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct2",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct3",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D08_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5346",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_iterate_owner",
+    "itemURL" : "step://attribute?id=List_iterate_owner",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PlanProdFamily",
+    "itemURL" : "step://objecttype?id=PlanProdFamily",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_WelcomeDrink",
+    "itemURL" : "step://attribute?id=Traf_5463",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "range_listconcatenate_listconcatenate",
+    "itemURL" : "step://attribute?id=range_listconcatenate_listconcatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D10_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5340",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number Attribute",
+    "itemURL" : "step://attribute?id=Number+Attribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (mul val)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LookupRep Mul Val",
+    "itemURL" : "step://attribute?id=LookupRep+Mul+Val",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CAT Item UOM",
+    "itemURL" : "step://attribute?id=CAT+Item+UOM",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (sin val med lov)",
+    "itemURL" : "step://attribute?id=numeric+text+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (mul val hard lov)",
+    "itemURL" : "step://attribute?id=embedded+number+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Publish weight",
+    "itemURL" : "step://attribute?id=publish_wgt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (sin val med lov)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prodval",
+    "itemURL" : "step://attribute?id=Prodval",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D15_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5579",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D09_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5334",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manufacturer Name",
+    "itemURL" : "step://attribute?id=Manufacturer+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (sin val)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceValuesAutoTestProduct1",
+    "itemURL" : "step://objecttype?id=ReplaceValuesAutoTestProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (mul val)",
+    "itemURL" : "step://attribute?id=text+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Substitute",
+    "itemURL" : "step://attribute?id=Substitute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GDSN Brand Name",
+    "itemURL" : "step://attribute?id=GDSN+Brand+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CrossReferencesAutoTestProduct1",
+    "itemURL" : "step://objecttype?id=CrossReferencesAutoTestProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Technical Writers",
+    "itemURL" : "step://group?id=Technical+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal date (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+date+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal integer w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+integer+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KeyBProdType",
+    "itemURL" : "step://objecttype?id=KeyBProdType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (sin val med lov)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales List Price",
+    "itemURL" : "step://attribute?id=Sales+List+Price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (sin val hard lov)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (mul val hard lov)",
+    "itemURL" : "step://attribute?id=date+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct4",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct5",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestProduct6",
+    "itemURL" : "step://objecttype?id=PDXAutoTestProduct6",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bariatric",
+    "itemURL" : "step://attribute?id=Bariatric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging Hierarchy",
+    "itemURL" : "step://objecttype?id=PackagingHierarchyRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vendor Logo",
+    "itemURL" : "step://referencetype?id=Vendor+Logo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D14_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5565",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D07_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5321",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GETEMBEDDEDVALUE",
+    "itemURL" : "step://attribute?id=GETEMBEDDEDVALUE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WMMandatoryMeta",
+    "itemURL" : "step://attribute?id=WMMandatoryMeta",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIAttrIsoDateTime",
+    "itemURL" : "step://attribute?id=WebUIAttrIsoDateTime",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_subproducts",
+    "itemURL" : "step://attribute?id=List_subproducts",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D12_Meal_Code",
+    "itemURL" : "step://attribute?id=00005616",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Right (Last three Characters)",
+    "itemURL" : "step://attribute?id=Right+%28Last+three+Characters%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (thousand)",
+    "itemURL" : "step://attribute?id=text+%28thousand%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AKA Part Number",
+    "itemURL" : "step://attribute?id=AKAPartNumber",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal fraction w unit (sin val)",
+    "itemURL" : "step://attribute?id=portal+fraction+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5316",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5314",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_Destination",
+    "itemURL" : "step://attribute?id=Traf_5315",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Hotel_Stay",
+    "itemURL" : "step://attribute?id=Traf_5312",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "producttype",
+    "itemURL" : "step://attribute?id=producttype",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5313",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5310",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Hotel",
+    "itemURL" : "step://attribute?id=Traf_5311",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Value Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Value+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w unit (sin val)",
+    "itemURL" : "step://attribute?id=number+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceAttributeLinkTestProduct",
+    "itemURL" : "step://objecttype?id=ReplaceAttributeLinkTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=numeric+text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "workflowDeadlineTriggeringAttr",
+    "itemURL" : "step://attribute?id=workflowDeadlineTriggeringAttr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIAttrNumberRange",
+    "itemURL" : "step://attribute?id=WebUINumberRange",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (sin val hard lov)",
+    "itemURL" : "step://attribute?id=embedded+number+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D08_Destination",
+    "itemURL" : "step://attribute?id=00005347",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Location Winter",
+    "itemURL" : "step://attribute?id=Location+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (sin val med lov)",
+    "itemURL" : "step://attribute?id=text+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D06_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5319",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D04_Hotel",
+    "itemURL" : "step://attribute?id=Traf_5305",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ManualReplacementTestProduct",
+    "itemURL" : "step://objecttype?id=ManualReplacementTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D04_Destination",
+    "itemURL" : "step://attribute?id=Traf_5303",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D04_Destination_Info",
+    "itemURL" : "step://attribute?id=Traf_5304",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_concatenate",
+    "itemURL" : "step://attribute?id=List_concatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D03_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5301",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D04_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5302",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_HiddenTreasures",
+    "itemURL" : "step://attribute?id=Traf_5663",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Activities Winter",
+    "itemURL" : "step://attribute?id=Activities+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Type de Produit",
+    "itemURL" : "step://attribute?id=Product+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D08_Meal_Code",
+    "itemURL" : "step://attribute?id=00005351",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Lov Group",
+    "itemURL" : "step://ListOfValuesGroup?id=ALCO_LOVG",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (mul val med lov)",
+    "itemURL" : "step://attribute?id=fraction+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (sin val med lov)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (sin val med lov)",
+    "itemURL" : "step://attribute?id=blob+text+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merchandisers",
+    "itemURL" : "step://group?id=Merchandisers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Price",
+    "itemURL" : "step://attribute?id=Price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Intro Winter",
+    "itemURL" : "step://attribute?id=Intro+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MulValBigLovWValID",
+    "itemURL" : "step://attribute?id=MulValBigLovWValID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Destination",
+    "itemURL" : "step://attribute?id=Traf_5309",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIAttrUrl",
+    "itemURL" : "step://attribute?id=WebUIAttrUrl",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D04_Meal_Code",
+    "itemURL" : "step://attribute?id=Traf_5307",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D05_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5308",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D13_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5536",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (sin val med lov)",
+    "itemURL" : "step://attribute?id=isodate+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_Flight",
+    "itemURL" : "step://attribute?id=Traf_5652",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MergeAttsManConResAtt1",
+    "itemURL" : "step://attribute?id=MergeAttsManConResAtt1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "round (1 decimal)",
+    "itemURL" : "step://attribute?id=round+%281+decimal%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GDSN Folder",
+    "itemURL" : "step://objecttype?id=GDSN+Folder",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Copy Description, Item Family",
+    "itemURL" : "step://attribute?id=Copy+Description%2c+Item+Family",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (mul val)",
+    "itemURL" : "step://attribute?id=blob+text+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Folder",
+    "itemURL" : "step://objecttype?id=Product+Folder",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (sin val)",
+    "itemURL" : "step://attribute?id=isodate+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MergeAttsManConResAtt3",
+    "itemURL" : "step://attribute?id=MergeAttsManConResAtt3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MergeAttsManConResAtt2",
+    "itemURL" : "step://attribute?id=MergeAttsManConResAtt2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tour Start",
+    "itemURL" : "step://attribute?id=Tour+Start",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SinValLOVColorWValID",
+    "itemURL" : "step://attribute?id=SinValLOVColorWValID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "[-]",
+    "itemURL" : "step://referencetype?id=%5b-%5d",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PlanBasketProdRef",
+    "itemURL" : "step://referencetype?id=PlanBasketProdRef",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Right (char 1)",
+    "itemURL" : "step://attribute?id=Right+%28First+Character%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D11_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5523",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AppliesOnlyIf",
+    "itemURL" : "step://attribute?id=AppliesOnlyIf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Managers",
+    "itemURL" : "step://group?id=Product+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (sin val med lov)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Poids d'Expédition",
+    "itemURL" : "step://attribute?id=Shipping+Weight",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (sin val)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status",
+    "itemURL" : "step://attribute?id=Status",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accessory",
+    "itemURL" : "step://referencetype?id=Accessory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "depth",
+    "itemURL" : "step://attribute?id=depth",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "StdDimDepAtt",
+    "itemURL" : "step://attribute?id=StdDimDepAtt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal fraction (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+fraction+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MergeAttributeSlave",
+    "itemURL" : "step://attribute?id=MergeAttributeSlave",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RestAPI_Products",
+    "itemURL" : "step://objecttype?id=RestAPI_Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w unit (sin val med lov)",
+    "itemURL" : "step://attribute?id=number+w+unit+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_ItemWithEmptyAsset",
+    "itemURL" : "step://product?id=ALCO_ItemWithEmptyAsset",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DQ Category",
+    "itemURL" : "step://objecttype?id=DQ+Category",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Outbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UnitAttr",
+    "itemURL" : "step://attribute?id=UnitAttr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D20_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5648",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D19_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5635",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ECTA",
+    "itemURL" : "step://objecttype?id=ECTA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "OIEP Setup Group",
+    "itemURL" : "step://SetupGroup?id=OIEP+Setup+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BRTestProdA",
+    "itemURL" : "step://objecttype?id=BRTestProdA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product",
+    "itemURL" : "step://objecttype?id=Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (sin val)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WrapTable Titelerganzung",
+    "itemURL" : "step://attribute?id=WrapTable+Titelerganzung",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RefInheritanceTestProd",
+    "itemURL" : "step://objecttype?id=RefInheritanceTestProd",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (sin val)",
+    "itemURL" : "step://attribute?id=date+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIBulkUpdateTests",
+    "itemURL" : "step://attributegroup?id=WebUIBulkUpdateTests",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Price",
+    "itemURL" : "step://attribute?id=List+Price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (mul val)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D12_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5620",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Description 60",
+    "itemURL" : "step://attribute?id=Product+Description+60",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "gtinName",
+    "itemURL" : "step://attribute?id=gtinName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wiki Setup Group Type",
+    "itemURL" : "step://objecttype?id=Wiki+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D13_Destination_Info",
+    "itemURL" : "step://attribute?id=00005670",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (mul val med lov)",
+    "itemURL" : "step://attribute?id=numeric+text+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "poiuy",
+    "itemURL" : "step://attribute?id=poiuy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=fraction+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ManualEncryptionTestProduct",
+    "itemURL" : "step://objecttype?id=ManualEncryptionTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Show_psn_icon",
+    "itemURL" : "step://attribute?id=Show_psn_icon",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal isodatetime (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+isodatetime+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Short Description",
+    "itemURL" : "step://attribute?id=PDS+Short+Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_sort",
+    "itemURL" : "step://attribute?id=List_sort",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATTRNAME",
+    "itemURL" : "step://attribute?id=ATTRNAME",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Secondary Image",
+    "itemURL" : "step://referencetype?id=Secondary+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTPGroup",
+    "itemURL" : "step://group?id=DTPGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Name Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Name+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dimension1",
+    "itemURL" : "step://attribute?id=BBtool_Dimension1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "lower",
+    "itemURL" : "step://attribute?id=lower",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "findII",
+    "itemURL" : "step://attribute?id=findII",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numéro de page Principal de Catalogue",
+    "itemURL" : "step://attribute?id=MainCatalogPageNo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CrossReferencesAutoTestProduct1",
+    "itemURL" : "step://objecttype?id=ClassReferencesAutoTestProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal date (sin val)",
+    "itemURL" : "step://attribute?id=portal+date+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (sin val hard lov)",
+    "itemURL" : "step://attribute?id=number+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "En portal blob",
+    "itemURL" : "step://attribute?id=En+portal+blob",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Embedded Attribute",
+    "itemURL" : "step://attribute?id=Embedded+Attribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team C",
+    "itemURL" : "step://group?id=Team+C",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AssignDefaultUnit",
+    "itemURL" : "step://attribute?id=AssignDefaultUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team B",
+    "itemURL" : "step://group?id=Team+B",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Caption",
+    "itemURL" : "step://attribute?id=Caption",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team A",
+    "itemURL" : "step://group?id=Team+A",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KeyCParentType",
+    "itemURL" : "step://objecttype?id=KeyCParentType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TransObjType",
+    "itemURL" : "step://objecttype?id=TransObjType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (mul val med lov)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RefImpTestSource",
+    "itemURL" : "step://objecttype?id=RefImpTestSource",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P7",
+    "itemURL" : "step://attribute?id=P7",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P8",
+    "itemURL" : "step://attribute?id=P8",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P5",
+    "itemURL" : "step://attribute?id=P5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P6",
+    "itemURL" : "step://attribute?id=P6",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P3",
+    "itemURL" : "step://attribute?id=P3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P4",
+    "itemURL" : "step://attribute?id=P4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product_lng",
+    "itemURL" : "step://objecttype?id=Product_lng",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P1",
+    "itemURL" : "step://attribute?id=P1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CAT Item Code",
+    "itemURL" : "step://attribute?id=CAT+Item+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D17_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5607",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "P2",
+    "itemURL" : "step://attribute?id=P2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoAppWithBR",
+    "itemURL" : "step://objecttype?id=AutoAppWithBR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D18_Day Number",
+    "itemURL" : "step://attribute?id=Traf_5604",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (mul val)",
+    "itemURL" : "step://attribute?id=integer+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MNBV",
+    "itemURL" : "step://attribute?id=GotoAtt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "round (integer)",
+    "itemURL" : "step://attribute?id=round+%28integer%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hjul dimension",
+    "itemURL" : "step://attribute?id=BBtool_Hjul+dimension",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "range_listconcatenate",
+    "itemURL" : "step://attribute?id=range_listconcatenate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Left (char 1)",
+    "itemURL" : "step://attribute?id=Left+%28First+Character%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodate (sin val hard lov)",
+    "itemURL" : "step://attribute?id=isodate+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number w unit (sin val hard lov)",
+    "itemURL" : "step://attribute?id=embedded+number+w+unit+%28sin+val+hard+lov",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_OIEP_AdvancedSTEPXML_changed",
+    "itemURL" : "step://OutBoundIntegrationEndpoint?id=ALCO_OIEP_AdvancedSTEPXML_changed",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable, set to read events and verify event triggers, if queue-based. Verify linked business rules are included.",
+    "recursive" : false
+  }, {
+    "name" : "QA",
+    "itemURL" : "step://group?id=QA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (sin val med lov)",
+    "itemURL" : "step://attribute?id=date+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProdvalSimple",
+    "itemURL" : "step://attribute?id=ProdvalSimple",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RefImpTestTarget",
+    "itemURL" : "step://objecttype?id=RefImpTestTarget",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProdAttLinkRefTab",
+    "itemURL" : "step://attribute?id=ProdAttLinkRefTab",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CAT Other Info",
+    "itemURL" : "step://attribute?id=CAT+Other+Info",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (mul val)",
+    "itemURL" : "step://attribute?id=isodatetime+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (sin val hard lov)",
+    "itemURL" : "step://attribute?id=fraction+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BasketSpecAtt",
+    "itemURL" : "step://attribute?id=BasketSpecAtt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ld text (sin val)",
+    "itemURL" : "step://attribute?id=ld+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item Active Date",
+    "itemURL" : "step://attribute?id=Item+Active+Date",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Replace",
+    "itemURL" : "step://attribute?id=Replace",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MulValLOVwVALIDCountry",
+    "itemURL" : "step://attribute?id=MulValLOVwVALIDCountry",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number (sin val)",
+    "itemURL" : "step://attribute?id=number+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RefProdLngDep",
+    "itemURL" : "step://objecttype?id=RefProdLngDep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "if_exact",
+    "itemURL" : "step://attribute?id=if_exact",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Name + Desc 60",
+    "itemURL" : "step://attribute?id=Name+%2b+Desc+60",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UNSPSC Title",
+    "itemURL" : "step://attribute?id=UNSPSC+Title",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (mul val med lov)",
+    "itemURL" : "step://attribute?id=date+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal blob text (sin val)",
+    "itemURL" : "step://attribute?id=portal+blob+text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound",
+    "itemURL" : "step://objecttype?id=Outbound",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal blob text (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+blob+text+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "If_or",
+    "itemURL" : "step://attribute?id=If_or",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "date (sin val hard lov)",
+    "itemURL" : "step://attribute?id=date+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "If_not",
+    "itemURL" : "step://attribute?id=If_not",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List_parents",
+    "itemURL" : "step://attribute?id=List_parents",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer (sin val med lov)",
+    "itemURL" : "step://attribute?id=integer+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUITextLOV",
+    "itemURL" : "step://attribute?id=WebUITextLOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (sin val hard lov)",
+    "itemURL" : "step://attribute?id=numeric+text+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullet Text 02",
+    "itemURL" : "step://attribute?id=Bullet+Text+02",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WalmartColLangLOV",
+    "itemURL" : "step://attribute?id=WalmartColLangLOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullet Text 03",
+    "itemURL" : "step://attribute?id=Bullet+Text+03",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttDispSeqAtt_E",
+    "itemURL" : "step://attribute?id=AttDispSeqAtt_E",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullet Text 04",
+    "itemURL" : "step://attribute?id=Bullet+Text+04",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttDispSeqAtt_D",
+    "itemURL" : "step://attribute?id=AttDispSeqAtt_D",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullet Text 05",
+    "itemURL" : "step://attribute?id=Bullet+Text+05",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "trunc (negative numbers)",
+    "itemURL" : "step://attribute?id=trunc+%28negative+numbers%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttDispSeqAtt_C",
+    "itemURL" : "step://attribute?id=AttDispSeqAtt_C",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttDispSeqAtt_B",
+    "itemURL" : "step://attribute?id=AttDispSeqAtt_B",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttDispSeqAtt_A",
+    "itemURL" : "step://attribute?id=AttDispSeqAtt_A",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "isodatetime (sin val med lov)",
+    "itemURL" : "step://attribute?id=isodatetime+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullet Text 01",
+    "itemURL" : "step://attribute?id=Bullet+Text+01",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "number w units (mul val med lov)",
+    "itemURL" : "step://attribute?id=number+w+units+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bullets for print",
+    "itemURL" : "step://attribute?id=Bullets+for+print",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal isodate (sin val)",
+    "itemURL" : "step://attribute?id=portal+isodate+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text (mul val)",
+    "itemURL" : "step://attribute?id=numeric+text+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MongoDB Obj Table",
+    "itemURL" : "step://objecttype?id=MongoDB+Obj+Table",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Nom de Produit",
+    "itemURL" : "step://attribute?id=Product+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (sin val)",
+    "itemURL" : "step://attribute?id=text+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text Attribute",
+    "itemURL" : "step://attribute?id=Text+Attribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "fraction (mul val)",
+    "itemURL" : "step://attribute?id=fraction+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Auto Test Attribute Group",
+    "itemURL" : "step://attributegroup?id=Auto+Test+Attribute+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (mul val)",
+    "itemURL" : "step://attribute?id=embedded+number+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ManualExportTestProduct",
+    "itemURL" : "step://objecttype?id=ManualExportTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATCalcAttA",
+    "itemURL" : "step://attribute?id=ATCalcAttA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GETEMBEDDEDPREFIX",
+    "itemURL" : "step://attribute?id=GETEMBEDDEDPREFIX",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integer (round to int)",
+    "itemURL" : "step://attribute?id=Integer+%28round+to+int%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Package Quantity",
+    "itemURL" : "step://attribute?id=Package+Quantity",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_TravelEnd_Meal_Code",
+    "itemURL" : "step://attribute?id=00005146",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Benämning",
+    "itemURL" : "step://attribute?id=BBtool_Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal frac w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+frac+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D10_Headset",
+    "itemURL" : "step://attribute?id=000000005510",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SourceProdWExtraRefs",
+    "itemURL" : "step://objecttype?id=SourceProdWExtraRefs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "blob text (mul val med lov)",
+    "itemURL" : "step://attribute?id=blob+text+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Photographers",
+    "itemURL" : "step://group?id=Photographers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (sin val hard lov)",
+    "itemURL" : "step://attribute?id=text+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "list_iterate_references",
+    "itemURL" : "step://attribute?id=list_iterate_references",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attr_LOV",
+    "itemURL" : "step://attribute?id=Attr_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier Product Type",
+    "itemURL" : "step://objecttype?id=Supplier+Product+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Child Offers Winter",
+    "itemURL" : "step://attribute?id=Child+Offers+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "trunc",
+    "itemURL" : "step://attribute?id=trunc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WalmartColLangAtr",
+    "itemURL" : "step://attribute?id=WalmartColLangAtr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Available on Web",
+    "itemURL" : "step://attribute?id=Available+on+Web",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "integer w unit (sin val hard lov)",
+    "itemURL" : "step://attribute?id=integer+w+unit+%28sin+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCOTextLOVTranslated",
+    "itemURL" : "step://ListOfValues?id=ALCOTextLOVTranslated",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Name Winter",
+    "itemURL" : "step://attribute?id=Name+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Group",
+    "itemURL" : "step://attribute?id=Product+Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tour Operator Rating Winter",
+    "itemURL" : "step://attribute?id=Tour+Operator+Rating+Winter",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Classification",
+    "itemURL" : "step://attribute?id=Product+Classification",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "int (negative numbers)",
+    "itemURL" : "step://attribute?id=int+%28negative+numbers%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WsRemoveDimDep",
+    "itemURL" : "step://attribute?id=WsRemoveDimDep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "D01_Hotel_Stay",
+    "itemURL" : "step://attribute?id=00005284",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mid (2 characters)",
+    "itemURL" : "step://attribute?id=Mid+%282+characters%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales List Price Currency",
+    "itemURL" : "step://attribute?id=Sales+List+Price+Currency",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal integer (sin val)",
+    "itemURL" : "step://attribute?id=portal+integer+%28sin+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_DimDepAssetRef",
+    "itemURL" : "step://referencetype?id=ALCO_DimDepAssetRef",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CAT Prod Description",
+    "itemURL" : "step://attribute?id=CAT+Prod+Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text (mul val med lov)",
+    "itemURL" : "step://attribute?id=text+%28mul+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "numeric text w unit (mul val)",
+    "itemURL" : "step://attribute?id=numeric+text+w+unit+%28mul+val%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SinValLOVwValIDCountry",
+    "itemURL" : "step://attribute?id=SinValLOVwValIDCountry",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "embedded number (sin val med lov)",
+    "itemURL" : "step://attribute?id=embedded+number+%28sin+val+med+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Attributes",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "gateway_non_preemptive",
+    "itemURL" : "step://objecttype?id=gateway_non_preemptive",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReplaceProductReferencesTestProduct",
+    "itemURL" : "step://objecttype?id=ReplaceProductReferencesTestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "find",
+    "itemURL" : "step://attribute?id=find",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Effective Date",
+    "itemURL" : "step://attribute?id=Effective+Date",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Copy Writers",
+    "itemURL" : "step://group?id=Copy+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "list_sort_numeric",
+    "itemURL" : "step://attribute?id=list_sort_numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "gateway_preemptive",
+    "itemURL" : "step://objecttype?id=gateway_preemptive",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestEncryptionProduct3",
+    "itemURL" : "step://objecttype?id=PDXAutoTestEncryptionProduct3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestEncryptionProduct4",
+    "itemURL" : "step://objecttype?id=PDXAutoTestEncryptionProduct4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal numtext w unit (mul val hardlov)",
+    "itemURL" : "step://attribute?id=portal+numtext+w+unit+%28mul+val+hardlov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestEncryptionProduct1",
+    "itemURL" : "step://objecttype?id=PDXAutoTestEncryptionProduct1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestEncryptionProduct2",
+    "itemURL" : "step://objecttype?id=PDXAutoTestEncryptionProduct2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "portal number w unit (mul val hard lov)",
+    "itemURL" : "step://attribute?id=portal+number+w+unit+%28mul+val+hard+lov%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Category",
+    "itemURL" : "step://attribute?id=ProductCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXAutoTestEncryptionProduct5",
+    "itemURL" : "step://objecttype?id=PDXAutoTestEncryptionProduct5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIConditionLOVOnProd",
+    "itemURL" : "step://attribute?id=WebUIConditionLOVOnProd",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-07 20:20:46\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"Turkey\">\n      <DimensionPointLink DimensionPointID=\"Turkey\"/>\n    </Qualifier>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"Palestine\">\n      <DimensionPointLink DimensionPointID=\"Palestine\"/>\n    </Qualifier>\n    <Qualifier ID=\"AllCountries\">\n      <DimensionPointLink DimensionPointID=\"AllCountries\"/>\n    </Qualifier>\n    <Qualifier ID=\"Turkish\">\n      <DimensionPointLink DimensionPointID=\"Turkish\"/>\n    </Qualifier>\n    <Qualifier ID=\"Arabic\">\n      <DimensionPointLink DimensionPointID=\"Arabic\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"Item\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Item</Name>\n      <UserTypeLink UserTypeID=\"Product Folder\"/>\n    </UserType>\n    <UserType ID=\"Product Folder\" ManuallySorted=\"false\" AllowInDesignTemplate=\"true\" AllowQuarkTemplate=\"true\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"Qualifier root\">Product Folder</Name>\n      <UserTypeLink UserTypeID=\"Product Folder\"/>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n      <UserTypeLink UserTypeID=\"Packaging hierarchy\"/>\n      <UserTypeLink UserTypeID=\"Manually Sorted Product Folder\"/>\n    </UserType>\n  </UserTypes>\n\n  <ListOfValuesGroupList>\n    <ListOfValuesGroup ID=\"ALCO_LOVG\" ParentID=\"List Of Values group root\">\n      <Name QualifierID=\"Qualifier root\">ALCO Lov Group</Name>\n    </ListOfValuesGroup>\n  </ListOfValuesGroupList>\n\n  <ListsOfValues>\n    <ListOfValue ID=\"ALCO_LOV_withIDs\" ParentID=\"ALCO_LOVG\" AllowUserValueAddition=\"false\" UseValueID=\"true\">\n      <Name QualifierID=\"std.lang.all\">ALCO_LOV_withIDs</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueGroup ID=\"2\">\n        <Value>Two</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"1\">\n        <Value>One</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"3\">\n        <Value>Three</Value>\n      </ValueGroup>\n    </ListOfValue>\n  </ListsOfValues>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">ALCO Attributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"ATD_ALCO_DescCalc\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"true\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">Desc Calc</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueTemplate>&lt;derive expr=&quot;if(exact(value('ATD_ALCO_DescText'),''),'','There is a value in Desc Text so there is one here as well')&quot;/&gt;</ValueTemplate>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"PNG Image\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_DescText\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">Desc Text</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"PNG Image\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ALCO_Text_mv\" MultiValued=\"true\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO Text multi value</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATS_ALCO_SpecText\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">Spec Text</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATS_ALCO_CalcSpecNoFormula\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"true\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">Calc No Formula</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueTemplate>&lt;derive expr=&quot;&quot;/&gt;</ValueTemplate>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATS_ALCO_CalcSpec\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"true\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">Spec Calc</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueTemplate>&lt;derive expr=&quot;if(exact(value('ATS_ALCO_SpecText'),''),'',' ')&quot;/&gt;</ValueTemplate>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_LOV_MV\" MultiValued=\"true\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO LOV multi value</Name>\n      <ListOfValueLink ListOfValueID=\"ALCO_LOV_withIDs\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <Products>\n    <Product ID=\"ALCO_PF\" UserTypeID=\"Product Folder\" ParentID=\"Product hierarchy root\">\n      <Name>ALCO Products</Name>\n      <AttributeLink AttributeID=\"ATD_ALCO_LOV_Country\"/>\n      <AttributeLink AttributeID=\"height\"/>\n      <AttributeLink AttributeID=\"ATD_ALCO_LOV_MV\"/>\n      <AttributeLink AttributeID=\"width\"/>\n      <AttributeLink AttributeID=\"ATS_ALCO_SpecText\"/>\n      <AttributeLink AttributeID=\"depth\"/>\n      <AttributeLink AttributeID=\"ATS_ALCO_CalcSpec\"/>\n      <AttributeLink AttributeID=\"ALCO_Text_mv\"/>\n      <AttributeLink AttributeID=\"dimensions\"/>\n      <AttributeLink AttributeID=\"ATS_ALCO_CalcSpecNoFormula\"/>\n      <Product ID=\"ALCO_ItemWithEmptyAsset\" UserTypeID=\"Item\">\n        <Name>ALCO_ItemWithEmptyAsset</Name>\n        <ProductCrossReference ProductID=\"ALCO_Item_AttConsistency_Encrypted\" Type=\"Accessory\"/>\n        <AssetCrossReference AssetID=\"30mb-encrypted-asset2\" QualifierID=\"Arabic\" Type=\"ALCO_DimDepAssetRef\"/>\n        <AssetCrossReference AssetID=\"ALCO_EmptyAsset\" QualifierID=\"std.lang.all\" Type=\"ALCO_DimDepAssetRef\"/>\n        <AssetCrossReference AssetID=\"10mb-encrypted-asset\" QualifierID=\"Arabic\" Type=\"ALCO_DimpDepAssetSingle\"/>\n        <AssetCrossReference AssetID=\"ALCO_PNGTest\" QualifierID=\"std.lang.all\" Type=\"ALCO_DimpDepAssetSingle\"/>\n        <AssetCrossReference AssetID=\"ALCO_EmptyAsset\" Type=\"Primary Image\"/>\n        <Values>\n          <ValueGroup AttributeID=\"ATD_ALCO_DescText\">\n            <Value QualifierID=\"Arabic\">New value for Desc Text 20240215 1637</Value>\n            <Value QualifierID=\"Turkish\">new text</Value>\n            <Value QualifierID=\"std.lang.all\">new desc text value 20240215 1846</Value>\n          </ValueGroup>\n          <Value AttributeID=\"ATS_ALCO_SpecText\">new spect text value 20240215 1846</Value>\n          <ValueGroup AttributeID=\"ATD_ALCO_Numeric\">\n            <Value QualifierID=\"Arabic\">98</Value>\n            <Value QualifierID=\"std.lang.all\">97</Value>\n          </ValueGroup>\n          <ValueGroup AttributeID=\"ATD_ALCO_2DD\">\n            <Value QualifierID=\"AllCountries\">Value GL</Value>\n            <Value QualifierID=\"Palestine\">Value Context 1</Value>\n            <Value QualifierID=\"Turkey\">Value Context2</Value>\n          </ValueGroup>\n          <ValueGroup AttributeID=\"ATD_ALCO_LOV_Country\">\n            <Value ID=\"1\" QualifierID=\"Palestine\" LOVQualifierID=\"Arabic\">Arabic value 1</Value>\n            <Value ID=\"1\" QualifierID=\"Palestine\" LOVQualifierID=\"Turkish\">Turkish  value 1</Value>\n            <Value ID=\"1\" QualifierID=\"Palestine\" LOVQualifierID=\"std.lang.all\">GL value 1</Value>\n          </ValueGroup>\n          <Value AttributeID=\"Offers\">false</Value>\n        </Values>\n      </Product>\n    </Product>\n  </Products>\n\n  <IntegrationEndpoints>\n    <OutBoundIntegrationEndpoint ID=\"ALCO_OIEP_AdvancedSTEPXML_changed\" UserTypeID=\"OutboundEndpoint user-type root\" ProcessPluginID=\"Export\" QueueForEndpoint=\"OutboundQueue\" QueueForProcssing=\"Out\" MaxNumberOfActiveBackgroundProcesses=\"1\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"STRICT\" ResponsibleUserID=\"STEPSYS\" EnableRetry=\"false\" UseCrossContext=\"false\" DataSourcePluginID=\"EventQueueDataSourcePlugin\" DeliveryMethodPluginID=\"EmailDeliveryPlugin2\" MultiThreadCount=\"1\" RefreshCollections=\"false\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries>\n\nDataSourcePluginConfiguration:\n<Parameters>\n  <Parameter ID=\"DaysToRetainEvents\" Type=\"java.lang.Integer\">0</Parameter>\n  <Parameter ID=\"eventQueueBatching\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1000</Parameter>\n  <Parameter ID=\"eventQueueBundleMessages\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1</Parameter>\n</Parameters>\n\nDeliveryMethodPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"BodyText\" Type=\"com.stibo.util.integrationendpoints.LongTextParameter\">Please find enclosed the latest product data delivery</Parameter>\n  <Parameter ID=\"EmailAddress\" Type=\"java.lang.String\">alco@stibosystems.com</Parameter>\n  <Parameter ID=\"FileNameTemplate\" Type=\"java.lang.String\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n  <Parameter ID=\"Subject\" Type=\"java.lang.String\">EmailDeliverySubjectDefault</Parameter>\n  <Parameter ID=\"zipContent\" Type=\"java.lang.Boolean\">true</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<EventSpecificExportConfiguration>\n  <ExportConfiguration MatchAllTypes=\"false\">\n    <EventType>15</EventType>\n    <EventType>16</EventType>\n    <EventType>17</EventType>\n    <ExportManagerConfig>\n      <ExportManagerConfig ContentMode=\"\" ContextID=\"GL\" ECatalogID=\"\" EffectiveDate=\"\" EffectiveDateTimeZoneID=\"Europe/Paris\" ExecutionMode=\"\" ExportSelectedProducts=\"false\" InheritProductData=\"true\" LeafProductExport=\"true\" Name=\"\" ProcessTemplate=\"Exporter\" ResolveInlineRefs=\"true\" ScheduleDate=\"\" SelfContainedReferences=\"false\" UseContextLocale=\"false\" Version=\"2\" VersionID=\"\" WorkspaceID=\"Main\" isSorted=\"false\">\n        <Delivery Name=\"File\">\n          <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n        </Delivery>\n        <Format Name=\"AdvancedSTEPXML\">\n          <Parameter Name=\"CrossContextChooser\">No</Parameter>\n          <Parameter Name=\"Recorder\">&lt;?xml version='1.0'?&gt;&lt;STEP-ProductInformation ResolveInlineRefs=&quot;true&quot;FollowOverrideSubProducts=&quot;true&quot;ExportValidAndAbsent=&quot;true&quot;ExportDeletedData=&quot;true&quot;ExportDerivedAttrs=&quot;false&quot;Validation=&quot;XSD&quot;DefinitionsAsComments=&quot;true&quot;EventsAsComments=&quot;false&quot;&gt;&lt;Entities /&gt;&lt;Products /&gt;&lt;/STEP-ProductInformation&gt;</Parameter>\n        </Format>\n        <ProductMapping SelectedURLType=\"product\"/>\n        <ProductSelection/>\n      </ExportManagerConfig>\n    </ExportManagerConfig>\n    <ObjectType>Item</ObjectType>\n  </ExportConfiguration>\n</EventSpecificExportConfiguration>\n\nErrorReporterPluginConfiguration:\n<Parameters/> -->\n      <SetupGroupLink SetupGroupID=\"OIEP Setup Group\"/>\n      <Name QualifierID=\"Qualifier root\">ALCO_OIEP_AdvancedSTEPXML_changed</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>\n      <DataSourcePluginConfiguration>H4sIAAAAAAAAAK2QywrCMBBF935FmL2x3bnoA0QFF4JK/YCxHWoknUiTFPv3pqBVwYULlxfmnnOZJL81WnTUWmU4hVhGIIhLUymuUzgW6+kc8myS7LDFhly4yyZCvKLYLFNYYm8LcyCHilcdsbMgiv5KKVywQ6mRa7lhRzW1kEXJbGx/YdHQ33vytEBXnsOMJ6s0jbROnYz0TmmpBmCLLuwmrq4mZCsXxmhCfshGMmRxFP0u9lxp2pK1WJP9j/7D/RbCO+9hpBTugwEAAA==</DataSourcePluginConfiguration>\n      <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAH2ST08CMRDF73yKpuGgh61688AuikgwEUPiejbDdlhL+mfTzhLWT+8sIagJ0NtLpr/35mVG452zYosxmeBzeadupUBfBW18ncuPcpbdy3ExGC0hgkPiuWIgxK8UL9NcPjsw9lHriClJUXYN5nIDW1AWfK3eKTJMFmCr8JDIrELqEqFLqgpudHNEnQC/t6sNVnSeuXeeojW8QXeYnuIaWkuXyZOguxJ3RzRHUftsqiVjlfGEdQTiUtDrJrBO6jX4uv9zJMliaRESirXxuq/NhoRa0BcKC4SJRBODbisSGgiEPuS8nOzbNE+B7f2JtSchsKGXBcUWL2NmxuIb6xJd04c53+FwzaOeR7MhGcepwTVXHb9ssci0/pzPleNy0rUa8vLo+0v55/1H8HX8AKlSCKVSAgAA</DeliveryMethodPluginConfiguration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"Item\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattribute=ALCO_Text_mv;ATD_ALCO_2DD;ATD_ALCO_DescCalc;ATD_ALCO_DescText;ATD_ALCO_LOV_MV;ATD_ALCO_Numeric;ATS_ALCO_CalcSpec;ATS_ALCO_CalcSpecNoFormula;ATS_ALCO_SpecText;ATD_ALCO_LOV\ncontext=GL\nobjecttype=Item\nreftype=Primary Image -->\n        <Configuration>H4sIAAAAAAAAANVUy3KjMBC85yso7lny2EcOyCnKxFmqHNtlE+fokmHs1UZIlB5eO1+/AkRYA6l4b8kNzfSMukfNBFKCiiHLKVaA/Nt9Rp0dCEk4Q+7llwvXAZbwlLAtch/j0fmNezs48xfx3ex8JniqExWxDRcZVqbCmYPkdAcRo4TBHDYSuRtMJbjOiFPK/0xNa0FSWOi1rW4Qd/ucCxWCIDtIA6XEa2pw5jh+UBCVFrUgL4DcB8JIpjPXCTlT1QVDiqUkG5KUfGJeVhkiIIwMU6KErvrVHb2yuVd1N8q8N6QNfJlTogYFMbLWCsaEPctYkO3WMGbbdvpTjLTRIotBvCu+Nd1PIPGYcb99rB2OoU7EEqpTmGHjHGWNY83SanrC4CKWwv6Ji/QnAYFF8uvQcc4EZ9AJTte/IVHxIYd7wXVuEhL5TXCuKciSU0/sKOo0n1GI3EhBVqvplHZDlk01iw5JK/vD28Gv0f+7RGxd3xqpe/baxb5C8bJevXP+XR9er/Ner6nTXb11xh6HgkvZKStXWn9qiakGWZ9CrPDQiMdm3EK+d6vv2WPlnnqmJ/wEjXHMn/Asc2wmGeS54OapLOSRkY/vIyO74Hnq0lxaAdf2jGsLoGA8nK5i2KtVtmsnL1AQh6sScRWG7exlkw1BJkNMkzbk6hhSXNOGXDeQ8XS5eli2AV8bwERnZhidW74ZxKJCFCQWOXQg37uQCR+ZKWmK29gfDbbA9ZG+OSJts4mxr8Gi+7EN8HKDKbPBULHrbFTApgzNBMmwODhRhrdgc38BDsG02wkJAAA=</Configuration>\n      </EventQueue>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAH1UyY6jWBC8z1eU+srBrA9bqimJzYDZjNm5YXisZt/99V2e7laP1KXOW0ZEpiIPke/CApvJ6mBcpEUsbF07TFzbpEU2D9FUtM3HP29v71/gb1o0xTnzeNh7B8d/v6XRY4TfXuqX/rX0RXxg1Pvhd/cHC/7K0n+yxr2E8Q9AnmD9fvgf8HP+P69a1EQZHH5Y/pDIUWZ+leQ6O0lHGmsnx83z8jDHGa+mpRvFXflODuWeqQMAevu58W6O0foNV67badi0Jjcv4QXGkDhC6oKAa9lVFftkvYj3soaYUyCWARgRY7aDOfx0sQo7ao2esehRpVLmcVxX8cHKmmEXYPNvzLKTHRLRukrNT5ZfTQ0ILbwLpiXMiSbXjVMEk6PKYo847LlqFdabZDpggIOz2aOPTEMSGcXXH5U5ZcpTJVvXDQM3CBrHQIMqDDoBDwJMXVLZsvi4dM7HoM5EHWgKY40CQWkCml2IJcu9tR/aTRwmjHuMo9UvJiPsoadO0RHMqGxBYXVMdMRYoMWXgj2TDZ8rO4zWauR9zh3ymjxoihg7Q5alyuLgArGU0ZJ5olpJVOYGcE2Zh6ifRErPH8/Ac8u05lrmdBpDMBPwXNVHpA5WmzFEMbNbgOqQWsbpHpDIwoYnYIjQSDMxv0yzmBCdNB81PebrecoxvaY2KroiJgAtFM/WONaVf+fPFJHmfnT1+6Uv77bsC3N3IJ48JoQrztpL6XU+JQyJuwdnaR+RdIDk4s+jYvaS1SX3GR03IJhIMtLOFvcYe76E3bZWrH7EUXAflOjGcTcEDTCT2GnO9TY0vUr02eAWu+Bzm18M9uIKPOb0sZkIyWAT+UL5eHtsZ2qPVC8k1ckyMBM7eDuCdhvuN264wZpDVmt9YjdV0pQwL9XCjmNqvyL3FDTgyidtb5qfFyVLaXtHuB807dLgZJw8mwOS2s5OK3C6nei7b3aKiOw93vT8whoFTsXRePV8kK1y0LKsyTCf+foiLa/EH758BT/z+Ld38R1//t9QUQQAAA==</ProcessPluginConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"GL\"/>\n      <WorkspaceID>Approved</WorkspaceID>\n    </OutBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n</STEP-ProductInformation>\n",
+  "signatory" : "STEPSYS",
+  "comment" : ""
+}

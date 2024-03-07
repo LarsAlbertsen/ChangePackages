@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <UserTypes>
+        <UserType ID="Item" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="Qualifier root">Item</Name>
+            <UserTypeLink UserTypeID="Product Folder"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
