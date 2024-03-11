@@ -1,0 +1,78 @@
+{
+  "version" : "2",
+  "id" : "ALCO_RD-23591B",
+  "name" : "ALCO_RD-23591B small webUI",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "Development",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ChangePackagesRoot",
+  "uniqueId" : "cpk-28d527d0-ed4a-4959-a872-768dd6077dc0",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "testWebUI",
+    "itemURL" : "step://portal?id=testWebUI",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Impact analysis not available. Verify linked business rules and workflows exist on target system plus everything used for configuration.",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized Setup Group Type",
+    "itemURL" : "step://objecttype?id=Uncategorized+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-11 09:28:10\"    UseContextLocale=\"false\">\n\n  <PortalConfigurations>\n    <PortalConfiguration ID=\"testWebUI\">\n\n<!-- Definition:\n<portal-config portalId=\"customerportal\" xmlns=\"http://stibosystems.com/step/portal-config\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <screens>\n    <loginscreen>\n      <parameter id=\"PortalTitle\" value=\"STEP Web UI\"/>\n    </loginscreen>\n    <screen id=\"Name and ID\" type=\"NodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Name and ID\"/>\n    </screen>\n    <screen id=\"homepage\" type=\"HomePage\">\n      <parameter id=\"CssClass\" value=\"stibo-HomePage\"/>\n      <parameter id=\"DisableTitle\" value=\"false\"/>\n      <parameter id=\"PagingEnabled\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Welcome to the STEP Web UI\"/>\n      <parameter-list id=\"Content\">\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"TextWidget\">\n              <parameter id=\"CssClass\" value=\"stb-staticText\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"Text\" value=\"Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help.\"/>\n              <parameter id=\"Title\" value=\"Welcome\"/>\n            </component>\n            <component id=\"Widgets\" type=\"UserWidget\">\n              <parameter id=\"Title\" value=\"i18n.stibo.UserWidgetServerComponent.Title\"/>\n              <parameter id=\"UserDetailsScreen\" value=\"userdetails\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"login\" type=\"LoginScreen\"/>\n    <screen id=\"main\" type=\"Main\">\n      <parameter id=\"DefaultSidePanel\" value=\"SHOWN\"/>\n      <parameter id=\"Resizeable\" value=\"true\"/>\n      <parameter-list id=\"Left\">\n        <component id=\"Left\" type=\"PrimaryNavigation\">\n          <parameter-list id=\"MenuItems\">\n            <component id=\"MenuItems\" type=\"GlobalNavigationSearch\">\n              <parameter id=\"Label\" value=\"Global Search\"/>\n              <parameter-list id=\"SearchConfigurations\">\n                <component id=\"SearchConfigurations\" type=\"GlobalNavigationSearchConfiguration\">\n                  <parameter id=\"Title\" value=\"Name/Id/Attributes\"/>\n                  <parameter-list id=\"SearchPlugins\">\n                    <component id=\"SearchPlugins\" type=\"NameOrIdOrAttributes\">\n                      <parameter id=\"ForceIDNameSearch\" value=\"false\"/>\n                      <parameter id=\"SearchInDataContainers\" value=\"false\"/>\n                    </component>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n            <component id=\"MenuItems\" type=\"TreeItem\">\n              <parameter id=\"HideLeaves\" value=\"false\"/>\n              <parameter id=\"Icon\" value=\"account_tree\"/>\n              <parameter id=\"Label\" value=\"i18n.stibo.webui.primarynavigation.TreeItem.Label\"/>\n              <parameter id=\"ShowLeaves\" value=\"false\"/>\n              <parameter id=\"showRecycle\" value=\"false\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"Mappings\">\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"userdetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"UserCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"Name and ID\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"AlwaysTrueCondition\"/>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"userdetails\" type=\"UserDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component type=\"SaveAction\">\n            <parameter id=\"CssClass\" value=\"SaveButton\"/>\n          </component>\n          <component type=\"ResetAction\">\n            <parameter id=\"CssClass\" value=\"ResetButton\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter-list id=\"Rows\">\n          <component id=\"UserId\" type=\"IdValue\">\n            <parameter id=\"Label\" value=\"User ID\"/>\n          </component>\n          <component id=\"UserEmail\" type=\"UserEmail\">\n            <parameter id=\"Label\" value=\"Email Address\"/>\n            <parameter id=\"Mandatory\" value=\"True\"/>\n          </component>\n          <component id=\"UserPassword\" type=\"UserPassword\">\n            <parameter id=\"NewPasswordLabel\" value=\"New password\"/>\n            <parameter id=\"OldPasswordLabel\" value=\"Old password\"/>\n            <parameter id=\"RepeatPasswordLabel\" value=\"Repeat new password\"/>\n          </component>\n        </parameter-list>\n      </component>\n    </screen>\n  </screens>\n  <theme/>\n</portal-config> -->\n      <SetupGroupLink SetupGroupID=\"WebUIs\"/>\n      <Name QualifierID=\"Qualifier root\">testWebUI</Name>\n      <Configuration>H4sIAAAAAAAAAMVZS3PbNhA+NzP5DygvvVSk014yHtkZ13YSzci2xpLr3joQuZIwhQAWAC0rv74LvinzaTmNDx4TxPftE7sLOoyWnOkNBGfjT89bTp5AaSbFmfPBPXEICF8GTKzPnIfF59FHh2hDRUC5FHDmCOl8On//bhxKZSgf+VKs2JogidBnzsaY8NTztGFLqffawFa7vtziAoReBeEkkNNnzXLYbrdzd7+7Uq29305OPnh/3Uzn/ga2dMSEVcEH5/07Uv1JSCfBmeNH2sgtqGTl5U6UdKpjuqn0qYnN7a8vqTy5zzpwzhMR459HI7LYME3miCKPsCQPE5Lsi1QsiKwYB4I7mDAgAggI1YQSFBdyaoBIReCZ4gMUWq9wMSPBWOD2VcT5Hn8L33JSnomiAQ0NchpJzAbJdgLUL7pgUvBvxBRsQRjtktEo01v7CkBofCz2jrlco7PjN+dVF45DqugWDCjC0N2z2B8LZjg45InyCHNjvriepVo5Xgk+9qq0pTfJWsy4pUw4xOxDZLqxf7crcA+afQO6LMk3KoKK4BrYFaxoxM2cBTCjAnih/Ne7x9sW9AhPjIkpprAyh8rFezF1QjwkorQttWem2Jaq/S19Yus4JerwTfJuQEQTm5tNoBrhBSbV4AuXS8oLBeZAlb9pY6xx3pQuSx5LKEnKdOi5PpYl0MvyWWk1ssHYWppWuyt7+0iscUY192/xjTcJvAtjFFtGBnSnR7o9M+ORPTd9FWx0TcaT+sTqeqcmwZ0qaTtARo0zPkvlw+TKMqf5kDlmRbl+eSoH0iecE3FFDcXYGSwP2LKOkDH2cj/1jZJXDVOfNO0tZAB5lfSn+Kfr8C+wyNoFJ0d0HG324aNw47bo7mAZMTdMCpjIz5GbcboJ0mum1hu5uwd/75eOSxGxBtAEm1++m/q+jIT526DMNtAcJU2BPkFdajRgvmIn6MBUXd5QuLsj2JwOHeDapkDDEOeC2nN7mA7Z1jQb5nHPTVe7G1Hi2RiTeyjSoALAY8iby1yd1nh2A9ZZ5g/0L4FSCx5QfL7arMAxIfl//GjrJcHhmkyufoQfL/iO7vUCx6bv7M0W8NgrzYX1k+EG5/qQriFT+ys+z+xzx6jHtB0Pq326vlUcDrcU2+X6Wlh4MAxalfYIHF0C2WzeNCDX8FxqfcmpLopSXI1Huel9BlXbKTEWPUpEtjN18CML1mC+KBYMmVMT1JCMzBBZm4JnkywNnEuvJF5oAaFm6NzRJ3qDSdCMnOOSM/+fOPhrnGEIw7aG18B4wZcKpxiyxGXMjyVgzlWufHZPkiwuwfmKbICHcbFYRyyw12Eiq4Bks/6VaIACjbWSTDC8akV90Pguvj8SuUqui4LjLBVzu0MNrcnR5Qhv6ob5sQ/a6PrNRu35Yk17Vb5Y4FXSvl7R2JrCXsmd0gRVqDkH9WQ7V2qTm0COc9MPrMtlZ5VCknr2RXU+7KbFdf9WBnCN/Ueq2lpVU2vu5a6x0BwIsipNgkzUJPjTBqi1SLVNxslxaunW3QF7qd71Fh1WdmGy8FodYzS5CAIFuj2ND2hu7Hc+jMI+p1rUfVI5ytYZFoydVEHZ3Hytv6p3PMhQVePxBQkzvgG238KunhBfvIrwHkKgpp4zeUdEH+qOGbXj6tBydTkIzh+RMaXZMHvseSAv/NZxtCQrHZ7xxpVgBgT9RcOxLImib5OkiW73oMEcr1xMc5R2g4JbrHZ8aI0/xmZhntqHtAnWk9RRlO8tpRreVPm7Ppw1XYEOgNdiZT8zYQFn2Cz2wwZz+23gkSph72odwOMbVVGUp3Qvo2IcnF5/XtQmw5FNLt76Ri2uNLqkVKVvPD0ZG64vmWpv1lHKdttMGmr5PdDgTvCuXHqN73J13sx7hYFH9fR2E79vRSo/Fv96GuNNZAv56+xpXP0fnF3RIWfm/D9JDHdXwBwAAA==</Configuration>\n    </PortalConfiguration>\n  </PortalConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
