@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ATD_ALCO_LOV_Country" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">ATD_ALCO_LOV Country dependent (LOV translated)</Name>
+            <ListOfValueLink ListOfValueID="ALCOTextLOVTranslated"></ListOfValueLink>
+            <DimensionLink DimensionID="Country"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="ATG_ALCO"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

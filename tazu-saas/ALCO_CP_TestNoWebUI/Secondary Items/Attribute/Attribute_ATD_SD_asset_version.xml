@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="Arabic">
+            <DimensionPointLink DimensionPointID="Arabic"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ATD_SD_asset_version" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="Arabic">System demo asset version</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="ATG_AssetPublisher"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AssetPublisherObj"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
