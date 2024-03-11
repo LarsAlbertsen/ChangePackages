@@ -1,0 +1,421 @@
+{
+  "version" : "2",
+  "id" : "ALCO_RD-23591C",
+  "name" : "ALCO_RD-23591C WebUI and other stuff",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "Development",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ChangePackagesRoot",
+  "uniqueId" : "cpk-28d527d0-ed4a-4959-a872-768dd6077dc0",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Value Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Value+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Description",
+    "itemURL" : "step://attribute?id=4941",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CompletenessMetricValue",
+    "itemURL" : "step://attribute?id=CompletenessMetricValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Domains",
+    "itemURL" : "step://objecttype?id=Domain+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://ListOfValuesGroup?id=AutoTestLOVGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Countries",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIBulkUpdateTests",
+    "itemURL" : "step://attributegroup?id=WebUIBulkUpdateTests",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized Setup Group Type",
+    "itemURL" : "step://objecttype?id=Uncategorized+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Of Values Group Type",
+    "itemURL" : "step://objecttype?id=List+Of+Values+group+type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Calc No Formula",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpecNoFormula",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Lov Group",
+    "itemURL" : "step://ListOfValuesGroup?id=ALCO_LOVG",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "testWebUI",
+    "itemURL" : "step://portal?id=testWebUI",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Impact analysis not available. Verify linked business rules and workflows exist on target system plus everything used for configuration.",
+    "recursive" : false
+  }, {
+    "name" : "WebUIBulkUpdateTests",
+    "itemURL" : "step://ListOfValuesGroup?id=WebUIBulkUpdateTests",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCOTextLOVTranslated",
+    "itemURL" : "step://ListOfValues?id=ALCOTextLOVTranslated",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging hierarchy",
+    "itemURL" : "step://objecttype?id=Packaging+hierarchy",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUITextLOV",
+    "itemURL" : "step://ListOfValues?id=WebUITextLOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_LOV_withIDs",
+    "itemURL" : "step://ListOfValues?id=ALCO_LOV_withIDs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Name Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Name+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Folder",
+    "itemURL" : "step://objecttype?id=Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manually Sorted Product Folder",
+    "itemURL" : "step://objecttype?id=Manually+Sorted+Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Attributes",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute ShortName",
+    "itemURL" : "step://attribute?id=AttributeShortName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AppliesOnlyIf",
+    "itemURL" : "step://attribute?id=AppliesOnlyIf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WMMandatoryMeta",
+    "itemURL" : "step://attribute?id=WMMandatoryMeta",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Languages",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=4875",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Auto Test Attribute Group",
+    "itemURL" : "step://attributegroup?id=Auto+Test+Attribute+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-11 09:32:59\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n    <Qualifier ID=\"Turkish\">\n      <DimensionPointLink DimensionPointID=\"Turkish\"/>\n    </Qualifier>\n    <Qualifier ID=\"Arabic\">\n      <DimensionPointLink DimensionPointID=\"Arabic\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <ListOfValuesGroupList>\n    <ListOfValuesGroup ID=\"ALCO_LOVG\" ParentID=\"List Of Values group root\">\n      <Name QualifierID=\"Qualifier root\">ALCO Lov Group</Name>\n    </ListOfValuesGroup>\n  </ListOfValuesGroupList>\n\n  <ListsOfValues>\n    <ListOfValue ID=\"ALCOTextLOVTranslated\" ParentID=\"ALCO_LOVG\" AllowUserValueAddition=\"false\" UseValueID=\"true\">\n      <Name QualifierID=\"std.lang.all\">ALCOTextLOVTranslated</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <AttributeGroupLink AttributeGroupID=\"WebUIBulkUpdateTests\"/>\n      <ValueGroup ID=\"2\">\n        <Value QualifierID=\"Arabic\">Arabic value 2</Value>\n        <Value QualifierID=\"std.lang.all\">GL value 2</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"1\">\n        <Value QualifierID=\"Arabic\">Arabic value 1</Value>\n        <Value QualifierID=\"Turkish\">Turkish  value 1</Value>\n        <Value QualifierID=\"std.lang.all\">GL value 1</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"3\">\n        <Value QualifierID=\"std.lang.all\">GL value 3</Value>\n        <Value QualifierID=\"Turkish\">Turkish value 3</Value>\n        <Value QualifierID=\"Arabic\">Arabic value 3</Value>\n      </ValueGroup>\n    </ListOfValue>\n    <ListOfValue ID=\"ALCO_LOV_withIDs\" ParentID=\"ALCO_LOVG\" AllowUserValueAddition=\"false\" UseValueID=\"true\">\n      <Name QualifierID=\"std.lang.all\">ALCO_LOV_withIDs</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <ValueGroup ID=\"2\">\n        <Value>Two</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"1\">\n        <Value>One</Value>\n      </ValueGroup>\n      <ValueGroup ID=\"3\">\n        <Value>Three</Value>\n      </ValueGroup>\n    </ListOfValue>\n  </ListsOfValues>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">ALCO Attributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"ALCO_Text_mv\" MultiValued=\"true\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO Text multi value</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_2DD\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO country dependency</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Country\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_LOV\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ATD_ALCO_LOV</Name>\n      <ListOfValueLink ListOfValueID=\"WebUITextLOV\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_LOV_Country\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ATD_ALCO_LOV Country dependent (LOV translated)</Name>\n      <ListOfValueLink ListOfValueID=\"ALCOTextLOVTranslated\"/>\n      <DimensionLink DimensionID=\"Country\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_LOV_MV\" MultiValued=\"true\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" HierarchicalFiltering=\"false\" ClassificationHierarchicalFiltering=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO LOV multi value</Name>\n      <ListOfValueLink ListOfValueID=\"ALCO_LOV_withIDs\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <PortalConfigurations>\n    <PortalConfiguration ID=\"testWebUI\">\n\n<!-- Definition:\n<portal-config portalId=\"customerportal\" xmlns=\"http://stibosystems.com/step/portal-config\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <screens>\n    <loginscreen>\n      <parameter id=\"PortalTitle\" value=\"STEP Web UI\"/>\n    </loginscreen>\n    <screen id=\"Name and ID\" type=\"NodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Name and ID\"/>\n    </screen>\n    <screen id=\"homepage\" type=\"HomePage\">\n      <parameter id=\"CssClass\" value=\"stibo-HomePage\"/>\n      <parameter id=\"DisableTitle\" value=\"false\"/>\n      <parameter id=\"PagingEnabled\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Welcome to the STEP Web UI\"/>\n      <parameter-list id=\"Content\">\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"TextWidget\">\n              <parameter id=\"CssClass\" value=\"stb-staticText\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"Text\" value=\"Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help.\"/>\n              <parameter id=\"Title\" value=\"Welcome\"/>\n            </component>\n            <component id=\"Widgets\" type=\"UserWidget\">\n              <parameter id=\"Title\" value=\"i18n.stibo.UserWidgetServerComponent.Title\"/>\n              <parameter id=\"UserDetailsScreen\" value=\"userdetails\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"login\" type=\"LoginScreen\"/>\n    <screen id=\"main\" type=\"Main\">\n      <parameter id=\"DefaultSidePanel\" value=\"SHOWN\"/>\n      <parameter id=\"Resizeable\" value=\"true\"/>\n      <parameter-list id=\"Left\">\n        <component id=\"Left\" type=\"PrimaryNavigation\">\n          <parameter-list id=\"MenuItems\">\n            <component id=\"MenuItems\" type=\"GlobalNavigationSearch\">\n              <parameter id=\"Label\" value=\"Global Search\"/>\n              <parameter-list id=\"SearchConfigurations\">\n                <component id=\"SearchConfigurations\" type=\"GlobalNavigationSearchConfiguration\">\n                  <parameter id=\"Title\" value=\"Name/Id/Attributes\"/>\n                  <parameter-list id=\"SearchPlugins\">\n                    <component id=\"SearchPlugins\" type=\"NameOrIdOrAttributes\">\n                      <parameter id=\"ForceIDNameSearch\" value=\"false\"/>\n                      <parameter id=\"SearchInDataContainers\" value=\"false\"/>\n                    </component>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n            <component id=\"MenuItems\" type=\"TreeItem\">\n              <parameter id=\"HideLeaves\" value=\"false\"/>\n              <parameter id=\"Icon\" value=\"account_tree\"/>\n              <parameter id=\"Label\" value=\"i18n.stibo.webui.primarynavigation.TreeItem.Label\"/>\n              <parameter id=\"ShowLeaves\" value=\"false\"/>\n              <parameter id=\"showRecycle\" value=\"false\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"Mappings\">\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"userdetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"UserCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"Name and ID\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"AlwaysTrueCondition\"/>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"userdetails\" type=\"UserDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component type=\"SaveAction\">\n            <parameter id=\"CssClass\" value=\"SaveButton\"/>\n          </component>\n          <component type=\"ResetAction\">\n            <parameter id=\"CssClass\" value=\"ResetButton\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter-list id=\"Rows\">\n          <component id=\"UserId\" type=\"IdValue\">\n            <parameter id=\"Label\" value=\"User ID\"/>\n          </component>\n          <component id=\"UserEmail\" type=\"UserEmail\">\n            <parameter id=\"Label\" value=\"Email Address\"/>\n            <parameter id=\"Mandatory\" value=\"True\"/>\n          </component>\n          <component id=\"UserPassword\" type=\"UserPassword\">\n            <parameter id=\"NewPasswordLabel\" value=\"New password\"/>\n            <parameter id=\"OldPasswordLabel\" value=\"Old password\"/>\n            <parameter id=\"RepeatPasswordLabel\" value=\"Repeat new password\"/>\n          </component>\n        </parameter-list>\n      </component>\n    </screen>\n  </screens>\n  <theme/>\n</portal-config> -->\n      <SetupGroupLink SetupGroupID=\"WebUIs\"/>\n      <Name QualifierID=\"Qualifier root\">testWebUI</Name>\n      <Configuration>H4sIAAAAAAAAAMVZS3PbNhA+NzP5DygvvVSk014yHtkZ13YSzci2xpLr3joQuZIwhQAWAC0rv74LvinzaTmNDx4TxPftE7sLOoyWnOkNBGfjT89bTp5AaSbFmfPBPXEICF8GTKzPnIfF59FHh2hDRUC5FHDmCOl8On//bhxKZSgf+VKs2JogidBnzsaY8NTztGFLqffawFa7vtziAoReBeEkkNNnzXLYbrdzd7+7Uq29305OPnh/3Uzn/ga2dMSEVcEH5/07Uv1JSCfBmeNH2sgtqGTl5U6UdKpjuqn0qYnN7a8vqTy5zzpwzhMR459HI7LYME3miCKPsCQPE5Lsi1QsiKwYB4I7mDAgAggI1YQSFBdyaoBIReCZ4gMUWq9wMSPBWOD2VcT5Hn8L33JSnomiAQ0NchpJzAbJdgLUL7pgUvBvxBRsQRjtktEo01v7CkBofCz2jrlco7PjN+dVF45DqugWDCjC0N2z2B8LZjg45InyCHNjvriepVo5Xgk+9qq0pTfJWsy4pUw4xOxDZLqxf7crcA+afQO6LMk3KoKK4BrYFaxoxM2cBTCjAnih/Ne7x9sW9AhPjIkpprAyh8rFezF1QjwkorQttWem2Jaq/S19Yus4JerwTfJuQEQTm5tNoBrhBSbV4AuXS8oLBeZAlb9pY6xx3pQuSx5LKEnKdOi5PpYl0MvyWWk1ssHYWppWuyt7+0iscUY192/xjTcJvAtjFFtGBnSnR7o9M+ORPTd9FWx0TcaT+sTqeqcmwZ0qaTtARo0zPkvlw+TKMqf5kDlmRbl+eSoH0iecE3FFDcXYGSwP2LKOkDH2cj/1jZJXDVOfNO0tZAB5lfSn+Kfr8C+wyNoFJ0d0HG324aNw47bo7mAZMTdMCpjIz5GbcboJ0mum1hu5uwd/75eOSxGxBtAEm1++m/q+jIT526DMNtAcJU2BPkFdajRgvmIn6MBUXd5QuLsj2JwOHeDapkDDEOeC2nN7mA7Z1jQb5nHPTVe7G1Hi2RiTeyjSoALAY8iby1yd1nh2A9ZZ5g/0L4FSCx5QfL7arMAxIfl//GjrJcHhmkyufoQfL/iO7vUCx6bv7M0W8NgrzYX1k+EG5/qQriFT+ys+z+xzx6jHtB0Pq326vlUcDrcU2+X6Wlh4MAxalfYIHF0C2WzeNCDX8FxqfcmpLopSXI1Huel9BlXbKTEWPUpEtjN18CML1mC+KBYMmVMT1JCMzBBZm4JnkywNnEuvJF5oAaFm6NzRJ3qDSdCMnOOSM/+fOPhrnGEIw7aG18B4wZcKpxiyxGXMjyVgzlWufHZPkiwuwfmKbICHcbFYRyyw12Eiq4Bks/6VaIACjbWSTDC8akV90Pguvj8SuUqui4LjLBVzu0MNrcnR5Qhv6ob5sQ/a6PrNRu35Yk17Vb5Y4FXSvl7R2JrCXsmd0gRVqDkH9WQ7V2qTm0COc9MPrMtlZ5VCknr2RXU+7KbFdf9WBnCN/Ueq2lpVU2vu5a6x0BwIsipNgkzUJPjTBqi1SLVNxslxaunW3QF7qd71Fh1WdmGy8FodYzS5CAIFuj2ND2hu7Hc+jMI+p1rUfVI5ytYZFoydVEHZ3Hytv6p3PMhQVePxBQkzvgG238KunhBfvIrwHkKgpp4zeUdEH+qOGbXj6tBydTkIzh+RMaXZMHvseSAv/NZxtCQrHZ7xxpVgBgT9RcOxLImib5OkiW73oMEcr1xMc5R2g4JbrHZ8aI0/xmZhntqHtAnWk9RRlO8tpRreVPm7Ppw1XYEOgNdiZT8zYQFn2Cz2wwZz+23gkSph72odwOMbVVGUp3Qvo2IcnF5/XtQmw5FNLt76Ri2uNLqkVKVvPD0ZG64vmWpv1lHKdttMGmr5PdDgTvCuXHqN73J13sx7hYFH9fR2E79vRSo/Fv96GuNNZAv56+xpXP0fnF3RIWfm/D9JDHdXwBwAAA==</Configuration>\n    </PortalConfiguration>\n  </PortalConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
