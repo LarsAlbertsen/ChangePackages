@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Details-HoldingCompany" type="NodeDetails">
+			<parameter id="ShowTitle" value="true"/>
+			<parameter id="Title" value=" "/>
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="ShowWarning" value="false"/>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component id="TabPages" type="TabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Overview"/>
+						<component id="TabContent" type="ColumnsControl">
+							<parameter-list id="Columns">
+								<component id="Columns" type="NodeEditor">
+									<parameter id="LabelLayout" value="LEFT"/>
+									<parameter-list id="Rows">
+										<component id="Rows" type="IdValue">
+											<parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+											<parameter id="CssClass" value="stibo-IdValue"/>
+										</component>
+										<component id="Rows" type="NameValue">
+											<parameter id="ReadOnly" value="true"/>
+											<parameter id="Label" value="i18n.stibo.NameValue.Label"/>
+											<parameter id="CssClass" value="stibo-NameValue"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+									</parameter-list>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component id="TabPages" type="SubScreenTabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Company Hierarchy"/>
+						<parameter id="DetailsScreen" value="CompanyHierarchy"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

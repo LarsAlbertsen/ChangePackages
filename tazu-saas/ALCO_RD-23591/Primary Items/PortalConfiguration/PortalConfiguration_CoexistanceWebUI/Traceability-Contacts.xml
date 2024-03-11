@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Traceability-Contacts" type="SourceTraceabityScreen">
+			<parameter-list id="Rows">
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="FirstName"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="LastName"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="InputStreet"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="InputCity"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="InputState"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="InputZip"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="InputCountry"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="EmailDataContainer"/>
+					<parameter id="Attribute" value="EmailField"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="PhoneDataContainer"/>
+					<parameter id="Attribute" value="PhoneNumber"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+			</parameter-list>
+		</screen>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Details-Household" type="NodeDetails">
+			<parameter id="ShowTitle" value="true"/>
+			<parameter id="Title" value=" "/>
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="ShowWarning" value="false"/>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component id="TabPages" type="TabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Overview"/>
+						<component id="TabContent" type="ColumnsControl">
+							<parameter-list id="Columns">
+								<component id="Columns" type="NodeEditor">
+									<parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+									<parameter id="LabelLayout" value="LEFT"/>
+									<parameter-list id="Rows">
+										<component id="Rows" type="StaticHtml">
+											<parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Household Details&lt;/h4&gt;"/>
+											<parameter id="CssClass" value="stb-staticHtml"/>
+										</component>
+										<component id="Rows" type="References">
+											<parameter id="ReadOnly" value="false"/>
+											<parameter id="ReferenceMode" value="LOCAL"/>
+											<parameter id="TableHeight" value="300"/>
+											<parameter id="DisplayTargetHistory" value="false"/>
+											<parameter id="ReferenceType" value="HouseholdMembers"/>
+											<parameter id="Mandatory" value="false"/>
+											<parameter-list id="Columns">
+												<component id="Columns" type="TargetIdColumn">
+													<parameter id="Label" value="ID"/>
+												</component>
+												<component id="Columns" type="TargetAttributeColumn">
+													<parameter id="ReadOnly" value="false"/>
+													<parameter id="Attribute" value="CalcName"/>
+													<parameter id="Label" value="Name"/>
+												</component>
+												<component id="Columns" type="TargetAttributeColumn">
+													<parameter id="ReadOnly" value="false"/>
+													<parameter id="Attribute" value="CalcEmails"/>
+													<parameter id="Label" value="Emails"/>
+												</component>
+												<component id="Columns" type="TargetAttributeColumn">
+													<parameter id="ReadOnly" value="false"/>
+													<parameter id="Attribute" value="CalcPhones"/>
+													<parameter id="Label" value="Phones"/>
+												</component>
+											</parameter-list>
+											<component id="NodePickerDialog" type="NodePickerDialog">
+												<parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+												<component id="RootNodePlugin" type="StaticRootNodes">
+													<parameter-list id="RootNodeURLs">
+														<parameter value="step://product?id=Product+hierarchy+root"/>
+													</parameter-list>
+												</component>
+												<parameter-list id="TabPages">
+													<component id="TabPages" type="BrowseTab"/>
+												</parameter-list>
+											</component>
+										</component>
+									</parameter-list>
+								</component>
+								<component id="Columns" type="NodeEditor">
+									<parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+									<parameter id="LabelLayout" value="LEFT"/>
+									<parameter-list id="Rows">
+										<component id="Rows" type="CompletenessMeter">
+											<parameter id="ImprovementHelp" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.ImprovementHelp"/>
+											<parameter id="CompletenessMetric" value="HouseholdMetric"/>
+											<parameter id="Label" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.Label"/>
+										</component>
+										<component id="Rows" type="StaticHtml">
+											<parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Key Identifiers&lt;/h4&gt;"/>
+											<parameter id="CssClass" value="stb-staticHtml"/>
+										</component>
+										<component id="Rows" type="Revision">
+											<parameter id="Label" value="i18n.stibo.NodeDetails.Revision.Label"/>
+										</component>
+									</parameter-list>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>
