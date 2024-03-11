@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="homepage" type="HomePage">
+      <parameter id="DisableTitle" value="false"/>
+      <parameter id="PagingEnabled" value="false"/>
+      <parameter id="Title" value="Stibo User Web UI"/>
+      <parameter id="CssClass" value="stibo-HomePage"/>
+      <parameter-list id="Content">
+        <component id="Content" type="WidgetGrid">
+          <parameter-list id="Widgets">
+            <component id="Widgets" type="UserWidget">
+              <parameter id="UserDetailsScreen" value="userdetails"/>
+              <parameter id="Title" value="Welcome"/>
+            </component>
+            <component id="Widgets" type="SearchWidget">
+              <parameter id="Screen" value="GenericSearch"/>
+              <parameter id="Title" value="Search"/>
+              <parameter id="LastSearchLabel" value="Previous searches"/>
+              <component id="SearchBelowPlugin" type="StaticRootNodes">
+                <parameter-list id="RootNodeURLs">
+                  <parameter value="step://product?id=Product+hierarchy+root"/>
+                  <parameter value="step://classification?id=Image+Hierarchy+%28Sample%29"/>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="Widgets" type="StatusSelectorWidget">
+              <parameter-list id="States">
+                <parameter value="SelectCandidate"/>
+                <parameter value="End"/>
+              </parameter-list>
+              <parameter id="AutoRefreshUserTaskListOnToggle" value="false"/>
+              <parameter id="DoubleWidth" value="false"/>
+              <parameter id="FilterByCollection" value="Filter by collection"/>
+              <parameter id="ShowFilter" value="false"/>
+              <parameter id="RefreshInterval" value="60"/>
+              <parameter id="InitiateLabel" value="Create new..."/>
+              <parameter id="Workflow" value="DnBMatch"/>
+              <parameter id="ShowInitiate" value="false"/>
+              <parameter id="InitiateScreen" value="initiate"/>
+              <parameter id="ResultScreen" value="Tasklist"/>
+              <parameter-list id="InitiateScreenSelectors"/>
+            </component>
+            <component id="Widgets" type="LinksWidget">
+              <parameter id="Title" value="Quick links"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="Blank"/>
+                  <parameter id="Label" value="Browse"/>
+                </component>
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="basketdetails"/>
+                  <parameter id="Label" value="Basket"/>
+                  <parameter id="CssClass" value="stibo-Navigation"/>
+                </component>
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="BackgroundProcessesList"/>
+                  <parameter id="Label" value="Background Processes"/>
+                  <parameter id="CssClass" value="stibo-Navigation"/>
+                </component>
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="Import"/>
+                  <parameter id="Label" value="Excel import..."/>
+                  <parameter id="CssClass" value="stibo-Navigation"/>
+                </component>
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="AdvancedSearch"/>
+                  <parameter id="Label" value="Advanced Search"/>
+                </component>
+                <component id="Rows" type="Navigation">
+                  <parameter id="Screen" value="MultiContextScreen"/>
+                  <parameter id="Label" value="Multi Context"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Widgets" type="MassCreationWidget">
+              <parameter id="RecentHistoryKey" value="4e22a0a0-889c-401e-b36d-38e33980a426"/>
+              <parameter id="Title" value="Mass creation"/>
+              <parameter id="ResultScreen" value="MassCreationScreen"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>

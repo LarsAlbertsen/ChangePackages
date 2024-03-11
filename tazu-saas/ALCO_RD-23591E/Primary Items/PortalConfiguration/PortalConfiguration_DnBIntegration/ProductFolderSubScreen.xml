@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="ProductFolderSubScreen" type="Children">
+      <component id="NodeList" type="NodeList">
+        <parameter id="HideStandardButtons" value="true"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="50"/>
+        <parameter id="UseDetailsOverlay" value="false"/>
+        <parameter id="ID" value="CH"/>
+        <parameter id="SelectAllLabel" value="Select all"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter id="ClearSelection" value="Clear selection"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter-list id="Actions">
+          <component type="CreateProductAction">
+            <parameter id="OkButtonLabel" value="OK"/>
+            <parameter id="CancelButtonLabel" value="Cancel"/>
+            <parameter id="Label" value="Create sub object"/>
+            <parameter id="DialogTitle" value="Create sub object"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="DisplayModes">
+          <component type="TableDisplayMode">
+            <parameter id="EnableFiltering" value="true"/>
+            <parameter id="ContextHelp" value="List view"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ColumnsResizable" value="true"/>
+            <parameter-list id="Headers">
+              <component type="ThumbnailHeader"/>
+              <component type="IDHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component type="NameHeader"/>
+              <component type="ObjectTypeHeader"/>
+            </parameter-list>
+          </component>
+          <component type="MultiEditDisplayMode">
+            <parameter id="ShowEmptyGroupHeaders" value="true"/>
+            <parameter id="EnableFiltering" value="true"/>
+            <parameter id="ContextHelp" value="Multi edit view"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ShowGroupHeaders" value="true"/>
+            <parameter id="GroupsInitiallyOpen" value="false"/>
+            <parameter id="ShowOnlyValidAttributes" value="true"/>
+            <parameter id="UseImmediateSave" value="false"/>
+            <parameter id="PropertyDirection" value="HORIZONTAL"/>
+            <parameter-list id="Headers">
+              <component type="ThumbnailHeader"/>
+              <component type="IDHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component type="TitleHeader"/>
+            </parameter-list>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Consent Protocol Screen" type="NodeDetails">
+			<parameter id="ShowTitle" value="true"/>
+			<parameter id="Title" value="Protocol Details"/>
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="ShowWarning" value="false"/>
+			<component id="Breadcrumb" type="Breadcrumb">
+				<parameter id="Readonly" value="false"/>
+				<parameter id="CssClass" value="stibo-Breadcrumb"/>
+			</component>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component id="TabPages" type="TabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Details"/>
+						<component id="TabContent" type="NodeEditor">
+							<parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+							<parameter id="LabelLayout" value="LEFT"/>
+							<parameter-list id="Rows">
+								<component id="Rows" type="ValueGroup">
+									<parameter id="EnableTagConversion" value="true"/>
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="EnableStepTags" value="false"/>
+									<parameter id="DisplayValueHistory" value="false"/>
+									<parameter id="SortLOVByID" value="false"/>
+									<parameter id="AttributeGroup" value="ConsentProtest"/>
+									<parameter id="RichTextEditing" value="Never"/>
+									<parameter id="DisplayContextHelp" value="true"/>
+									<parameter id="DisplayMode" value="Merged"/>
+									<parameter id="MaxSuggestions" value="10"/>
+									<parameter id="ShowLOVIDs" value="false"/>
+									<parameter id="EnableLocaleFormatting" value="true"/>
+									<parameter id="IncludeReferences" value="true"/>
+									<parameter id="SuggestOracle" value="false"/>
+									<parameter id="MandatoryGroup" value="false"/>
+									<parameter id="FilterAttributeType" value="Both"/>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component id="TabPages" type="SubScreenTabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Subjects"/>
+						<parameter id="DetailsScreen" value="GDPR Relations Screen"/>
+					</component>
+				</parameter-list>
+			</component>
+			<component id="Buttons" type="Buttons">
+				<parameter-list id="Actions">
+					<component id="Actions" type="ResetAction">
+						<parameter id="ButtonLabel" value="i18n.stibo.ResetAction.Label"/>
+						<parameter id="ButtonType" value="TEXT"/>
+					</component>
+					<component id="Actions" type="ApproveAction">
+						<parameter id="ButtonLabel" value="i18n.stibo.portal.server.components.value.ApproveActionServerComponent.default.button.Label"/>
+						<parameter id="EnforceValidity" value="false"/>
+						<parameter id="ButtonType" value="TEXT"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

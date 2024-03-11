@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="MultiContextScreen" type="MultiContextScreen">
+      <parameter-list id="DisplayedAttributes">
+        <parameter value="Attribute group root"/>
+      </parameter-list>
+      <parameter-list id="DisplayedReferences">
+        <parameter value="PrimaryProductImage"/>
+        <parameter value="ProductImage"/>
+        <parameter value="Accessory2"/>
+        <parameter value="Product Video"/>
+        <parameter value="Accessory"/>
+      </parameter-list>
+      <parameter id="DisplaySuppression" value="true"/>
+      <parameter id="EnableUserConfigurableViews" value="true"/>
+      <parameter id="Title" value="Multi context"/>
+    </screen>

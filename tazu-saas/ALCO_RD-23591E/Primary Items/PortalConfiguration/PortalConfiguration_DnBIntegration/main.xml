@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="main" type="Main">
+      <parameter id="TopHeight" value="40"/>
+      <parameter id="BottomHeight" value="80"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter id="DefaultSidePanel" value="SHOWN"/>
+      <parameter id="InfoAlertCloseDelay" value="3"/>
+      <parameter id="RightWidth" value="120"/>
+      <parameter id="LeftWidth" value="300"/>
+      <parameter-list id="Right"/>
+      <parameter-list id="Bottom"/>
+      <parameter-list id="Top"/>
+      <parameter-list id="Left">
+        <component id="Left" type="StackPanel">
+          <parameter id="StackHeaderHeight" value="20"/>
+          <parameter-list id="Items">
+            <component id="Items" type="StackPanelItem">
+              <parameter id="HeaderCssClass" value="stb-StackPanelHeader"/>
+              <parameter id="Title" value="i18n.stibo.Template.UserWebUI.Main.StackPanel.Title"/>
+              <parameter id="CssClass" value="stb-StackPanelItem"/>
+              <component id="Content" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="Navigation">
+                    <parameter id="Screen" value="AdvancedSearch"/>
+                  </component>
+                  <component id="Rows" type="TreeNavigator">
+                    <parameter id="showRecycle" value="true"/>
+                    <parameter id="ShowLeaves" value="true"/>
+                    <parameter-list id="RootNodeURLs">
+                      <parameter value="step://classification?id=Image+Hierarchy+%28Sample%29"/>
+                      <parameter value="step://product?id=Product+hierarchy+root"/>
+                      <parameter value="step://collectiongroup?id=CollectionGroup+root"/>
+                      <parameter value="step://attributegroup?id=Attribute+group+root"/>
+                      <parameter value="step://entity?id=Customers"/>
+                    </parameter-list>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="Items" type="StackPanelItem">
+              <parameter id="HeaderCssClass" value="stb-StackPanelHeader"/>
+              <parameter id="Title" value="Advanced search"/>
+              <parameter id="CssClass" value="stb-StackPanelItem"/>
+              <component id="Content" type="SearchPanel">
+                <parameter id="CommandsAtTop" value="false"/>
+                <parameter id="ResultScreenID" value="power-search-result-statistics"/>
+                <parameter id="CommandsCssClass" value="stb-TopButtonPanel"/>
+                <parameter id="ID" value="SearchID2"/>
+                <parameter-list id="Criteria">
+                  <component id="Criteria" type="ValueCriteria">
+                    <parameter id="QueryCompletionDelay" value="500"/>
+                    <parameter id="DocumentContentOptionTitle" value="Also search in documents"/>
+                    <parameter id="Label" value="Main search"/>
+                    <parameter id="MatchDocumentContent" value="false"/>
+                    <parameter id="ShowDocumentContentOption" value="true"/>
+                    <parameter id="AllowSearchForBlank" value="false"/>
+                    <parameter id="ContextHelp" value="Search for Name, ID and attribute values"/>
+                    <parameter id="MaxSuggestions" value="10"/>
+                    <parameter id="MatchCase" value="false"/>
+                    <parameter id="PowerSearch" value="false"/>
+                    <parameter id="MatchID" value="true"/>
+                    <parameter id="MatchName" value="true"/>
+                    <parameter id="ID" value="PW"/>
+                    <parameter id="QueryCompletion" value="true"/>
+                  </component>
+                  <component id="Criteria" type="SearchBelowCriteria">
+                    <parameter id="ContextHelp" value="Select the hierarchy node you want the to search from"/>
+                    <parameter id="Label" value="Search below"/>
+                    <parameter id="ID" value="BEL"/>
+                    <parameter-list id="RootNodeURLs">
+                      <parameter value="step://classification?id=Image+Hierarchy+%28Sample%29"/>
+                      <parameter value="step://product?id=Product+hierarchy+root"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Criteria" type="ObjectTypeCriteria">
+                    <parameter id="ContextHelp" value="Select one or more Product Types to search for"/>
+                    <parameter id="MultiValued" value="true"/>
+                    <parameter id="IncludeRootObjectTypes" value="false"/>
+                    <parameter id="Label" value="Product types"/>
+                    <parameter id="NoneOptionLabel" value="[none]"/>
+                    <parameter id="AllOption" value="true"/>
+                    <parameter-list id="ObjectTypes">
+                      <parameter value="Product user-type root"/>
+                    </parameter-list>
+                    <parameter id="ID" value="PROD"/>
+                    <parameter id="IncludeChildObjectTypes" value="true"/>
+                    <parameter id="AllOptionLabel" value="[all]"/>
+                    <parameter id="NoneOption" value="true"/>
+                  </component>
+                  <component id="Criteria" type="ObjectTypeCriteria">
+                    <parameter id="ContextHelp" value="Select one or more Asset Types to search for"/>
+                    <parameter id="MultiValued" value="true"/>
+                    <parameter id="IncludeRootObjectTypes" value="true"/>
+                    <parameter id="Label" value="Asset types"/>
+                    <parameter id="NoneOptionLabel" value="[none]"/>
+                    <parameter id="AllOption" value="true"/>
+                    <parameter-list id="ObjectTypes">
+                      <parameter value="Asset user-type root"/>
+                    </parameter-list>
+                    <parameter id="ID" value="ASSET"/>
+                    <parameter id="IncludeChildObjectTypes" value="true"/>
+                    <parameter id="AllOptionLabel" value="[all]"/>
+                    <parameter id="NoneOption" value="true"/>
+                  </component>
+                  <component id="Criteria" type="AttributeGroupValueCriteria">
+                    <parameter id="ContextHelp" value="Here you can select additional search criteria related to assets. Once you have selected a criteria from the list you can continue adding criteria by clickking the 'green plus'-icon"/>
+                    <parameter id="MatchCase" value="false"/>
+                    <parameter id="AttributeGroup" value="Uncategorized"/>
+                    <parameter id="Label" value="Additional Asset criteria"/>
+                    <parameter id="LazyLoad" value="false"/>
+                    <parameter id="IncludeInheritedValues" value="false"/>
+                    <parameter id="PerformOrSearch" value="true"/>
+                    <parameter id="ID" value="MULTI2"/>
+                    <parameter id="CssClass" value="stb-AttributeGroupCriteria"/>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <component id="CornerBar" type="CornerBar">
+        <parameter-list id="Items">
+          <component id="Items" type="CornerBarDesignModeAction">
+            <parameter id="TooltipText" value="Design mode"/>
+          </component>
+          <component id="Items" type="CornerBarContextSelector"/>
+          <component id="Items" type="CornerBarWorkspaceSelector"/>
+          <component id="Items" type="BackgroundProcessNotification">
+            <parameter id="TooltipText" value="i18n.stibo.CornerBar.Notifications.Tooltip.Text"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="AdvancedSearch"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AdvancedSearchSelectionCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Customers Screen"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ObjectTypeCondition">
+              <parameter id="ObjectType" value="Customers"/>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="BackgroundProcessDetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="BackgroundProcessCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Classification Screen"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ClassificationCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="productfolderdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ObjectTypeCondition">
+              <parameter id="ObjectType" value="Product Folder"/>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="productdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ProductCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="assetdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AssetCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="BackgroundProcessesList"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="BackgroundProcessListCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="RecycleBin"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="RecycleBinCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="CollectionContent"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="CollectionCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="CollectionsList"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="CollectionGroupCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="AMS"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ObjectTypeCondition">
+              <parameter id="ObjectType" value="stibo.normalattribute"/>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="AGMS"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ObjectTypeCondition">
+              <parameter id="ObjectType" value="stibo.grouping attribute"/>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="D&amp;B Match Candidates ScrV2"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="WorkflowCondition">
+              <parameter id="State" value="SelectCandidate"/>
+              <parameter id="Workflow" value="DnBMatch"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Preferences">
+        <component id="Preferences" type="ScreenPreference">
+          <parameter id="SidePanel" value="SHOWN"/>
+          <parameter id="Screen" value="productfolderdetails"/>
+        </component>
+        <component id="Preferences" type="ScreenPreference">
+          <parameter id="SidePanel" value="SHOWN"/>
+          <parameter id="Screen" value="Blank"/>
+        </component>
+        <component id="Preferences" type="ScreenPreference">
+          <parameter id="SidePanel" value="SHOWN"/>
+          <parameter id="Screen" value="productdetails"/>
+        </component>
+      </parameter-list>
+    </screen>

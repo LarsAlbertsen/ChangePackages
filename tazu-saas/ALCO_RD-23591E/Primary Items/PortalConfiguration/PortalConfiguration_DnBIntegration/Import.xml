@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Import" type="DataImport">
+      <parameter id="UsePortalContext" value="false"/>
+      <parameter-list id="NarrowedImportConfigurations"/>
+    </screen>

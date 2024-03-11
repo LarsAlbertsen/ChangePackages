@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="classificationdetails" type="AssetFolderScreen">
+			<component id="NodeList" type="NodeList">
+				<parameter id="PageSize" value="50"/>
+				<parameter id="ID" value="ClassificationNodeList"/>
+				<parameter id="AssetSelectionScreen" value="assetdetails"/>
+				<parameter id="EmptySelectionScreen" value="EmptySelectionScreen"/>
+				<parameter id="MultiSelectionScreen" value="MultiSelectionScreen"/>
+				<parameter id="ProductSelectionScreen" value="productdetailsWithObjectType"/>
+				<parameter id="ClassificationSelectionScreen" value="Classification Screen"/>
+				<parameter-list id="Actions">
+					<component type="DownloadAssetsAction">
+						<parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-ActiveIcon-download"/>
+					</component>
+					<component type="AddToBasketAction">
+						<parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-Basket-add"/>
+					</component>
+				</parameter-list>
+				<parameter-list id="DisplayModes">
+					<component type="TableDisplayMode">
+						<parameter id="ShowDetails" value="true"/>
+						<parameter-list id="Headers">
+							<component type="ThumbnailHeader">
+								<parameter id="Label" value="Thumb"/>
+							</component>
+							<component type="IDHeader">
+								<parameter id="Label" value="ID"/>
+							</component>
+							<component type="TitleHeader">
+								<parameter id="Label" value="Name"/>
+							</component>
+							<component type="ObjectTypeHeader">
+								<parameter id="Label" value="Type"/>
+							</component>
+							<component type="ValueHeader">
+								<parameter id="Attribute" value="asset.extension"/>
+								<parameter id="Label" value="File extension"/>
+							</component>
+							<component type="ValueHeader">
+								<parameter id="Attribute" value="Description"/>
+							</component>
+						</parameter-list>
+					</component>
+					<component type="FilmStripDisplayMode">
+						<parameter id="ShowDetails" value="true"/>
+					</component>
+					<component type="GalleryDisplayMode"/>
+					<component type="CompareDisplayMode">
+						<parameter id="GroupsInitiallyOpen" value="true"/>
+						<parameter id="ShowOnlyValidAttributes" value="true"/>
+						<parameter-list id="Headers">
+							<component type="ValueGroupHeader">
+								<parameter id="AttributeGroup" value="Uncategorized"/>
+							</component>
+						</parameter-list>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="PDX Page" type="NodeDetails">
+  <parameter id="ShowTitle" value="true"/>
+  <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+  <parameter id="EnforceValidity" value="false"/>
+  <parameter id="ShowWarning" value="false"/>
+  <component id="Main" type="PDXChannelConfigurationEditor"/>
+  <component id="Buttons" type="Buttons">
+    <parameter-list id="Actions">
+      <component id="Actions" type="SaveAction">
+        <parameter id="ButtonLabel" value="i18n.stibo.SaveAction.Label"/>
+        <parameter id="EnforceValidity" value="false"/>
+        <parameter id="ButtonType" value="TEXT"/>
+        <parameter id="ReloadAfterSave" value="true"/>
+      </component>
+      <component id="Actions" type="PDXChannelConfigurationsPublishAction">
+        <parameter id="AssetGroupRoot" value="PDX_Channel_Assets"/>
+      </component>
+    </parameter-list>
+  </component>
+</screen>

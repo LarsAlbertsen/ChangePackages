@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="MassCreationScreen" type="MassCreationScreen">
+      <parameter id="StructureTitle" value="Structure"/>
+      <parameter id="Title" value="Mass creation"/>
+      <parameter-list id="ObjectTypes">
+        <parameter value="Level1"/>
+        <parameter value="Products"/>
+        <parameter value="Level4"/>
+        <parameter value="Level3"/>
+        <parameter value="Level2"/>
+        <parameter value="level 2b"/>
+        <parameter value="level 3b"/>
+      </parameter-list>
+      <parameter id="BusinessCondition" value="FunnyFailingCondition"/>
+      <parameter-list id="AttributesAndGroups"/>
+    </screen>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Verify" type="NodeDetails">
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="Title" value="Verify"/>
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component type="SaveAction">
+            <parameter id="ButtonLabel" value="Save"/>
+            <parameter id="CssClass" value="SaveButton"/>
+            <parameter id="ButtonType" value="ICON_AND_TEXT"/>
+            <parameter id="EnforceValidity" value="false"/>
+          </component>
+          <component type="ResetAction">
+            <parameter id="ButtonLabel" value="Reset"/>
+            <parameter id="CssClass" value="ResetButton"/>
+            <parameter id="ButtonType" value="ICON_AND_TEXT"/>
+          </component>
+          <component type="SubmitAction">
+            <parameter id="DefaultButtonLabel" value="Submit"/>
+            <parameter id="AssignCaption" value="Assign to"/>
+            <parameter id="DefaultAssigneeLabel" value="[Workflow default]"/>
+            <parameter-list id="Events">
+              <parameter value="Accept"/>
+              <parameter value="Reject"/>
+            </parameter-list>
+            <parameter id="SubmitDialogCaption" value="Submit properties"/>
+            <parameter id="UserListPrefix" value="User:"/>
+            <parameter id="ProcessNoteCaption" value="Submit message"/>
+            <parameter id="ButtonLabel" value="Save &amp; {0}"/>
+            <parameter id="CssClass" value="SubmitButton"/>
+            <parameter id="ButtonType" value="ICON_AND_TEXT"/>
+            <parameter id="EnforceValidity" value="true"/>
+            <parameter id="ShowSubmitDialog" value="false"/>
+            <parameter id="ExpandGroups" value="false"/>
+            <parameter id="GroupListPrefix" value="Group:"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="NodeEditor">
+        <parameter-list id="Rows">
+          <component type="AssetThumbnail">
+            <parameter id="AssetReferenceType" value="Primary Image"/>
+            <parameter id="Label" value="Primary Image"/>
+          </component>
+          <component type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="ID"/>
+          </component>
+          <component type="NameValue">
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="CssClass" value="stibo-NameValue"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="Label" value="Name"/>
+          </component>
+          <component type="Value">
+            <parameter id="Columns" value="1"/>
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="SuggestOracle" value="false"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+            <parameter id="Attribute" value="Description"/>
+            <parameter id="Label" value="Description"/>
+            <parameter id="EnableStepTags" value="false"/>
+            <parameter id="SortLOVByID" value="false"/>
+            <parameter id="MaxSuggestions" value="10"/>
+          </component>
+          <component type="Value">
+            <parameter id="Columns" value="1"/>
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="SuggestOracle" value="false"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+            <parameter id="Attribute" value="Manufacturer Part Number"/>
+            <parameter id="Label" value="Manufacturer Part Number"/>
+            <parameter id="EnableStepTags" value="false"/>
+            <parameter id="SortLOVByID" value="false"/>
+            <parameter id="MaxSuggestions" value="10"/>
+          </component>
+          <component type="Value">
+            <parameter id="Columns" value="1"/>
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="SuggestOracle" value="false"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+            <parameter id="Attribute" value="Brand Name"/>
+            <parameter id="Label" value="Brand Name"/>
+            <parameter id="EnableStepTags" value="false"/>
+            <parameter id="SortLOVByID" value="false"/>
+            <parameter id="MaxSuggestions" value="10"/>
+          </component>
+          <component type="Value">
+            <parameter id="Columns" value="1"/>
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="SuggestOracle" value="false"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+            <parameter id="Attribute" value="Country of Origin"/>
+            <parameter id="Label" value="Country of Origin"/>
+            <parameter id="EnableStepTags" value="false"/>
+            <parameter id="SortLOVByID" value="false"/>
+            <parameter id="MaxSuggestions" value="10"/>
+          </component>
+          <component type="ProcessNotes">
+            <parameter id="ReadOnly" value="false"/>
+            <parameter id="TransitionMessages" value="false"/>
+            <parameter id="MaxEntries" value="5"/>
+            <parameter id="Label" value="Process Notes"/>
+            <parameter id="ProcessNotes" value="true"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

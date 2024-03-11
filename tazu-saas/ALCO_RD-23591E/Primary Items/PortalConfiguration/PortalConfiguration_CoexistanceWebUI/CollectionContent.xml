@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="CollectionContent" type="CollectionContentScreen">
+			<parameter id="ShowTitle" value="false"/>
+			<parameter id="Title" value="i18n.stibo.Collections.CollectionContentScreenServerComponent.Title"/>
+			<component id="NodeList" type="NodeList">
+				<parameter id="IncludeLabels" value="true"/>
+				<parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+				<parameter id="LookupScreenTypeForNavigation" value="true"/>
+				<parameter id="PageSize" value="25"/>
+				<parameter id="DefaultSortingOrder" value="Ascending"/>
+				<parameter id="UseDetailsOverlay" value="false"/>
+				<parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+				<parameter id="EnableDefaultSorting" value="true"/>
+				<parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+				<parameter id="ToolbarHeight" value="30"/>
+				<parameter id="HideStandardButtons" value="false"/>
+				<parameter id="ID" value="fdfbcbd"/>
+				<parameter id="HideSelectAllButton" value="false"/>
+				<parameter-list id="DisplayModes">
+					<component id="DisplayModes" type="TableDisplayMode">
+						<parameter id="ShowDetails" value="false"/>
+						<parameter id="showTopItemDetailsOnLoad" value="false"/>
+						<parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+						<parameter id="EnableFiltering" value="false"/>
+						<parameter id="ColumnsResizable" value="false"/>
+						<parameter id="MinColumnsWidth" value="0"/>
+						<parameter id="Title" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+						<parameter id="DisplayModeHeight" value="200"/>
+						<parameter-list id="Headers">
+							<component id="Headers" type="IDHeader">
+								<parameter id="EnableLink" value="true"/>
+								<component id="Dimensions" type="TableHeaderDimensions">
+									<parameter id="PreferredColumnWidth" value="100"/>
+									<parameter id="PreferredRowHeight" value="-1"/>
+								</component>
+							</component>
+							<component id="Headers" type="ValueHeader">
+								<parameter id="nowrap" value="false"/>
+								<parameter id="Readonly" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="CalcNameCollection"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="Label" value="Name"/>
+								<parameter id="ShowInvalidInheritedValues" value="false"/>
+								<parameter id="Mandatory" value="NotMandatory"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+							<component id="Headers" type="DataContainerValueHeader">
+								<parameter id="DataContainer" value="MainAddressDataContainer"/>
+								<parameter id="nowrap" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="CalcFormattedAddress"/>
+								<parameter id="AlwaysShowValues" value="true"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="Label" value="Address"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+							<component id="Headers" type="DataContainerValueHeader">
+								<parameter id="DataContainer" value="EmailDataContainer"/>
+								<parameter id="nowrap" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="EmailField"/>
+								<parameter id="AlwaysShowValues" value="true"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="Label" value="Email"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+							<component id="Headers" type="DataContainerValueHeader">
+								<parameter id="DataContainer" value="PhoneDataContainer"/>
+								<parameter id="nowrap" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="PhoneNumber"/>
+								<parameter id="AlwaysShowValues" value="true"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="Label" value="Phone"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+						</parameter-list>
+					</component>
+				</parameter-list>
+				<parameter-list id="Actions">
+					<component id="Actions" type="RefreshCollectionAction">
+						<parameter id="ToolTip" value="i18n.stibo.Collections.RefreshCollection.ToolTip"/>
+						<parameter id="ButtonLabel" value="i18n.stibo.Collections.RefreshCollection.Label"/>
+					</component>
+					<component id="Actions" type="BulkUpdateAction">
+						<component id="NodePickerDialog" type="NodePickerDialog">
+							<parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+							<component id="RootNodePlugin" type="StaticRootNodes">
+								<parameter-list id="RootNodeURLs">
+									<parameter value="step://classification?id=Classification+1+root"/>
+								</parameter-list>
+							</component>
+							<parameter-list id="TabPages">
+								<component id="TabPages" type="BrowseTab">
+									<component id="TreeService" type="HideBelow">
+										<parameter-list id="LeafObjectTypes">
+											<parameter value="BulkUpdateConfigurationsRoot"/>
+										</parameter-list>
+									</component>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component id="Actions" type="CreateCollectionAction">
+						<parameter id="ToolTip" value="i18n.stibo.Collections.CreateCollection.ToolTip"/>
+						<parameter id="ButtonLabel" value="i18n.stibo.Collections.CreateCollection.Label"/>
+						<component id="CreateCollectionDialog" type="CreateCollectionDialog">
+							<component id="NodePickerDialog" type="NodePickerDialog">
+								<parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+								<component id="RootNodePlugin" type="StaticRootNodes">
+									<parameter-list id="RootNodeURLs">
+										<parameter value="step://collectiongroup?id=102100"/>
+									</parameter-list>
+								</component>
+								<parameter-list id="TabPages">
+									<component id="TabPages" type="BrowseTab"/>
+								</parameter-list>
+							</component>
+						</component>
+					</component>
+					<component id="Actions" type="BusinessActionWithWebUIBindToolBar">
+						<parameter id="ContextHelp" value="i18n.stibo.BusinessActionWithWebUIBind.tooltip"/>
+						<parameter id="NodePickerPosition" value="TOP"/>
+						<parameter id="BusinessAction" value="StandardizeAddressAction"/>
+						<parameter id="Label" value="Standardize Address"/>
+						<parameter id="EnableOnWorkflowOnly" value="false"/>
+						<parameter id="MaxNumberOfNodes" value="100"/>
+						<parameter id="PopupLabel" value="i18n.stibo.BusinessActionWithWebUIBindPopUp.label"/>
+						<parameter id="DisableForEmptySelection" value="true"/>
+					</component>
+					<component id="Actions" type="EditCollectionSearchCriteriaAction">
+						<parameter id="ToolTip" value="i18n.stibo.Collections.EditCollectionSearchCriteria.ToolTip"/>
+						<parameter id="ButtonLabel" value="i18n.stibo.Collections.EditCollectionSearchCriteria.Label"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

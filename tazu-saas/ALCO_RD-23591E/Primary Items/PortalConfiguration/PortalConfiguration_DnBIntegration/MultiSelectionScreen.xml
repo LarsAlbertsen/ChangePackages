@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="MultiSelectionScreen" type="MultiNodeViewer">
+			<parameter-list id="Headers">
+				<component type="ThumbnailHeader">
+					<parameter id="Label" value="Thumb"/>
+					<component id="PopUpRepresentation" type="PipelineInfo">
+						<parameter id="PipelineID" value="web-proof-medium"/>
+					</component>
+				</component>
+				<component type="IDHeader">
+					<parameter id="Label" value="ID"/>
+				</component>
+				<component type="TitleHeader">
+					<parameter id="Label" value="Name"/>
+				</component>
+			</parameter-list>
+		</screen>

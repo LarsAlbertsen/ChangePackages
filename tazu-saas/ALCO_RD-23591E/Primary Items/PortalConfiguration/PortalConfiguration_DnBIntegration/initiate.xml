@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="initiate" type="InitiateItem">
+			<parameter id="CssClass" value="stibo-InitiateItem"/>
+			<parameter id="Root" value="step://product?id=Sample Data"/>
+			<parameter id="Title" value="Create Product"/>
+			<parameter id="DisableAutoVendor" value="false"/>
+			<parameter id="ObjectTypeID" value="Product"/>
+			<component id="Buttons" type="Buttons">
+				<parameter-list id="Actions">
+					<component type="SaveAction">
+						<parameter id="ButtonLabel" value="Save"/>
+						<parameter id="CssClass" value="SaveButton"/>
+						<parameter id="EnforceValidity" value="false"/>
+					</component>
+					<component type="ResetAction">
+						<parameter id="ButtonLabel" value="Reset"/>
+						<parameter id="CssClass" value="ResetButton"/>
+					</component>
+					<component type="QuickSheetAction">
+						<parameter id="ButtonLabel" value="Download QuickSheet"/>
+						<parameter id="CssClass" value="QuickSheetButton"/>
+						<parameter id="WorkflowID" value="FunnyUserWebUI Workflow"/>
+					</component>
+				</parameter-list>
+			</component>
+			<component id="Main" type="ColumnsControl">
+				<parameter-list id="Columns">
+					<component type="NodeEditor">
+						<parameter-list id="Rows">
+							<component type="IdValue">
+								<parameter id="CssClass" value="stibo-IdValue"/>
+								<parameter id="ContextHelp" value="ID of the new Product"/>
+								<parameter id="Label" value="ID"/>
+							</component>
+							<component type="NameValue">
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="CssClass" value="stibo-NameValue"/>
+								<parameter id="ContextHelp" value="Name of the new Product"/>
+								<parameter id="Mandatory" value="true"/>
+								<parameter id="Label" value="Name"/>
+							</component>
+							<component type="Value">
+								<parameter id="Columns" value="1"/>
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="SuggestOracle" value="false"/>
+								<parameter id="Mandatory" value="false"/>
+								<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+								<parameter id="Attribute" value="Description"/>
+								<parameter id="Label" value="Description"/>
+								<parameter id="EnableStepTags" value="false"/>
+								<parameter id="SortLOVByID" value="false"/>
+								<parameter id="MaxSuggestions" value="10"/>
+							</component>
+							<component type="Value">
+								<parameter id="Columns" value="1"/>
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="SuggestOracle" value="false"/>
+								<parameter id="Mandatory" value="false"/>
+								<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+								<parameter id="Attribute" value="Manufacturer Part Number"/>
+								<parameter id="Label" value="Manufacturer Part Number"/>
+								<parameter id="EnableStepTags" value="false"/>
+								<parameter id="SortLOVByID" value="false"/>
+								<parameter id="MaxSuggestions" value="10"/>
+							</component>
+							<component type="Value">
+								<parameter id="Columns" value="1"/>
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="SuggestOracle" value="false"/>
+								<parameter id="Mandatory" value="false"/>
+								<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+								<parameter id="Attribute" value="Brand Name"/>
+								<parameter id="Label" value="Brand Name"/>
+								<parameter id="EnableStepTags" value="false"/>
+								<parameter id="SortLOVByID" value="false"/>
+								<parameter id="MaxSuggestions" value="10"/>
+							</component>
+							<component type="Value">
+								<parameter id="Columns" value="1"/>
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="SuggestOracle" value="false"/>
+								<parameter id="Mandatory" value="false"/>
+								<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+								<parameter id="Attribute" value="Country of Origin"/>
+								<parameter id="Label" value="Country of Origin"/>
+								<parameter id="EnableStepTags" value="false"/>
+								<parameter id="SortLOVByID" value="false"/>
+								<parameter id="MaxSuggestions" value="10"/>
+							</component>
+							<component type="AssetValue">
+								<parameter id="ReadOnly" value="false"/>
+								<parameter id="MessageInsertImage" value="Insert Image"/>
+								<parameter id="AlternativeView" value="default"/>
+								<parameter id="AssetReferenceType" value="Primary Image"/>
+								<parameter id="MessageUploadImages" value="Upload And Insert Image(s)"/>
+								<parameter id="Mandatory" value="false"/>
+								<parameter id="MessageInsertImages" value="Insert Image(s)"/>
+								<parameter id="MessageUploadImage" value="Upload And Insert Image"/>
+								<parameter id="ShowIdChoiceOptions" value="false"/>
+								<parameter id="MessageReplaceImage" value="Replace Image"/>
+							</component>
+						</parameter-list>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

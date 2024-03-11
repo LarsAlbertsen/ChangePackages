@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="AssetPreviewScreen" type="AssetPreviewScreen">
+      <parameter-list id="ReferenceTypes">
+        <parameter value="PrimaryProductImage"/>
+        <parameter value="ProductImage"/>
+        <parameter value="Product Video"/>
+        <parameter value="Owners Manual"/>
+      </parameter-list>
+      <parameter id="Title" value="i18n.stibo.assetpreview.DefaultScreenTitle"/>
+      <parameter-list id="AssetDetails">
+        <parameter value="Attribute group root"/>
+      </parameter-list>
+      <parameter-list id="Actions">
+        <component id="Actions" type="CreateCollectionAction">
+          <parameter id="ToolTip" value="i18n.stibo.Collections.CreateCollection.ToolTip"/>
+          <parameter id="ButtonLabel" value="i18n.stibo.Collections.CreateCollection.Label"/>
+          <component id="CreateCollectionDialog" type="CreateCollectionDialog">
+            <component id="NodePickerDialog" type="NodePickerDialog">
+              <parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+              <component id="RootNodePlugin" type="StaticRootNodes">
+                <parameter-list id="RootNodeURLs">
+                  <parameter value="step://collectiongroup?id=CollectionGroup+root"/>
+                </parameter-list>
+              </component>
+              <parameter-list id="TabPages">
+                <component id="TabPages" type="BrowseTab"/>
+              </parameter-list>
+            </component>
+          </component>
+        </component>
+      </parameter-list>
+    </screen>

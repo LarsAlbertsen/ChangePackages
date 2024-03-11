@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal-config portalId="userportal" schemaLocation="http://stibosystems.com/step/portal-config portal-config.xsd">
+	
+	<screens>
+		<loginscreen>
+			<parameter id="PortalTitle" value="STEP User Web UI"/>
+		</loginscreen>
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </screens>
+	<theme>
+    <property id="text-color" value="4C4C4C"/>
+    <property id="hover-color" value="ECEBEB"/>
+    <property id="default-font-size" value="11px"/>
+    <property id="warning-yellow" value="F0B902"/>
+    <property id="primary-color" value="777574"/>
+    <property id="logo" value="images/stibo_logo.png"/>
+    <property id="outline-color" value="A8A8A8"/>
+    <property id="error-red" value="CD181B"/>
+    <property id="content-background-color" value="FFFFFF"/>
+    <property id="background-image" value="images/stibo_diamonds.png"/>
+    <property id="button-color" value="777574"/>
+    <property id="widget-color" value="777574"/>
+    <property id="background-color" value="FFFFFF"/>
+    <property id="button-disabled-color" value="d3d1d1"/>
+  </theme>
+</portal-config>

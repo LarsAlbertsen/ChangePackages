@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Forwarding Switch Screen" type="ForwardingSwitchScreen">
+			<parameter-list id="Mappings">
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="processdetails"/>
+					<parameter-list id="Conditions">
+						<component type="BackgroundProcessCondition"/>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="Enrich"/>
+					<parameter-list id="Conditions">
+						<component type="WorkflowCondition">
+							<parameter id="Workflow" value="FunnyUserWebUI Workflow"/>
+							<parameter id="State" value="Enrich"/>
+						</component>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="Marketing"/>
+					<parameter-list id="Conditions">
+						<component type="WorkflowCondition">
+							<parameter id="Workflow" value="FunnyUserWebUI Workflow"/>
+							<parameter id="State" value="Marketing"/>
+						</component>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="Verify"/>
+					<parameter-list id="Conditions">
+						<component type="WorkflowCondition">
+							<parameter id="Workflow" value="FunnyUserWebUI Workflow"/>
+							<parameter id="State" value="Verify"/>
+						</component>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="Classification Screen"/>
+					<parameter-list id="Conditions">
+						<component type="ClassificationCondition"/>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="productfolderdetails"/>
+					<parameter-list id="Conditions">
+						<component type="ObjectTypeCondition">
+							<parameter id="ObjectType" value="Product Folder"/>
+						</component>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="productdetails"/>
+					<parameter-list id="Conditions">
+						<component type="ProductCondition"/>
+					</parameter-list>
+				</component>
+				<component type="ScreenMapping">
+					<parameter id="Screen" value="assetdetails"/>
+					<parameter-list id="Conditions">
+						<component type="AssetCondition"/>
+					</parameter-list>
+				</component>
+			</parameter-list>
+		</screen>

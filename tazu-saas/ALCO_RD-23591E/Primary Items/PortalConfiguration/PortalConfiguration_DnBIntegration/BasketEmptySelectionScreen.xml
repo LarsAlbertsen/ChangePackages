@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="BasketEmptySelectionScreen" type="BasketStatistics">
+			<parameter id="Title" value="Number of items in basket: {0}"/>
+		</screen>

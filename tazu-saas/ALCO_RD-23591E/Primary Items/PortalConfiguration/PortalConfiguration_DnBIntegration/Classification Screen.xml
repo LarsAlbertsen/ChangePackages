@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Classification Screen" type="NodeDetails">
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="Title" value="Classification Details"/>
+			<component id="Breadcrumb" type="Breadcrumb">
+				<parameter id="CssClass" value="stibo-Breadcrumb"/>
+				<parameter id="Readonly" value="false"/>
+			</component>
+			<component id="Buttons" type="Buttons">
+				<parameter-list id="Actions">
+					<component type="SaveAction">
+						<parameter id="ButtonLabel" value="Save"/>
+						<parameter id="EnforceValidity" value="false"/>
+					</component>
+					<component type="ResetAction">
+						<parameter id="ButtonLabel" value="Reset"/>
+					</component>
+					<component type="ApproveAction">
+						<parameter id="ButtonLabel" value="Save&amp;Approve"/>
+						<parameter id="EnforceValidity" value="false"/>
+					</component>
+					<component type="DeleteAction">
+						<parameter id="DeleteFromWorkflow" value="false"/>
+						<parameter id="ButtonLabel" value="Delete"/>
+						<parameter id="ApproveDeletion" value="false"/>
+					</component>
+				</parameter-list>
+			</component>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component type="TabPage">
+						<parameter id="Title" value="Basic"/>
+						<component id="TabContent" type="NodeEditor">
+							<parameter-list id="Rows">
+								<component type="IdValue">
+									<parameter id="CssClass" value="stibo-IdValue"/>
+									<parameter id="Label" value="ID"/>
+								</component>
+								<component type="NameValue">
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="CssClass" value="stibo-NameValue"/>
+									<parameter id="Mandatory" value="false"/>
+									<parameter id="Label" value="Name"/>
+								</component>
+								<component type="ObjectType">
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="Mandatory" value="false"/>
+									<parameter id="Label" value="Object Type"/>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component type="SubScreenTabPage">
+						<parameter id="DetailsScreen" value="ClassificationSubScreen"/>
+						<parameter id="Title" value="Sub objects"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

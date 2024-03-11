@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="assetdetails" type="NodeDetails">
+			<parameter id="EnforceValidity" value="false"/>
+			<component id="Breadcrumb" type="Breadcrumb">
+				<parameter id="CssClass" value="stibo-Breadcrumb"/>
+				<parameter id="RootObjectType" value="Classification 1 user-type root"/>
+				<parameter id="Readonly" value="false"/>
+			</component>
+			<component id="Buttons" type="Buttons">
+				<parameter-list id="Actions">
+					<component type="SaveAction">
+						<parameter id="ButtonLabel" value="Save"/>
+						<parameter id="CssClass" value="SaveButton"/>
+						<parameter id="EnforceValidity" value="false"/>
+					</component>
+					<component type="ResetAction">
+						<parameter id="ButtonLabel" value="Reset"/>
+						<parameter id="CssClass" value="ResetButton"/>
+					</component>
+					<component type="ApproveAction">
+						<parameter id="ButtonLabel" value="Approve"/>
+						<parameter id="CssClass" value="SaveApproveButton"/>
+						<parameter id="EnforceValidity" value="false"/>
+					</component>
+					<component type="DeleteAction">
+						<parameter id="DeleteFromWorkflow" value="false"/>
+						<parameter id="ButtonLabel" value="Delete"/>
+						<parameter id="CssClass" value="DeleteButton"/>
+						<parameter id="ApproveDeletion" value="false"/>
+					</component>
+				</parameter-list>
+			</component>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component type="TabPage">
+						<parameter id="Title" value="Asset details"/>
+						<component id="TabContent" type="NodeEditor">
+							<parameter-list id="Rows">
+								<component type="AssetImageValue">
+									<parameter id="ContextHelp" value="Graphical representation of image"/>
+									<parameter id="Label" value="Image"/>
+									<component id="PopUpRepresentation" type="ThumbnailInfo">
+										<parameter id="Size" value="MEDIUM"/>
+									</component>
+									<component id="Representation" type="ThumbnailInfo">
+										<parameter id="Size" value="MEDIUM"/>
+									</component>
+								</component>
+								<component type="IdValue">
+									<parameter id="CssClass" value="stibo-IdValue"/>
+									<parameter id="Label" value="ID"/>
+								</component>
+								<component type="NameValue">
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="CssClass" value="stibo-NameValue"/>
+									<parameter id="Mandatory" value="false"/>
+									<parameter id="Label" value="Name"/>
+								</component>
+								<component type="Value">
+									<parameter id="Columns" value="1"/>
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="ShowLOVIDs" value="false"/>
+									<parameter id="SuggestOracle" value="false"/>
+									<parameter id="Mandatory" value="false"/>
+									<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+									<parameter id="Attribute" value="4888"/>
+									<parameter id="Label" value="Asset Description"/>
+									<parameter id="EnableStepTags" value="false"/>
+									<parameter id="SortLOVByID" value="false"/>
+									<parameter id="MaxSuggestions" value="10"/>
+								</component>
+								<component type="ValueGroup">
+									<parameter id="ReadOnly" value="false"/>
+									<parameter id="ShowLOVIDs" value="false"/>
+									<parameter id="DisplayMode" value="Merged"/>
+									<parameter id="SuggestOracle" value="false"/>
+									<parameter id="RichTextEditing" value="Never"/>
+									<parameter id="EnableStepTags" value="false"/>
+									<parameter id="AttributeGroup" value="Uncategorized"/>
+									<parameter id="SortLOVByID" value="false"/>
+									<parameter id="MaxSuggestions" value="10"/>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component type="TabPage">
+						<parameter id="Title" value="Referenced by"/>
+						<component id="TabContent" type="NodeEditor">
+							<parameter-list id="Rows">
+								<component type="ReverseReferenceValue">
+									<parameter id="Label" value="Referenced By"/>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="power-search-result-statistics" type="SearchStatistics">
+			<parameter id="CssClass" value="stibo-SearchStatistics"/>
+			<parameter id="TimingsLabel" value="&lt;BR&gt;&lt;BR&gt;&lt;H3&gt;Info about search timings&lt;/H3&gt;"/>
+			<parameter id="ForwardScreen" value="power-search-result"/>
+			<parameter id="Title" value="Number of search results: {0}"/>
+			<parameter id="AutoForwardSingleResultEnabled" value="true"/>
+			<parameter id="DiscrepancyNote" value="Notice: As the search result exceeds 100 hits the search profile below is not filtered according to privileges.&lt;br/&gt;Thus, minor discrepancies between the search profile and the actual search result may occur."/>
+		</screen>

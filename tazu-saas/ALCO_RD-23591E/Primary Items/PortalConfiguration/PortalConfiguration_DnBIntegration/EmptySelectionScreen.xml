@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="EmptySelectionScreen" type="Navigation">
+			<parameter id="Screen" value="homepage"/>
+			<parameter id="Label" value=""/>
+		</screen>

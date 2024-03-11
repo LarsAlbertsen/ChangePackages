@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="D&amp;B Match Candidates ScrV2" type="Select D&amp;B Match Screen">
+      <parameter-list id="OrganizationAttributes">
+        <parameter value="DnBConfidence"/>
+        <parameter value="DnBMatchCountryCode"/>
+        <parameter value="DnBMatchPrimaryTown"/>
+        <parameter value="DnBMatchTerritory"/>
+      </parameter-list>
+      <parameter-list id="DisplayedAttributes">
+        <parameter value="DnBMatchCountryCode"/>
+        <parameter value="DnBMatchReasonCode"/>
+      </parameter-list>
+    </screen>

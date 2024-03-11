@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Visualization-Contacts" type="DisplayRelationsScreen">
+			<parameter id="MaxLevel" value="1"/>
+			<parameter-list id="ReferenceTypesFilter">
+				<parameter value="ContactPersonOrganization"/>
+				<parameter value="testcontact2"/>
+				<parameter value="testcontact3"/>
+			</parameter-list>
+		</screen>

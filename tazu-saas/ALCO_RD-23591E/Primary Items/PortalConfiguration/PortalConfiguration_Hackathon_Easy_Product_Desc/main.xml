@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="main" type="Main">
+  <parameter id="TopHeight" value="64"/>
+  <parameter id="BottomHeight" value="64"/>
+  <parameter id="Resizeable" value="true"/>
+  <parameter id="DefaultSidePanel" value="SHOWN"/>
+  <parameter id="InfoAlertCloseDelay" value="3"/>
+  <parameter id="RightWidth" value="120"/>
+  <parameter id="LeftWidth" value="-1"/>
+  <parameter-list id="Left">
+    <component id="Left" type="PrimaryNavigation">
+      <parameter-list id="MenuItems">
+        <component id="MenuItems" type="GlobalNavigationSearch">
+          <parameter id="Label" value="Global Search"/>
+          <parameter id="Icon" value="search"/>
+          <parameter-list id="SearchConfigurations">
+            <component id="SearchConfigurations" type="GlobalNavigationSearchConfiguration">
+              <parameter id="Title" value="Name/Id/Attributes"/>
+              <parameter-list id="SearchPlugins">
+                <component id="SearchPlugins" type="NameOrIdOrAttributes">
+                  <parameter id="ForceIDNameSearch" value="false"/>
+                  <parameter id="SearchInDataContainers" value="false"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="MenuItems" type="TreeItem">
+          <parameter id="Label" value="i18n.stibo.webui.primarynavigation.TreeItem.Label"/>
+          <parameter id="showRecycle" value="false"/>
+          <parameter id="Icon" value="account_tree"/>
+          <parameter id="ShowLeaves" value="false"/>
+          <parameter id="HideLeaves" value="false"/>
+        </component>
+      </parameter-list>
+    </component>
+  </parameter-list>
+  <parameter-list id="Mappings">
+    <component id="Mappings" type="ScreenMapping">
+      <parameter id="Screen" value="userdetails"/>
+      <parameter-list id="Conditions">
+        <component id="Conditions" type="UserCondition"/>
+      </parameter-list>
+    </component>
+    <component id="Mappings" type="ScreenMapping">
+      <parameter id="Screen" value="Product_Screen"/>
+      <parameter-list id="Conditions">
+        <component id="Conditions" type="ObjectTypeCondition">
+          <parameter id="ObjectType" value="article"/>
+        </component>
+      </parameter-list>
+    </component>
+    <component id="Mappings" type="ScreenMapping">
+      <parameter id="Screen" value="Name and ID"/>
+      <parameter-list id="Conditions">
+        <component id="Conditions" type="AlwaysTrueCondition"/>
+      </parameter-list>
+    </component>
+  </parameter-list>
+</screen>

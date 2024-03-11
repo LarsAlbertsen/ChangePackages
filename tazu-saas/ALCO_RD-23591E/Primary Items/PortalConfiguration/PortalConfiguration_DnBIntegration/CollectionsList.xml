@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="CollectionsList" type="CollectionListScreen">
+      <component id="NodeList" type="NodeList">
+        <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter id="IncludeLabels" value="true"/>
+        <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="25"/>
+        <parameter id="DefaultSortingOrder" value="Ascending"/>
+        <parameter id="UseDetailsOverlay" value="false"/>
+        <parameter id="HideStandardButtons" value="false"/>
+        <parameter id="ID" value="list"/>
+        <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter-list id="DisplayModes">
+          <component id="DisplayModes" type="TableDisplayMode">
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+            <parameter id="EnableFiltering" value="true"/>
+            <parameter id="ColumnsResizable" value="false"/>
+            <parameter id="MinColumnsWidth" value="0"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+            <parameter-list id="Headers">
+              <component id="Headers" type="IDHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component id="Headers" type="TitleHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component id="Headers" type="ChildCountHeader"/>
+            </parameter-list>
+          </component>
+          <component id="DisplayModes" type="MultiEditDisplayMode">
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ShowEmptyGroupHeaders" value="true"/>
+            <parameter id="PropertyDirection" value="HORIZONTAL"/>
+            <parameter id="ShowOnlyValidAttributes" value="false"/>
+            <parameter id="GroupsInitiallyOpen" value="false"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode"/>
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="UseImmediateSave" value="false"/>
+            <parameter id="EnableUserConfigurableView" value="true"/>
+            <parameter id="ShowGroupHeaders" value="true"/>
+            <parameter id="ReloadAfterSave" value="false"/>
+          </component>
+          <component id="DisplayModes" type="GalleryDisplayMode">
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.GalleryDisplayMode"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="Actions">
+          <component id="Actions" type="DeleteFromGridAction">
+            <parameter id="ToolTip" value="i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.ToolTip"/>
+            <parameter id="DialogTitle" value="i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.Dialog.Title"/>
+            <parameter id="OkButtonLabel" value="i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.OkButton.Label"/>
+            <parameter id="ButtonLabel" value="i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.Label"/>
+            <parameter id="CancelButtonLabel" value="i18n.stibo.portal.server.components.actions.DeleteFromGridActionServerComponent.CancelButton.Label"/>
+            <parameter id="DeleteFromWorkflow" value="false"/>
+            <parameter id="ConfirmSelection" value="false"/>
+            <parameter id="ApproveDeletion" value="false"/>
+            <parameter id="CssClass" value="stibo-AssetPort-Toolbar-ActiveIcon-delete"/>
+          </component>
+          <component id="Actions" type="CreateCollectionGroupAction">
+            <parameter id="ToolTip" value="i18n.stibo.Collections.CreateCollectionGroup.Label"/>
+            <parameter id="ButtonLabel" value="i18n.stibo.Collections.CreateCollectionGroup.Label"/>
+            <component id="CreateCollectionDialog" type="CreateCollectionGroupDialog">
+              <component id="NodePickerDialog" type="NodePickerDialog">
+                <parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+                <component id="RootNodePlugin" type="StaticRootNodes">
+                  <parameter-list id="RootNodeURLs">
+                    <parameter value="step://collectiongroup?id=CollectionGroup+root"/>
+                  </parameter-list>
+                </component>
+                <parameter-list id="TabPages">
+                  <component id="TabPages" type="BrowseTab"/>
+                </parameter-list>
+              </component>
+            </component>
+          </component>
+          <component id="Actions" type="BulkUpdateAction">
+            <component id="NodePickerDialog" type="NodePickerDialog">
+              <parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+              <component id="RootNodePlugin" type="StaticRootNodes">
+                <parameter-list id="RootNodeURLs">
+                  <parameter value="step://classification?id=BulkUpdate"/>
+                </parameter-list>
+              </component>
+              <parameter-list id="TabPages">
+                <component id="TabPages" type="BrowseTab"/>
+              </parameter-list>
+            </component>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

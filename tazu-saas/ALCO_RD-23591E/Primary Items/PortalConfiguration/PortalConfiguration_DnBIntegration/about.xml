@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="about" type="HomePage">
+			<parameter id="CssClass" value="stibo-AboutPage"/>
+			<parameter id="DisableTitle" value="false"/>
+			<parameter id="Title" value="About"/>
+			<parameter-list id="Content">
+				<component type="VerticalPanel">
+					<parameter id="OverflowVisible" value="false"/>
+					<parameter-list id="Rows">
+						<component type="StaticHtml">
+							<parameter id="Html" value="� 2013 All Trademarks, services and logos appearing are proprietary to Stibo Systems or its licensors."/>
+							<parameter id="CssClass" value="stb-staticHtml"/>
+						</component>
+						<component type="Spot">
+							<parameter id="Label" value="Components"/>
+						</component>
+					</parameter-list>
+				</component>
+			</parameter-list>
+		</screen>

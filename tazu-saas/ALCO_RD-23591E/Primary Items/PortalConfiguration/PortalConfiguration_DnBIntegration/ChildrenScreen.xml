@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="ChildrenScreen" type="ChildrenOfType">
+      <parameter id="ObjectType" value="Level2"/>
+      <parameter id="NewItemObjectType" value="Level1"/>
+      <parameter-list id="Components">
+        <component id="Components" type="NodeList">
+          <parameter id="IncludeLabels" value="false"/>
+          <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+          <parameter id="LookupScreenTypeForNavigation" value="false"/>
+          <parameter id="PageSize" value="25"/>
+          <parameter id="DefaultSortingOrder" value="Ascending"/>
+          <parameter id="UseDetailsOverlay" value="false"/>
+          <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+          <parameter id="EnableDefaultSorting" value="true"/>
+          <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+          <parameter id="ToolbarHeight" value="30"/>
+          <parameter id="ProductSelectionScreen" value="AttributeLinkEditor"/>
+          <parameter id="HideStandardButtons" value="false"/>
+          <parameter id="ID" value="bdababbeadd"/>
+          <parameter-list id="DisplayModes">
+            <component id="DisplayModes" type="TableDisplayMode">
+              <parameter id="ShowDetails" value="true"/>
+              <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+              <parameter id="EnableFiltering" value="false"/>
+              <parameter id="ColumnsResizable" value="false"/>
+              <parameter id="MinColumnsWidth" value="0"/>
+              <parameter id="DisplayModeHeight" value="200"/>
+            </component>
+            <component id="DisplayModes" type="MultiEditDisplayMode">
+              <parameter id="ShowDetails" value="false"/>
+              <parameter id="ShowEmptyGroupHeaders" value="true"/>
+              <parameter id="PropertyDirection" value="HORIZONTAL"/>
+              <parameter id="ShowOnlyValidAttributes" value="false"/>
+              <parameter id="GroupsInitiallyOpen" value="false"/>
+              <parameter id="DisplayModeHeight" value="200"/>
+              <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.MultiEditDisplayMode"/>
+              <parameter id="EnableFiltering" value="false"/>
+              <parameter id="UseImmediateSave" value="false"/>
+              <parameter id="EnableUserConfigurableView" value="true"/>
+              <parameter id="ShowGroupHeaders" value="true"/>
+              <parameter id="ReloadAfterSave" value="false"/>
+              <parameter-list id="Headers">
+                <component id="Headers" type="IDHeader">
+                  <parameter id="EnableLink" value="true"/>
+                </component>
+                <component id="Headers" type="NameHeader"/>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Fun Factor"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueGroupHeader">
+                  <parameter id="ReadOnly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="AttributeGroup" value="Funny Attributes"/>
+                  <parameter id="IncludeNestedGroups" value="false"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Funny Attribute 1"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Funny Attribute 2"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Funny Attribute 3"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Funny Attribute 4"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+                <component id="Headers" type="ValueHeader">
+                  <parameter id="nowrap" value="false"/>
+                  <parameter id="Readonly" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="Attribute" value="Funny Attribute 5"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="ShowInvalidInheritedValues" value="false"/>
+                  <parameter id="Mandatory" value="NotMandatory"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+          <parameter-list id="Actions"/>
+        </component>
+      </parameter-list>
+    </screen>

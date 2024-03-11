@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="ClassificationSubScreen" type="ClassificationScreen">
+      <parameter id="HideAssets" value="false"/>
+      <parameter id="HideLinkedProducts" value="false"/>
+      <component id="NodeList" type="NodeList">
+        <parameter id="HideStandardButtons" value="false"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="50"/>
+        <parameter id="UseDetailsOverlay" value="false"/>
+        <parameter id="ID" value="ClassificationNodeList"/>
+        <parameter id="AssetSelectionScreen" value="assetdetails"/>
+        <parameter id="EmptySelectionScreen" value="EmptySelectionScreen"/>
+        <parameter id="SelectAllLabel" value="Select all"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter id="ClearSelection" value="Clear selection"/>
+        <parameter id="MultiSelectionScreen" value="MultiSelectionScreen"/>
+        <parameter id="ProductSelectionScreen" value="productdetailsWithObjectType"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter id="ClassificationSelectionScreen" value="Classification Screen"/>
+        <parameter-list id="Actions">
+          <component type="DownloadAssetsAction">
+            <parameter id="CancelDownloadButtonText" value="Cancel"/>
+            <parameter id="Label" value="Download assets"/>
+            <parameter id="PipelineSelectionText" value="Select Image conversion"/>
+            <parameter id="NoContentWarning" value="Collection contains asset(s) with no content in context"/>
+            <parameter id="IconStyleClass" value="DownloadAssetsButton"/>
+            <parameter id="NoSelectionMessage" value="No assets selected"/>
+            <parameter id="StartDownloadButtonText" value="Start download"/>
+            <parameter id="Title" value="Download assets"/>
+          </component>
+          <component type="AddToBasketAction">
+            <parameter id="Label" value="Add to basket"/>
+            <parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-Basket-add"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="DisplayModes">
+          <component type="TableDisplayMode">
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="ContextHelp" value="List view"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ColumnsResizable" value="false"/>
+            <parameter-list id="Headers">
+              <component type="ThumbnailHeader">
+                <parameter id="Label" value="Thumb"/>
+              </component>
+              <component type="IDHeader">
+                <parameter id="Label" value="ID"/>
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component type="TitleHeader">
+                <parameter id="Label" value="Name"/>
+              </component>
+              <component type="ObjectTypeHeader">
+                <parameter id="Label" value="Type"/>
+              </component>
+              <component type="ValueHeader">
+                <parameter id="ShowLOVIDs" value="false"/>
+                <parameter id="Mandatory" value="NotMandatory"/>
+                <parameter id="Attribute" value="asset.extension"/>
+                <parameter id="Label" value="File extension"/>
+                <parameter id="ShowInvalidInheritedValues" value="false"/>
+                <parameter id="nowrap" value="false"/>
+                <parameter id="Readonly" value="false"/>
+              </component>
+              <component type="ValueHeader">
+                <parameter id="ShowLOVIDs" value="false"/>
+                <parameter id="Mandatory" value="NotMandatory"/>
+                <parameter id="Attribute" value="Description"/>
+                <parameter id="ShowInvalidInheritedValues" value="false"/>
+                <parameter id="nowrap" value="false"/>
+                <parameter id="Readonly" value="false"/>
+              </component>
+            </parameter-list>
+          </component>
+          <component type="FilmStripDisplayMode">
+            <parameter id="ContextHelp" value="Filmstrip view"/>
+            <parameter id="ShowDetails" value="true"/>
+          </component>
+          <component type="GalleryDisplayMode">
+            <parameter id="ContextHelp" value="Gallery view"/>
+            <parameter id="ShowDetails" value="true"/>
+          </component>
+          <component type="CompareDisplayMode">
+            <parameter id="ShowEmptyGroupHeaders" value="true"/>
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="ContextHelp" value="Compare view"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ShowGroupHeaders" value="true"/>
+            <parameter id="GroupsInitiallyOpen" value="true"/>
+            <parameter id="ShowOnlyValidAttributes" value="true"/>
+            <parameter-list id="Headers">
+              <component type="ThumbnailHeader">
+                <component id="PopUpRepresentation" type="ThumbnailInfo">
+                  <parameter id="Size" value="MEDIUM"/>
+                </component>
+              </component>
+              <component type="ValueGroupHeader">
+                <parameter id="ShowLOVIDs" value="false"/>
+                <parameter id="IncludeNestedGroups" value="false"/>
+                <parameter id="AttributeGroup" value="Uncategorized"/>
+              </component>
+            </parameter-list>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="BackgroundProcessDetails" type="BackgroundProcessNodeDetails">
+      <parameter id="EnforceValidity" value="false"/>
+      <component id="Main" type="NodeEditor">
+        <parameter-list id="Rows">
+          <component type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+          </component>
+          <component type="BackgroundProcessStartedBy">
+            <parameter id="Label" value="Started By"/>
+          </component>
+          <component type="BackgroundProcessDescription">
+            <parameter id="Label" value="Description"/>
+          </component>
+          <component type="BackgroundProcessTemplateID">
+            <parameter id="Label" value="Template ID"/>
+          </component>
+          <component type="BackgroundProcessStatus">
+            <parameter id="Label" value="Status"/>
+          </component>
+          <component type="BackgroundProcessStartDate">
+            <parameter id="Label" value="Started"/>
+          </component>
+          <component type="BackgroundProcessFinishedDate">
+            <parameter id="Label" value="Finished"/>
+          </component>
+          <component type="BackgroundProcessElapsedTime">
+            <parameter id="Label" value="Elapsed"/>
+          </component>
+            <component type="BackgroundProcessReport">
+                <component id="NodeList" type="NodeList">
+                    <parameter id="HideStandardButtons" value="false"/>
+                    <parameter id="LookupScreenTypeForNavigation" value="true"/>
+                    <parameter id="PageSize" value="25"/>
+                    <parameter id="UseDetailsOverlay" value="false"/>
+                    <parameter id="ID" value="737c2840-3d5d-493f-981f-dcbfc5e0d155"/>
+                    <parameter id="DefaultSortingOrder" value="Ascending"/>
+                    <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+                    <parameter id="EnableDefaultSorting" value="true"/>
+                    <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+                    <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+                    <parameter id="ToolbarHeight" value="30"/>
+                    <parameter-list id="Actions">
+                        <component type="DownloadReportAction">
+                            <parameter id="ActionTitle" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.ActionTitle"/>
+                        </component>
+                    </parameter-list>
+                    <parameter-list id="DisplayModes">
+                        <component type="TableDisplayMode">
+                            <parameter id="EnableFiltering" value="false"/>
+                            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+                            <parameter id="ShowDetails" value="false"/>
+                            <parameter id="DisplayModeHeight" value="200"/>
+                            <parameter id="ColumnsResizable" value="false"/>
+                            <parameter-list id="Headers">
+                                <component type="ReportRowSeqID"/>
+                                <component type="ReportRowType"/>
+                                <component type="ReportRowText"/>
+                            </parameter-list>
+                        </component>
+                    </parameter-list>
+                </component>
+            </component>
+        </parameter-list>
+      </component>
+    </screen>

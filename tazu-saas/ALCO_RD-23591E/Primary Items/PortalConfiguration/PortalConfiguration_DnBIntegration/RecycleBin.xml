@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="RecycleBin" type="RecycleBinScreen">
+      <parameter id="Title" value="Recycle Bin"/>
+      <component id="NodeList" type="NodeList">
+        <parameter id="HideStandardButtons" value="false"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="25"/>
+        <parameter id="UseDetailsOverlay" value="false"/>
+        <parameter id="ID" value="recycleBin"/>
+        <parameter id="DefaultSortingOrder" value="Ascending"/>
+        <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+        <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter-list id="Actions">
+          <component type="ReviveAction">
+            <parameter id="ButtonLabel" value="i18n.stibo.Revisions.ReviveAction.Label"/>
+          </component>
+          <component type="PurgeAction">
+            <parameter id="ButtonLabel" value="i18n.stibo.Revisions.PurgeAction.Label"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="DisplayModes">
+          <component type="TableDisplayMode">
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+            <parameter id="ColumnsResizable" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

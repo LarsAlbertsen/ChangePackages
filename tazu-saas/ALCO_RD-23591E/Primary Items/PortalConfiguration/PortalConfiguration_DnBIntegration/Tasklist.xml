@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Tasklist" type="TaskList">
+      <parameter id="AutoNavigateOnAssignment" value="false"/>
+      <parameter id="TitleFormatter" value="i18n.stibo.UserTaskList.TitleFormatter"/>
+      <parameter id="CssClass" value="stibo-UserTaskList"/>
+      <component id="NodeList" type="NodeList">
+        <parameter id="IncludeLabels" value="true"/>
+        <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+        <parameter id="LookupScreenTypeForNavigation" value="true"/>
+        <parameter id="PageSize" value="50"/>
+        <parameter id="DefaultSortingOrder" value="Ascending"/>
+        <parameter id="UseDetailsOverlay" value="true"/>
+        <parameter id="EntitySelectionScreen" value="Forwarding Switch Screen"/>
+        <parameter id="SelectAllLabel" value="Select all"/>
+        <parameter id="ClassificationSelectionScreen" value="Classification Screen"/>
+        <parameter id="EnableDefaultSorting" value="true"/>
+        <parameter id="ClearSelection" value="Clear selection"/>
+        <parameter id="ToolbarHeight" value="30"/>
+        <parameter id="ProductSelectionScreen" value="Forwarding Switch Screen"/>
+        <parameter id="HideStandardButtons" value="false"/>
+        <parameter id="ID" value="UTL"/>
+        <parameter-list id="DisplayModes">
+          <component id="DisplayModes" type="TableDisplayMode">
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ContextHelp" value="List view"/>
+            <parameter id="EnableFiltering" value="false"/>
+            <parameter id="ColumnsResizable" value="false"/>
+            <parameter id="MinColumnsWidth" value="0"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+            <parameter-list id="Headers">
+              <component id="Headers" type="ThumbnailHeader">
+                <component id="PopUpRepresentation" type="ThumbnailInfo">
+                  <parameter id="Size" value="SMALL"/>
+                </component>
+              </component>
+              <component id="Headers" type="IDHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component id="Headers" type="TitleHeader">
+                <parameter id="EnableLink" value="true"/>
+              </component>
+              <component id="Headers" type="ObjectTypeHeader"/>
+              <component id="Headers" type="AssignToMeHeader"/>
+            </parameter-list>
+          </component>
+          <component id="DisplayModes" type="FilmStripDisplayMode">
+            <parameter id="ShowDetails" value="true"/>
+            <parameter id="ContextHelp" value="Filmstrip view"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+          </component>
+          <component id="DisplayModes" type="GalleryDisplayMode">
+            <parameter id="ShowDetails" value="false"/>
+            <parameter id="ContextHelp" value="Gallery view"/>
+            <parameter id="DisplayModeHeight" value="200"/>
+          </component>
+        </parameter-list>
+        <parameter-list id="Actions">
+          <component id="Actions" type="ExcelExportAction">
+            <parameter id="NoSelectionMessage" value="No nodes selected"/>
+            <parameter id="ToolTip" value="i18n.stibo.portal.server.components.actions.ExcelExportActionServerComponent.ToolTip"/>
+            <parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-ActiveIcon-download"/>
+            <parameter id="Label" value="Download as excel spreadsheet"/>
+            <parameter id="ShowOnlyReadAccess" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>

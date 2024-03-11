@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="LanguageEditor" type="MultiLanguageScreen">
+			<parameter id="SaveLocalSettings" value="true"/>
+			<component id="EditorTable" type="MultiLanguageEditor">
+				<parameter id="ShowEmptyGroupHeaders" value="true"/>
+				<parameter id="ShowDetails" value="false"/>
+				<parameter id="ShowGroupHeaders" value="true"/>
+				<parameter id="GroupsInitiallyOpen" value="false"/>
+				<parameter id="ShowOnlyValidAttributes" value="false"/>
+				<parameter id="PropertyDirection" value="HORIZONTAL"/>
+				<parameter-list id="Headers">
+					<component type="IDHeader">
+						<parameter id="EnableLink" value="true"/>
+					</component>
+					<component type="TitleHeader"/>
+					<component type="ValueHeader">
+						<parameter id="ShowLOVIDs" value="false"/>
+						<parameter id="Mandatory" value="NotMandatory"/>
+						<parameter id="Attribute" value="Alternate Description"/>
+						<parameter id="ShowInvalidInheritedValues" value="false"/>
+						<parameter id="nowrap" value="false"/>
+						<parameter id="Readonly" value="false"/>
+					</component>
+				</parameter-list>
+			</component>
+			<parameter-list id="LanguageDimensionPoints">
+				<component type="LanguageDimensionPointParameter">
+					<parameter id="ShownByDefault" value="true"/>
+					<parameter id="DimensionPoint" value="eng"/>
+				</component>
+				<component type="LanguageDimensionPointParameter">
+					<parameter id="ShownByDefault" value="true"/>
+					<parameter id="DimensionPoint" value="fre"/>
+				</component>
+			</parameter-list>
+		</screen>
