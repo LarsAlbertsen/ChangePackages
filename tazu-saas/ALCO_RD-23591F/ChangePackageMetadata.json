@@ -1,0 +1,239 @@
+{
+  "version" : "2",
+  "id" : "ALCO_RD-23591F",
+  "name" : "ALCO_RD-23591F combo with branch in Att",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "DEV",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-6db41f8f-6f3a-4ae7-8532-3f1f5cf75fdb",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Attribute Name Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Name+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Value Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Value+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BRTestProdA",
+    "itemURL" : "step://objecttype?id=BRTestProdA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Description",
+    "itemURL" : "step://attribute?id=4941",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CompletenessMetricValue",
+    "itemURL" : "step://attribute?id=CompletenessMetricValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Folder",
+    "itemURL" : "step://objecttype?id=Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manually Sorted Product Folder",
+    "itemURL" : "step://objecttype?id=Manually+Sorted+Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized Setup Group Type",
+    "itemURL" : "step://objecttype?id=Uncategorized+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute ShortName",
+    "itemURL" : "step://attribute?id=AttributeShortName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AppliesOnlyIf",
+    "itemURL" : "step://attribute?id=AppliesOnlyIf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WMMandatoryMeta",
+    "itemURL" : "step://attribute?id=WMMandatoryMeta",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Languages",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=4875",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BRTestAtts",
+    "itemURL" : "step://attributegroup?id=BRTestAtts",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "testWebUI",
+    "itemURL" : "step://portal?id=testWebUI",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Impact analysis not available. Verify linked business rules and workflows exist on target system plus everything used for configuration.",
+    "recursive" : false
+  }, {
+    "name" : "stibo.positiverulenodedep",
+    "itemURL" : "step://objecttype?id=stibo.positiverulenodedep",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging hierarchy",
+    "itemURL" : "step://objecttype?id=Packaging+hierarchy",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BRTestType",
+    "itemURL" : "step://attribute?id=BRTestType",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-11 15:34:00\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeList>\n\n    <Attribute ID=\"BRTestType\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">BRTestType</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"BRTestAtts\"/>\n      <UserTypeLink UserTypeID=\"BRTestProdA\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <ActionSetList>\n    <ActionSet ID=\"All user actions\" Type=\"user\">\n      <Name QualifierID=\"Qualifier root\">All user actions</Name>\n      <ActionLink ActionID=\"Create classification\"/>\n      <ActionLink ActionID=\"Delete classification\"/>\n      <ActionLink ActionID=\"Move classification to\"/>\n      <ActionLink ActionID=\"Move classification from\"/>\n      <ActionLink ActionID=\"Create DTP Template Document\"/>\n      <ActionLink ActionID=\"Delete DTP Template Document\"/>\n      <ActionLink ActionID=\"Modify DTP Template Document\"/>\n      <ActionLink ActionID=\"Modify name/description of classificatio\"/>\n      <ActionLink ActionID=\"Download DTP Template Document\"/>\n      <ActionLink ActionID=\"Create Generic Page Template\"/>\n      <ActionLink ActionID=\"Delete Generic Page Template\"/>\n      <ActionLink ActionID=\"Modify Generic Page Template\"/>\n      <ActionLink ActionID=\"Create Planned Page\"/>\n      <ActionLink ActionID=\"Delete Planned Page\"/>\n      <ActionLink ActionID=\"Modify Planned Page\"/>\n      <ActionLink ActionID=\"Import Planned Page\"/>\n      <ActionLink ActionID=\"Modify Basket for Planned Page\"/>\n      <ActionLink ActionID=\"Modify metadata for classification\"/>\n      <ActionLink ActionID=\"Reorder Planned Pages\"/>\n      <ActionLink ActionID=\"Maintain public basket view\"/>\n      <ActionLink ActionID=\"Maintain public financial view\"/>\n      <ActionLink ActionID=\"Maintain public stickerbook view\"/>\n      <ActionLink ActionID=\"Maintain public publication planner view\"/>\n      <ActionLink ActionID=\"Create Publication Document\"/>\n      <ActionLink ActionID=\"Run List Processing\"/>\n      <ActionLink ActionID=\"Delete Publication Document\"/>\n      <ActionLink ActionID=\"View data container\"/>\n      <ActionLink ActionID=\"Modify Publication Document\"/>\n      <ActionLink ActionID=\"Download Publication Document\"/>\n      <ActionLink ActionID=\"View metadata for data container\"/>\n      <ActionLink ActionID=\"Edit Data Container Key Values\"/>\n      <ActionLink ActionID=\"Create classification reference\"/>\n      <ActionLink ActionID=\"Delete classification reference\"/>\n      <ActionLink ActionID=\"Modify metadata for classification refer\"/>\n      <ActionLink ActionID=\"Send CIC\"/>\n      <ActionLink ActionID=\"Maintain GDSN registrations\"/>\n      <ActionLink ActionID=\"Maintain GDSN publications\"/>\n      <ActionLink ActionID=\"Create product\"/>\n      <ActionLink ActionID=\"Delete product\"/>\n      <ActionLink ActionID=\"Move product to\"/>\n      <ActionLink ActionID=\"Move product from\"/>\n      <ActionLink ActionID=\"Modify name/description of product\"/>\n      <ActionLink ActionID=\"Maintain Flatplan Frame\"/>\n      <ActionLink ActionID=\"Maintain Flatplan Content\"/>\n      <ActionLink ActionID=\"Maintain Flatplan Page Space\"/>\n      <ActionLink ActionID=\"Modify sub-product list of product-overr\"/>\n      <ActionLink ActionID=\"Modify metadata for product\"/>\n      <ActionLink ActionID=\"Create Commercial List\"/>\n      <ActionLink ActionID=\"Delete Commercial List\"/>\n      <ActionLink ActionID=\"Modify Commercial Data\"/>\n      <ActionLink ActionID=\"Create Collection Group\"/>\n      <ActionLink ActionID=\"Create product reference\"/>\n      <ActionLink ActionID=\"View Metadata Value for Commercial List\"/>\n      <ActionLink ActionID=\"Delete Collection Group\"/>\n      <ActionLink ActionID=\"Delete product reference\"/>\n      <ActionLink ActionID=\"Modify Metadata Value Commercial List\"/>\n      <ActionLink ActionID=\"Modify Commercial List Name\"/>\n      <ActionLink ActionID=\"Supplier Web UI functions\"/>\n      <ActionLink ActionID=\"Modify eCatalog Configuration\"/>\n      <ActionLink ActionID=\"Create Collection\"/>\n      <ActionLink ActionID=\"Modify eCatalog Metadata\"/>\n      <ActionLink ActionID=\"Modify metadata for product reference\"/>\n      <ActionLink ActionID=\"Delete Collection\"/>\n      <ActionLink ActionID=\"View eCatalog Metadata\"/>\n      <ActionLink ActionID=\"Create entity\"/>\n      <ActionLink ActionID=\"Maintain packaging hierarchy\"/>\n      <ActionLink ActionID=\"Delete entity\"/>\n      <ActionLink ActionID=\"Move entity to\"/>\n      <ActionLink ActionID=\"Move entity from\"/>\n      <ActionLink ActionID=\"Modify name/description of entity\"/>\n      <ActionLink ActionID=\"Modify metadata for entity\"/>\n      <ActionLink ActionID=\"Create entity reference\"/>\n      <ActionLink ActionID=\"Delete entity reference\"/>\n      <ActionLink ActionID=\"Modify metadata for entity reference\"/>\n      <ActionLink ActionID=\"Approve Create\"/>\n      <ActionLink ActionID=\"Approve Modify\"/>\n      <ActionLink ActionID=\"Create context reference\"/>\n      <ActionLink ActionID=\"Delete context reference\"/>\n      <ActionLink ActionID=\"Approve Values\"/>\n      <ActionLink ActionID=\"Modify metadata for context reference\"/>\n      <ActionLink ActionID=\"Approve References\"/>\n      <ActionLink ActionID=\"Approve Classification Product Links\"/>\n      <ActionLink ActionID=\"Change Translation\"/>\n      <ActionLink ActionID=\"Approve Data Containers\"/>\n      <ActionLink ActionID=\"Classify product\"/>\n      <ActionLink ActionID=\"Declassify product\"/>\n      <ActionLink ActionID=\"Modify metadata for product classificati\"/>\n      <ActionLink ActionID=\"Link (product) attribute into classifica\"/>\n      <ActionLink ActionID=\"Unlink (product) attribute from classifi\"/>\n      <ActionLink ActionID=\"View classification\"/>\n      <ActionLink ActionID=\"View metadata for classification\"/>\n      <ActionLink ActionID=\"View classification reference\"/>\n      <ActionLink ActionID=\"View metadata for classification referen\"/>\n      <ActionLink ActionID=\"Modify metadata for attribute to classif\"/>\n      <ActionLink ActionID=\"View product\"/>\n      <ActionLink ActionID=\"View metadata for product\"/>\n      <ActionLink ActionID=\"View product reference\"/>\n      <ActionLink ActionID=\"View metadata for product reference\"/>\n      <ActionLink ActionID=\"Legalise/unlegalise table types\"/>\n      <ActionLink ActionID=\"Edit tables\"/>\n      <ActionLink ActionID=\"View metadata for product classification\"/>\n      <ActionLink ActionID=\"View metadata for attribute to classific\"/>\n      <ActionLink ActionID=\"View product attribute value\"/>\n      <ActionLink ActionID=\"View attribute to classification link\"/>\n      <ActionLink ActionID=\"Modify product attribute value\"/>\n      <ActionLink ActionID=\"Manage autopage objects\"/>\n      <ActionLink ActionID=\"View asset\"/>\n      <ActionLink ActionID=\"View metadata for asset (property value)\"/>\n      <ActionLink ActionID=\"Manage pagination rules\"/>\n      <ActionLink ActionID=\"Perform autopage server write actions\"/>\n      <ActionLink ActionID=\"View asset reference\"/>\n      <ActionLink ActionID=\"Perform autopage export actions\"/>\n      <ActionLink ActionID=\"View metadata for asset reference\"/>\n      <ActionLink ActionID=\"Manage layout in page inspector\"/>\n      <ActionLink ActionID=\"View Commercial Data\"/>\n      <ActionLink ActionID=\"View Publication\"/>\n      <ActionLink ActionID=\"View Publication Group\"/>\n      <ActionLink ActionID=\"Modify Profile Configuration\"/>\n      <ActionLink ActionID=\"Generate/Update Category Profiles\"/>\n      <ActionLink ActionID=\"View Publication Section\"/>\n      <ActionLink ActionID=\"View Version\"/>\n      <ActionLink ActionID=\"Merge Products\"/>\n      <ActionLink ActionID=\"View DTP Template Document\"/>\n      <ActionLink ActionID=\"View Planned Page\"/>\n      <ActionLink ActionID=\"Freeze/thaw commercial list\"/>\n      <ActionLink ActionID=\"View Publication Document\"/>\n      <ActionLink ActionID=\"View queued events\"/>\n      <ActionLink ActionID=\"View Category Profile\"/>\n      <ActionLink ActionID=\"View Collection Group\"/>\n      <ActionLink ActionID=\"View Collection\"/>\n      <ActionLink ActionID=\"View Generic Page Template\"/>\n      <ActionLink ActionID=\"Create asset\"/>\n      <ActionLink ActionID=\"Delete asset\"/>\n      <ActionLink ActionID=\"Modify name/description of asset\"/>\n      <ActionLink ActionID=\"Modify metadata for asset\"/>\n      <ActionLink ActionID=\"Classify asset\"/>\n      <ActionLink ActionID=\"Declassify asset\"/>\n      <ActionLink ActionID=\"Upload to asset\"/>\n      <ActionLink ActionID=\"Download asset\"/>\n      <ActionLink ActionID=\"Create asset reference\"/>\n      <ActionLink ActionID=\"View entity\"/>\n      <ActionLink ActionID=\"Impersonate User\"/>\n      <ActionLink ActionID=\"View metadata for entity\"/>\n      <ActionLink ActionID=\"Delete asset reference\"/>\n      <ActionLink ActionID=\"Share search with group\"/>\n      <ActionLink ActionID=\"Modify metadata for asset reference\"/>\n      <ActionLink ActionID=\"View entity reference\"/>\n      <ActionLink ActionID=\"View metadata for entity reference\"/>\n      <ActionLink ActionID=\"Create Publication\"/>\n      <ActionLink ActionID=\"Delete Publication\"/>\n      <ActionLink ActionID=\"Modify Publication\"/>\n      <ActionLink ActionID=\"Modify Basket for Publication\"/>\n      <ActionLink ActionID=\"Create Publication Group\"/>\n      <ActionLink ActionID=\"Delete Publication Group\"/>\n      <ActionLink ActionID=\"Create data container\"/>\n      <ActionLink ActionID=\"Modify Publication Group\"/>\n      <ActionLink ActionID=\"Delete data container\"/>\n      <ActionLink ActionID=\"Modify metadata for data container\"/>\n      <ActionLink ActionID=\"Create Publication Section\"/>\n      <ActionLink ActionID=\"Delete Publication Section\"/>\n      <ActionLink ActionID=\"Modify Publication Section\"/>\n      <ActionLink ActionID=\"Modify Basket for Publication Section\"/>\n      <ActionLink ActionID=\"Create Version\"/>\n      <ActionLink ActionID=\"Delete Version\"/>\n      <ActionLink ActionID=\"Modify Version\"/>\n    </ActionSet>\n  </ActionSetList>\n\n  <PortalConfigurations>\n    <PortalConfiguration ID=\"testWebUI\">\n\n<!-- Definition:\n<portal-config portalId=\"customerportal\" xmlns=\"http://stibosystems.com/step/portal-config\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n  <screens>\n    <loginscreen>\n      <parameter id=\"PortalTitle\" value=\"STEP Web UI\"/>\n    </loginscreen>\n    <screen id=\"Name and ID\" type=\"NodeDetails\">\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter id=\"LabelLayout\" value=\"LEFT\"/>\n        <parameter-list id=\"Rows\">\n          <component id=\"Rows\" type=\"IdValue\">\n            <parameter id=\"CssClass\" value=\"stibo-IdValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.IdValue.Label\"/>\n          </component>\n          <component id=\"Rows\" type=\"NameValue\">\n            <parameter id=\"CssClass\" value=\"stibo-NameValue\"/>\n            <parameter id=\"Label\" value=\"i18n.stibo.NameValue.Label\"/>\n            <parameter id=\"Mandatory\" value=\"false\"/>\n            <parameter id=\"ReadOnly\" value=\"false\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <parameter id=\"EnforceValidity\" value=\"false\"/>\n      <parameter id=\"ShowWarning\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Name and ID\"/>\n    </screen>\n    <screen id=\"homepage\" type=\"HomePage\">\n      <parameter id=\"CssClass\" value=\"stibo-HomePage\"/>\n      <parameter id=\"DisableTitle\" value=\"false\"/>\n      <parameter id=\"PagingEnabled\" value=\"false\"/>\n      <parameter id=\"Title\" value=\"Welcome to the STEP Web UI\"/>\n      <parameter-list id=\"Content\">\n        <component id=\"Content\" type=\"WidgetGrid\">\n          <parameter-list id=\"Widgets\">\n            <component id=\"Widgets\" type=\"TextWidget\">\n              <parameter id=\"CssClass\" value=\"stb-staticText\"/>\n              <parameter id=\"DoubleWidth\" value=\"false\"/>\n              <parameter id=\"Text\" value=\"Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help.\"/>\n              <parameter id=\"Title\" value=\"Welcome\"/>\n            </component>\n            <component id=\"Widgets\" type=\"UserWidget\">\n              <parameter id=\"Title\" value=\"i18n.stibo.UserWidgetServerComponent.Title\"/>\n              <parameter id=\"UserDetailsScreen\" value=\"userdetails\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"login\" type=\"LoginScreen\"/>\n    <screen id=\"main\" type=\"Main\">\n      <parameter id=\"DefaultSidePanel\" value=\"SHOWN\"/>\n      <parameter id=\"Resizeable\" value=\"true\"/>\n      <parameter-list id=\"Left\">\n        <component id=\"Left\" type=\"PrimaryNavigation\">\n          <parameter-list id=\"MenuItems\">\n            <component id=\"MenuItems\" type=\"GlobalNavigationSearch\">\n              <parameter id=\"Label\" value=\"Global Search\"/>\n              <parameter-list id=\"SearchConfigurations\">\n                <component id=\"SearchConfigurations\" type=\"GlobalNavigationSearchConfiguration\">\n                  <parameter id=\"Title\" value=\"Name/Id/Attributes\"/>\n                  <parameter-list id=\"SearchPlugins\">\n                    <component id=\"SearchPlugins\" type=\"NameOrIdOrAttributes\">\n                      <parameter id=\"ForceIDNameSearch\" value=\"false\"/>\n                      <parameter id=\"SearchInDataContainers\" value=\"false\"/>\n                    </component>\n                  </parameter-list>\n                </component>\n              </parameter-list>\n            </component>\n            <component id=\"MenuItems\" type=\"TreeItem\">\n              <parameter id=\"HideLeaves\" value=\"false\"/>\n              <parameter id=\"Icon\" value=\"account_tree\"/>\n              <parameter id=\"Label\" value=\"i18n.stibo.webui.primarynavigation.TreeItem.Label\"/>\n              <parameter id=\"ShowLeaves\" value=\"false\"/>\n              <parameter id=\"showRecycle\" value=\"false\"/>\n            </component>\n          </parameter-list>\n        </component>\n      </parameter-list>\n      <parameter-list id=\"Mappings\">\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"userdetails\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"UserCondition\"/>\n          </parameter-list>\n        </component>\n        <component id=\"Mappings\" type=\"ScreenMapping\">\n          <parameter id=\"Screen\" value=\"Name and ID\"/>\n          <parameter-list id=\"Conditions\">\n            <component id=\"Conditions\" type=\"AlwaysTrueCondition\"/>\n          </parameter-list>\n        </component>\n      </parameter-list>\n    </screen>\n    <screen id=\"userdetails\" type=\"UserDetails\">\n      <component id=\"Buttons\" type=\"Buttons\">\n        <parameter-list id=\"Actions\">\n          <component type=\"SaveAction\">\n            <parameter id=\"CssClass\" value=\"SaveButton\"/>\n          </component>\n          <component type=\"ResetAction\">\n            <parameter id=\"CssClass\" value=\"ResetButton\"/>\n          </component>\n        </parameter-list>\n      </component>\n      <component id=\"Main\" type=\"NodeEditor\">\n        <parameter-list id=\"Rows\">\n          <component id=\"UserId\" type=\"IdValue\">\n            <parameter id=\"Label\" value=\"User ID\"/>\n          </component>\n          <component id=\"UserEmail\" type=\"UserEmail\">\n            <parameter id=\"Label\" value=\"Email Address\"/>\n            <parameter id=\"Mandatory\" value=\"True\"/>\n          </component>\n          <component id=\"UserPassword\" type=\"UserPassword\">\n            <parameter id=\"NewPasswordLabel\" value=\"New password\"/>\n            <parameter id=\"OldPasswordLabel\" value=\"Old password\"/>\n            <parameter id=\"RepeatPasswordLabel\" value=\"Repeat new password\"/>\n          </component>\n        </parameter-list>\n      </component>\n    </screen>\n  </screens>\n  <theme/>\n</portal-config> -->\n      <SetupGroupLink SetupGroupID=\"WebUIs\"/>\n      <Name QualifierID=\"Qualifier root\">testWebUI</Name>\n      <Configuration>H4sIAAAAAAAAAMVZS3PbNhA+NzP5DygvvVSk014yHtkZ13YSzci2xpLr3joQuZIwhQAWAC0rv74LvinzaTmNDx4TxPftE7sLOoyWnOkNBGfjT89bTp5AaSbFmfPBPXEICF8GTKzPnIfF59FHh2hDRUC5FHDmCOl8On//bhxKZSgf+VKs2JogidBnzsaY8NTztGFLqffawFa7vtziAoReBeEkkNNnzXLYbrdzd7+7Uq29305OPnh/3Uzn/ga2dMSEVcEH5/07Uv1JSCfBmeNH2sgtqGTl5U6UdKpjuqn0qYnN7a8vqTy5zzpwzhMR459HI7LYME3miCKPsCQPE5Lsi1QsiKwYB4I7mDAgAggI1YQSFBdyaoBIReCZ4gMUWq9wMSPBWOD2VcT5Hn8L33JSnomiAQ0NchpJzAbJdgLUL7pgUvBvxBRsQRjtktEo01v7CkBofCz2jrlco7PjN+dVF45DqugWDCjC0N2z2B8LZjg45InyCHNjvriepVo5Xgk+9qq0pTfJWsy4pUw4xOxDZLqxf7crcA+afQO6LMk3KoKK4BrYFaxoxM2cBTCjAnih/Ne7x9sW9AhPjIkpprAyh8rFezF1QjwkorQttWem2Jaq/S19Yus4JerwTfJuQEQTm5tNoBrhBSbV4AuXS8oLBeZAlb9pY6xx3pQuSx5LKEnKdOi5PpYl0MvyWWk1ssHYWppWuyt7+0iscUY192/xjTcJvAtjFFtGBnSnR7o9M+ORPTd9FWx0TcaT+sTqeqcmwZ0qaTtARo0zPkvlw+TKMqf5kDlmRbl+eSoH0iecE3FFDcXYGSwP2LKOkDH2cj/1jZJXDVOfNO0tZAB5lfSn+Kfr8C+wyNoFJ0d0HG324aNw47bo7mAZMTdMCpjIz5GbcboJ0mum1hu5uwd/75eOSxGxBtAEm1++m/q+jIT526DMNtAcJU2BPkFdajRgvmIn6MBUXd5QuLsj2JwOHeDapkDDEOeC2nN7mA7Z1jQb5nHPTVe7G1Hi2RiTeyjSoALAY8iby1yd1nh2A9ZZ5g/0L4FSCx5QfL7arMAxIfl//GjrJcHhmkyufoQfL/iO7vUCx6bv7M0W8NgrzYX1k+EG5/qQriFT+ys+z+xzx6jHtB0Pq326vlUcDrcU2+X6Wlh4MAxalfYIHF0C2WzeNCDX8FxqfcmpLopSXI1Huel9BlXbKTEWPUpEtjN18CML1mC+KBYMmVMT1JCMzBBZm4JnkywNnEuvJF5oAaFm6NzRJ3qDSdCMnOOSM/+fOPhrnGEIw7aG18B4wZcKpxiyxGXMjyVgzlWufHZPkiwuwfmKbICHcbFYRyyw12Eiq4Bks/6VaIACjbWSTDC8akV90Pguvj8SuUqui4LjLBVzu0MNrcnR5Qhv6ob5sQ/a6PrNRu35Yk17Vb5Y4FXSvl7R2JrCXsmd0gRVqDkH9WQ7V2qTm0COc9MPrMtlZ5VCknr2RXU+7KbFdf9WBnCN/Ueq2lpVU2vu5a6x0BwIsipNgkzUJPjTBqi1SLVNxslxaunW3QF7qd71Fh1WdmGy8FodYzS5CAIFuj2ND2hu7Hc+jMI+p1rUfVI5ytYZFoydVEHZ3Hytv6p3PMhQVePxBQkzvgG238KunhBfvIrwHkKgpp4zeUdEH+qOGbXj6tBydTkIzh+RMaXZMHvseSAv/NZxtCQrHZ7xxpVgBgT9RcOxLImib5OkiW73oMEcr1xMc5R2g4JbrHZ8aI0/xmZhntqHtAnWk9RRlO8tpRreVPm7Ppw1XYEOgNdiZT8zYQFn2Cz2wwZz+23gkSph72odwOMbVVGUp3Qvo2IcnF5/XtQmw5FNLt76Ri2uNLqkVKVvPD0ZG64vmWpv1lHKdttMGmr5PdDgTvCuXHqN73J13sx7hYFH9fR2E79vRSo/Fv96GuNNZAv56+xpXP0fnF3RIWfm/D9JDHdXwBwAAA==</Configuration>\n    </PortalConfiguration>\n  </PortalConfigurations>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
