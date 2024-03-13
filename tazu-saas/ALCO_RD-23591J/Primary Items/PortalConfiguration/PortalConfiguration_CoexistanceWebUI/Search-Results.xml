@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Search-Results" type="GenericSearch">
+			<parameter id="AutoForwardSingleResultEnabled" value="true"/>
+			<parameter id="Title" value="i18n.stibo.GenericSearch.Title"/>
+			<component id="NodeList" type="NodeList">
+				<parameter id="IncludeLabels" value="true"/>
+				<parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+				<parameter id="LookupScreenTypeForNavigation" value="true"/>
+				<parameter id="PageSize" value="25"/>
+				<parameter id="DefaultSortingOrder" value="Ascending"/>
+				<parameter id="UseDetailsOverlay" value="false"/>
+				<parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+				<parameter id="EnableDefaultSorting" value="true"/>
+				<parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+				<parameter id="ToolbarHeight" value="30"/>
+				<parameter id="HideStandardButtons" value="false"/>
+				<parameter id="ID" value="efdbbcadaebfce"/>
+				<parameter id="HideSelectAllButton" value="false"/>
+				<parameter-list id="DisplayModes">
+					<component id="DisplayModes" type="TableDisplayMode">
+						<parameter id="ShowDetails" value="false"/>
+						<parameter id="showTopItemDetailsOnLoad" value="false"/>
+						<parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+						<parameter id="EnableFiltering" value="false"/>
+						<parameter id="ColumnsResizable" value="false"/>
+						<parameter id="MinColumnsWidth" value="0"/>
+						<parameter id="Title" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+						<parameter id="DisplayModeHeight" value="200"/>
+						<parameter-list id="Headers">
+							<component id="Headers" type="IDHeader">
+								<parameter id="EnableLink" value="true"/>
+							</component>
+							<component id="Headers" type="ObjectTypeHeader"/>
+							<component id="Headers" type="ValueHeader">
+								<parameter id="nowrap" value="false"/>
+								<parameter id="Readonly" value="true"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="CalcNameCollection"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="ShowInvalidInheritedValues" value="false"/>
+								<parameter id="Mandatory" value="NotMandatory"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+							<component id="Headers" type="DataContainerValueHeader">
+								<parameter id="DataContainer" value="MainAddressDataContainer"/>
+								<parameter id="nowrap" value="false"/>
+								<parameter id="ShowLOVIDs" value="false"/>
+								<parameter id="Attribute" value="CalcFormattedAddress"/>
+								<parameter id="AlwaysShowValues" value="true"/>
+								<parameter id="EnableLocaleFormatting" value="false"/>
+								<parameter id="DisplayContextHelp" value="true"/>
+							</component>
+						</parameter-list>
+					</component>
+				</parameter-list>
+				<parameter-list id="Actions">
+					<component id="Actions" type="CreateCollectionAction">
+						<parameter id="ToolTip" value="i18n.stibo.Collections.CreateCollection.ToolTip"/>
+						<parameter id="ButtonLabel" value="i18n.stibo.Collections.CreateCollection.Label"/>
+						<component id="CreateCollectionDialog" type="CreateCollectionDialog">
+							<component id="NodePickerDialog" type="NodePickerDialog">
+								<parameter id="Title" value="i18n.stibo.NodePickerDialog.Title"/>
+								<component id="RootNodePlugin" type="StaticRootNodes">
+									<parameter-list id="RootNodeURLs">
+										<parameter value="step://collectiongroup?id=CollectionGroup+root"/>
+									</parameter-list>
+								</component>
+								<parameter-list id="TabPages">
+									<component id="TabPages" type="BrowseTab"/>
+								</parameter-list>
+							</component>
+						</component>
+					</component>
+					<component id="Actions" type="ExportAction">
+						<parameter id="NoSelectionMessage" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.NoSelection"/>
+						<parameter id="ProcessDescription" value="{Action} &quot;{Configuration}&quot;"/>
+						<parameter id="ToolTip" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.ToolTip"/>
+						<parameter id="IconStyleClass" value="stibo-AssetPort-Toolbar-ActiveIcon-download"/>
+						<parameter id="DialogTitle" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.DialogTitle"/>
+						<parameter-list id="NarrowedExportConfigurations">
+							<parameter value="SubjectExport"/>
+						</parameter-list>
+						<parameter id="StartDownloadButtonText" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.StartExportButton"/>
+						<parameter id="NoExportConfigurationsMessage" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.NoExportConfigurationsMessage"/>
+						<parameter id="ActionTitle" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.ActionTitle"/>
+						<parameter id="SelectionHeader" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.SelectionHeader"/>
+						<parameter id="CancelDownloadButtonText" value="i18n.stibo.portal.server.components.actions.ExportActionServerComponent.CancelExportButton"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

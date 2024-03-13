@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Protocols Root Screen" type="NodeDetails">
+			<parameter id="ShowTitle" value="true"/>
+			<parameter id="Title" value="Protocols"/>
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="ShowWarning" value="false"/>
+			<component id="Breadcrumb" type="Breadcrumb">
+				<parameter id="Readonly" value="false"/>
+				<parameter id="CssClass" value="stibo-Breadcrumb"/>
+			</component>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component id="TabPages" type="SubScreenTabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Protocols"/>
+						<parameter id="DetailsScreen" value="Consent Root Children Screen"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>

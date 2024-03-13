@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Traceability-Individual" type="SourceTraceabityScreen">
+			<parameter-list id="Rows">
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="FirstName"/>
+					<parameter id="Label" value="First Name"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="LastName"/>
+					<parameter id="Label" value="Last Name"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="CustomerNo"/>
+					<parameter id="Label" value="IFS Customer No"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="SubjectType"/>
+					<parameter id="Label" value="Subject Type"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="Deceased"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+					<parameter id="Attribute" value="CalcFormattedAddress"/>
+					<parameter id="Label" value="Address"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="DeliveryAddressDataContainer"/>
+					<parameter id="Attribute" value="CalcFormattedAddress"/>
+					<parameter id="Label" value="Invoice Address"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="ConsentsProtestsDC"/>
+					<parameter id="Attribute" value="ConsentText"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="EmailDataContainer"/>
+					<parameter id="Attribute" value="EmailField"/>
+					<parameter id="Label" value="Email"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+					<parameter id="DataContainerType" value="PhoneDataContainer"/>
+					<parameter id="Attribute" value="PhoneNumber"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="ExternalId"/>
+					<parameter id="Label" value="External ID"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="Gender"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+				<component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+					<parameter id="Attribute" value="BirthDate"/>
+					<parameter id="Label" value="Birth Date"/>
+					<parameter id="DisplayContextHelp" value="true"/>
+				</component>
+			</parameter-list>
+		</screen>

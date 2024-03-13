@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Details-Contact" type="NodeDetails">
+			<parameter id="ShowTitle" value="true"/>
+			<parameter id="Title" value=" "/>
+			<parameter id="EnforceValidity" value="false"/>
+			<parameter id="ShowWarning" value="false"/>
+			<component id="Breadcrumb" type="EntitySummaryCard">
+				<component id="PrimarySummaryCardSection" type="EntityAttributeCard">
+					<parameter id="TitleAttribute" value="CalcName"/>
+					<parameter-list id="SummaryAttributes">
+						<component id="SummaryAttributes" type="HasDataContainerSummaryCardDataContainerDisplayAttribute">
+							<parameter id="DataContainer" value="EmailDataContainer"/>
+							<parameter id="Attribute" value="EmailField"/>
+						</component>
+						<component id="SummaryAttributes" type="HasDataContainerSummaryCardDataContainerDisplayAttribute">
+							<parameter id="DataContainer" value="PhoneDataContainer"/>
+							<parameter id="Attribute" value="PhoneNumber"/>
+						</component>
+					</parameter-list>
+				</component>
+			</component>
+			<component id="Main" type="TabControl">
+				<parameter id="DirtyWarning" value="false"/>
+				<parameter-list id="TabPages">
+					<component id="TabPages" type="TabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Overview"/>
+						<component id="TabContent" type="ColumnsControl">
+							<parameter-list id="Columns">
+								<component id="Columns" type="NodeEditor">
+									<parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+									<parameter id="LabelLayout" value="LEFT"/>
+									<parameter-list id="Rows">
+										<component id="Rows" type="Value">
+											<parameter id="EnableTagConversion" value="false"/>
+											<parameter id="ReadOnly" value="false"/>
+											<parameter id="EnableStepTags" value="false"/>
+											<parameter id="DisplayValueHistory" value="false"/>
+											<parameter id="SortLOVByID" value="false"/>
+											<parameter id="Attribute" value="FirstName"/>
+											<parameter id="DisplayContextHelp" value="true"/>
+											<parameter id="MaxSuggestions" value="10"/>
+											<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+											<parameter id="ShowLOVIDs" value="false"/>
+											<parameter id="EnableLocaleFormatting" value="false"/>
+											<parameter id="SuggestOracle" value="false"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+										<component id="Rows" type="Value">
+											<parameter id="EnableTagConversion" value="false"/>
+											<parameter id="ReadOnly" value="false"/>
+											<parameter id="EnableStepTags" value="false"/>
+											<parameter id="DisplayValueHistory" value="false"/>
+											<parameter id="SortLOVByID" value="false"/>
+											<parameter id="Attribute" value="LastName"/>
+											<parameter id="DisplayContextHelp" value="true"/>
+											<parameter id="MaxSuggestions" value="10"/>
+											<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+											<parameter id="ShowLOVIDs" value="false"/>
+											<parameter id="EnableLocaleFormatting" value="false"/>
+											<parameter id="SuggestOracle" value="false"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+										<component id="Rows" type="DataContainerDefaultEditor">
+											<parameter id="DataContainerType" value="MainAddressDataContainer"/>
+										</component>
+										<component id="Rows" type="DataContainerDefaultEditor">
+											<parameter id="DataContainerType" value="EmailDataContainer"/>
+										</component>
+										<component id="Rows" type="DataContainerDefaultEditor">
+											<parameter id="DataContainerType" value="PhoneDataContainer"/>
+										</component>
+									</parameter-list>
+								</component>
+								<component id="Columns" type="NodeEditor">
+									<parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+									<parameter id="LabelLayout" value="LEFT"/>
+									<parameter-list id="Rows">
+										<component id="Rows" type="CompletenessMeter">
+											<parameter id="ImprovementHelp" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.ImprovementHelp"/>
+											<parameter id="CompletenessMetric" value="ContactCompleteness"/>
+											<parameter id="Label" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.Label"/>
+										</component>
+										<component id="Rows" type="StaticHtml">
+											<parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Key Identifiers&lt;/h4&gt;"/>
+											<parameter id="CssClass" value="stb-staticHtml"/>
+										</component>
+										<component id="Rows" type="Value">
+											<parameter id="EnableTagConversion" value="true"/>
+											<parameter id="ReadOnly" value="true"/>
+											<parameter id="EnableStepTags" value="false"/>
+											<parameter id="DisplayValueHistory" value="false"/>
+											<parameter id="SortLOVByID" value="false"/>
+											<parameter id="Attribute" value="GoldenRecordID"/>
+											<parameter id="Label" value="Golden Record ID"/>
+											<parameter id="DisplayContextHelp" value="true"/>
+											<parameter id="MaxSuggestions" value="10"/>
+											<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+											<parameter id="ShowLOVIDs" value="false"/>
+											<parameter id="EnableLocaleFormatting" value="false"/>
+											<parameter id="SuggestOracle" value="false"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+										<component id="Rows" type="GoldenRecordSourceInformation">
+											<parameter id="Label" value="i18n.stibo.portal.matching.server.sourceinformation.GoldenRecordSourceInformationServerComponent.TableLabel"/>
+										</component>
+										<component id="Rows" type="Value">
+											<parameter id="EnableTagConversion" value="true"/>
+											<parameter id="ReadOnly" value="true"/>
+											<parameter id="EnableStepTags" value="false"/>
+											<parameter id="DisplayValueHistory" value="false"/>
+											<parameter id="SortLOVByID" value="false"/>
+											<parameter id="Attribute" value="CreationDate"/>
+											<parameter id="Label" value="Golden Record Creation"/>
+											<parameter id="DisplayContextHelp" value="true"/>
+											<parameter id="MaxSuggestions" value="10"/>
+											<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+											<parameter id="ShowLOVIDs" value="false"/>
+											<parameter id="EnableLocaleFormatting" value="false"/>
+											<parameter id="SuggestOracle" value="false"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+										<component id="Rows" type="Value">
+											<parameter id="EnableTagConversion" value="true"/>
+											<parameter id="ReadOnly" value="true"/>
+											<parameter id="EnableStepTags" value="false"/>
+											<parameter id="DisplayValueHistory" value="false"/>
+											<parameter id="SortLOVByID" value="false"/>
+											<parameter id="Attribute" value="LastUpdated"/>
+											<parameter id="Label" value="Golden Record Last Updated"/>
+											<parameter id="DisplayContextHelp" value="true"/>
+											<parameter id="MaxSuggestions" value="10"/>
+											<parameter id="ReverseLOVValueIDPresentation" value="false"/>
+											<parameter id="ShowLOVIDs" value="false"/>
+											<parameter id="EnableLocaleFormatting" value="false"/>
+											<parameter id="SuggestOracle" value="false"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+										<component id="Rows" type="ReferenceValue">
+											<parameter id="ReadOnly" value="true"/>
+											<parameter id="ShowVisibilityControls" value="false"/>
+											<parameter id="ContextHelp" value="i18n.stibo.ReferenceValue.ContextHelp"/>
+											<parameter id="Label" value="Organization Customer Link"/>
+											<parameter id="UseLegacyView" value="true"/>
+											<parameter id="ReverseRelation" value="false"/>
+											<parameter id="DisplayTargetHistory" value="false"/>
+											<parameter id="ReferenceType" value="ContactPersonOrganization"/>
+											<parameter id="Mandatory" value="false"/>
+										</component>
+									</parameter-list>
+								</component>
+							</parameter-list>
+						</component>
+					</component>
+					<component id="TabPages" type="SubScreenTabPage">
+						<parameter id="Lazy" value="false"/>
+						<parameter id="Title" value="Traceability"/>
+						<parameter id="DetailsScreen" value="Traceability-Contacts"/>
+					</component>
+				</parameter-list>
+			</component>
+		</screen>
