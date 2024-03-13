@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Display-Households" type="DisplayRelationsScreen">
+			<parameter id="MaxLevel" value="2"/>
+			<parameter-list id="ReferenceTypesFilter">
+				<parameter value="HouseholdMembers"/>
+			</parameter-list>
+		</screen>
