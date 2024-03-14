@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal-config schemaLocation="http://stibosystems.com/step/portal-config portal-config.xsd">
+    
+    <screens>
+
+        <loginscreen>
+            <parameter id="PortalTitle" value="STEP Web UI"/>
+        </loginscreen>
+
+        
+
+
+        
+
+
+        
+
+        
+        
+    </screens>
+
+    <theme>
+    </theme>
+</portal-config>
