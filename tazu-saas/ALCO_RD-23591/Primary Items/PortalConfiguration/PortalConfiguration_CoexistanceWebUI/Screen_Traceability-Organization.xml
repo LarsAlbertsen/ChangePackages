@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Traceability-Organization" type="SourceTraceabityScreen">
+  <parameter-list id="Rows">
+    <component id="Rows" type="SourceTraceabityAttributeConfigComponent">
+      <parameter id="Attribute" value="LegalName"/>
+      <parameter id="DisplayContextHelp" value="true"/>
+    </component>
+    <component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+      <parameter id="DataContainerType" value="MainAddressDataContainer"/>
+      <parameter id="Attribute" value="CalcFormattedAddress"/>
+      <parameter id="DisplayContextHelp" value="true"/>
+    </component>
+    <component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+      <parameter id="DataContainerType" value="EmailDataContainer"/>
+      <parameter id="Attribute" value="EmailField"/>
+      <parameter id="DisplayContextHelp" value="true"/>
+    </component>
+    <component id="Rows" type="SourceTraceabityDataContainerConfigComponent">
+      <parameter id="DataContainerType" value="PhoneDataContainer"/>
+      <parameter id="Attribute" value="PhoneNumber"/>
+      <parameter id="DisplayContextHelp" value="true"/>
+    </component>
+    <component id="Rows" type="SourceTraceabityAttributeGroupConfigComponent">
+      <parameter id="AttributeGroup" value="OrganizationIndustryDisplay"/>
+      <parameter id="DisplayContextHelp" value="true"/>
+    </component>
+  </parameter-list>
+</screen>

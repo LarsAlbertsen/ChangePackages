@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="GDPR Relations Screen" type="DisplayRelationsScreen">
+  <parameter id="MaxLevel" value="1"/>
+  <parameter-list id="ReferenceTypesFilter">
+    <parameter value="Protocols"/>
+  </parameter-list>
+</screen>

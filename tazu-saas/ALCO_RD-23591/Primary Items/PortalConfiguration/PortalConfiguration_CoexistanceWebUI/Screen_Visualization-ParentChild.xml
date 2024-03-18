@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Visualization-ParentChild" type="DisplayRelationsScreen">
+  <parameter id="MaxLevel" value="4"/>
+  <parameter-list id="ReferenceTypesFilter">
+    <parameter value="DFParentOrganization"/>
+    <parameter value="DFMatchedOrganisation"/>
+  </parameter-list>
+</screen>
