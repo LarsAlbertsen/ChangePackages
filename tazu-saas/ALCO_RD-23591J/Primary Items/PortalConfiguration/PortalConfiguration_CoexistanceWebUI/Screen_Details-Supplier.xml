@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Details-Supplier" type="NodeDetails">
+  <parameter id="ShowTitle" value="false"/>
+  <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+  <parameter id="EnforceValidity" value="false"/>
+  <parameter id="ShowWarning" value="false"/>
+  <component id="Breadcrumb" type="EntitySummaryCard">
+    <component id="PrimarySummaryCardSection" type="EntityAttributeCard">
+      <parameter id="TitleAttribute" value="LegalName"/>
+      <parameter-list id="SummaryAttributes">
+        <component id="SummaryAttributes" type="HasDataContainerSummaryCardDataContainerDisplayAttribute">
+          <parameter id="DataContainer" value="MainAddressDataContainer"/>
+          <parameter id="Attribute" value="CalcFormattedAddress"/>
+        </component>
+        <component id="SummaryAttributes" type="HasDataContainerSummaryCardDataContainerDisplayAttribute">
+          <parameter id="DataContainer" value="EmailDataContainer"/>
+          <parameter id="Attribute" value="EmailField"/>
+        </component>
+        <component id="SummaryAttributes" type="HasDataContainerSummaryCardDataContainerDisplayAttribute">
+          <parameter id="DataContainer" value="PhoneDataContainer"/>
+          <parameter id="Attribute" value="PhoneNumber"/>
+        </component>
+      </parameter-list>
+    </component>
+  </component>
+  <component id="Main" type="TabControl">
+    <parameter id="DirtyWarning" value="false"/>
+    <parameter-list id="TabPages">
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Overview"/>
+        <component id="TabContent" type="ColumnsControl">
+          <parameter-list id="Columns">
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Supplier Details&lt;/h4&gt;"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+                <component id="Rows" type="Value">
+                  <parameter id="EnableTagConversion" value="false"/>
+                  <parameter id="ReadOnly" value="false"/>
+                  <parameter id="OverrideControlType" value="Text Box"/>
+                  <parameter id="EnableStepTags" value="false"/>
+                  <parameter id="DisplayValueHistory" value="true"/>
+                  <parameter id="SortLOVByID" value="false"/>
+                  <parameter id="Attribute" value="LegalName"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                  <parameter id="MaxSuggestions" value="10"/>
+                  <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="SuggestOracle" value="false"/>
+                  <parameter id="Mandatory" value="false"/>
+                </component>
+                <component id="Rows" type="DataContainerDefaultEditor">
+                  <parameter id="DataContainerType" value="MainAddressDataContainer"/>
+                </component>
+                <component id="Rows" type="DataContainerDefaultEditor">
+                  <parameter id="DataContainerType" value="EmailDataContainer"/>
+                </component>
+                <component id="Rows" type="DataContainerDefaultEditor">
+                  <parameter id="DataContainerType" value="PhoneDataContainer"/>
+                </component>
+                <component id="Rows" type="GloballyConfiguredReferenceServerComponent">
+                  <parameter id="ReferenceType" value="SupplierToProcurementParent"/>
+                </component>
+                <component id="Rows" type="Value">
+                  <parameter id="EnableTagConversion" value="false"/>
+                  <parameter id="ReadOnly" value="false"/>
+                  <parameter id="EnableStepTags" value="false"/>
+                  <parameter id="DisplayValueHistory" value="true"/>
+                  <parameter id="SortLOVByID" value="false"/>
+                  <parameter id="Attribute" value="Language"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                  <parameter id="MaxSuggestions" value="10"/>
+                  <parameter id="ReverseLOVValueIDPresentation" value="false"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="SuggestOracle" value="false"/>
+                  <parameter id="Mandatory" value="false"/>
+                </component>
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Company Details&lt;/h4&gt;"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+                <component id="Rows" type="ValueGroup">
+                  <parameter id="EnableTagConversion" value="false"/>
+                  <parameter id="ReadOnly" value="false"/>
+                  <parameter id="EnableStepTags" value="false"/>
+                  <parameter id="DisplayValueHistory" value="true"/>
+                  <parameter id="SortLOVByID" value="false"/>
+                  <parameter id="AttributeGroup" value="OrganizationIndustryDisplay"/>
+                  <parameter id="RichTextEditing" value="Never"/>
+                  <parameter id="DisplayContextHelp" value="true"/>
+                  <parameter id="DisplayMode" value="Merged"/>
+                  <parameter id="MaxSuggestions" value="10"/>
+                  <parameter id="ShowLOVIDs" value="false"/>
+                  <parameter id="EnableLocaleFormatting" value="false"/>
+                  <parameter id="IncludeReferences" value="true"/>
+                  <parameter id="SuggestOracle" value="false"/>
+                  <parameter id="MandatoryGroup" value="false"/>
+                  <parameter id="FilterAttributeType" value="Both"/>
+                </component>
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Line of Business Details&lt;/h4&gt;"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+                <component id="Rows" type="DataContainerDefaultEditor">
+                  <parameter id="DataContainerType" value="SupplierLineOfBusinessData"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="CompletenessMeter">
+                  <parameter id="ImprovementHelp" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.ImprovementHelp"/>
+                  <parameter id="CompletenessMetric" value="SupplierCompleteness"/>
+                  <parameter id="Label" value="i18n.stibo.portal.server.components.completeness.CompletenessMeter.Label"/>
+                </component>
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;br&gt;&lt;h4&gt;Status Details&lt;/h4&gt;"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+                <component id="Rows" type="ApprovalStatus">
+                  <parameter id="MessageFormatCompleteApproved" value="i18n.stibo.portal.server.components.value.ApprovalStatusServerComponent.default.approved.complete"/>
+                  <parameter id="MessageFormatContextApproved" value="i18n.stibo.portal.server.components.value.ApprovalStatusServerComponent.default.approved.context"/>
+                  <parameter id="MessageFormatNeverApproved" value="i18n.stibo.portal.server.components.value.ApprovalStatusServerComponent.default.approved.never"/>
+                  <parameter id="Label" value="i18n.stibo.portal.server.components.value.ApprovalStatusServerComponent.default.Label"/>
+                  <parameter id="MessageFormatNotApproved" value="i18n.stibo.portal.server.components.value.ApprovalStatusServerComponent.default.approved.not"/>
+                </component>
+                <component id="Rows" type="Revision">
+                  <parameter id="Label" value="i18n.stibo.NodeDetails.Revision.Label"/>
+                </component>
+                <component id="Rows" type="ReferenceValue">
+                  <parameter id="ReadOnly" value="true"/>
+                  <parameter id="ShowVisibilityControls" value="false"/>
+                  <parameter id="UseLegacyView" value="true"/>
+                  <parameter id="ReverseRelation" value="false"/>
+                  <parameter id="DisplayTargetHistory" value="false"/>
+                  <parameter id="ReferenceType" value="SupplierEntitiesReference"/>
+                  <parameter id="Mandatory" value="false"/>
+                </component>
+                <component id="Rows" type="GoldenRecordSourceInformation">
+                  <parameter id="Label" value="i18n.stibo.portal.matching.server.sourceinformation.GoldenRecordSourceInformationServerComponent.TableLabel"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Contacts"/>
+        <component id="TabContent" type="MultiReference">
+          <parameter-list id="ReferenceTypes">
+            <parameter value="ContactPersonOrganization"/>
+          </parameter-list>
+          <parameter id="ReferenceDirection" value="Referenced by"/>
+          <parameter id="Height" value="0"/>
+          <parameter id="DisplaySuppressions" value="false"/>
+          <component id="NodeList" type="NodeList">
+            <parameter id="IncludeLabels" value="true"/>
+            <parameter id="ClearAllFilters" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearAllFilters"/>
+            <parameter id="LookupScreenTypeForNavigation" value="true"/>
+            <parameter id="PageSize" value="50"/>
+            <parameter id="DefaultSortingOrder" value="Ascending"/>
+            <parameter id="UseDetailsOverlay" value="false"/>
+            <parameter id="SelectAllLabel" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.SelectAllLabel"/>
+            <parameter id="EnableDefaultSorting" value="true"/>
+            <parameter id="ClearSelection" value="i18n.stibo.portal.server.components.masterdetail.NodeListServerComponent.default.ClearSelection"/>
+            <parameter id="ToolbarHeight" value="30"/>
+            <parameter id="HideStandardButtons" value="false"/>
+            <parameter id="ID" value="bbeedfcfdceba"/>
+            <parameter id="HideSelectAllButton" value="false"/>
+            <parameter-list id="DisplayModes">
+              <component id="DisplayModes" type="TableDisplayMode">
+                <parameter id="ShowDetails" value="false"/>
+                <parameter id="showTopItemDetailsOnLoad" value="false"/>
+                <parameter id="ContextHelp" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+                <parameter id="EnableFiltering" value="false"/>
+                <parameter id="ColumnsResizable" value="false"/>
+                <parameter id="MinColumnsWidth" value="0"/>
+                <parameter id="Title" value="i18n.stibo.portal.server.components.masterdetail.TableDisplayMode"/>
+                <parameter id="DisplayModeHeight" value="600"/>
+                <parameter-list id="Headers">
+                  <component id="Headers" type="IDHeader">
+                    <parameter id="EnableLink" value="true"/>
+                  </component>
+                  <component id="Headers" type="ValueHeader">
+                    <parameter id="nowrap" value="false"/>
+                    <parameter id="Readonly" value="false"/>
+                    <parameter id="ShowLOVIDs" value="false"/>
+                    <parameter id="Attribute" value="CalcName"/>
+                    <parameter id="EnableLocaleFormatting" value="false"/>
+                    <parameter id="ShowInvalidInheritedValues" value="false"/>
+                    <parameter id="Mandatory" value="NotMandatory"/>
+                    <parameter id="DisplayContextHelp" value="true"/>
+                  </component>
+                  <component id="Headers" type="DataContainerValueHeader">
+                    <parameter id="DataContainer" value="MainAddressDataContainer"/>
+                    <parameter id="nowrap" value="false"/>
+                    <parameter id="ShowLOVIDs" value="false"/>
+                    <parameter id="Attribute" value="CalcFormattedAddress"/>
+                    <parameter id="AlwaysShowValues" value="true"/>
+                    <parameter id="EnableLocaleFormatting" value="false"/>
+                    <parameter id="DisplayContextHelp" value="true"/>
+                  </component>
+                  <component id="Headers" type="DataContainerValueHeader">
+                    <parameter id="DataContainer" value="PhoneDataContainer"/>
+                    <parameter id="nowrap" value="false"/>
+                    <parameter id="ShowLOVIDs" value="false"/>
+                    <parameter id="Attribute" value="PhoneNumber"/>
+                    <parameter id="AlwaysShowValues" value="true"/>
+                    <parameter id="EnableLocaleFormatting" value="false"/>
+                    <parameter id="DisplayContextHelp" value="true"/>
+                  </component>
+                  <component id="Headers" type="DataContainerValueHeader">
+                    <parameter id="DataContainer" value="EmailDataContainer"/>
+                    <parameter id="nowrap" value="false"/>
+                    <parameter id="ShowLOVIDs" value="false"/>
+                    <parameter id="Attribute" value="EmailField"/>
+                    <parameter id="AlwaysShowValues" value="true"/>
+                    <parameter id="EnableLocaleFormatting" value="false"/>
+                    <parameter id="DisplayContextHelp" value="true"/>
+                  </component>
+                </parameter-list>
+              </component>
+            </parameter-list>
+            <parameter-list id="Actions"/>
+          </component>
+        </component>
+      </component>
+      <component id="TabPages" type="SubScreenTabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Traceability"/>
+        <parameter id="DetailsScreen" value="Traceability-Supplier"/>
+      </component>
+      <component id="TabPages" type="SubScreenTabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Procurement Hierarchy"/>
+        <parameter id="DetailsScreen" value="Hierarchy-Procurement"/>
+      </component>
+    </parameter-list>
+  </component>
+  <component id="Buttons" type="Buttons">
+    <parameter-list id="Actions">
+      <component id="Actions" type="BusinessActionWithWebUIBindButton">
+        <parameter id="SaveBeforeExecuting" value="false"/>
+        <parameter id="ContextHelp" value="i18n.stibo.BusinessActionWithWebUIBind.tooltip"/>
+        <parameter id="NodePickerPosition" value="TOP"/>
+        <parameter id="BusinessAction" value="SaveSupplier"/>
+        <parameter id="Label" value="Save"/>
+        <parameter id="EnforceValidity" value="false"/>
+        <parameter id="EnableOnWorkflowOnly" value="false"/>
+        <parameter id="PopupLabel" value="i18n.stibo.BusinessActionWithWebUIBindPopUp.label"/>
+      </component>
+      <component id="Actions" type="UnmergeAction">
+        <parameter id="ButtonLabel" value="Unmerge"/>
+        <parameter id="StyleClass" value="UnmergeNowAction"/>
+        <parameter id="MatchingAlgorithm" value="SupplierMatching"/>
+        <parameter id="ButtonType" value="TEXT"/>
+      </component>
+    </parameter-list>
+  </component>
+</screen>

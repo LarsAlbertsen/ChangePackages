@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<screen id="Unmerge-Suppliers" type="UnmergeWizardScreen">
-			<parameter-list id="VisibleValues">
-				<parameter value="SurvSupplierMostRecent (attributegroup)"/>
-				<parameter value="MainAddressDataContainer (datacontainertype)"/>
-				<parameter value="SupplierLineOfBusinessData (datacontainertype)"/>
-			</parameter-list>
-		</screen>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Hierarchy-Procurement" type="CompanyDataHierarchyScreen">
+  <parameter-list id="HierarchyDefinitions">
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="Supplier"/>
+      <parameter id="ReferenceTypeFilter" value="SupplierToProcurementParent"/>
+    </component>
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="Aggregate"/>
+      <parameter id="ReferenceTypeFilter" value="SupplierToProcurementParent"/>
+    </component>
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="ProcurementManager"/>
+      <parameter id="ReferenceTypeFilter" value="ProcurementManagerToTerritory"/>
+    </component>
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="Territory"/>
+      <parameter id="ReferenceTypeFilter" value="TerritoryToRegion"/>
+    </component>
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="Region"/>
+      <parameter id="ReferenceTypeFilter" value="SupplierRegionToRoot"/>
+    </component>
+    <component id="HierarchyDefinitions" type="HierarchyDefinitionConfigurationParameter">
+      <parameter id="ObjectType" value="ProcurementHierarchyRoot"/>
+    </component>
+  </parameter-list>
+</screen>
