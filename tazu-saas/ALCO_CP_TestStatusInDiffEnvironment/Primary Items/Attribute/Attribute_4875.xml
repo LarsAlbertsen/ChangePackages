@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="4875" MultiValued="false" ProductMode="Property" FullTextIndexed="true" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">Attribute Description</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="300" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="MEC"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Meta-Data Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
