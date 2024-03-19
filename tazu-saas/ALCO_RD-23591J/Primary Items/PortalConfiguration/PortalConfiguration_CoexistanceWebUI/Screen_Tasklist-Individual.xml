@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Tasklist-Individual" type="GoldenRecordClericalReviewTaskList">
+  <parameter id="Assignee" value="true"/>
+  <parameter id="ShowEmptyGroupHeaders" value="true"/>
+  <parameter id="IncludeLabels" value="true"/>
+  <parameter id="TaskCreatedDate" value="true"/>
+  <parameter id="MatchScore" value="true"/>
+  <parameter id="HighPriority" value="true"/>
+  <parameter id="RecordSummaryColumnWidth" value="0"/>
+  <parameter id="GroupsInitiallyOpen" value="false"/>
+  <parameter id="TaskSummaryColumnWidth" value="0"/>
+  <parameter id="StepIDColumnWidth" value="0"/>
+  <parameter id="StepID" value="true"/>
+  <parameter id="CreatedDate" value="true"/>
+  <parameter id="ShowGroupHeaders" value="true"/>
+  <parameter id="AssigneeColumnWidth" value="0"/>
+  <parameter id="MatchRecommendation" value="true"/>
+  <parameter id="LastUpdateDate" value="true"/>
+  <parameter-list id="Actions">
+    <component id="Actions" type="GoldenRecordAdvancedMergeFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.truemerge.EditMergeDetailsToolbarActionServerComponent.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.truemerge.EditMergeDetailsToolbarActionServerComponent.Label"/>
+      <component id="Component" type="GoldenRecordAdvancedMergeDialog">
+        <parameter id="GroupsInitiallyOpen" value="false"/>
+        <parameter-list id="Headers">
+          <component id="Headers" type="IDHeader">
+            <parameter id="EnableLink" value="false"/>
+          </component>
+          <component id="Headers" type="GoldenRecordSourceInformationHeader"/>
+          <component id="Headers" type="RankScoreHeader"/>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="FirstName"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="Label" value="First Name"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="LastName"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="Label" value="Last Name"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="AdvancedMergeDataContainerDefaultHeader">
+            <parameter id="DataContainerType" value="MainAddressDataContainer"/>
+          </component>
+          <component id="Headers" type="AdvancedMergeDataContainerDefaultHeader">
+            <parameter id="DataContainerType" value="EmailDataContainer"/>
+          </component>
+          <component id="Headers" type="AdvancedMergeDataContainerDefaultHeader">
+            <parameter id="DataContainerType" value="PhoneDataContainer"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="BirthDate"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="Gender"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="Deceased"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="CustomerNo"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="ExternalId"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="SubjectType"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+        </parameter-list>
+      </component>
+    </component>
+    <component id="Actions" type="GoldenRecordMergeFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordMergeFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordMergeFromGrid.Label"/>
+    </component>
+    <component id="Actions" type="GoldenRecordReassignFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordReassignFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordReassignFromGrid.Label"/>
+    </component>
+    <component id="Actions" type="GoldenRecordRejectFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordRejectFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordRejectFromGrid.Label"/>
+    </component>
+  </parameter-list>
+  <parameter-list id="Headers">
+    <component id="Headers" type="GoldenRecordIDHeader">
+      <parameter id="PreferredColumnWidth" value="100"/>
+      <parameter id="Label" value="ID"/>
+    </component>
+    <component id="Headers" type="GoldenRecordSourceInformationHeader">
+      <parameter id="Label" value="Source Information"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="FirstName"/>
+      <parameter id="Label" value="First Name"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="LastName"/>
+      <parameter id="Label" value="Last Name"/>
+    </component>
+    <component id="Headers" type="GoldenRecordDataContainerAttributeValueHeader">
+      <parameter id="DataContainer" value="MainAddressDataContainer"/>
+      <parameter id="Attribute" value="CalcFormattedAddress"/>
+      <parameter id="Label" value="Main Address"/>
+    </component>
+    <component id="Headers" type="GoldenRecordDataContainerAttributeValueHeader">
+      <parameter id="DataContainer" value="EmailDataContainer"/>
+      <parameter id="Attribute" value="EmailField"/>
+      <parameter id="Label" value="Email"/>
+    </component>
+    <component id="Headers" type="GoldenRecordDataContainerAttributeValueHeader">
+      <parameter id="DataContainer" value="PhoneDataContainer"/>
+      <parameter id="Attribute" value="PhoneNumber"/>
+      <parameter id="Label" value="Phone"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="Gender"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="Deceased"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="CustomerNo"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="ExternalId"/>
+    </component>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="SubjectType"/>
+    </component>
+  </parameter-list>
+</screen>
