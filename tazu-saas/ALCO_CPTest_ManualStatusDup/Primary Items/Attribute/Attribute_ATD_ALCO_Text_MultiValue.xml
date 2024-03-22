@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeList>
+        <Attribute ID="ATD_ALCO_Text_MultiValue" MultiValued="true" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="ATG_ALCO"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

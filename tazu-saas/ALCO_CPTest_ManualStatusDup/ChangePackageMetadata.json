@@ -1,0 +1,325 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CPTest_ManualStatusDup",
+  "name" : "ALCO_CPTest_ManualStatusDup",
+  "metadata" : { },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-94d96458-47f9-4c8d-87d5-eda93fba2c4f",
+  "origin" : "krma-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "ALCO_RD-23725LOVwIDs",
+    "itemURL" : "step://attribute?id=ALCO_RD-23725LOVwIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Name Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Name+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Value Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Value+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Description",
+    "itemURL" : "step://attribute?id=4941",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CompletenessMetricValue",
+    "itemURL" : "step://attribute?id=CompletenessMetricValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Text_MultiValue",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Domains",
+    "itemURL" : "step://objecttype?id=Domain+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Folder",
+    "itemURL" : "step://objecttype?id=Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manually Sorted Product Folder",
+    "itemURL" : "step://objecttype?id=Manually+Sorted+Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value new name",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New Attr",
+    "itemURL" : "step://attribute?id=New+Attr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_ALCO",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute ShortName",
+    "itemURL" : "step://attribute?id=AttributeShortName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AppliesOnlyIf",
+    "itemURL" : "step://attribute?id=AppliesOnlyIf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Of Values Group Type",
+    "itemURL" : "step://objecttype?id=List+Of+Values+group+type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WMMandatoryMeta",
+    "itemURL" : "step://attribute?id=WMMandatoryMeta",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_RD-23725LOV w/o IDs",
+    "itemURL" : "step://attribute?id=ALCO_Rd-23725wOIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Languages",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=4875",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Lov Group 2",
+    "itemURL" : "step://ListOfValuesGroup?id=ALCO_LOVG",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging hierarchy",
+    "itemURL" : "step://objecttype?id=Packaging+hierarchy",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://attribute?id=ATS_ALCO1",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-22 09:19:35\"    UseContextLocale=\"false\">\n\n  <ListOfValuesGroupList>\n    <ListOfValuesGroup ID=\"ALCO_LOVG\" ParentID=\"List Of Values group root\">\n      <Name QualifierID=\"Qualifier root\">ALCO Lov Group 2</Name>\n    </ListOfValuesGroup>\n  </ListOfValuesGroupList>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">ATG_ALCO</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"ATS_ALCO1\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"true\" Derived=\"false\" Mandatory=\"false\">\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n    <Attribute ID=\"ATD_ALCO_Text_MultiValue\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
