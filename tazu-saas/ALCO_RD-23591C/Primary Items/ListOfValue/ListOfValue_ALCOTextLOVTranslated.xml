@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
     <Qualifiers>
         <Qualifier ID="std.lang.all">
             <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
@@ -12,7 +12,7 @@
         </Qualifier>
     </Qualifiers>
     <ListsOfValues>
-        <ListOfValue ID="ALCOTextLOVTranslated" ParentID="ALCO_LOVG" AllowUserValueAddition="false" UseValueID="true">
+        <ListOfValue ID="ALCOTextLOVTranslated" ParentID="ALCO_LOV_Group2" AllowUserValueAddition="false" UseValueID="true">
             <Name QualifierID="std.lang.all">ALCOTextLOVTranslated</Name>
             <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
             <DimensionLink DimensionID="Language"></DimensionLink>

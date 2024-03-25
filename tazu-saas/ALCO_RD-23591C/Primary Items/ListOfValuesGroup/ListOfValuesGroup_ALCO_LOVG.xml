@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
     <ListOfValuesGroupList>
         <ListOfValuesGroup ID="ALCO_LOVG" ParentID="List Of Values group root">
-            <Name QualifierID="Qualifier root">ALCO Lov Group</Name>
+            <Name QualifierID="Qualifier root">ALCO Lov Group 3 March 22nd</Name>
         </ListOfValuesGroup>
     </ListOfValuesGroupList>
 </STEP-ProductInformation>

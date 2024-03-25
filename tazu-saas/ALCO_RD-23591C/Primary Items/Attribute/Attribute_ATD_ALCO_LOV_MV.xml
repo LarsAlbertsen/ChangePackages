@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="" WorkspaceID="Main" UseContextLocale="false">
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
     <Qualifiers>
         <Qualifier ID="std.lang.all">
             <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
         </Qualifier>
+        <Qualifier ID="Turkish">
+            <DimensionPointLink DimensionPointID="Turkish"></DimensionPointLink>
+        </Qualifier>
     </Qualifiers>
     <AttributeList>
         <Attribute ID="ATD_ALCO_LOV_MV" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="Turkish">ALCO LOV multi value new name</Name>
             <Name QualifierID="std.lang.all">ALCO LOV multi value</Name>
             <ListOfValueLink ListOfValueID="ALCO_LOV_withIDs"></ListOfValueLink>
             <AttributeGroupLink AttributeGroupID="ATG_ALCO"></AttributeGroupLink>
