@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="CoexistanceWebUI">
+            <SetupGroupLink SetupGroupID="WebUIs"/>
+            <Name QualifierID="Qualifier root">RD-23591 Sample webUI from customer  -do not use on this system</Name>
+            <!-- The 'Configuration' content is decoded and moved to the subfolder -->
+            <Configuration/>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>
