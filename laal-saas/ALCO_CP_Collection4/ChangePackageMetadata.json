@@ -1,0 +1,563 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CP_Collection4",
+  "name" : "ALCO_CP_Collection3",
+  "metadata" : { },
+  "setupGroupId" : "ALCOTEST_CP_ROOT",
+  "uniqueId" : "91de85a9-5adc-404e-86b8-21a196204abe",
+  "origin" : "laal-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Golden Records",
+    "itemURL" : "step://objecttype?id=GoldenRecords",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outdoor Power Equipment Product Type",
+    "itemURL" : "step://attribute?id=cd462bf6-7a1d-4465-ab2d-16217bd1eafa",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Shock Absorbent",
+    "itemURL" : "step://attribute?id=af82a960-d5a1-4c92-80d8-d4126d86c33c",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Overrides",
+    "itemURL" : "step://objecttype?id=ProductOverrides",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection ALCO transfer test Logs",
+    "itemURL" : "step://collection?id=32157427",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "CSVs for collections created from file are not included in change packages. Recreate manually or use search-based collections.",
+    "recursive" : false
+  }, {
+    "name" : "Base Included",
+    "itemURL" : "step://attribute?id=3b26f0b2-60f8-43b8-bfa8-1cb447688907",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Pole Diameter (in.)",
+    "itemURL" : "step://attribute?id=8c373b5c-3e0a-4fe7-894e-be2d1c4c9e00",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Leaf",
+    "itemURL" : "step://objecttype?id=Leaf",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Shoe Size",
+    "itemURL" : "step://attribute?id=0615ff3f-82ef-4a35-a2a2-069b1662db2c",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Umbrella Height (in.)",
+    "itemURL" : "step://attribute?id=44ab3b6e-8491-475f-bdc8-d9c3d3409360",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products (English)",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Color Family",
+    "itemURL" : "step://attribute?id=9d32fd81-7282-4f86-a350-e031c80cfb78",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Depth (in.)",
+    "itemURL" : "step://attribute?id=5ad8d718-20da-4ce0-9872-fe7c84f24bb2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outdoor Living Product Type",
+    "itemURL" : "step://attribute?id=b44c067c-ef28-4d82-898e-f6644b13de5b",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LeafKey",
+    "itemURL" : "step://attribute?id=LeafKey",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "German",
+    "itemURL" : "step://dimensionpoint?id=German",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Footwear Type",
+    "itemURL" : "step://attribute?id=11bc245d-14db-4b62-89e5-57e658301860",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Umbrella Canopy Diameter (in.)",
+    "itemURL" : "step://attribute?id=e7e9453d-5ab4-4533-a5d1-b7874754fe95",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Certifications and Listings",
+    "itemURL" : "step://attribute?id=ac0f9ad9-ce83-4a79-9c29-d4d4403908ff",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ImpactTest",
+    "itemURL" : "step://attribute?id=ImpactTest",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Weight (lb.)",
+    "itemURL" : "step://attribute?id=e17c7a92-90d8-49b5-acbe-12bd21067613",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Width (in.)",
+    "itemURL" : "step://attribute?id=fac03a00-67f9-402b-a121-fb9448fc552d",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Concrete Tool Type",
+    "itemURL" : "step://attribute?id=a6dd167b-b650-415b-95b1-da14acd9a2ba",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Upper material",
+    "itemURL" : "step://attribute?id=c3875de8-93c1-4918-96c6-ee21d166c36b",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Root",
+    "itemURL" : "step://product?id=00000000-0000-0000-0000-000000000000",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Nonmarking sole",
+    "itemURL" : "step://attribute?id=cc48227f-850a-435c-973f-4f5785eb299e",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Grip Style",
+    "itemURL" : "step://attribute?id=737a2ca4-509b-4664-b64c-a605c7722c89",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Discontinued Products",
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ELFRColor",
+    "itemURL" : "step://attribute?id=ELFRColor",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LeafType Changed Name",
+    "itemURL" : "step://attribute?id=LeafType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Rib Material",
+    "itemURL" : "step://attribute?id=2b5b55cb-cf8a-4016-b092-140b2638218a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Telescoping",
+    "itemURL" : "step://attribute?id=a7c518bb-4f9a-42fb-be62-787d9e448413",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Size",
+    "itemURL" : "step://attribute?id=a3c6966e-2f12-411e-8c44-7b73674cc1f8",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Clothing Product Type",
+    "itemURL" : "step://attribute?id=f4aa0254-6ff7-452f-8581-8259bbdd87d7",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "College Team",
+    "itemURL" : "step://attribute?id=3e356427-932c-4291-adf5-c729eac2de07",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Umbrella Canopy Material",
+    "itemURL" : "step://attribute?id=3a2d81ff-467a-4ba5-897c-0ac471a130ba",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LeafKey Changed Name",
+    "itemURL" : "step://uniquekey?id=LeafKey",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "Deactivate before installation and activate after installation.",
+    "recursive" : false
+  }, {
+    "name" : "Manufacturer Warranty",
+    "itemURL" : "step://attribute?id=18a2f6bd-81b5-4c8e-9cff-15ca6824eb5a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Car Number",
+    "itemURL" : "step://attribute?id=28a75ca2-0196-430e-b831-d20c53baee14",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Collection Grp",
+    "itemURL" : "step://collectiongroup?id=32157426",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Furniture",
+    "itemURL" : "step://product?id=32157010",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "My Fraction Changed Name",
+    "itemURL" : "step://attribute?id=My+Fraction",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Theme",
+    "itemURL" : "step://attribute?id=83dea409-2be9-4c87-813a-6d39da582424",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Size Base",
+    "itemURL" : "step://attribute?id=dbaf5555-b5bc-4154-9107-de8914e69bee",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Family",
+    "itemURL" : "step://objecttype?id=Family",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Name",
+    "itemURL" : "step://attribute?id=eae9863c-01da-4820-abd9-83487cf6819a",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Waterproof",
+    "itemURL" : "step://attribute?id=35e71636-812f-497a-ba3e-b27ba16cf145",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portable",
+    "itemURL" : "step://attribute?id=08d15fb0-6d59-4f1b-be70-5641f7aec2e7",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProductRoot",
+    "itemURL" : "step://objecttype?id=ProductRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Height (in.)",
+    "itemURL" : "step://attribute?id=542b2138-e766-4426-aa1a-250eadc74b50",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Shoe Width",
+    "itemURL" : "step://attribute?id=14de4d00-568c-4d22-87fe-c5162ea89df4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New Attr",
+    "itemURL" : "step://attribute?id=New+Attr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Building Supply Product Type",
+    "itemURL" : "step://attribute?id=ba1b757d-4b00-43bb-b2d1-f92a2464facc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Color/Finish",
+    "itemURL" : "step://attribute?id=aacb73e8-7810-4d9e-8f23-e5ac86ef7f3f",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Color",
+    "itemURL" : "step://attribute?id=deb1be6a-7173-442e-91ef-3ae3c2ef1486",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Weight (oz.)",
+    "itemURL" : "step://attribute?id=9a995e7d-cf05-47cf-8d0f-b4d94e4b23a0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Fastener",
+    "itemURL" : "step://attribute?id=01e282ba-be8c-477b-b70a-dcf78dfe065f",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Number of Pieces",
+    "itemURL" : "step://attribute?id=63194e0a-0afd-47a1-bdb2-5a99bef3d224",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Electrical hazard protection",
+    "itemURL" : "step://attribute?id=90099098-6e54-4207-ae2a-1a5ad01de515",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Insulated",
+    "itemURL" : "step://attribute?id=eaa34cc9-3a5e-40ce-9043-491ca000dbc6",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Automatic/Manual",
+    "itemURL" : "step://attribute?id=1a583cde-b853-4c34-943b-332a34931db4",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Object Type Description",
+    "itemURL" : "step://attribute?id=ObjectTypeDescription",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Toe Type",
+    "itemURL" : "step://attribute?id=4d58f626-8d3d-4ce9-b0fb-aec213e60eb0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accessory Type",
+    "itemURL" : "step://attribute?id=c9ade755-6b4f-4ca5-92d1-66b29a549af5",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Pole Material",
+    "itemURL" : "step://attribute?id=086da95c-ac75-43e1-a661-211447cace6c",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collapsible",
+    "itemURL" : "step://attribute?id=e16f19d5-129a-4a43-93ef-5d960ed24da1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Slip-resistant sole",
+    "itemURL" : "step://attribute?id=40acb3b4-3368-4aaf-a2c7-cf0c4c6d267c",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UV Protected",
+    "itemURL" : "step://attribute?id=725a4be5-66c9-40e2-a67c-da1435da58a2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Branch",
+    "itemURL" : "step://objecttype?id=Branch",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-28 12:11:08\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"Branch\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">Branch</Name>\n      <Icon>H4sIAAAAAAAAAF1QwW6DMAy99yus7DyT2AmQqfQwNKmH7drDbtNIAYkBalnp58+hZZp2if1e8p6dtz1fapjbamoKRVZBE9q6mW79pQ3z83AtlAYNZCFyx7brCtUPfVBw/er6c6GaaRqfkmSeZ5wZh1OdkNY6EWO122zHj6lZVI+n7y4UKlxCP1SVgs+uHf9zVaHeiNCBRSceZm8MZpyWUpxN85UGwZxxxOzZ+Igp9wKJrDavRiNbAkKOsBSo88yBwdykUj06KSzY+sx6EP06Dl2pMc2My3gl49/RCOWlY9SRO5AphRZDyi38KpbVRbY0+3iUxLKEvFmuYoZ3zdIe0ptdKcjdZ6yC9at/43hf83/Qlsm/qEQCjkHvNj+QZtzpyAEAAA==</Icon>\n      <UserTypeLink UserTypeID=\"Branch\"/>\n      <UserTypeLink UserTypeID=\"ProductRoot\"/>\n    </UserType>\n    <UserType ID=\"Leaf\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">Leaf</Name>\n      <Icon>H4sIAAAAAAAAAF1QsW6DMBDd8xUnd+5hn22Mq5ChSChDu2boVhUXkCighEI+v2cSqqqL796z37vz21/mGpa2mppckBHQhLZupls/t2F5Hq65kCCBDETus+26XPRDHwRcv7r+kotmmsanJFmWBReNw7lOSEqZsLE47Pbj+9SsqsfzdxdyEebQD1Ul4KNrx/9clYtXIrRg0LKHOiqFTqcFF2vSbKOBsXY6Yu218hFT5hkSGalelERtCAh1hAVDmTkLCjOVcvVouWjGxjvjgfXbOLSFxNQp6/RGxr+jYspzp1FG7kSqYJoNKTPwq1hXZ9naHONRkOYl+M16FTO8a9b2lN7sCkb2PmMTbF/9G8fblv+DlK4sS5FwwDHow+4HawhIrsgBAAA=</Icon>\n      <UserTypeLink UserTypeID=\"Branch\"/>\n    </UserType>\n  </UserTypes>\n\n  <CollectionList>\n    <CollectionGroup ID=\"32157426\" ParentID=\"CollectionGroup root\">\n      <Name>ALCO Collection Grp</Name>\n    </CollectionGroup>\n    <Collection ID=\"32157427\" ParentID=\"32157426\" QueryURL=\"step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3d32157010&amp;search0.0=BelowCriteria\">\n      <Name>Collection ALCO transfer test Logs</Name>\n    </Collection>\n  </CollectionList>\n\n  <Products>\n    <Product ID=\"32157010\" UserTypeID=\"Branch\" ParentID=\"00000000-0000-0000-0000-000000000000\">\n      <Name>Furniture</Name>\n      <Product ID=\"32157012\" UserTypeID=\"Branch\">\n        <Name>ALCO_Branch2</Name>\n        <Product ID=\"32157014\" UserTypeID=\"Leaf\">\n          <Name>ALCO Leaf1</Name>\n          <Values>\n            <Value AttributeID=\"LeafType\">TypeOne</Value>\n            <Value AttributeID=\"LeafKey\">ALCO1234</Value>\n          </Values>\n        </Product>\n      </Product>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
