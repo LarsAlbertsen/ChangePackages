@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="116654" ParentID="CollectionGroup root" QueryURL="step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3d106800&amp;args0.1=nodetype%3dproduct%2cobjecttype%3dItem&amp;search0.0=BelowCriteria&amp;search0.1=ObjectTypeCriteria">
+            <Name>SimpleSearch</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

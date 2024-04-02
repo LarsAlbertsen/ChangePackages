@@ -1,0 +1,120 @@
+{
+  "version" : "2.1",
+  "id" : "CP_Collection",
+  "name" : "CP_Collection",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "main",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "from-laal-vm",
+  "uniqueId" : "cpk-a9e59b3e-84d8-4105-b8be-80ae60846ed9",
+  "origin" : "laal-vm",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "NIFETest1",
+    "itemURL" : "step://product?id=104993",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Apparel",
+    "itemURL" : "step://product?id=106796",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Footwear",
+    "itemURL" : "step://product?id=106798",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hunting Shoes",
+    "itemURL" : "step://product?id=106800",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "IceArmor Sub Zero Rubber Boots -Size 8",
+    "itemURL" : "step://product?id=205755055",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "IceArmor Sub Zero Rubber Boots -Size 9",
+    "itemURL" : "step://product?id=205755069",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Root",
+    "itemURL" : "step://product?id=00000000-0000-0000-0000-000000000000",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SimpleSearch",
+    "itemURL" : "step://collection?id=116654",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "CSVs for collections created from file are not included in change packages. Recreate manually or use search-based collections.",
+    "recursive" : true
+  }, {
+    "name" : "Hello World",
+    "itemURL" : "step://product?id=114646",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Blaze 1000 Camo Men 15 in. Mossy Oak Waterproof Rubber Boot",
+    "itemURL" : "step://product?id=205729576",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-03-27 04:07:48\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <CollectionList>\n    <Collection ID=\"116654\" ParentID=\"CollectionGroup root\" QueryURL=\"step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3d106800&amp;args0.1=nodetype%3dproduct%2cobjecttype%3dItem&amp;search0.0=BelowCriteria&amp;search0.1=ObjectTypeCriteria\">\n      <Name>SimpleSearch</Name>\n    </Collection>\n  </CollectionList>\n\n  <Products>\n    <Product ID=\"114646\" UserTypeID=\"Item\" ParentID=\"205729576\">\n      <Name>Hello World</Name>\n    </Product>\n    <Product ID=\"205755055\" UserTypeID=\"Item\" ParentID=\"106800\">\n      <Name>IceArmor Sub Zero Rubber Boots -Size 8</Name>\n      <AssetCrossReference AssetID=\"358887ab-6561-4609-b393-582e08a60588\" Type=\"Primary Image\"/>\n      <AssetCrossReference AssetID=\"358887ab-6561-4609-b393-582e08a60588\" QualifierID=\"en-US\" Type=\"Product Image\"/>\n      <Values>\n        <Value AttributeID=\"ItemKey\">12</Value>\n        <Value AttributeID=\"LAALTestDescriptionAttribute\">ddd</Value>\n        <Value AttributeID=\"c9ade755-6b4f-4ca5-92d1-66b29a549af5\">Other Accessories</Value>\n      </Values>\n    </Product>\n    <Product ID=\"205755069\" UserTypeID=\"Item\" ParentID=\"106800\">\n      <Name>IceArmor Sub Zero Rubber Boots -Size 9</Name>\n      <AssetCrossReference AssetID=\"358887ab-6561-4609-b393-582e08a60588\" Type=\"Primary Image\"/>\n      <AssetCrossReference AssetID=\"358887ab-6561-4609-b393-582e08a60588\" QualifierID=\"en-US\" Type=\"Product Image\"/>\n      <Values>\n        <Value AttributeID=\"cd462bf6-7a1d-4465-ab2d-16217bd1eafa\">Accessory</Value>\n        <Value AttributeID=\"f4aa0254-6ff7-452f-8581-8259bbdd87d7\">Footwear</Value>\n        <Value AttributeID=\"LAALTestDescriptionAttribute\">x</Value>\n        <Value AttributeID=\"40acb3b4-3368-4aaf-a2c7-cf0c4c6d267c\">Yes</Value>\n        <Value AttributeID=\"deb1be6a-7173-442e-91ef-3ae3c2ef1486\">Black</Value>\n        <Value AttributeID=\"dbaf5555-b5bc-4154-9107-de8914e69bee\">Mens</Value>\n        <Value AttributeID=\"c9ade755-6b4f-4ca5-92d1-66b29a549af5\">Other Accessories</Value>\n      </Values>\n    </Product>\n    <Product ID=\"104993\" UserTypeID=\"Item\" ParentID=\"106800\">\n      <Name>NIFETest1</Name>\n      <AssetCrossReference AssetID=\"a499d3be-17c8-4a9d-9fa3-d2f9320635d7\" Type=\"Primary Image\"/>\n      <Values>\n        <Value AttributeID=\"4d58f626-8d3d-4ce9-b0fb-aec213e60eb0\">Alloy Toe</Value>\n      </Values>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "LAAL",
+  "comment" : ""
+}

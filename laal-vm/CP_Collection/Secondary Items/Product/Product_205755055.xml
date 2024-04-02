@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="205755055" UserTypeID="Item" ParentID="106800">
+            <Name>IceArmor Sub Zero Rubber Boots -Size 8</Name>
+            <AssetCrossReference AssetID="358887ab-6561-4609-b393-582e08a60588" QualifierID="en-US" Type="Product Image"></AssetCrossReference>
+            <AssetCrossReference AssetID="358887ab-6561-4609-b393-582e08a60588" Type="Primary Image"></AssetCrossReference>
+            <Values>
+                <Value AttributeID="ItemKey">12</Value>
+                <Value AttributeID="LAALTestDescriptionAttribute">ddd</Value>
+                <Value AttributeID="c9ade755-6b4f-4ca5-92d1-66b29a549af5">Other Accessories</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

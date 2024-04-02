@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="104993" UserTypeID="Item" ParentID="106800">
+            <Name>NIFETest1</Name>
+            <AssetCrossReference AssetID="a499d3be-17c8-4a9d-9fa3-d2f9320635d7" Type="Primary Image"></AssetCrossReference>
+            <Values>
+                <Value AttributeID="4d58f626-8d3d-4ce9-b0fb-aec213e60eb0">Alloy Toe</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
