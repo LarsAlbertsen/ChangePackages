@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Consent Revision Subscreen" type="MultiRevisionScreen">
+  <parameter id="ShowRevertTo" value="true"/>
+  <parameter id="ShowTitle" value="true"/>
+  <parameter id="ShowHideEqualsButton" value="true"/>
+  <parameter id="Title" value="i18n.stibo.MultiRevisionScreen.Title"/>
+  <parameter id="AllowGroupFiltering" value="false"/>
+  <parameter id="ShowMarkDifferentButton" value="true"/>
+  <component id="EditorTable" type="MultiRevisionEditor">
+    <parameter id="EnableItemSelection" value="false"/>
+    <parameter id="ShowDetails" value="false"/>
+    <parameter id="showTopItemDetailsOnLoad" value="false"/>
+    <parameter id="ShowEmptyGroupHeaders" value="true"/>
+    <parameter id="PropertyDirection" value="VERTICAL"/>
+    <parameter id="ShowOnlyValidAttributes" value="false"/>
+    <parameter id="GroupsInitiallyOpen" value="false"/>
+    <parameter id="DisplayModeHeight" value="600"/>
+    <parameter id="readOnly" value="false"/>
+    <parameter id="ShowGroupHeaders" value="true"/>
+    <parameter-list id="Headers">
+      <component id="Headers" type="RevisionHeader"/>
+      <component id="Headers" type="ValueGroupHeader">
+        <parameter id="ReadOnly" value="false"/>
+        <parameter id="nowrap" value="false"/>
+        <parameter id="ShowLOVIDs" value="false"/>
+        <parameter id="EnableLocaleFormatting" value="false"/>
+        <parameter id="AttributeGroup" value="ConsentProtest"/>
+        <parameter id="IncludeNestedGroups" value="false"/>
+        <parameter id="Mandatory" value="NotMandatory"/>
+        <parameter id="DisplayContextHelp" value="true"/>
+      </component>
+      <component id="Headers" type="ReferenceHeader">
+        <parameter id="ReadOnly" value="true"/>
+        <parameter id="ReferenceType" value="Protocols"/>
+        <parameter id="Mandatory" value="NotMandatory"/>
+      </component>
+    </parameter-list>
+  </component>
+</screen>

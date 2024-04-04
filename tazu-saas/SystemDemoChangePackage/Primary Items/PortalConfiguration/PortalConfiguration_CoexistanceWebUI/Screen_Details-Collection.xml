@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Details-Collection" type="NodeDetails">
+  <parameter id="ShowTitle" value="false"/>
+  <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+  <parameter id="EnforceValidity" value="false"/>
+  <parameter id="ShowWarning" value="false"/>
+  <component id="Breadcrumb" type="CollectionSummary">
+    <parameter id="IncludeProfile" value="true"/>
+  </component>
+  <component id="Main" type="TabControl">
+    <parameter id="DirtyWarning" value="false"/>
+    <parameter-list id="TabPages">
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Data Profiling Overview"/>
+        <parameter id="BusinessCondition" value="DoesCollectionContainSubjects"/>
+        <component id="TabContent" type="ColumnsControl">
+          <parameter-list id="Columns">
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingAdress"/>
+                  <parameter id="Title" value="Adress"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingAdressInvoice"/>
+                  <parameter id="Title" value="Invoice Adress"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="BusinessConditionDashboard">
+                  <parameter id="Condition" value="DuplicateOrNot"/>
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="Title" value="Duplicates or Not?"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingEmails"/>
+                  <parameter id="Title" value="Emails"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingPhones"/>
+                  <parameter id="Title" value="Phone "/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="BusinessConditionDashboard">
+                  <parameter id="Condition" value="MoreThanOneIFSCustNo"/>
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="ObjectType" value="IndividualCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="Title" value="More than one IFS Customer No ?"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="ValueSection">
+              <parameter id="HideSectionIfEmpty" value="true"/>
+              <parameter id="Title" value="Detailed Information"/>
+              <parameter id="Open" value="true"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;b&gt;Address&lt;/b&gt; : 0 / 1 / 2 / 3 / 4 &lt;br&gt;Fields out of 4 (Street, Zip, City, country)&lt;br&gt;(0, 25, 50, 75 or 100 as possible scores (5 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Phones&lt;/b&gt; : 0 / 1 / 2 / 3 &lt;br&gt;Phone types 0, 33, 66 or 100 as possible scores (4 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Emails&lt;/b&gt; : 0 / 1 / 2 &lt;p&gt;Emails 0, 50 or 100 as possible scores (3 bars)&lt;br&gt;&lt;br&gt;A subject is a &lt;b&gt;Duplicate&lt;/b&gt; if :&lt;br&gt; - either it has more than one IFS Customer Numbers, &lt;br&gt; - either it has 3 or more source systems associated with it, &lt;br&gt; - either it has more than 2 source record IDs for (one of) its source system(s) &lt;br&gt; - either it has two source systems that are not IFS and CRM (ie we're ignoring the case where there is IFS and CRM as source systems and a single IFS Customer No - ie same record in IFS and CRM)"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Data Profiling Overview"/>
+        <parameter id="BusinessCondition" value="DoesCollectionContainOrganizations"/>
+        <component id="TabContent" type="ColumnsControl">
+          <parameter-list id="Columns">
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingOrgInvoiceAddress"/>
+                  <parameter id="Title" value="Invoice Address avg completeness"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingOrgDeliveryAddress"/>
+                  <parameter id="Title" value="Delivery Address avg completeness"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingOrgVisitAddress"/>
+                  <parameter id="Title" value="Visit Address avg completeness"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="BusinessConditionDashboard">
+                  <parameter id="Condition" value="DuplicateOrNot"/>
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="Title" value="Duplicates or Not?"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingEmails"/>
+                  <parameter id="Title" value="Emails"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingPhones"/>
+                  <parameter id="Title" value="Phone "/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="BusinessConditionDashboard">
+                  <parameter id="Condition" value="MoreThanOneIFSCustNo"/>
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="ObjectType" value="OrganizationCustomer"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="Title" value="More than one IFS Customer No ?"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="ValueSection">
+              <parameter id="HideSectionIfEmpty" value="true"/>
+              <parameter id="Title" value="Detailed Information"/>
+              <parameter id="Open" value="true"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;b&gt;Address&lt;/b&gt; : 0 / 1 / 2 / 3 / 4 &lt;br&gt;Fields out of 4 (Street, Zip, City, country)&lt;br&gt;(0, 25, 50, 75 or 100 as possible scores (5 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Phones&lt;/b&gt; : 0 / 1 / 2 / 3 &lt;br&gt;Phone types 0, 33, 66 or 100 as possible scores (4 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Emails&lt;/b&gt; : 0 / 1 / 2 &lt;p&gt;Emails 0, 50 or 100 as possible scores (3 bars)&lt;br&gt;&lt;br&gt;An Organization Customer is a &lt;b&gt;Duplicate&lt;/b&gt; if :&lt;br&gt; - either it has more than one IFS Customer Numbers, &lt;br&gt; - either it has 3 or more source systems associated with it, &lt;br&gt; - either it has more than 2 source record IDs for (one of) its source system(s) &lt;br&gt; - either it has two source systems that are not IFS and CRM (ie we're ignoring the case where there is IFS and CRM as source systems and a single IFS Customer No - ie same record in IFS and CRM)"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Data Profiling Overview"/>
+        <parameter id="BusinessCondition" value="DoesCollectionContainDFOrganizations"/>
+        <component id="TabContent" type="ColumnsControl">
+          <parameter-list id="Columns">
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="DFOrganization"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingOrgPostAddress"/>
+                  <parameter id="Title" value="Post Address avg completeness"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="DFOrganization"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingOrgVisitAddress"/>
+                  <parameter id="Title" value="Visit Address avg completeness"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="NodeEditor">
+              <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+              <parameter id="LabelLayout" value="LEFT"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="DFOrganization"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingEmails"/>
+                  <parameter id="Title" value="Emails"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+                <component id="Rows" type="AverageObjectCompletenessDashboard">
+                  <parameter id="Context" value="Context1"/>
+                  <parameter id="Intervals" value="5"/>
+                  <parameter id="ObjectType" value="DFOrganization"/>
+                  <parameter id="Screen" value="Search-Results"/>
+                  <parameter id="CompletenessMetric" value="DataProfilingPhones"/>
+                  <parameter id="Title" value="Phones"/>
+                  <parameter id="Workspace" value="Main"/>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="Columns" type="ValueSection">
+              <parameter id="HideSectionIfEmpty" value="true"/>
+              <parameter id="Title" value="Detailed Information"/>
+              <parameter id="Open" value="true"/>
+              <parameter-list id="Rows">
+                <component id="Rows" type="StaticHtml">
+                  <parameter id="Html" value="&lt;b&gt;Address&lt;/b&gt; : 0 / 1 / 2 / 3 / 4 &lt;br&gt;Fields out of 4 (Street, Zip, City, country)&lt;br&gt;(0, 25, 50, 75 or 100 as possible scores (5 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Phones&lt;/b&gt; : 0 / 1 / 2 / 3 &lt;br&gt;Phone types 0, 33, 66 or 100 as possible scores (4 bars)&lt;br&gt;&lt;br&gt;&lt;b&gt;Emails&lt;/b&gt; : 0 / 1 / 2 &lt;p&gt;Emails 0, 50 or 100 as possible scores (3 bars)&lt;br&gt;"/>
+                  <parameter id="CssClass" value="stb-staticHtml"/>
+                </component>
+              </parameter-list>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+      <component id="TabPages" type="SubScreenTabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="Content"/>
+        <parameter id="DetailsScreen" value="CollectionContent"/>
+      </component>
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="How to interpret Profiling of Data in STEP"/>
+        <component id="TabContent" type="NodeEditor">
+          <parameter id="ContextHelpMode" value="SHOWBELOWINPUT"/>
+          <parameter id="LabelLayout" value="LEFT"/>
+          <parameter-list id="Rows">
+            <component id="Rows" type="StaticHtml">
+              <parameter id="Html" value="The foundation: what is a âData Profilingin STEP&lt;br&gt;&lt;br&gt; The Category / Data Profile functionality provides a detailed overview of data in a specific branch of the hierarchy in Tree. Each profile contains information about the profiled data and provides easy access to correcting data errors. &lt;br&gt;&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt;&lt;i&gt; For entities, classifications, and collections, these profiles are called 'Data Profiles.' For products, they are called 'Category Profiles.'&lt;/i&gt;&lt;br&gt;&lt;br&gt; With a data profile, users can view information about the profiled data such as: &lt;br&gt;&lt;br&gt; -	The degree to which the attributes used in the hierarchy are populated. &lt;br&gt; -	The most / least frequently used values for a given attribute, value ranges, used characters, and more. &lt;br&gt; -	The approval and translation status of the profiled objects. &lt;br&gt; -	The degree to which reference types are populated. &lt;br&gt; -	The average product completeness (the degree to which important attributes, references, and product to classification links exist and have values.) &lt;br&gt;&lt;br&gt; These profiles are generated on demand, and are context and workspace specific."/>
+              <parameter id="CssClass" value="stb-staticHtml"/>
+            </component>
+            <component id="Rows" type="Line">
+              <parameter id="CssClass" value="stb-line"/>
+            </component>
+            <component id="Rows" type="Link">
+              <parameter id="OpenInNewWindow" value="true"/>
+              <parameter id="OverrideControlType" value="GraphicsButton"/>
+              <parameter id="Label" value="More about..."/>
+              <parameter id="Text" value="STEP Documentation"/>
+              <parameter id="Url" value="https://bertel-dev.mdm.stibosystems.com/help/doc/content/dataprof/dataprof/data_profiles.html"/>
+            </component>
+            <component id="Rows" type="Line">
+              <parameter id="CssClass" value="stb-line"/>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+      <component id="TabPages" type="TabPage">
+        <parameter id="Lazy" value="false"/>
+        <parameter id="Title" value="STEP Profiling Explained"/>
+        <component id="TabContent" type="TabControl">
+          <parameter id="DirtyWarning" value="false"/>
+          <parameter-list id="TabPages">
+            <component id="TabPages" type="TabPage">
+              <parameter id="Lazy" value="false"/>
+              <parameter id="Title" value="In the setup we'll find specific:"/>
+              <component id="TabContent" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt; &amp;nbsp&lt;b&gt;Attribute groups&lt;/b&gt; - to determine scope of completeness evaluation for instance.&lt;br&gt; &lt;b&gt; &amp;nbspBusiness rules&lt;/b&gt; - business condition (to be profiled directly, the result of which is either true of false) or business function (to be included in a business function metric).&lt;br&gt;&amp;nbsp&lt;b&gt;Metrics&lt;/b&gt; - either standard configured &quot;completeness&quot; metrics or business function metrics.&lt;br&gt;&lt;br&gt; &amp;nbspMetric results are &lt;b&gt;scores&lt;/b&gt; in all cases.&lt;br&gt;&lt;br&gt; &amp;nbsp&quot;If it's a &lt;b&gt;completeness metric&lt;/b&gt;: the score is the result of a predefined formula ( Number of total fileds with a value *weight / Number of total fields in scope). note that &lt;i&gt;&quot;weight&quot;&lt;/i&gt; could be added to attributes to ponderate result. for now this is not in use. &lt;br&gt; &amp;nbspThere are various completeness metric defined, with a different scope of data (e.g. Subject completeness: all &lt;i&gt;&quot;relevant&quot;&lt;/i&gt; attributes of the subject / Address completeness : all &lt;i&gt;&quot;relevant&quot;&lt;/i&gt; attributes of the addresses. the relevancy is controlled by att. groups and thus can be easily adjusted). Some of these completeness metrics were predefined we simply added the phone completeness metric, and then adjusted the contents of the att. groups.&quot; &lt;br&gt;&lt;br&gt; &amp;nbsp&quot;If it's a &lt;b&gt;business function metric&lt;/b&gt;: javascript logic will determine the resulting score. &lt;br&gt; &amp;nbspWe are using this to evaluate the records with e.g. 0 email, 1 email or 2 emails. As a convention, we have set scores for each situation here : 0 50 100 respectively. The scores can be changed in the business functions if Bertel O Steen users would rather have other scores. &lt;br&gt;  &amp;nbsp These are called &lt;i&gt;&quot;data profile - count of ...&quot;&lt;/i&gt; metrics but names can be adjusted.&quot; &lt;br&gt;&lt;br&gt; &amp;nbsp&quot;- a &lt;b&gt;data profile configuration&lt;/b&gt;: this setup element defines the scope of the profiling (ie the statistics that STEP will produce based on the current data on the objects in scope of profiling). &lt;br&gt;&lt;br&gt; &amp;nbspHere we can define the attributes and references that should be included (via attribustance, attribute value te groups), the metrics, the business conditions. The more data we define here, the longer the profiling calculation time. So only what is useful should be included. &lt;br&gt;  &amp;nbsp For indetails (patterns, frequent values, etc.) may not be necessary for all attributes.  &lt;br&gt;&lt;br&gt;  &amp;nbspOnce all this is in place, data profile can occur and can be refreshed &lt;b&gt;at will - but could be triggered automatically via&lt;/b&gt; scheduling. &lt;br&gt; &amp;nbspResults are available on the &quot;hierarchy&quot; node where profiling has run (and where the configuration allows it). &lt;br&gt;&lt;br&gt; &amp;nbspIn the Bertel O Steen case, the data profiling is made available on Collections - the &quot;All Subjects&quot; is where it will make sense when all principles/settings are tested and validated"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="TabPages" type="TabPage">
+              <parameter id="Lazy" value="false"/>
+              <parameter id="Title" value="Checking the Results A"/>
+              <component id="TabContent" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&amp;nbsp On the webUI homepage - for a given predefined node only. No way to update profile from here. &lt;br&gt; &amp;nbsp Already existing widget gives overall subject completeness for &quot;All Subjects&quot; collection. &lt;br&gt;&lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="CheckingResA"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&amp;nbsp Clicking on a bar sends to a &quot;generic search&quot; screen where the corresponding subjects are listed. Some actions could be added to this list such as exportâ¦ &lt;br&gt;&lt;br&gt; &amp;nbsp &lt;b&gt;Note&lt;/b&gt; that for example, number of duplicates based on business condition could be added to the homepage (figure not representative as it's based on Sample Subjects collection):  "/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt; &amp;nbsp A subject is a &lt;b&gt;Duplicate&lt;/b&gt; if : &lt;br&gt; &amp;nbsp - either it has more than one IFS Customer Numbers, &lt;br&gt; &amp;nbsp - either it has 3 or more source systems associated with it, &lt;br&gt; &amp;nbsp - either it has more than 2 source record IDs for (one of) its source system(s) &lt;br&gt; &amp;nbsp - either it has two source systems that are not IFS and CRM (ie we're ignoring the case where there is IFS and CRM as source systems and a single IFS Customer No - ie same record in IFS and CRM)&lt;br&gt;&lt;br&gt;&lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="DuplicatesBCLogic"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt; &amp;nbspSimilar result, but directly based on data : &lt;b&gt;Attribute values&lt;/b&gt; profiles could also be added : &lt;br&gt; &amp;nbsp- This is useful for LOV based attributes on the object (not in data containers). &lt;br&gt; &amp;nbsp- For example, we could have a pie chart for deceased which would break down subjects in 2 values (Yes, No). This could be used for any other LOV based attribute."/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="TabPages" type="TabPage">
+              <parameter id="Lazy" value="false"/>
+              <parameter id="Title" value="Checking the Results B"/>
+              <component id="TabContent" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt; &amp;nbspOn a collection screen - note that it could be on a hierarchy (e.g. Protocols root node, Subjects root note). But using a collection enables us to control the scope of data profiled. &lt;br&gt; &amp;nbspThe collection &quot;All Subjects&quot; should be updated in PROD with a criteria to exclude &quot;deactivated&quot; records to avoid confusion on overall figures. &lt;br&gt;&lt;br&gt; &amp;nbsp&lt;b&gt;Note &lt;/b&gt; that profiling can be updated (ie new statistics generated) by clicking on the button at the bottom of screen. This is necessary if data has changed (attribute values or more/less subjectsâ¦) &lt;br&gt; &lt;br&gt; &amp;nbspSimilar widgets can be defined in a tab (below are sample figures again) &lt;p&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="CheckingResB"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&lt;br&gt; &amp;nbspFor the average metrics results (bottom pie chart above) we could add explanations about the scores on screen: &lt;br&gt; &amp;nbsp&lt;i&gt;0 means no attribute is filled, 25 means 1 attribute out of the 4 we're considering (street,zip, city, country) is filled, 50 = 2, 75 = 3 and 100 = 4&lt;/i&gt; &lt;br&gt;&amp;nbspAgain clicking on bar or pie part can lead to a list of the associated subjects. &lt;br&gt;&lt;br&gt; &amp;nbspThen clicking on the figure in blue or the &quot;Profile findings&quot; title will lead to &lt;br&gt; &amp;nbspthe  &quot;profile overview screen&quot; (name of the technical component) &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp &amp;nbsp Note the profile overview is displayed as this checkbox is ticked : &lt;br&gt;&lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="CheckingResBII"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="TabPages" type="TabPage">
+              <parameter id="Lazy" value="false"/>
+              <parameter id="Title" value="Profile Overview Details"/>
+              <component id="TabContent" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="ProfileOverview"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&amp;nbsp&lt;b&gt;3 different areas&lt;/b&gt;:&lt;br&gt;&lt;br&gt;&amp;nbsp  In &lt;b style=&quot;color:green&quot;&gt;GREEN&lt;/b&gt; attribute details: &lt;br&gt;&amp;nbsp - Clicking on the label of the attributes will bring details. Such as value characteristics, content analysis (length) pattern analysis (letters, digits and &quot;series&quot; of characters), value analysis (frequent or not) &lt;br&gt;&amp;nbsp e.g. invoice address &quot;City&quot; attribute &lt;br&gt;&lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="ProfileOverviewII"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&amp;nbsp  in &lt;b style=&quot;color:purple&quot;&gt;PURPLE &lt;/b&gt;&quot;top findings&quot;: &lt;br&gt;&amp;nbsp  - A prefedined list of attributes with specific states (no values, non unique values)â¦ hinting at the end-user to look at these. Clicking on the line will bring to a similar screen as the one above (ie for the selected attribute)"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&amp;nbsp in &lt;b style=&quot;color:red&quot;&gt;RED&lt;/b&gt;&quot;average metric scores&quot;: &lt;br&gt;&amp;nbsp - These are the metrics mentioned in A19 &amp; A20. For some unexplained reason, the scores here are expressed on a scale of 0 to 10, not 0 to 100. so a little maths operation is necessary. &lt;br&gt;&lt;br&gt; Clicking on one metric will show a pie chart like below. It's equivalent to the ones we have on the collection screen or on the homepage (with scores divided by 10â¦) and the two numbers at the bottom allow to search for a particular interval; corresponding records are shown in advanced search which is handier than a generic search as additionnal criteria can be added, and the search can be saved as a collection (although the collection is depedent on a profiling, that might not be availble further)... "/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="HtmlFunction">
+                    <parameter-list id="BusinessFunction">
+                      <parameter value="ProfileOverviewIII"/>
+                      <parameter value="HtmlFunction','BusinessFunction','com.stibo.webui.htmlfunction.server.HtmlFunctionServerComponent$HtmlFunction"/>
+                      <parameter value="Node','','com.stibo.core.domain.Node','false';'"/>
+                      <parameter value="com.stibo.core.domain.Node':'node','','com.stibo.core.domain.Node';''!'"/>
+                      <parameter value="Node','node';'"/>
+                    </parameter-list>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+            <component id="TabPages" type="TabPage">
+              <parameter id="Lazy" value="false"/>
+              <parameter id="Title" value="Additional Ways To Approach Profiling"/>
+              <component id="TabContent" type="VerticalPanel">
+                <parameter id="OverflowVisible" value="false"/>
+                <parameter-list id="Rows">
+                  <component id="Rows" type="StaticHtml">
+                    <parameter id="Html" value="&lt;br&gt;&amp;nbspC/ Additional ways to approach &lt;b&gt;&quot;profiling&quot;&lt;/b&gt; is simply by searching for subjects that match a series of criteria. Searches can be saved and reused at will, or even stored as collections; note that STEP &quot;data profiling&quot; isn't involved in this case. &lt;br&gt;&lt;br&gt;Examples: &lt;br&gt;"/>
+                    <parameter id="CssClass" value="stb-staticHtml"/>
+                  </component>
+                  <component id="Rows" type="Link">
+                    <parameter id="OpenInNewWindow" value="false"/>
+                    <parameter id="OverrideControlType" value="GraphicsButton"/>
+                    <parameter id="Text" value="CMDM Web UI â¢ preprod (stibosystems.com)"/>
+                    <parameter id="Url" value="https://bertel-qa.mdm.stibosystems.com/webui/CoexistanceWebUI#screen=Search-Advanced&amp;displayMode=-1085510111.0&amp;Default.inv=0&amp;searchUrl=step%253A%252F%252Fsearch%253Fargs0.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dFirstName%2525253D%25255b%25255cs%25255d%25255bOo%25255d%25255bGg%25255d%25255b%25255cs%25255d%25252cRegExp%25253dyes%25252cNoIDsNoNames%25253dyes%2526exclude1.0%253Dfalse%2526search2.0%253DValueCriteria%2526exclude0.0%253Dfalse%2526search3.0%253DValueCriteria%2526args2.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dLastName%2525253D%25255b%25255cs%25255d%25255bOo%25255d%25255bGg%25255d%25255b%25255cs%25255d%25252cRegExp%25253dyes%25252cNoIDsNoNames%25253dyes%2526exclude3.0%253Dfalse%2526args1.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dFirstName%2525253D%25255b.%25255c%252526%25255d%25252cRegExp%25253dyes%25252cNoIDsNoNames%25253dyes%2526exclude2.0%253Dfalse%2526search0.0%253DValueCriteria%2526search1.0%253DValueCriteria%2526args3.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dLastName%2525253D%25255b.%25255c%252526%25255d%25252cRegExp%25253dyes%25252cNoIDsNoNames%25253dyes&amp;searchNum=1648571892037&amp;contextID=Context1&amp;workspaceID=Main&amp;Default.vr=0x25"/>
+                  </component>
+                  <component id="Rows" type="Link">
+                    <parameter id="OpenInNewWindow" value="false"/>
+                    <parameter id="OverrideControlType" value="GraphicsButton"/>
+                    <parameter id="Text" value="CMDM Web UI â¢ preprod (stibosystems.com)"/>
+                    <parameter id="Url" value="https://bertel-qa.mdm.stibosystems.com/webui/CoexistanceWebUI#screen=Search-Advanced&amp;displayMode=-1085510111.0&amp;Default.inv=0&amp;searchUrl=step%253A%252F%252Fsearch%253Fargs0.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dFirstName%2525253D*ikke%252Bbruk*%25252cNoIDsNoNames%25253dyes%2526exclude1.0%253Dfalse%2526search2.0%253DValueCriteria%2526exclude0.0%253Dfalse%2526args2.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dEmailField%2525253D*ikke%252Bbruk*%25252cNoIDsNoNames%25253dyes%2526args1.0%253DIncludeDataContainers%25253dyes%25252csearchString%25253dLastName%2525253D*ikke%252Bbruk*%25252cNoIDsNoNames%25253dyes%2526exclude2.0%253Dfalse%2526search0.0%253DValueCriteria%2526search1.0%253DValueCriteria&amp;searchNum=1648572066881&amp;contextID=Context1&amp;workspaceID=Main&amp;Default.vr=0x25"/>
+                  </component>
+                </parameter-list>
+              </component>
+            </component>
+          </parameter-list>
+        </component>
+      </component>
+    </parameter-list>
+  </component>
+  <component id="Buttons" type="Buttons">
+    <parameter-list id="Actions">
+      <component id="Actions" type="UpdateProfileAction">
+        <parameter id="ButtonLabel" value="i18n.stibo.UpdateProfileAction.Label"/>
+        <parameter id="ButtonType" value="ICON_AND_TEXT"/>
+      </component>
+    </parameter-list>
+  </component>
+</screen>

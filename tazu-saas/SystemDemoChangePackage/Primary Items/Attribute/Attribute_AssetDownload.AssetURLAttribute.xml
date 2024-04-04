@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AssetDownload.AssetURLAttribute" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">Asset URL Attribute</Name>
+            <Validation BaseType="URL" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="AssetDownload.Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMP Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="DEFAULT"></UserTypeLink>
+            <UserTypeLink UserTypeID="EPSImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="GIF Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="HTML"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustrator File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InDesign File"></UserTypeLink>
+            <UserTypeLink UserTypeID="JPG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PDF"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PPT"></UserTypeLink>
+            <UserTypeLink UserTypeID="QXD"></UserTypeLink>
+            <UserTypeLink UserTypeID="RTF"></UserTypeLink>
+            <UserTypeLink UserTypeID="STEPdirector"></UserTypeLink>
+            <UserTypeLink UserTypeID="TIFFImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="UTF8"></UserTypeLink>
+            <UserTypeLink UserTypeID="WORD"></UserTypeLink>
+            <UserTypeLink UserTypeID="XLS"></UserTypeLink>
+            <UserTypeLink UserTypeID="XML"></UserTypeLink>
+            <UserTypeLink UserTypeID="ZIP"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.BulkUpdateConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ExportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ImageConversionConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ImportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ValueSubstitutionTransConfig"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

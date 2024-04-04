@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="testWebUI">
+            <SetupGroupLink SetupGroupID="WebUIs"/>
+            <Name QualifierID="Qualifier root">testWebUI</Name>
+            <!-- The 'Configuration' content is decoded and moved to the subfolder -->
+            <Configuration/>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>
