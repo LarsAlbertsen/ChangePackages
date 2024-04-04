@@ -1,11 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
     <PortalConfigurations>
-        <PortalConfiguration ID="PDXUI">
-            <SetupGroupLink SetupGroupID="WebUIs"/>
+        <PortalConfiguration ID="PDXUI"><!-- Definition:
+<portal-config portalId="customerportal" xmlns="http://stibosystems.com/step/portal-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <screens>
+    <loginscreen>
+      <parameter id="PortalTitle" value="STEP Web UI"/>
+    </loginscreen>
+    <screen id="Name and ID" type="NodeDetails">
+      <component id="Main" type="NodeEditor">
+        <parameter id="LabelLayout" value="LEFT"/>
+        <parameter-list id="Rows">
+          <component id="Rows" type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+          </component>
+          <component id="Rows" type="NameValue">
+            <parameter id="CssClass" value="stibo-NameValue"/>
+            <parameter id="Label" value="i18n.stibo.NameValue.Label"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReadOnly" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="Name and ID"/>
+    </screen>
+    <screen id="PDX Page" type="NodeDetails">
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component id="Actions" type="SaveAction">
+            <parameter id="ButtonLabel" value="i18n.stibo.SaveAction.Label"/>
+            <parameter id="ButtonType" value="TEXT"/>
+            <parameter id="EnforceValidity" value="false"/>
+            <parameter id="ReloadAfterSave" value="true"/>
+          </component>
+          <component id="Actions" type="PDXChannelConfigurationsPublishAction">
+            <parameter id="AssetGroupRoot" value="PDX_Channel_Assets"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="PDXChannelConfigurationEditor"/>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowTitle" value="true"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="i18n.stibo.NodeDetailsServerComponent.Title"/>
+    </screen>
+    <screen id="homepage" type="HomePage">
+      <parameter id="CssClass" value="stibo-HomePage"/>
+      <parameter id="DisableTitle" value="false"/>
+      <parameter id="PagingEnabled" value="false"/>
+      <parameter id="Title" value="Welcome to the STEP Web UI"/>
+      <parameter-list id="Content">
+        <component id="Content" type="WidgetGrid">
+          <parameter-list id="Widgets">
+            <component id="Widgets" type="TextWidget">
+              <parameter id="CssClass" value="stb-staticText"/>
+              <parameter id="DoubleWidth" value="false"/>
+              <parameter id="Text" value="Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help."/>
+              <parameter id="Title" value="Welcome"/>
+            </component>
+            <component id="Widgets" type="UserWidget">
+              <parameter id="Title" value="i18n.stibo.UserWidgetServerComponent.Title"/>
+              <parameter id="UserDetailsScreen" value="userdetails"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="login" type="LoginScreen"/>
+    <screen id="main" type="Main">
+      <parameter id="BottomHeight" value="64"/>
+      <parameter id="DefaultSidePanel" value="SHOWN"/>
+      <parameter id="InfoAlertCloseDelay" value="3"/>
+      <parameter id="LeftWidth" value="-1"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter id="RightWidth" value="120"/>
+      <parameter id="TopHeight" value="64"/>
+      <parameter-list id="Left">
+        <component id="Left" type="PrimaryNavigation">
+          <parameter-list id="MenuItems">
+            <component id="MenuItems" type="GlobalNavigationSearch">
+              <parameter id="Icon" value="search"/>
+              <parameter id="Label" value="Global Search"/>
+              <parameter-list id="SearchConfigurations">
+                <component id="SearchConfigurations" type="GlobalNavigationSearchConfiguration">
+                  <parameter id="Title" value="Name/Id/Attributes"/>
+                  <parameter-list id="SearchPlugins">
+                    <component id="SearchPlugins" type="NameOrIdOrAttributes">
+                      <parameter id="ForceIDNameSearch" value="false"/>
+                      <parameter id="SearchInDataContainers" value="false"/>
+                    </component>
+                  </parameter-list>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="MenuItems" type="TreeItem">
+              <parameter id="HideLeaves" value="false"/>
+              <parameter id="Icon" value="account_tree"/>
+              <parameter id="Label" value="i18n.stibo.webui.primarynavigation.TreeItem.Label"/>
+              <parameter id="ShowLeaves" value="false"/>
+              <parameter id="showRecycle" value="false"/>
+            </component>
+            <component id="MenuItems" type="PDXChannelConfigurationsNavigator">
+              <parameter id="Icon" value="build"/>
+              <parameter id="SetupGroup" value="PDXChannelConfigs"/>
+              <parameter id="Title" value="i18n.stibo.pdx.channel.webui.server.navigator.PDXChannelConfigurationsNavigatorServerComponent.Title"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="PDX Page"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="ObjectTypeCondition">
+              <parameter id="ObjectType" value="PDXChannelConfiguration"/>
+            </component>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="userdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="UserCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Name and ID"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AlwaysTrueCondition"/>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="userdetails" type="UserDetails">
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component type="SaveAction">
+            <parameter id="CssClass" value="SaveButton"/>
+          </component>
+          <component type="ResetAction">
+            <parameter id="CssClass" value="ResetButton"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="NodeEditor">
+        <parameter-list id="Rows">
+          <component id="UserId" type="IdValue">
+            <parameter id="Label" value="User ID"/>
+          </component>
+          <component id="UserEmail" type="UserEmail">
+            <parameter id="Label" value="Email Address"/>
+            <parameter id="Mandatory" value="True"/>
+          </component>
+          <component id="UserPassword" type="UserPassword">
+            <parameter id="NewPasswordLabel" value="New password"/>
+            <parameter id="OldPasswordLabel" value="Old password"/>
+            <parameter id="RepeatPasswordLabel" value="Repeat new password"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>
+  </screens>
+  <theme/>
+</portal-config> -->
+            <SetupGroupLink SetupGroupID="WebUIs"></SetupGroupLink>
             <Name QualifierID="Qualifier root">PDXUI</Name>
-            <!-- The 'Configuration' content is decoded and moved to the subfolder -->
-            <Configuration/>
+            <Configuration>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</Configuration>
         </PortalConfiguration>
     </PortalConfigurations>
 </STEP-ProductInformation>
