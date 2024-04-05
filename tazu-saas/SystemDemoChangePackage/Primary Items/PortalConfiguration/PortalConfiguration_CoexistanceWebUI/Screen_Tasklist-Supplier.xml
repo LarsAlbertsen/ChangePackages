@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Tasklist-Supplier" type="GoldenRecordClericalReviewTaskList">
+  <parameter id="ShowEmptyGroupHeaders" value="true"/>
+  <parameter id="IncludeLabels" value="true"/>
+  <parameter id="GroupsInitiallyOpen" value="false"/>
+  <parameter id="ShowGroupHeaders" value="true"/>
+  <parameter-list id="Actions">
+    <component id="Actions" type="GoldenRecordAdvancedMergeFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.truemerge.EditMergeDetailsToolbarActionServerComponent.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.truemerge.EditMergeDetailsToolbarActionServerComponent.Label"/>
+      <component id="Component" type="GoldenRecordAdvancedMergeDialog">
+        <parameter id="GroupsInitiallyOpen" value="false"/>
+        <parameter-list id="Headers">
+          <component id="Headers" type="IDHeader">
+            <parameter id="EnableLink" value="false"/>
+          </component>
+          <component id="Headers" type="GoldenRecordSourceInformationHeader"/>
+          <component id="Headers" type="RankScoreHeader"/>
+          <component id="Headers" type="ValueHeader">
+            <parameter id="nowrap" value="true"/>
+            <parameter id="Readonly" value="false"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="LegalName"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="ShowInvalidInheritedValues" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="DataContainerValueHeader">
+            <parameter id="DataContainer" value="MainAddressDataContainer"/>
+            <parameter id="nowrap" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="CalcFormattedAddress"/>
+            <parameter id="AlwaysShowValues" value="true"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="DataContainerValueHeader">
+            <parameter id="DataContainer" value="SupplierLineOfBusinessData"/>
+            <parameter id="nowrap" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="Attribute" value="LineOfBusiness"/>
+            <parameter id="AlwaysShowValues" value="true"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+          <component id="Headers" type="ValueGroupHeader">
+            <parameter id="ReadOnly" value="true"/>
+            <parameter id="nowrap" value="true"/>
+            <parameter id="ShowLOVIDs" value="false"/>
+            <parameter id="EnableLocaleFormatting" value="false"/>
+            <parameter id="AttributeGroup" value="SupplierCompanyDetailsDisplay"/>
+            <parameter id="IncludeNestedGroups" value="false"/>
+            <parameter id="Mandatory" value="NotMandatory"/>
+            <parameter id="DisplayContextHelp" value="true"/>
+          </component>
+        </parameter-list>
+      </component>
+    </component>
+    <component id="Actions" type="GoldenRecordMergeFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordMergeFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordMergeFromGrid.Label"/>
+    </component>
+    <component id="Actions" type="GoldenRecordRejectFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordRejectFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordRejectFromGrid.Label"/>
+    </component>
+    <component id="Actions" type="GoldenRecordReassignFromGrid">
+      <parameter id="ToolTip" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordReassignFromGrid.ToolTip"/>
+      <parameter id="Label" value="i18n.stibo.portal.matching.server.actions.goldenrecord.GoldenRecordReassignFromGrid.Label"/>
+    </component>
+  </parameter-list>
+  <parameter-list id="Headers">
+    <component id="Headers" type="GoldenRecordIDHeader"/>
+    <component id="Headers" type="GoldenRecordSourceInformationHeader"/>
+    <component id="Headers" type="GoldenRecordAttributeValueHeader">
+      <parameter id="Attribute" value="LegalName"/>
+    </component>
+    <component id="Headers" type="GoldenRecordDataContainerAttributeValueHeader">
+      <parameter id="DataContainer" value="MainAddressDataContainer"/>
+      <parameter id="Attribute" value="CalcFormattedAddress"/>
+      <parameter id="Label" value="Address"/>
+    </component>
+  </parameter-list>
+</screen>
