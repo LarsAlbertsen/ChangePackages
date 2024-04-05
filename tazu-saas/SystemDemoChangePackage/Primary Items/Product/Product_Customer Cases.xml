@@ -2,7 +2,7 @@
 <STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
     <Products>
         <Product ID="Customer Cases" UserTypeID="Product Folder" ParentID="Product hierarchy root">
-            <Name>Customer Cases 2</Name>
+            <Name>Customer Cases</Name>
         </Product>
     </Products>
 </STEP-ProductInformation>
