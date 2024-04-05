@@ -8,7 +8,7 @@
     <AttributeList>
         <Attribute ID="AssetDownload.AssetURLAttribute" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Mandatory="false">
             <Name QualifierID="std.lang.all">Asset URL Attribute</Name>
-            <Validation BaseType="URL" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <Validation BaseType="url" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
             <AttributeGroupLink AttributeGroupID="AssetDownload.Attributes"></AttributeGroupLink>
             <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
             <UserTypeLink UserTypeID="BMP Image"></UserTypeLink>
