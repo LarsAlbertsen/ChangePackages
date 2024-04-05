@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="login" type="LoginScreen">
+  <parameter id="TopStyle" value="stb-inout-top"/>
+  <parameter id="BottomStyle" value="stb-inout-bottom"/>
+  <parameter id="TopHeight" value="-1"/>
+  <parameter id="BottomHeight" value="-1"/>
+  <parameter id="CenterStyle" value="stb-inout-center"/>
+  <parameter id="RightStyle" value="stb-inout-right"/>
+  <parameter id="LeftStyle" value="stb-inout-left"/>
+  <parameter id="RightWidth" value="-1"/>
+  <parameter id="LeftWidth" value="-1"/>
+</screen>
