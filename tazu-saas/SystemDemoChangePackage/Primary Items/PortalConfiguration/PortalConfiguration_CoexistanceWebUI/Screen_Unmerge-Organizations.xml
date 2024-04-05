@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="Unmerge-Organizations" type="UnmergeWizardScreen">
+  <parameter-list id="VisibleValues">
+    <parameter value="SurvOrganizationsMostRecent (attributegroup)"/>
+    <parameter value="MainAddressDataContainer (datacontainertype)"/>
+    <parameter value="LineOfBusinessData (datacontainertype)"/>
+  </parameter-list>
+</screen>

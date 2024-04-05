@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen id="homepage" type="HomePage">
+  <parameter id="DisableTitle" value="false"/>
+  <parameter id="PagingEnabled" value="false"/>
+  <parameter id="Title" value=" "/>
+  <parameter id="CssClass" value="stibo-HomePage"/>
+  <parameter-list id="Content">
+    <component id="Content" type="WidgetGrid">
+      <parameter-list id="Widgets">
+        <component id="Widgets" type="StatusSelectorHomepageWidget">
+          <parameter id="ShowUser" value="true"/>
+          <parameter id="TotalLabel" value="Total"/>
+          <parameter id="UseContentIndicator" value="false"/>
+          <parameter id="StatusFlagsEnabled" value="false"/>
+          <parameter id="ShowTotal" value="false"/>
+          <parameter id="InitiateLabel" value="Initiate"/>
+          <parameter id="Workflow" value="ClericalReview-Individual"/>
+          <parameter id="ResultScreen" value="Tasklist-Individual"/>
+          <parameter id="AutoRefreshInterval" value="0"/>
+          <parameter id="ShowGroup" value="true"/>
+          <parameter id="ComponentTitle" value="Subjects Clerical Review"/>
+          <parameter-list id="States">
+            <parameter value="Review"/>
+          </parameter-list>
+          <parameter id="DoubleWidth" value="false"/>
+          <parameter id="ShowAll" value="true"/>
+          <parameter id="ShowInitiate" value="false"/>
+          <parameter id="ShowStatusFlagHeaders" value="false"/>
+          <parameter id="ShowCollectionFilter" value="false"/>
+        </component>
+        <component id="Widgets" type="StatusSelectorHomepageWidget">
+          <parameter id="ShowUser" value="true"/>
+          <parameter id="TotalLabel" value="Total"/>
+          <parameter id="UseContentIndicator" value="false"/>
+          <parameter id="StatusFlagsEnabled" value="false"/>
+          <parameter id="ShowTotal" value="false"/>
+          <parameter id="InitiateLabel" value="Initiate"/>
+          <parameter id="Workflow" value="ClericalReview-Organization"/>
+          <parameter id="ResultScreen" value="Tasklist-Organization"/>
+          <parameter id="AutoRefreshInterval" value="0"/>
+          <parameter id="ShowGroup" value="true"/>
+          <parameter id="ComponentTitle" value="Sites Clerical Review"/>
+          <parameter-list id="States">
+            <parameter value="Review"/>
+          </parameter-list>
+          <parameter id="DoubleWidth" value="false"/>
+          <parameter id="ShowAll" value="true"/>
+          <parameter id="ShowInitiate" value="false"/>
+          <parameter id="ShowStatusFlagHeaders" value="false"/>
+          <parameter id="ShowCollectionFilter" value="false"/>
+        </component>
+        <component id="Widgets" type="KPIWidget">
+          <parameter id="DoubleWidth" value="true"/>
+          <parameter id="Selection" value="step://collection?id=AllSubjects"/>
+          <parameter id="Title" value="Subject Completeness"/>
+          <component id="Component" type="AverageObjectCompletenessDashboard">
+            <parameter id="Context" value="Context1"/>
+            <parameter id="Intervals" value="5"/>
+            <parameter id="ObjectType" value="IndividualCustomer"/>
+            <parameter id="Screen" value="Search-Results"/>
+            <parameter id="CompletenessMetric" value="SubjectCompleteness"/>
+            <parameter id="Title" value="i18n.stibo.DataProfile.AverageObjectCompletenessWidget.title"/>
+            <parameter id="Workspace" value="Main"/>
+          </component>
+        </component>
+        <component id="Widgets" restrict="Stibo,Stibo_Step_Dev,Super user,DataStewards, DataAdministrators" type="PolicyWidget">
+          <parameter id="Title" value="Policies"/>
+        </component>
+        <component id="Widgets" type="LinksWidget">
+          <parameter id="DoubleWidth" value="false"/>
+          <parameter id="Title" value="i18n.stibo.LinksWidgetServerComponent.Title"/>
+          <parameter-list id="Rows">
+            <component id="Rows" type="NodeNavigation">
+              <parameter id="Node" value="step://collection?id=AllSubjects"/>
+              <parameter id="Label" value="All Subjects (data profiling results)"/>
+            </component>
+            <component id="Rows" type="ScreenNavigation">
+              <parameter id="Screen" value="Search-Advanced"/>
+              <parameter id="Label" value="Advanced Search"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </component>
+  </parameter-list>
+</screen>
