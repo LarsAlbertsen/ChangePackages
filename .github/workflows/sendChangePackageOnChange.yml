@@ -1,12 +1,10 @@
-don't;
-
 name: Send Change Package on Change
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - '**'
+      - 'laal-vm/**'
 jobs:
   detect-directory-changes:
     name: "Detect Directory Changes"
