@@ -6,10 +6,10 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "IncludeInSTEPConfigCP",
-  "type" : "BusinessCondition",
+  "id" : "EventsInMain",
+  "type" : "BusinessAction",
   "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "IncludeInSTEPConfigCP",
+  "name" : "EventsInMain",
   "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
@@ -21,7 +21,7 @@
 */
 /*===== business rule plugin definition =====
 {
-  "pluginId" : "JavaScriptBusinessConditionWithBinds",
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
     "contract" : "CurrentObjectBindContract",
     "alias" : "node",
@@ -34,8 +34,18 @@
 }
 */
 exports.operation0 = function (node) {
-logger.info("IncludeInSTEPConfigCP "+node);
+log("start "+node.getID());
+/** @type{Product} */
+var p = node;
 
-return false;
+var nonApproved = p.getNonApprovedObjects();
+nonApproved.forEach(element => {
+    log(p.getID()+"\t"+element)
+});
+
+
+function log(s) {
+    logger.info("EventsInMain "+s);
+}
 
 }

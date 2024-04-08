@@ -6,10 +6,10 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "IncludeInSTEPConfigCP",
-  "type" : "BusinessCondition",
-  "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "IncludeInSTEPConfigCP",
+  "id" : "TestName",
+  "type" : "BusinessAction",
+  "setupGroups" : [ "Actions" ],
+  "name" : "TestName",
   "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
@@ -21,10 +21,10 @@
 */
 /*===== business rule plugin definition =====
 {
-  "pluginId" : "JavaScriptBusinessConditionWithBinds",
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
     "contract" : "CurrentObjectBindContract",
-    "alias" : "node",
+    "alias" : "productI",
     "parameterClass" : "null",
     "value" : null,
     "description" : null
@@ -33,9 +33,20 @@
   "pluginType" : "Operation"
 }
 */
-exports.operation0 = function (node) {
-logger.info("IncludeInSTEPConfigCP "+node);
+exports.operation0 = function (productI) {
 
-return false;
+/** @type {Product} */
+var product = productI
+
+var name = product.getName()
+
+
+var value = product.getValue("sas")
+
+var l = product.queryChildren().asList(10)
+
+product.getWorkflowInstanceByID("sa").getTaskByID("sa").triggerLaterByID("sa")
+
+logger.info("Name " +name )
 
 }

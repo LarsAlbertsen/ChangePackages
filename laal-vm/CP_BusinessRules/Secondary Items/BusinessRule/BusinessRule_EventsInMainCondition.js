@@ -6,10 +6,10 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "IncludeInSTEPConfigCP",
+  "id" : "EventsInMainCondition",
   "type" : "BusinessCondition",
   "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "IncludeInSTEPConfigCP",
+  "name" : "EventsInMainCondition",
   "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
@@ -34,8 +34,19 @@
 }
 */
 exports.operation0 = function (node) {
-logger.info("IncludeInSTEPConfigCP "+node);
+log("on "+node.getID());
+/** @type{Product} */
+var p = node;
 
-return false;
+var nonApproved = p.getNonApprovedObjects();
+nonApproved.forEach(element => {
+    log(p.getID()+"\t"+element)
+});
+
+
+function log(s) {
+    logger.info("EventsInMainCondition "+s);
+}
+
 
 }

@@ -6,13 +6,13 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "GetRawLOV",
+  "id" : "e-signature",
   "type" : "BusinessAction",
   "setupGroups" : [ "Actions" ],
-  "name" : "GetRawLOV",
+  "name" : "e-signature",
   "description" : null,
   "scope" : "Global",
-  "validObjectTypes" : [ ],
+  "validObjectTypes" : [ "Item" ],
   "allObjectTypesValid" : true,
   "runPrivileged" : false,
   "onApprove" : "Never",
@@ -23,20 +23,20 @@
 {
   "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
-    "contract" : "CurrentObjectBindContract",
-    "alias" : "node",
+    "contract" : "LoggerBindContract",
+    "alias" : "logger",
     "parameterClass" : "null",
     "value" : null,
     "description" : null
   }, {
-    "contract" : "AttributeBindContract",
-    "alias" : "RawLOV",
-    "parameterClass" : "com.stibo.core.domain.impl.AttributeImpl",
-    "value" : "RawLOV",
+    "contract" : "BasicEsignatureBind",
+    "alias" : "basicESig",
+    "parameterClass" : "null",
+    "value" : null,
     "description" : null
   }, {
-    "contract" : "AttributeBindContract",
-    "alias" : "RawMultiLOV",
+    "contract" : "CurrentObjectBindContract",
+    "alias" : "node",
     "parameterClass" : "null",
     "value" : null,
     "description" : null
@@ -45,15 +45,10 @@
   "pluginType" : "Operation"
 }
 */
-exports.operation0 = function (node,RawLOV,RawMultiLOV) {
-var v = node.getValue(RawLOV.getID()).getSimpleValue();
-
-logger.info("v=["+v+"]");
-
-var v3 = node.getValue(RawMultiLOV.getID()).getRawValue();
-logger.info("v3=["+v3+"]");
-
-var v2 = node.getValue(RawLOV.getID()).getRawValue();
-logger.info("v2=["+v2+"]");
+exports.operation0 = function (logger,basicESig,node) {
+logger.info("basicESig - before "+node.getTitle());
+logger.info("getTimestamt "+basicESig.getTimestamp());
+//logger.info("getReason "+basicESig.getReason());
+logger.info("basicESig - after");
 
 }

@@ -6,14 +6,14 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "LAALTestCondition",
+  "id" : "MyCondition",
   "type" : "BusinessCondition",
   "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "LAAL Test Condition",
+  "name" : "MyCondition",
   "description" : null,
   "scope" : "Global",
-  "validObjectTypes" : [ ],
-  "allObjectTypesValid" : true,
+  "validObjectTypes" : [ "Item" ],
+  "allObjectTypesValid" : false,
   "runPrivileged" : false,
   "onApprove" : "Never",
   "dependencies" : [ ]
@@ -25,21 +25,19 @@
   "binds" : [ ],
   "messages" : [ {
     "variable" : "MyMessage",
-    "message" : "Hello",
+    "message" : "English Message",
     "translations" : [ {
       "language" : "da",
-      "message" : "Hej Med Dig"
+      "message" : "My Danish Message"
     }, {
-      "language" : "de",
-      "message" : "German Version"
+      "language" : "en",
+      "message" : "My English Message"
     } ]
   } ],
   "pluginType" : "Operation"
 }
 */
 exports.operation0 = function (MyMessage) {
-var msg = new MyMessage();
-
-
-return msg;
+return new MyMessage()
+//return "NoTranslation"
 }

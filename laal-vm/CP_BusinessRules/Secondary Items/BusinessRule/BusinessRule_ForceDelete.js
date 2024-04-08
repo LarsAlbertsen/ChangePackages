@@ -6,13 +6,13 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "IncludeInSTEPConfigCP",
-  "type" : "BusinessCondition",
+  "id" : "ForceDelete",
+  "type" : "BusinessAction",
   "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "IncludeInSTEPConfigCP",
+  "name" : "ForceDelete",
   "description" : null,
   "scope" : "Global",
-  "validObjectTypes" : [ ],
+  "validObjectTypes" : [ "Item", "Tree" ],
   "allObjectTypesValid" : true,
   "runPrivileged" : false,
   "onApprove" : "Never",
@@ -21,7 +21,7 @@
 */
 /*===== business rule plugin definition =====
 {
-  "pluginId" : "JavaScriptBusinessConditionWithBinds",
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
     "contract" : "CurrentObjectBindContract",
     "alias" : "node",
@@ -34,8 +34,19 @@
 }
 */
 exports.operation0 = function (node) {
-logger.info("IncludeInSTEPConfigCP "+node);
+var allSource = new Array();
+node.getReferencedByProducts().forEach(function(r) {
+    logger.info("r="+r)
+    /** @type{Product} */
+    var source = r.getSource()
+    allSource.push(source);
+    r.delete()
+});
 
-return false;
+logger.info("allSource+"+allSource)
+allSource.forEach(function(p){
+    p.approve();
+})
+node.forceDelete()
 
 }

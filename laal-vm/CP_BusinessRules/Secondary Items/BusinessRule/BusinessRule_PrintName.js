@@ -6,14 +6,14 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "IncludeInSTEPConfigCP",
-  "type" : "BusinessCondition",
-  "setupGroups" : [ "LAALBRGroup" ],
-  "name" : "IncludeInSTEPConfigCP",
+  "id" : "PrintName",
+  "type" : "BusinessAction",
+  "setupGroups" : [ "Actions" ],
+  "name" : "PrintName",
   "description" : null,
   "scope" : "Global",
-  "validObjectTypes" : [ ],
-  "allObjectTypesValid" : true,
+  "validObjectTypes" : [ "Item" ],
+  "allObjectTypesValid" : false,
   "runPrivileged" : false,
   "onApprove" : "Never",
   "dependencies" : [ ]
@@ -21,7 +21,7 @@
 */
 /*===== business rule plugin definition =====
 {
-  "pluginId" : "JavaScriptBusinessConditionWithBinds",
+  "pluginId" : "JavaScriptBusinessActionWithBinds",
   "binds" : [ {
     "contract" : "CurrentObjectBindContract",
     "alias" : "node",
@@ -34,8 +34,5 @@
 }
 */
 exports.operation0 = function (node) {
-logger.info("IncludeInSTEPConfigCP "+node);
-
-return false;
-
+logger.info("printName on "+node.getTitle());
 }

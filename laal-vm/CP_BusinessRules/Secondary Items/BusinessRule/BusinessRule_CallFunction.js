@@ -6,10 +6,10 @@
 */
 /*===== business rule definition =====
 {
-  "id" : "GetRawLOV",
+  "id" : "CallFunction",
   "type" : "BusinessAction",
   "setupGroups" : [ "Actions" ],
-  "name" : "GetRawLOV",
+  "name" : "CallFunction",
   "description" : null,
   "scope" : "Global",
   "validObjectTypes" : [ ],
@@ -29,14 +29,8 @@
     "value" : null,
     "description" : null
   }, {
-    "contract" : "AttributeBindContract",
-    "alias" : "RawLOV",
-    "parameterClass" : "com.stibo.core.domain.impl.AttributeImpl",
-    "value" : "RawLOV",
-    "description" : null
-  }, {
-    "contract" : "AttributeBindContract",
-    "alias" : "RawMultiLOV",
+    "contract" : "ManagerBindContract",
+    "alias" : "step",
     "parameterClass" : "null",
     "value" : null,
     "description" : null
@@ -45,15 +39,16 @@
   "pluginType" : "Operation"
 }
 */
-exports.operation0 = function (node,RawLOV,RawMultiLOV) {
-var v = node.getValue(RawLOV.getID()).getSimpleValue();
+exports.operation0 = function (node,step) {
 
-logger.info("v=["+v+"]");
+var myFunction = step.getBusinessRuleHome().getBusinessFunctionByID("MyFunction");
+logger.info("myFunction = "+myFunction)
 
-var v3 = node.getValue(RawMultiLOV.getID()).getRawValue();
-logger.info("v3=["+v3+"]");
+var h = step.getHome(com.stibo.core.domain.businessrule.plugin.function.proxy.unstable.home.BusinessFunctionProxyHome);
+logger.info("h = "+h);
+hello
 
-var v2 = node.getValue(RawLOV.getID()).getRawValue();
-logger.info("v2=["+v2+"]");
 
+
+//var result = h.evaluate(
 }
