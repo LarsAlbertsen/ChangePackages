@@ -33,6 +33,8 @@ jobs:
     - name: Zip file
       run: | 
         echo ${{ steps.dir-name.outputs.dir }}
+        echo "Lars Lars"
+        ls
         cd ${{ vars.REPO_PATH }}
         ls
         zip -r ${{ steps.dir-name.outputs.dir }}.zip ${{ steps.dir-name.outputs.dir }}
