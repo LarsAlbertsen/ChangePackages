@@ -1,3 +1,4 @@
+
 name: Send Change Package on Change
 
 on:
@@ -31,7 +32,6 @@ jobs:
       uses: actions/checkout@v3
     - name: Zip file
       run: | 
-        echo "Lars"
         echo ${{ steps.dir-name.outputs.dir }}
         cd ${{ vars.REPO_PATH }}
         ls
