@@ -30,13 +30,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Danish",
-    "itemURL" : "step://dimensionpoint?id=Danish",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Business Unit Root",
     "itemURL" : "step://objecttype?id=BusinessUnitRoot",
     "inclusion" : "Precondition",
@@ -121,13 +114,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Language",
-    "itemURL" : "step://dimension?id=Language",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "_LAAL Attributes",
     "itemURL" : "step://attributegroup?id=_LAAL+Attributes",
     "inclusion" : "Precondition",
@@ -138,13 +124,6 @@
     "name" : "Display Sequence",
     "itemURL" : "step://attribute?id=DisplaySequence",
     "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "German",
-    "itemURL" : "step://dimensionpoint?id=German",
-    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -163,7 +142,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Item (German)",
+    "name" : "Item",
     "itemURL" : "step://objecttype?id=Item",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -172,13 +151,6 @@
   }, {
     "name" : "Attribute Groups",
     "itemURL" : "step://attributegroup?id=Attribute+group+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Language Root",
-    "itemURL" : "step://dimensionpoint?id=std.lang.all",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
@@ -219,13 +191,6 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "English",
-    "itemURL" : "step://dimensionpoint?id=en-US",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Primary Product Classification (English)",
     "itemURL" : "step://objecttype?id=Product+user-type+root",
     "inclusion" : "Precondition",
@@ -233,7 +198,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-04-08 20:36:55\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a1\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a1</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"_LAAL Attributes\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-04-09 02:45:49\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a1\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a1</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"_LAAL Attributes\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
   "signatory" : "LAAL",
   "comment" : ""
 }
