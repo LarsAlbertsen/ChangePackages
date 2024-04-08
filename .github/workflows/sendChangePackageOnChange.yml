@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'laal-vm/**'
+      - 'pmdm-us/**'
 jobs:
   detect-directory-changes:
     name: "Detect Directory Changes"
@@ -63,4 +63,3 @@ jobs:
         remoteDir: ${{ vars.SFTP_PATH }}
         dryRun: false
         username: ${{ secrets.USERNAME }} 
-
