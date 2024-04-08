@@ -1,4 +1,3 @@
-
 name: Send Change Package on Change
 
 on:
@@ -27,7 +26,7 @@ jobs:
     steps:
     - name: Dir name
       id: dir-name
-      run: echo "dir=$(echo ${{ matrix.dir }} | cut --complement -f1 -d\/)" >> "$GITHUB_OUTPUT"
+      run: echo "Lars"; echo "dir=$(echo ${{ matrix.dir }} | cut --complement -f1 -d\/)" >> "$GITHUB_OUTPUT"
     - name: Checkout
       uses: actions/checkout@v3
     - name: Zip file
