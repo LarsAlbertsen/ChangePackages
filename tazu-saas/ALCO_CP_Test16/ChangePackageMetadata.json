@@ -1,0 +1,645 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CP_Test16",
+  "name" : "ALCO_CP_Test16 Misc Items, through Git",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "DEV",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-a1dffc42-5a6b-4499-a1cd-659640f4717b",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "ALCO_RD-23725LOVwIDs",
+    "itemURL" : "step://attribute?id=ALCO_RD-23725LOVwIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EventProcessors",
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Value Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Value+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Description",
+    "itemURL" : "step://attribute?id=4941",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDXEncryptionAssetPublisher",
+    "itemURL" : "step://eventprocessor?id=PDXEncryptionAssetPublisher",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Manually enable and set to read events",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CompletenessMetricValue",
+    "itemURL" : "step://attribute?id=CompletenessMetricValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_CP_BackIn",
+    "itemURL" : "step://InboundIntegrationEndpoint?id=ALCO_CP_BackIn",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : " Enable and verify linked business rules are included.",
+    "recursive" : false
+  }, {
+    "name" : "ATD ALCO Text Multivalue (GL)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Text_MultiValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "QA",
+    "itemURL" : "step://group?id=QA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value new name March 21st",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EN All USA",
+    "itemURL" : "step://context?id=EN+All+USA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=InboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Countries",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized Setup Group Type",
+    "itemURL" : "step://objecttype?id=Uncategorized+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Photographers",
+    "itemURL" : "step://group?id=Photographers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Inbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_Rd-23725wOIDs",
+    "itemURL" : "step://attribute?id=ALCO_Rd-23725wOIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BusinessFunctions",
+    "itemURL" : "step://SetupGroup?id=BusinessFunctions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Event Processors Type",
+    "itemURL" : "step://objecttype?id=DnBEventProcessorsType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=Global+Business+Rules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Integration Type",
+    "itemURL" : "step://objecttype?id=DnBIntegrationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merchandisers",
+    "itemURL" : "step://group?id=Merchandisers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Last Updated",
+    "itemURL" : "step://attribute?id=PDS+Last+Updated",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging hierarchy",
+    "itemURL" : "step://objecttype?id=Packaging+hierarchy",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://attribute?id=ATS_ALCO1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Name Style Name",
+    "itemURL" : "step://attribute?id=Attribute+Name+Style+Name",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTPGroup",
+    "itemURL" : "step://group?id=DTPGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All setup actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ReadExternalActivityLog",
+    "itemURL" : "step://businessrule?id=ReadExternalActivityLog",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Super User",
+    "itemURL" : "step://group?id=Super+user",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processor",
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Folder",
+    "itemURL" : "step://objecttype?id=Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc 2",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Manually Sorted Product Folder",
+    "itemURL" : "step://objecttype?id=Manually+Sorted+Product+Folder",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value updated",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Technical Writers",
+    "itemURL" : "step://group?id=Technical+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTP Managers",
+    "itemURL" : "step://group?id=DTP+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New Attr",
+    "itemURL" : "step://attribute?id=New+Attr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MerchandiserManagers",
+    "itemURL" : "step://group?id=MerchandiserManagers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stepsys",
+    "itemURL" : "step://user?id=STEPSYS",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "ATG_ALCO",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute ShortName",
+    "itemURL" : "step://attribute?id=AttributeShortName",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions ColSet",
+    "itemURL" : "step://ActionSet?id=All+user+actions+ColSet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AppliesOnlyIf",
+    "itemURL" : "step://attribute?id=AppliesOnlyIf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Managers",
+    "itemURL" : "step://group?id=Product+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team C",
+    "itemURL" : "step://group?id=Team+C",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team B",
+    "itemURL" : "step://group?id=Team+B",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WMMandatoryMeta",
+    "itemURL" : "step://attribute?id=WMMandatoryMeta",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team A",
+    "itemURL" : "step://group?id=Team+A",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Copy Writers",
+    "itemURL" : "step://group?id=Copy+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All Languages",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=4875",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UserLastActivityDate",
+    "itemURL" : "step://attribute?id=UserLastActivityDate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound",
+    "itemURL" : "step://objecttype?id=Inbound",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-04-29 15:02:58\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">ATG_ALCO</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"ATD_ALCO_2DD\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"std.lang.all\">ALCO country dependency</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Country\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_ALCO\"/>\n      <UserTypeLink UserTypeID=\"Item\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <BusinessRules>\n    <BusinessRule ID=\"ReadExternalActivityLog\" Scope=\"Global\" Type=\"Function\" RunPrivileged=\"false\">\n\n<!-- Definition:\nFunction #1 (JavaScriptBusinessFunctionWithBinds):\n<config>\n  <bindings/>\n  <functionparameters>\n    <functionparameter alias=\"date\" type=\"Date\" contract=\"DateBindContract\"/>\n    <functionparameter alias=\"filter\" type=\"String\" contract=\"StringBindContract\"/>\n  </functionparameters>\n  <returntype type=\"java.lang.String\"/>\n  <messages/>\n  <javaScript>\nvar dateString = new java.text.SimpleDateFormat(\"YYYY-MM-dd\").format(date);\nlogger.info(dateString + \" \" + filter);\nvar file = new java.io.File(new java.io.File(\"diag/activity/\"+dateString.substring(0,7)),dateString + \".log\")\nvar reader = new java.io.BufferedReader(new java.io.FileReader(file, java.nio.charset.StandardCharsets.UTF_8));\ntry {\nwhile (reader.ready()) {\n\tvar line = reader.readLine();\n\tif (line.contains(filter)) {\n\t\tlogger.info(line);\n\t}\n}\nreturn \"\";\n} finally {\n\treader.close();\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"BusinessFunctions\"/>\n      <Name QualifierID=\"Qualifier root\">ReadExternalActivityLog</Name>\n      <Description>For testing purposes</Description>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAAL1WXU/bMBR9bn6FlQeUCEjY05CaBEG7SkzrhIBp4qnyGid4cp3MdgoV6n/f9UebtKXrmCb6EvscX99zT2/s1KwpKZ/gumaUyAktJtOKF7RMJAAqqy1tsTS5eJ4xNCdC0oqn/ofozEeET6uc8jL1v92PTs/9iyy5aiTlRMrbhpHMQ2gN3JjdUJe30PUw9T/jOb6bClqrFT9q+FRBpu9UPV5Rnks/S26JagS/X9Qk+wkBEcO8jO6UAAVJ3CH/eiHoA4U3WOAZUVCZBboQ0upsfqRDUn97Qz87Yqq/Yc7Rr6ZSfXDIDlqb7Nx4ZYcXR6Xqe3oDnWOM69gASbwWsEfSJyEqMQafcEn2S4v3RK/MXaPvUeGrSaFkswChlQkI+k0JPFUg1G4xxIpoZuAIl/OSUSzdkhyWOHhIpGmkVqYj1nkHDMtVIG8Ys6P4oA7rxgElBWWQ4r9o0UriP7p2uE9W4W3Tv9O/3Cbs+LoJbisw9W7FbXiwxR2uvj1W9lc9xwLp9rFzlCJOnpBZpsiziu7orGZEt+CoEjOsAlvwA/xOx+PTPLfzMCosrbcK+x6rypKIiPKiCjq7HyNnpXscI9svEKF1wIR0FdAqGgEU7ACu6ykuY2hDOqdqEVvsuM0WyeaHNKPg7ORjGJ68IiQCoa4Co0AQnIN5mxqumqIgguS3htxR42At/sQSHJjpIxaSgIEK8xyLfGDnMoK2mZyHULESC/TiPT3qogObONKPRRCGQPS0HgaXAajpsF8ACSC6RwsUaDrSLyqmXAbOSxPc6/4DepkOWXpLT5gmQt3Xse8twXqOGdOCei7ZlFXSZFrudloHMJdGYq+yFhyYS7MRWPdttk1vsIjmO+c55VSl/vDh6+X4egDH+OEN3An+9sDuO/L26NfOl3/fZfs+2tkpPuBzvPm1kXktYj5I3JfNbxOT4fr5CAAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n\n  <IntegrationEndpoints>\n    <InBoundIntegrationEndpoint ID=\"ALCO_CP_BackIn\" UserTypeID=\"InboundEndpoint user-type root\" PreProcessorPluginID=\"ImportChangePackagePreProcessor\" ProcessPluginID=\"Import\" PostProcessorPluginID=\"Default\" ErrorReporterPluginID=\"DefaultInboundErrorReporter\" QueueForEndpoint=\"InboundQueue\" QueueForProcssing=\"In\" MaxNumberOfActiveBackgroundProcesses=\"1000\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"NONE\" ResponsibleUserID=\"STEPSYS\" EnableRetry=\"false\" ReceiverPluginID=\"hotfolder\" MessagesPerBackgroundProcess=\"1\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries>\n\nPreProcessorPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"ImportContext\" Type=\"com.stibo.configurationmanagement.importer.transfer.importcontext.ImportContextTO\"/>\n  <Parameter ID=\"SetupGroup\" Type=\"com.stibo.core.domain.setupgroup.SetupGroup\">step://SetupGroup?id=ALCO_ChangePackages</Parameter>\n  <Parameter ID=\"ValidateStepXML\" Type=\"java.lang.Boolean\">true</Parameter>\n</Parameters>\n\nPostProcessorPluginConfiguration:\n<Parameters/>\n\nReceiverPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"FileSystemHotFolder\" Type=\"java.lang.String\">CP_Back</Parameter>\n  <Parameter ID=\"IgnoreSubFolders\" Type=\"java.lang.Boolean\">false</Parameter>\n  <Parameter ID=\"InFolder\" Type=\"java.lang.String\">In</Parameter>\n  <Parameter ID=\"KeepProcessedFiles\" Type=\"java.lang.Boolean\">true</Parameter>\n  <Parameter ID=\"NumberOfFilesToKeep\" Type=\"java.lang.Integer\">1000</Parameter>\n  <Parameter ID=\"NumberOfFilesToKeepInFailed\" Type=\"java.lang.Integer\">1000</Parameter>\n  <Parameter ID=\"TimeToKeep\" Type=\"java.lang.Integer\">365</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<ImportManagerConfig Approver=\"alco\" BatchDirectoryID=\"\" ContextID=\"GL\" CountUnmapped=\"no\" DefaultProductParentID=\"Product hierarchy root\" DefaultProductTypeID=\"Product user-type root\" MatchUnitsByID=\"no\" Name=\"\" ProcessTemplate=\"Importer\" RejectNewProducts=\"no\" RejectProductUpdates=\"no\" ReplaceTerms=\"CLEAR_ONLY_FOR_IMPORTED_PRODUCTS\" SelectedURLType=\"product\" TestImport=\"no\" Version=\"2\" WorkspaceID=\"Main\">\n  <Format Name=\"STEPXML\">\n    <Parameter Name=\"Validate\">No</Parameter>\n  </Format>\n  <ProductMapping/>\n  <ReplacementRules/>\n  <Source Name=\"File\">\n    <Parameter Name=\"Filename\">C:\\Users\\alco\\AppData\\Local\\Temp\\Sample stepxml for IIEP.xml</Parameter>\n  </Source>\n</ImportManagerConfig>\n\nErrorReporterPluginConfiguration:\n<Parameters/> -->\n      <SetupGroupLink SetupGroupID=\"Inbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">ALCO_CP_BackIn</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>\n      <PreProcessorPluginConfiguration>H4sIAAAAAAAAAH2Q3UoDQQyFX2WYe7N6J7I/aEUpVFroKt5J3E3X0Z1kmcmW+vZOLeoWinc54eTkS/Jq53uzpRCdcGEv4Nwa4kZax11hH+u7s0tblSZfYUBPmnylMRNp5reFnftBgs6ElXZqTf05UGEb8RDVvQo0whvXjQE17fDI2JEnVnDfYxRAA3LcpOLQaQ5BcBRbL22ZZ797T1A8Ye9aVForDc8Pix+Od9wi9Mgd3Ij0hGxLDSP9n7UmHYf7IONw6pxA0IpHxxD3vm7vg8lIGRPCVZb9tSrXFteL2fJl9pZIaIXNR/pCPIKYiPTkL1WDJ3OZAQAA</PreProcessorPluginConfiguration>\n      <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>\n      <ReceiverPluginConfiguration>H4sIAAAAAAAAAKXSTUvDQBAG4Ht/xTJ3Y4ooHpIt1BJcBA0knmWaTEPq7mzZ3RT7790q+EEloXh8YXh4mZls8Wa02JPzveUc5kkKgrixbc9dDs91cXELCznLSnRoKMQ5ORPiOwq1yqHoNVUHH8jc21BY3ZIDUR92lMMW95ho5C6pgosmyLvyZYnNa3b5ZfwhPhDtSmcb8p7aI+9PwaW1mpBBBjfQOPc4mDW5p82HVNujfuopDtTF5nKepum4V/eGJpmrm+uzWykuMKb2X+1Ux9ZRNaw/TzG2ug1qP7G7WGnioop/CT9CfJZ3mpZRo2ECAAA=</ReceiverPluginConfiguration>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAHVSy27bMBC8+yuIvTdueywkBYlkFwIkW9AjbQEBBkGvbbUSSZBUG/99l5IcBE16484+ZmeHwf3z0LPfaGynZAif7j7CfbQK0kEr43Iu+RlNrOSpO7OnW9FnYDs+YAjAKOXw2aVJCF8zYN+U+WU1F+iBnHcS2IPWRtH8EHgvFLASf6JwO/xTGHUchbMhyBd4wRp95A6XTM6duDSyc/bx6sd6LFajdI0cuNZ4nCFqFWhtjYPuqTmEWQIaYDVaN0c3LioRWKMZiCPONg/lYb/Lfhy2+/KQ5sW+rDfJoSj3SRPXFbAET3zsb8sV3KCcFC8Au3RouBGXKzNKuX/r66vG19WjRfPBEbhUP3p9SWdIvjKTQmAV9hTisSkz3x6CnpshWjEWVGo0AhcPtl2PE0wJWo0w0vwqJ+kFUfylbYjXtt6EljxJuONtpgTvW3+ytuJ0N2TWofYf4qQMS9NNcUdBsH6ZO9GvZ/7pvVVm4G6hq+pN8T3P/rfNE+877ytEO/Vm5jxoei+HysncTp7n9DvY4uJAZpRjj3YufIsG63c+c7T6C6qocwn5AgAA</ProcessPluginConfiguration>\n      <SampleFileConfiguration SampleFileName=\"C:\\Users\\alco\\OneDrive - Stibo\\Desktop\\Sample stepxml for IIEP.xml\">\n        <SampleFileContents>H4sIAAAAAAAAAJVU0W6CMBR9dsn+oem7Y3vbQ9EY9YFkLkTNstcOLluz0pr21rh9/QqCAiJxPNHbc8+5nHsCmx5ySfZgrNAqpE8Pj5SASnQq1GdIHWbjZzqd3N+xzXYZj2OjU5dgpDJtco6+hazBarmHSEmhYA2ZDWnGpQVK3rgUaQkK6ftmQcnysNMGFyABIV1w5CFF44B6ei8wl9xakYmkbLEVeiN+IaSeF4wfC9ICPOpgSaQS6VKIucdgRRoUQwcd0qJ21B9SWwklcpcfpfrgA4K97MXNzFrAqzqEkCOiTd3hOftFioe98hyC06kNPll2C2NNwoJyiPJUvTc8q7Zva3Cr2utJjawHHdUGVU0Ny5rkrKXEhhTqYqS+wAifq6Zy0yDm4+jAXsOX25shGvHhEF6E+h5EFumda4Xch97UhpSfunISReuabH92ftux5ApbFw3b+/i6Mb/YaN9k5JSkudHW3t5TmfyfLhac13g+lIEJrvwuJn+kOIc+cAQAAA==</SampleFileContents>\n      </SampleFileConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"EN All USA\"/>\n      <WorkspaceID>Main</WorkspaceID>\n    </InBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n\n  <EventProcessors>\n    <EventProcessor ID=\"PDXEncryptionAssetPublisher\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"PDXEncryptionAssetPublisher\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">0</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=STEPSYS</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"AssetPublisherEventProcessorPlugin\">\n  <simple id=\"ExtendedLogging\">false</simple>\n  <simple id=\"HandleDeleteEvents\">true</simple>\n  <simple id=\"PublishInheritedContent\">DimensionPoints&lt;split&gt;PublishInheritedContent=false&lt;split&gt;</simple>\n  <simple id=\"StorageProvider\">StorageProvider=step://GatewayIntegrationEndpoint?id=PDXEncryptionGW&lt;split&gt;</simple>\n  <simplelist id=\"ImageConversions\">\n    <entry>ImageConversion=ImageConversion&lt;split&gt;ImageConversionType=Conversion&lt;split&gt;Name=PDX&lt;split&gt;PathAttribute=step://attribute?id=asset_path2&lt;split&gt;StorageTemplate=Stibo_Systems_97/$assetID$_$contentdimensionpointsID$.$extension$&lt;split&gt;VersionAttribute=step://attribute?id=asset_version2&lt;split&gt;</entry>\n  </simplelist>\n  <simplelist id=\"NotificationEventQueues\"/>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">PDXEncryptionAssetPublisher</Name>\n      <Configuration>H4sIAAAAAAAAAKVVXU/bMBR951dEUcXbmrJJG4wmFbQBKhXImsLYU+Umt6m1xM5sh5H9+l07TSFZM9D2Ftvn3nPuZ8acrWlSCKIoZ+5w9JSl1iMIqU/2UX9gW8AiHlOWuPbd4uLdsT3yDoZ5WiSUWTR2bf8RmAoEj0BKLs6JhPFLl7Z3YFlDSbM8BYOfg8w5k3SVwp0EYXtSQf7ZcQo8jBAQLvwg/BYOncqmbX5OVLQJ6S+wvaPBYNAFm5BSLvgcFKHMKJS21wkOBOWCqhJddkG+FFAgpX8fzG/HXaBr8nSbxttcgDQKu7BXvBA7hS2rj8ddVjPKQAYgzi+Dv8d/QWiKvkXpM4KZjm1PiQJeRaNryhH8YRB3YW9zRTMqFY1mPPre5FiTVHaS7DGs6bpMwmgDcZHCw/VsOfGDuT8+W/gT2ztM1WmjUw9/FFydYrtWH6PDRJ0eaBRWXlCQ5mxZ9U1pRSmRcmsW8ayPsla8Xyia9uWWNIY1ZVT3cL/WMdld9eqrG0ANlR9nx+q8pH0ObuhUc4NfMk+p8nwhuJhDzoUC8S/Dh4JIkarmDDa82s6OLTB24/8d+DPsUhUUq5TKDYgmdUXxcuYRpYzZNCOJXg1bLmlACDP18Fqvbuusk2qC0BltvS3KHNwO6A3JwA0mD43LgKjNmcICrQoF7nb9kPpC7yCiQ1zmiHvfsAwVF8i9AIyMoG2ou2YZlugjk8uTT07PWE4nvWUv4kxhbDHNgGldOae4hfCp34MnVd31Gt7vqwDeIm0ba1Pd0KlyqZPvPGd/XzFuuKJrGpkeMBU0+03qZmlNYBUxFviRxnpbty5qjZeYjp+knGLMSdVaPotNyFo0VsBnkShz/XD5taV6/+z7OkkxxDOeYEslryyXbT9OGbYkVRCPq+zb3qTOf2Dy32yE/UauYXqTyCvCYr0WUlBQ/2aai/aPmf8NkyEU83EHAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeLinksTriggering=\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nConsumerSuspended=\nIndexWordHierarchyTriggering=\nNameTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"AssetPublisherObj\"/>\n  </ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"PNG Image\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattribute=4888\nobjecttype=AssetPublisherObj;PNG Image -->\n        <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8vlPTgUMOVpgMAeqZFjyJoWfF3hgVWfJopTT011e2pZjEZkhneoCbtF/at3pvZ4igM6hqTjWQ+HJb8WADCpkUJPz65SwMQOSyYKIk4UN2czoJL6cn8TK7Tk9TJQuT60SspaqothnBAlDyDSSCMwELWCMJ15QjhMGN5Fz+vrelFStgaVYuu4+43tZS6TkotoFiprXauaYnQRDPmkbRRS3ZHyDhDyZYZaowmEuhuweuOEVka5a3/WSyzbKNgLIwbIpWpqvnK0Zt8airbpFFb0CbxlhzpqdNY2xlNHxn4hkzxcrSdizKQ/enGGmPBZtBvAv+YLqfAOJ+x+P0cXTYDw0SkXNTQEotc7QjjiPLQdFjBmfDTAVqabAGUUDh7Ik9b39KVXxjoKjKn14GjLqjFQyM96tfkOvspYZbJU1tHUji3rgwHLDtdcS2Zw36YzInYSuD1Kw4wydQ1uch/4fa6d1tkFS0hDdrDk0ObvcJgym4eX94HsY++l+3l8sb21++5ihP3Vc01In8snu9t6JRyu+e8e4hXu9x1yslEQdpLYnGXY+UG0B/m1NNrTI0teNW+N6rceSuHXv8TI9QX08cK7VnrKmd5KyuldzshPgg2MfnkYXd9Hnstn50AM7dnXoKkIvJZOKMslWctoojA/EPQs7ITsTO9xfVW198PwgAAA==</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <EventProcessors>
+        <EventProcessor ID="PDXEncryptionAssetPublisher" UserTypeID="Event Processor user-type root"><!-- Definition:
+Configuration=
+<plugin id="PDXEncryptionAssetPublisher">
+  <simple id="BatchSize">1000</simple>
+  <simple id="DaysToRetainEvents">0</simple>
+  <simple id="FailRetryEnabled">true</simple>
+  <simple id="FailRetryPeriod">30d</simple>
+  <simple id="HoursToRetainOldProcesses">168</simple>
+  <simple id="LinesPerBGP">1000</simple>
+  <simple id="MaxOldProcesses">100</simple>
+  <simple id="OptimisticLockRetryEnabled">false</simple>
+  <simple id="OptimisticLockRetryPeriod"/>
+  <simple id="Priority">1</simple>
+  <simple id="Queue">EVPROC</simple>
+  <simple id="ResponsibleUser">step://user?id=STEPSYS</simple>
+</plugin>
+PluginConfiguration=
+<plugin id="AssetPublisherEventProcessorPlugin">
+  <simple id="ExtendedLogging">false</simple>
+  <simple id="HandleDeleteEvents">true</simple>
+  <simple id="PublishInheritedContent">DimensionPoints&lt;split&gt;PublishInheritedContent=false&lt;split&gt;</simple>
+  <simple id="StorageProvider">StorageProvider=step://GatewayIntegrationEndpoint?id=PDXEncryptionGW&lt;split&gt;</simple>
+  <simplelist id="ImageConversions">
+    <entry>ImageConversion=ImageConversion&lt;split&gt;ImageConversionType=Conversion&lt;split&gt;Name=PDX&lt;split&gt;PathAttribute=step://attribute?id=asset_path2&lt;split&gt;StorageTemplate=Stibo_Systems_97/$assetID$_$contentdimensionpointsID$.$extension$&lt;split&gt;VersionAttribute=step://attribute?id=asset_version2&lt;split&gt;</entry>
+  </simplelist>
+  <simplelist id="NotificationEventQueues"/>
+</plugin>
+ScheduleSpecification=
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries> -->
+            <SetupGroupLink SetupGroupID="EventProcessors"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">PDXEncryptionAssetPublisher</Name>
+            <Configuration>H4sIAAAAAAAAAKVVXU/bMBR951dEUcXbmrJJG4wmFbQBKhXImsLYU+Umt6m1xM5sh5H9+l07TSFZM9D2Ftvn3nPuZ8acrWlSCKIoZ+5w9JSl1iMIqU/2UX9gW8AiHlOWuPbd4uLdsT3yDoZ5WiSUWTR2bf8RmAoEj0BKLs6JhPFLl7Z3YFlDSbM8BYOfg8w5k3SVwp0EYXtSQf7ZcQo8jBAQLvwg/BYOncqmbX5OVLQJ6S+wvaPBYNAFm5BSLvgcFKHMKJS21wkOBOWCqhJddkG+FFAgpX8fzG/HXaBr8nSbxttcgDQKu7BXvBA7hS2rj8ddVjPKQAYgzi+Dv8d/QWiKvkXpM4KZjm1PiQJeRaNryhH8YRB3YW9zRTMqFY1mPPre5FiTVHaS7DGs6bpMwmgDcZHCw/VsOfGDuT8+W/gT2ztM1WmjUw9/FFydYrtWH6PDRJ0eaBRWXlCQ5mxZ9U1pRSmRcmsW8ayPsla8Xyia9uWWNIY1ZVT3cL/WMdld9eqrG0ANlR9nx+q8pH0ObuhUc4NfMk+p8nwhuJhDzoUC8S/Dh4JIkarmDDa82s6OLTB24/8d+DPsUhUUq5TKDYgmdUXxcuYRpYzZNCOJXg1bLmlACDP18Fqvbuusk2qC0BltvS3KHNwO6A3JwA0mD43LgKjNmcICrQoF7nb9kPpC7yCiQ1zmiHvfsAwVF8i9AIyMoG2ou2YZlugjk8uTT07PWE4nvWUv4kxhbDHNgGldOae4hfCp34MnVd31Gt7vqwDeIm0ba1Pd0KlyqZPvPGd/XzFuuKJrGpkeMBU0+03qZmlNYBUxFviRxnpbty5qjZeYjp+knGLMSdVaPotNyFo0VsBnkShz/XD5taV6/+z7OkkxxDOeYEslryyXbT9OGbYkVRCPq+zb3qTOf2Dy32yE/UauYXqTyCvCYr0WUlBQ/2aai/aPmf8NkyEU83EHAAA=</Configuration>
+            <EventQueue QueueStatus="Read" DaysRetained="0"><!-- Definition:
+AssetTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Assets DontFollowClassificationToAssetReference="true" ExportSize="Minimum">
+    <Asset/>
+  </Assets>
+</STEP-ProductInformation>
+AttributeLinksTriggering=
+AttributeTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <AttributeList/>
+</STEP-ProductInformation>
+ClassificationTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Classifications ExportSize="Minimum">
+    <Classification IncludeParent="true"/>
+  </Classifications>
+</STEP-ProductInformation>
+ConsumerSuspended=
+IndexWordHierarchyTriggering=
+NameTriggering=
+ObjectTypeGroupings=
+<ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="AssetPublisherObj"/>
+  </ObjectTypeRules>
+  <ObjectTypeRules>
+    <ObjectType ObjectTypeID="PNG Image"/>
+  </ObjectTypeRules>
+</ObjectTypeRules>
+ParentTriggering=
+ProductTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <Products DontFollowClassificationToProductReference="true" ExportSize="Minimum">
+    <Product IncludeParent="true">
+      <AssetCrossReference/>
+      <AttributeLink/>
+      <ClassificationReference/>
+      <DataContainers/>
+      <Name/>
+      <OverrideSubProduct/>
+      <OverrideSubProduct/>
+      <ProductCrossReference/>
+      <Values/>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
+TriggeringWorkspace=Approved
+UnitTemplate=
+<STEP-ProductInformation ExportDerivedAttrs="false" FollowOverrideSubProducts="false" ResolveInlineRefs="false">
+  <UnitList/>
+</STEP-ProductInformation>
+Version=3
+attribute=4888
+objecttype=AssetPublisherObj;PNG Image -->
+                <Configuration>H4sIAAAAAAAAANVUTVPbMBC98ys8vlPTgUMOVpgMAeqZFjyJoWfF3hgVWfJopTT011e2pZjEZkhneoCbtF/at3pvZ4igM6hqTjWQ+HJb8WADCpkUJPz65SwMQOSyYKIk4UN2czoJL6cn8TK7Tk9TJQuT60SspaqothnBAlDyDSSCMwELWCMJ15QjhMGN5Fz+vrelFStgaVYuu4+43tZS6TkotoFiprXauaYnQRDPmkbRRS3ZHyDhDyZYZaowmEuhuweuOEVka5a3/WSyzbKNgLIwbIpWpqvnK0Zt8airbpFFb0CbxlhzpqdNY2xlNHxn4hkzxcrSdizKQ/enGGmPBZtBvAv+YLqfAOJ+x+P0cXTYDw0SkXNTQEotc7QjjiPLQdFjBmfDTAVqabAGUUDh7Ik9b39KVXxjoKjKn14GjLqjFQyM96tfkOvspYZbJU1tHUji3rgwHLDtdcS2Zw36YzInYSuD1Kw4wydQ1uch/4fa6d1tkFS0hDdrDk0ObvcJgym4eX94HsY++l+3l8sb21++5ihP3Vc01In8snu9t6JRyu+e8e4hXu9x1yslEQdpLYnGXY+UG0B/m1NNrTI0teNW+N6rceSuHXv8TI9QX08cK7VnrKmd5KyuldzshPgg2MfnkYXd9Hnstn50AM7dnXoKkIvJZOKMslWctoojA/EPQs7ITsTO9xfVW198PwgAAA==</Configuration>
+            </EventQueue>
+        </EventProcessor>
+    </EventProcessors>
+</STEP-ProductInformation>

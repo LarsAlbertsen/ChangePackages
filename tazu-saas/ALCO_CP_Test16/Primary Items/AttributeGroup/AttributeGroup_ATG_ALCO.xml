@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <AttributeGroupList>
+        <AttributeGroup ID="ATG_ALCO" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
+            <Name QualifierID="Qualifier root">ATG_ALCO</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

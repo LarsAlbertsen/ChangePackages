@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <InBoundIntegrationEndpoint ID="ALCO_CP_BackIn" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="ImportChangePackagePreProcessor" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="hotfolder" MessagesPerBackgroundProcess="1"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries>
+
+PreProcessorPluginConfiguration:
+<Parameters>
+  <Parameter ID="ImportContext" Type="com.stibo.configurationmanagement.importer.transfer.importcontext.ImportContextTO"/>
+  <Parameter ID="SetupGroup" Type="com.stibo.core.domain.setupgroup.SetupGroup">step://SetupGroup?id=ALCO_ChangePackages</Parameter>
+  <Parameter ID="ValidateStepXML" Type="java.lang.Boolean">true</Parameter>
+</Parameters>
+
+PostProcessorPluginConfiguration:
+<Parameters/>
+
+ReceiverPluginConfiguration:
+<Parameters>
+  <Parameter ID="FileSystemHotFolder" Type="java.lang.String">CP_Back</Parameter>
+  <Parameter ID="IgnoreSubFolders" Type="java.lang.Boolean">false</Parameter>
+  <Parameter ID="InFolder" Type="java.lang.String">In</Parameter>
+  <Parameter ID="KeepProcessedFiles" Type="java.lang.Boolean">true</Parameter>
+  <Parameter ID="NumberOfFilesToKeep" Type="java.lang.Integer">1000</Parameter>
+  <Parameter ID="NumberOfFilesToKeepInFailed" Type="java.lang.Integer">1000</Parameter>
+  <Parameter ID="TimeToKeep" Type="java.lang.Integer">365</Parameter>
+</Parameters>
+
+ProcessPluginConfiguration:
+<ImportManagerConfig Approver="alco" BatchDirectoryID="" ContextID="GL" CountUnmapped="no" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" MatchUnitsByID="no" Name="" ProcessTemplate="Importer" RejectNewProducts="no" RejectProductUpdates="no" ReplaceTerms="CLEAR_ONLY_FOR_IMPORTED_PRODUCTS" SelectedURLType="product" TestImport="no" Version="2" WorkspaceID="Main">
+  <Format Name="STEPXML">
+    <Parameter Name="Validate">No</Parameter>
+  </Format>
+  <ProductMapping/>
+  <ReplacementRules/>
+  <Source Name="File">
+    <Parameter Name="Filename">C:\Users\alco\AppData\Local\Temp\Sample stepxml for IIEP.xml</Parameter>
+  </Source>
+</ImportManagerConfig>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Inbound Integration Endpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ALCO_CP_BackIn</Name>
+            <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>
+            <PreProcessorPluginConfiguration>H4sIAAAAAAAAAH2Q3UoDQQyFX2WYe7N6J7I/aEUpVFroKt5J3E3X0Z1kmcmW+vZOLeoWinc54eTkS/Jq53uzpRCdcGEv4Nwa4kZax11hH+u7s0tblSZfYUBPmnylMRNp5reFnftBgs6ElXZqTf05UGEb8RDVvQo0whvXjQE17fDI2JEnVnDfYxRAA3LcpOLQaQ5BcBRbL22ZZ797T1A8Ye9aVForDc8Pix+Od9wi9Mgd3Ij0hGxLDSP9n7UmHYf7IONw6pxA0IpHxxD3vm7vg8lIGRPCVZb9tSrXFteL2fJl9pZIaIXNR/pCPIKYiPTkL1WDJ3OZAQAA</PreProcessorPluginConfiguration>
+            <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>
+            <ReceiverPluginConfiguration>H4sIAAAAAAAAAKXSTUvDQBAG4Ht/xTJ3Y4ooHpIt1BJcBA0knmWaTEPq7mzZ3RT7790q+EEloXh8YXh4mZls8Wa02JPzveUc5kkKgrixbc9dDs91cXELCznLSnRoKMQ5ORPiOwq1yqHoNVUHH8jc21BY3ZIDUR92lMMW95ho5C6pgosmyLvyZYnNa3b5ZfwhPhDtSmcb8p7aI+9PwaW1mpBBBjfQOPc4mDW5p82HVNujfuopDtTF5nKepum4V/eGJpmrm+uzWykuMKb2X+1Ux9ZRNaw/TzG2ug1qP7G7WGnioop/CT9CfJZ3mpZRo2ECAAA=</ReceiverPluginConfiguration>
+            <ProcessPluginConfiguration>H4sIAAAAAAAAAHVSy27bMBC8+yuIvTdueywkBYlkFwIkW9AjbQEBBkGvbbUSSZBUG/99l5IcBE16484+ZmeHwf3z0LPfaGynZAif7j7CfbQK0kEr43Iu+RlNrOSpO7OnW9FnYDs+YAjAKOXw2aVJCF8zYN+U+WU1F+iBnHcS2IPWRtH8EHgvFLASf6JwO/xTGHUchbMhyBd4wRp95A6XTM6duDSyc/bx6sd6LFajdI0cuNZ4nCFqFWhtjYPuqTmEWQIaYDVaN0c3LioRWKMZiCPONg/lYb/Lfhy2+/KQ5sW+rDfJoSj3SRPXFbAET3zsb8sV3KCcFC8Au3RouBGXKzNKuX/r66vG19WjRfPBEbhUP3p9SWdIvjKTQmAV9hTisSkz3x6CnpshWjEWVGo0AhcPtl2PE0wJWo0w0vwqJ+kFUfylbYjXtt6EljxJuONtpgTvW3+ytuJ0N2TWofYf4qQMS9NNcUdBsH6ZO9GvZ/7pvVVm4G6hq+pN8T3P/rfNE+877ytEO/Vm5jxoei+HysncTp7n9DvY4uJAZpRjj3YufIsG63c+c7T6C6qocwn5AgAA</ProcessPluginConfiguration>
+            <SampleFileConfiguration SampleFileName="C:\Users\alco\OneDrive - Stibo\Desktop\Sample stepxml for IIEP.xml">
+                <SampleFileContents>H4sIAAAAAAAAAJVU0W6CMBR9dsn+oem7Y3vbQ9EY9YFkLkTNstcOLluz0pr21rh9/QqCAiJxPNHbc8+5nHsCmx5ySfZgrNAqpE8Pj5SASnQq1GdIHWbjZzqd3N+xzXYZj2OjU5dgpDJtco6+hazBarmHSEmhYA2ZDWnGpQVK3rgUaQkK6ftmQcnysNMGFyABIV1w5CFF44B6ei8wl9xakYmkbLEVeiN+IaSeF4wfC9ICPOpgSaQS6VKIucdgRRoUQwcd0qJ21B9SWwklcpcfpfrgA4K97MXNzFrAqzqEkCOiTd3hOftFioe98hyC06kNPll2C2NNwoJyiPJUvTc8q7Zva3Cr2utJjawHHdUGVU0Ny5rkrKXEhhTqYqS+wAifq6Zy0yDm4+jAXsOX25shGvHhEF6E+h5EFumda4Xch97UhpSfunISReuabH92ftux5ApbFw3b+/i6Mb/YaN9k5JSkudHW3t5TmfyfLhac13g+lIEJrvwuJn+kOIc+cAQAAA==</SampleFileContents>
+            </SampleFileConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="EN All USA"></ContextLink>
+            <WorkspaceID>Main</WorkspaceID>
+        </InBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>
