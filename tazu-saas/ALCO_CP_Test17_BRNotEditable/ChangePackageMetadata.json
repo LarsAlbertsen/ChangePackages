@@ -1,0 +1,57 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CP_Test17_BRNotEditable",
+  "name" : "ALCO_CP_Test17_BRNotEditable",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "DEV",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-6322cddf-be64-4b1e-be0a-13544283a369",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=Global+Business+Rules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "getActivityLogSourceFile",
+    "itemURL" : "step://businessrule?id=getActivityLogSourceFile",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-04-29 17:18:48\"    UseContextLocale=\"false\">\n\n  <BusinessRules>\n    <BusinessRule ID=\"getActivityLogSourceFile\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings/>\n  <messages/>\n  <javaScript>\nvar file = new java.io.File(\"diag/activity/2024-02/2024-02-12.log\");\n\nlogger.info(\"Exists \" + file.exists() + \" size \" + file.length());\nif (file.exists()) {\nvar inputStream = new java.io.FileInputStream(file);\nlogger.info(new java.lang.String(inputStream.readAllBytes()));\ninputStream.close();\n}\n/*\nvar path = java.nio.file.Paths.get(\"diag/metrics/2024-02/\");\nvar stream = java.nio.file.Files.newDirectoryStream(path);\nvar streamIterator = stream.iterator();\nwhile (streamIterator.hasNext()) {\n        logger.info(\"File \" + streamIterator.next().getFileName());\n}*/\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">getActivityLogSourceFile</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAAALVUUW/aMBB+z6+w8oBCJxyK9jAJAipqKzGtFVqZ9oi8cISbjJPZhpZO/e872wGSdpX2sjwk8Xfn777vznIldwWqpagqiWCWuF7mpVpjMTIE2HEVwgHLRpOnrWR70AZLlcWXvB8zUHm5QlVk8bfFbe9TPBlHo+nOoAJjvu4kjCPGTsDc07FmPECz6yz+LPbiIddY2WP8KrdU6DvazRTVysSOi9jmQostWJIRgCbEHFPIZotDBVn8k2i5FKrgD1aT0HjckXbYctL5tSvtkOyEn7OnsPbGwu+kU9hh5AhcjTtRpR4YpScB70i60brUd+RJFPC/pX0pcyHxWfyQUFdcwLaSwsJ0p1YS/lXzeSDvC94LzdYogWVMwSPzCVjyW4KSoGuFokgFTXKP9pAO+oOPvf7g+O1dDrgsi5DZHUYRLQrQHNW6rPffPKGxhtX+P/hqHDyYdGldBww+w6skCaqwm6RLvLhmSWtjl/2OnHZU1c6SGRDbv1iYnaN+OzE1BZ7SGy1JGoycXqsrKacHC66mE9KI5rI0kBD4EqUXXk0l7IZkeE5FGrzkOYGGF2CbDaUpaczNqZ+nDjoac/TTJnKODCfR16ght6U+1NZc2dbWGR0BQQlEEQCONeLkPm7cwJN2Kt8Icw9PNrSW1c/bcToR5zm94lCewHl1afd0Fv30Xi7S6O15bQD+Ihil7WuGLqK0fRPVl9ofpDGrs/QEAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
