@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="ALCO_PF" UserTypeID="Product Folder" ParentID="Product hierarchy root">
+            <Name>ALCO Products</Name>
+            <AttributeLink AttributeID="ALCO_RD-23725LOVwIDs"></AttributeLink>
+            <AttributeLink AttributeID="ALCO_Rd-23725wOIDs"></AttributeLink>
+            <AttributeLink AttributeID="ALCO_Text_mv"></AttributeLink>
+            <AttributeLink AttributeID="ATD_ALCO_LOV_Country"></AttributeLink>
+            <AttributeLink AttributeID="ATD_ALCO_LOV_MV"></AttributeLink>
+            <AttributeLink AttributeID="ATS_ALCO_CalcSpec"></AttributeLink>
+            <AttributeLink AttributeID="ATS_ALCO_SpecText"></AttributeLink>
+            <AttributeLink AttributeID="depth"></AttributeLink>
+            <AttributeLink AttributeID="dimensions"></AttributeLink>
+            <AttributeLink AttributeID="height"></AttributeLink>
+            <AttributeLink AttributeID="width"></AttributeLink>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
