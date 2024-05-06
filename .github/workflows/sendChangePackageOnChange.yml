@@ -34,12 +34,12 @@ jobs:
         echo ${{ steps.dir-name.outputs.dir }}
         echo "Lars Lars"
         ls
-        cd ${{ vars.REPO_PATH }}
+        cd ${{ vars.REPO_PATH_LAALSAAS }}
         ls
         zip -r ${{ steps.dir-name.outputs.dir }}.zip ${{ steps.dir-name.outputs.dir }}
     - uses: actions/upload-artifact@v3
       with:
-        path: ${{ vars.REPO_PATH }}${{ steps.dir-name.outputs.dir }}.zip
+        path: ${{ vars.REPO_PATH_LAALSAAS }}${{ steps.dir-name.outputs.dir }}.zip
         name: ${{ steps.dir-name.outputs.dir }}
   send-file-via-sftp:
     needs: [detect-directory-changes, create-change-package]
@@ -59,9 +59,9 @@ jobs:
     - name: SFTP uploader
       uses: wangyucode/sftp-upload-action@v2.0.2
       with:
-        host: ${{ secrets.REMOTE_HOST }}
-        privateKey: ${{ secrets.KEY }} 
+        host: ${{ secrets.REMOTE_HOST_TAZU }}
+        privateKey: ${{ secrets.KEY_TAZU }} 
         localDir: ${{ steps.download.outputs.download-path }}
-        remoteDir: ${{ vars.SFTP_PATH }}
+        remoteDir: ${{ vars.SFTP_PATH_TAZU }}
         dryRun: false
-        username: ${{ secrets.USERNAME }} 
+        username: ${{ secrets.USERNAME_TAZU }} 
