@@ -12,6 +12,8 @@
                     <Value>PerspectiveTableConfiguration#Instrument#Default System For Value Holder#24050009</Value>
                     <Value>BrowsePerspectiveView#Instrument#Default System For Value Holder#24050009</Value>
                     <Value>PerspectiveFilterItem#Instrument#Default System For Value Holder#24050009</Value>
+                    <Value>PerspectiveSortingItem#Instrument#Default System For Value Holder#24050009</Value>
+                    <Value>TableConfigurationView#Instrument#Default System For Value Holder#24050009</Value>
                 </MultiValue>
             </MetaData>
             <UserGroupLink UserGroupID="NewUserGroup"></UserGroupLink>
