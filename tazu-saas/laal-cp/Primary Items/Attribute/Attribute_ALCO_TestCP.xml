@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="Turkish">
+            <DimensionPointLink DimensionPointID="Turkish"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ALCO_TestCP" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="std.lang.all">ALCO_TestCP</Name>
+            <ListOfValueLink ListOfValueID="ALCO_LOV_TestCP"></ListOfValueLink>
+            <MetaData>
+                <Value QualifierID="Turkish" AttributeID="4875">My attribute Description Metadata</Value>
+                <Value AttributeID="ATDisplayAttribute">4</Value>
+                <Value QualifierID="Turkish" AttributeID="ValidationErrorMessage">My Validation Error Message Metadata</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ATG_ALCO"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AutoAppWithBR"></UserTypeLink>
+            <UserTypeLink UserTypeID="BRTestProdA"></UserTypeLink>
+            <UserTypeLink UserTypeID="Cage"></UserTypeLink>
+            <UserTypeLink UserTypeID="CarBuyCar"></UserTypeLink>
+            <UserTypeLink UserTypeID="article"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
