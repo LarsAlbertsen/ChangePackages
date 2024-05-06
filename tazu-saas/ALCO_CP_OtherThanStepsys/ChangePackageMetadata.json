@@ -1,0 +1,141 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CP_OtherThanStepsys",
+  "name" : "USer Other Than Stepsys",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "DEV",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-4821aa94-d80d-4e4e-b046-1ba5b671d899",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Product Platform Team2",
+    "itemURL" : "step://group?id=ProductPlatformTeam2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions ColSet",
+    "itemURL" : "step://ActionSet?id=All+user+actions+ColSet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Entity References",
+    "itemURL" : "step://attribute?id=ConfigurationEntityReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All setup actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Date Attribute",
+    "itemURL" : "step://attribute?id=DateAttributeExample",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User Information",
+    "itemURL" : "step://attribute?id=4876",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Group Information",
+    "itemURL" : "step://attribute?id=4878",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Super User",
+    "itemURL" : "step://group?id=Super+user",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "User",
+    "itemURL" : "step://objecttype?id=Operator+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mads Nørgaard",
+    "itemURL" : "step://user?id=MNOR",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "All user actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UserJ",
+    "itemURL" : "step://user?id=USERJ",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-06 09:16:21\"    UseContextLocale=\"false\">\n\n  <UserList>\n    <User ID=\"USERJ\" ForceAuthentication=\"false\" EMail=\"jobu@stibosystems.com\">\n      <Name QualifierID=\"Qualifier root\">UserJ</Name>\n      <MetaData>\n        <Value AttributeID=\"4876\">JOBU</Value>\n      </MetaData>\n      <UserGroupLink UserGroupID=\"ProductPlatformTeam2\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">AutoTest_Export_Context1</SystemSetupValue>\n      </SystemSetup>\n    </User>\n    <User ID=\"MNOR\" ForceAuthentication=\"false\" EMail=\"mnor@stibosystems.com\">\n      <Name QualifierID=\"Qualifier root\">Mads Nørgaard</Name>\n      <UserGroupLink UserGroupID=\"ProductPlatformTeam2\"/>\n      <SystemSetup>\n        <SystemSetupValue Type=\"WB_USERSET\" Name=\"CurrentContext\">EN All USA</SystemSetupValue>\n      </SystemSetup>\n    </User>\n  </UserList>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}

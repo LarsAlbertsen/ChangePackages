@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <UserList>
+        <User ID="USERJ" ForceAuthentication="false" EMail="jobu@stibosystems.com">
+            <Name QualifierID="Qualifier root">UserJ</Name>
+            <MetaData>
+                <Value AttributeID="4876">JOBU</Value>
+            </MetaData>
+            <UserGroupLink UserGroupID="ProductPlatformTeam2"></UserGroupLink>
+            <SystemSetup>
+                <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">AutoTest_Export_Context1</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>

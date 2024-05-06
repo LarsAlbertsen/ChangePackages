@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <UserList>
+        <User ID="MNOR" ForceAuthentication="false" EMail="mnor@stibosystems.com">
+            <Name QualifierID="Qualifier root">Mads Nørgaard</Name>
+            <UserGroupLink UserGroupID="ProductPlatformTeam2"></UserGroupLink>
+            <SystemSetup>
+                <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">EN All USA</SystemSetupValue>
+            </SystemSetup>
+        </User>
+    </UserList>
+</STEP-ProductInformation>
