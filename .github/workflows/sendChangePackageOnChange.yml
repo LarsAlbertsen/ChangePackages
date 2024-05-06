@@ -26,14 +26,12 @@ jobs:
     steps:
     - name: Dir name
       id: dir-name
-      run: echo "Lars"; echo "dir=$(echo ${{ matrix.dir }} | cut --complement -f1 -d\/)" >> "$GITHUB_OUTPUT"
+      run: echo "dir=$(echo ${{ matrix.dir }} | cut --complement -f1 -d\/)" >> "$GITHUB_OUTPUT"
     - name: Checkout
       uses: actions/checkout@v3
     - name: Zip file
       run: | 
         echo ${{ steps.dir-name.outputs.dir }}
-        echo "Lars Lars"
-        ls
         cd ${{ vars.REPO_PATH_LAALSAAS }}
         ls
         zip -r ${{ steps.dir-name.outputs.dir }}.zip ${{ steps.dir-name.outputs.dir }}
