@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <SetupGroups>
+        <SetupGroup ID="SystemDemoChangePackages" UserTypeID="ChangePackages" ParentID="ChangePackagesRoot">
+            <Name QualifierID="Qualifier root">System Demo Change Packages</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <Keys>
+        <Key ID="AssetDownload.AssetURLKey" State="Active">
+            <Name QualifierID="Qualifier root">Asset URL Key</Name>
+            <KeyFormula>prodval('AssetDownload.AssetURLAttribute')</KeyFormula>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="BMP Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="DEFAULT"></UserTypeLink>
+            <UserTypeLink UserTypeID="EPSImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="GIF Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="HTML"></UserTypeLink>
+            <UserTypeLink UserTypeID="Illustrator File"></UserTypeLink>
+            <UserTypeLink UserTypeID="InDesign File"></UserTypeLink>
+            <UserTypeLink UserTypeID="JPG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PDF"></UserTypeLink>
+            <UserTypeLink UserTypeID="PNG Image"></UserTypeLink>
+            <UserTypeLink UserTypeID="PPT"></UserTypeLink>
+            <UserTypeLink UserTypeID="QXD"></UserTypeLink>
+            <UserTypeLink UserTypeID="RTF"></UserTypeLink>
+            <UserTypeLink UserTypeID="STEPdirector"></UserTypeLink>
+            <UserTypeLink UserTypeID="TIFFImage"></UserTypeLink>
+            <UserTypeLink UserTypeID="UTF8"></UserTypeLink>
+            <UserTypeLink UserTypeID="WORD"></UserTypeLink>
+            <UserTypeLink UserTypeID="XLS"></UserTypeLink>
+            <UserTypeLink UserTypeID="XML"></UserTypeLink>
+            <UserTypeLink UserTypeID="ZIP"></UserTypeLink>
+            <AttributeLink AttributeID="AssetDownload.AssetURLAttribute"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

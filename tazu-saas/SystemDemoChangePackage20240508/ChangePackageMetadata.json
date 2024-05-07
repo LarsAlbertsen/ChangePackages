@@ -1,0 +1,710 @@
+{
+  "version" : "2.1",
+  "id" : "SystemDemoChangePackage20240508",
+  "name" : "SystemDemoChangePackage20240508-1",
+  "metadata" : { },
+  "setupGroupId" : "SystemDemoChangePackages",
+  "uniqueId" : "f4c773ad-7e90-45af-91a9-78efd4c287fa",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "ALCO_RD-23725LOVwIDs",
+    "itemURL" : "step://attribute?id=ALCO_RD-23725LOVwIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Download Attributes",
+    "itemURL" : "step://attributegroup?id=AssetDownload.Attributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MS Word Doc",
+    "itemURL" : "step://objecttype?id=WORD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "QA",
+    "itemURL" : "step://group?id=QA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EN All USA",
+    "itemURL" : "step://context?id=EN+All+USA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDS Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Inbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ChangePackages",
+    "itemURL" : "step://objecttype?id=ChangePackages",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_Rd-23725wOIDs",
+    "itemURL" : "step://attribute?id=ALCO_Rd-23725wOIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Assets",
+    "itemURL" : "step://objecttype?id=Asset+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merchandisers",
+    "itemURL" : "step://group?id=Merchandisers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Last Updated",
+    "itemURL" : "step://attribute?id=PDS+Last+Updated",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_SystemDemoRoot",
+    "itemURL" : "step://attributegroup?id=ATG_SystemDemo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Illustrator File",
+    "itemURL" : "step://objecttype?id=Illustrator+File",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDF Document",
+    "itemURL" : "step://objecttype?id=PDF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Collection Grp",
+    "itemURL" : "step://collectiongroup?id=32157426",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value updated",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New Attr",
+    "itemURL" : "step://attribute?id=New+Attr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://SetupGroup?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XLS File",
+    "itemURL" : "step://objecttype?id=XLS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "stepsys",
+    "itemURL" : "step://user?id=STEPSYS",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "Product Managers",
+    "itemURL" : "step://group?id=Product+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=GatewayEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset URL Key",
+    "itemURL" : "step://uniquekey?id=AssetDownload.AssetURLKey",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Deactivate before installation and activate after installation.",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Key",
+    "itemURL" : "step://objecttype?id=Unique+Key",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_NoParent",
+    "itemURL" : "step://attribute?id=ATD_ALCO_NoParent",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text, Plain, UTF-8",
+    "itemURL" : "step://objecttype?id=UTF8",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PNG Image",
+    "itemURL" : "step://objecttype?id=PNG+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Example",
+    "itemURL" : "step://collection?id=32157427",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "CSVs for collections created from file are not included in change packages. Recreate manually or use search-based collections.",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer Gateway Endpoint",
+    "itemURL" : "step://GatewayIntegrationEndpoint?id=AssetAnalyzer.GatewayEndpoint",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable and test connectivity. Configuration properties changes may be required.",
+    "recursive" : false
+  }, {
+    "name" : "ATD ALCO Text Multivalue (GL)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Text_MultiValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMP Image",
+    "itemURL" : "step://objecttype?id=BMP+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=InboundEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Photographers",
+    "itemURL" : "step://group?id=Photographers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XML File",
+    "itemURL" : "step://objecttype?id=XML",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_TestCP",
+    "itemURL" : "step://attribute?id=ALCO_TestCP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unknown / Undefined",
+    "itemURL" : "step://objecttype?id=DEFAULT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "QuarkXPress File",
+    "itemURL" : "step://objecttype?id=QXD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GIF Image",
+    "itemURL" : "step://objecttype?id=GIF+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New name for ATS_ALCO1",
+    "itemURL" : "step://attribute?id=ATS_ALCO1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ZIP File",
+    "itemURL" : "step://objecttype?id=ZIP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Powerpoint File",
+    "itemURL" : "step://objecttype?id=PPT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTPGroup",
+    "itemURL" : "step://group?id=DTPGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All setup actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BusinessActionInbound",
+    "itemURL" : "step://InboundIntegrationEndpoint?id=BusinessActionInbound",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : " Enable and verify linked business rules are included.",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Super User",
+    "itemURL" : "step://group?id=Super+user",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc new name",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Technical Writers",
+    "itemURL" : "step://group?id=Technical+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DTP Managers",
+    "itemURL" : "step://group?id=DTP+Managers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset URL Attribute Updated",
+    "itemURL" : "step://attribute?id=AssetDownload.AssetURLAttribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MerchandiserManagers",
+    "itemURL" : "step://group?id=MerchandiserManagers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Change Packages",
+    "itemURL" : "step://SetupGroup?id=ChangePackagesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team 2 attributes",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TIFF Image",
+    "itemURL" : "step://objecttype?id=TIFFImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "All user actions ColSet",
+    "itemURL" : "step://ActionSet?id=All+user+actions+ColSet",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text / HTML",
+    "itemURL" : "step://objecttype?id=HTML",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "InDesign File",
+    "itemURL" : "step://objecttype?id=InDesign+File",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team C",
+    "itemURL" : "step://group?id=Team+C",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Change Package Validity",
+    "itemURL" : "step://objecttype?id=stibo.chgpck.groupvalidity",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team B",
+    "itemURL" : "step://group?id=Team+B",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team A",
+    "itemURL" : "step://group?id=Team+A",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Copy Writers",
+    "itemURL" : "step://group?id=Copy+Writers",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEPdirector",
+    "itemURL" : "step://objecttype?id=STEPdirector",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "JPG Image",
+    "itemURL" : "step://objecttype?id=JPG+Image",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EPS Image",
+    "itemURL" : "step://objecttype?id=EPSImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UserLastActivityDate",
+    "itemURL" : "step://attribute?id=UserLastActivityDate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Text / RTF",
+    "itemURL" : "step://objecttype?id=RTF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "System Demo Change Packages",
+    "itemURL" : "step://SetupGroup?id=SystemDemoChangePackages",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound",
+    "itemURL" : "step://objecttype?id=Inbound",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-07 23:38:52\"    UseContextLocale=\"false\">\n\n  <Keys>\n    <Key ID=\"AssetDownload.AssetURLKey\" State=\"Active\">\n      <Name QualifierID=\"Qualifier root\">Asset URL Key</Name>\n      <KeyFormula>prodval('AssetDownload.AssetURLAttribute')</KeyFormula>\n      <UserTypeLink UserTypeID=\"PNG Image\"/>\n      <UserTypeLink UserTypeID=\"STEPdirector\"/>\n      <UserTypeLink UserTypeID=\"WORD\"/>\n      <UserTypeLink UserTypeID=\"RTF\"/>\n      <UserTypeLink UserTypeID=\"JPG Image\"/>\n      <UserTypeLink UserTypeID=\"HTML\"/>\n      <UserTypeLink UserTypeID=\"QXD\"/>\n      <UserTypeLink UserTypeID=\"EPSImage\"/>\n      <UserTypeLink UserTypeID=\"UTF8\"/>\n      <UserTypeLink UserTypeID=\"TIFFImage\"/>\n      <UserTypeLink UserTypeID=\"Asset user-type root\"/>\n      <UserTypeLink UserTypeID=\"Illustrator File\"/>\n      <UserTypeLink UserTypeID=\"DEFAULT\"/>\n      <UserTypeLink UserTypeID=\"XLS\"/>\n      <UserTypeLink UserTypeID=\"InDesign File\"/>\n      <UserTypeLink UserTypeID=\"PDF\"/>\n      <UserTypeLink UserTypeID=\"XML\"/>\n      <UserTypeLink UserTypeID=\"GIF Image\"/>\n      <UserTypeLink UserTypeID=\"PPT\"/>\n      <UserTypeLink UserTypeID=\"BMP Image\"/>\n      <UserTypeLink UserTypeID=\"ZIP\"/>\n      <AttributeLink AttributeID=\"AssetDownload.AssetURLAttribute\"/>\n    </Key>\n  </Keys>\n\n  <CollectionList>\n    <Collection ID=\"32157427\" ParentID=\"32157426\" QueryURL=\"step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3d32157010&amp;search0.0=BelowCriteria\">\n      <Name>Collection Example</Name>\n    </Collection>\n  </CollectionList>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">Team 2 attributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"SystemDemoChangePackages\" UserTypeID=\"ChangePackages\" ParentID=\"ChangePackagesRoot\">\n      <Name QualifierID=\"Qualifier root\">System Demo Change Packages</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <IntegrationEndpoints>\n    <InBoundIntegrationEndpoint ID=\"BusinessActionInbound\" UserTypeID=\"InboundEndpoint user-type root\" PreProcessorPluginID=\"Default\" ProcessPluginID=\"InboundBusinessActionMessageProcessor\" PostProcessorPluginID=\"Default\" ErrorReporterPluginID=\"DefaultInboundErrorReporter\" QueueForEndpoint=\"InboundQueue\" QueueForProcssing=\"In\" MaxNumberOfActiveBackgroundProcesses=\"1000\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"100\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"100\" TransactionType=\"NONE\" ResponsibleUserID=\"STEPSYS\" EnableRetry=\"false\" ReceiverPluginID=\"WebUIFileLoadingReceiver\" MessagesPerBackgroundProcess=\"1\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever\"/>\n</entries>\n\nPreProcessorPluginConfiguration:\n<Parameters/>\n\nPostProcessorPluginConfiguration:\n<Parameters/>\n\nReceiverPluginConfiguration:\n<Parameters/>\n\nProcessPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"ContinueOnError\" Type=\"java.lang.Boolean\">false</Parameter>\n  <Parameter ID=\"ImportBusinessAction\" Type=\"com.stibo.core.domain.businessrule.BusinessAction\">step://businessrule?id=ImporterAction</Parameter>\n  <Parameter ID=\"SplitterBusinessAction\" Type=\"com.stibo.core.domain.businessrule.BusinessAction\">step://businessrule?id=InboundSplitter</Parameter>\n</Parameters>\n\nErrorReporterPluginConfiguration:\n<Parameters/> -->\n      <SetupGroupLink SetupGroupID=\"Inbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">BusinessActionInbound</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAAD2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>\n      <PreProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PreProcessorPluginConfiguration>\n      <PostProcessorPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</PostProcessorPluginConfiguration>\n      <ReceiverPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347IJSCxKzE0tAarTt+MCABs9DU01AAAA</ReceiverPluginConfiguration>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAALWR3YrCMBCF732KkHvT3btFmpbVXaFXCqsPkLajRJKZMklF396w/ot45+WBb875YPJy553YAgdLqOWn+pACsKHW4lrL5WI6/JJlMcjnho2HmLhiIMQ1iupHy7/O2ZjCuA8WIYTvJqY2KRb7DrRsyKsQbU2qIQbVkjcWVX1iuXegHg6LEKEbZdktU9pWV1hTj+15Ls8uGk+kKt8Rx7cr/a8AH7HXRhPCaLGHGf4yE59lNmZrlDO4VmMiByaNrYwLcFd2E9IHDjsmam22AQAA</ProcessPluginConfiguration>\n      <SampleFileConfiguration SampleFileName=\"\">\n        <SampleFileContents>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</SampleFileContents>\n      </SampleFileConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALOxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK3U7AJSCxKzE0tAarTt1MAAEW3fHk1AAAA</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"EN All USA\"/>\n      <WorkspaceID>Main</WorkspaceID>\n    </InBoundIntegrationEndpoint>\n    <GatewayIntegrationEndpoint ID=\"AssetAnalyzer.GatewayEndpoint\" Description=\"A gateway endpoint for asset keyword requests\" UserTypeID=\"GatewayEndpoint user-type root\" Enabled=\"false\">\n\n<!-- Definition:\nCheckConnectivityProgram=\nPluginConfiguration=\n<plugin id=\"RESTPlugin\">\n  <simple id=\"BusinessFunction\" null=\"true\"/>\n  <simple id=\"CertificateKeyStore\"/>\n  <simple id=\"DefaultContentType\"/>\n  <simple id=\"ProxyConfiguration\" null=\"true\"/>\n  <simple id=\"SSLTrustStoreLocation\" null=\"true\"/>\n  <simple id=\"ServerURL\" null=\"true\"/>\n  <simple id=\"StatisticsGroups\" null=\"true\"/>\n  <simple id=\"UsePreemptiveAuth\">false</simple>\n  <simple id=\"Username\" null=\"true\"/>\n</plugin> -->\n      <SetupGroupLink SetupGroupID=\"AssetAnalyzer.SetupGroup\"/>\n      <Name QualifierID=\"Qualifier root\">Asset Analyzer Gateway Endpoint</Name>\n      <Configuration>H4sIAAAAAAAAAJ1TPW+DMBDd+yuQh2xt2q1SCFFKSIYyoEDmynIOYtXY1D6n4d/XYCSaSk2iTNxx9969+3CsZMkrqylyJefh4lSL4AjadB55eXomAUim9lxWc7Ir1o+vZBE9hI2wFZcB38/JhiJ80zb+zUOihyAIDa8bAX1SfAD26VIkMORHjm1KDeaWMTCGBNIKMSeoLZDpVWSmVaVpTaJw6tP+IgZBWS/xY5Vk2yReFsmKRBOBs7MGJ19W4cx16Y2xVe/3/Q4hg1TuqVAShqBU/ruYVDjrmMeZ+MA2yQsvwvtdnpPapY5qfSgH7STttulQrB+It7upeGt6gWAFJbUC3ZwQJBZtcwMmR7crg5yZjVa2MffWzvO00NatE5WGVLH+Au4li0EjL7kjgXdoe8rrIHcSp/MDvLf8zoCWtIZb8P9TZBqgbty5wtLiYdx+SYWBDjNc7gUhb9Zw6R7H2kp2W0M9r7/Bzh9fRzj8dZZpBMfoB8BaPR/zAwAA</Configuration>\n    </GatewayIntegrationEndpoint>\n  </IntegrationEndpoints>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
