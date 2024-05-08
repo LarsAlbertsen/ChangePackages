@@ -1,0 +1,311 @@
+{
+  "version" : "2.1",
+  "id" : "SystemDemoCPGit",
+  "name" : "SystemDemoCPGit",
+  "metadata" : { },
+  "setupGroupId" : "SystemDemoChangePackages",
+  "uniqueId" : "cpk-5d554178-26f9-43d1-98b4-ddee66120d55",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "true",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "ALCO_RD-23725LOVwIDs",
+    "itemURL" : "step://attribute?id=ALCO_RD-23725LOVwIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Text",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GITBranch",
+    "itemURL" : "step://attribute?id=GITBranch",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Collection Grp",
+    "itemURL" : "step://collectiongroup?id=32157426",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoTestSetupGroup",
+    "itemURL" : "step://objecttype?id=AutoTestSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO country dependency",
+    "itemURL" : "step://attribute?id=ATD_ALCO_2DD",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Example",
+    "itemURL" : "step://collection?id=32157427",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "CSVs for collections created from file are not included in change packages. Recreate manually or use search-based collections.",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD ALCO Text Multivalue (GL)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Text_MultiValue",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer Gateway Endpoint",
+    "itemURL" : "step://GatewayIntegrationEndpoint?id=AssetAnalyzer.GatewayEndpoint",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable and test connectivity. Configuration properties changes may be required.",
+    "recursive" : false
+  }, {
+    "name" : "Numeric",
+    "itemURL" : "step://attribute?id=ATD_ALCO_Numeric",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New - OK after Impact Analysis (TBD1)",
+    "itemURL" : "step://attribute?id=ATD_SystemDemoAttTBD1",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Text",
+    "itemURL" : "step://attribute?id=ATS_ALCO_SpecText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Desc Calc 2",
+    "itemURL" : "step://attribute?id=ATD_ALCO_DescCalc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO Text multi value new name March 21st",
+    "itemURL" : "step://attribute?id=ALCO_Text_mv",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO LOV multi value new name",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_MV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Att. - Numeric with Unit",
+    "itemURL" : "step://attribute?id=ATS_ALCO_NumericWithUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Spec Calc",
+    "itemURL" : "step://attribute?id=ATS_ALCO_CalcSpec",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New Attr",
+    "itemURL" : "step://attribute?id=New+Attr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://SetupGroup?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Team 2 attributes",
+    "itemURL" : "step://attributegroup?id=ATG_ALCO",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_LOV Country dependent (LOV translated)",
+    "itemURL" : "step://attribute?id=ATD_ALCO_LOV_Country",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection Group",
+    "itemURL" : "step://objecttype?id=Collection+Group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_AssetPublisher",
+    "itemURL" : "step://attributegroup?id=ATG_AssetPublisher",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATDisplayAttribute",
+    "itemURL" : "step://attribute?id=ATDisplayAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=GatewayEndpoint+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_RD-23725LOV w/o IDs",
+    "itemURL" : "step://attribute?id=ALCO_Rd-23725wOIDs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UserLastActivityDate",
+    "itemURL" : "step://attribute?id=UserLastActivityDate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ALCO_TestCP",
+    "itemURL" : "step://attribute?id=ALCO_TestCP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATD_ALCO_NoParent",
+    "itemURL" : "step://attribute?id=ATD_ALCO_NoParent",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collection",
+    "itemURL" : "step://objecttype?id=Collection",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dimensions",
+    "itemURL" : "step://attribute?id=dimensions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Analyzer",
+    "itemURL" : "step://objecttype?id=AssetAnalyzer.SetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New name for ATS_ALCO1",
+    "itemURL" : "step://attribute?id=ATS_ALCO1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATG_SystemDemoRoot",
+    "itemURL" : "step://attributegroup?id=ATG_SystemDemo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-08 00:27:09\"    UseContextLocale=\"false\">\n\n  <CollectionList>\n    <Collection ID=\"32157427\" ParentID=\"32157426\" QueryURL=\"step://search?args0.0=topnodetype%3dproduct%2ctopnodeid%3d32157010&amp;search0.0=BelowCriteria\">\n      <Name>Collection Example</Name>\n    </Collection>\n  </CollectionList>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"ATG_ALCO\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"Qualifier root\">Team 2 attributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <IntegrationEndpoints>\n    <GatewayIntegrationEndpoint ID=\"AssetAnalyzer.GatewayEndpoint\" Description=\"A gateway endpoint for asset keyword requests\" UserTypeID=\"GatewayEndpoint user-type root\" Enabled=\"false\">\n\n<!-- Definition:\nCheckConnectivityProgram=\nPluginConfiguration=\n<plugin id=\"RESTPlugin\">\n  <simple id=\"BusinessFunction\" null=\"true\"/>\n  <simple id=\"CertificateKeyStore\"/>\n  <simple id=\"DefaultContentType\"/>\n  <simple id=\"ProxyConfiguration\" null=\"true\"/>\n  <simple id=\"SSLTrustStoreLocation\" null=\"true\"/>\n  <simple id=\"ServerURL\" null=\"true\"/>\n  <simple id=\"StatisticsGroups\" null=\"true\"/>\n  <simple id=\"UsePreemptiveAuth\">false</simple>\n  <simple id=\"Username\" null=\"true\"/>\n</plugin> -->\n      <SetupGroupLink SetupGroupID=\"AssetAnalyzer.SetupGroup\"/>\n      <Name QualifierID=\"Qualifier root\">Asset Analyzer Gateway Endpoint</Name>\n      <Configuration>H4sIAAAAAAAAAJ1TPW+DMBDd+yuQh2xt2q1SCFFKSIYyoEDmynIOYtXY1D6n4d/XYCSaSk2iTNxx9969+3CsZMkrqylyJefh4lSL4AjadB55eXomAUim9lxWc7Ir1o+vZBE9hI2wFZcB38/JhiJ80zb+zUOihyAIDa8bAX1SfAD26VIkMORHjm1KDeaWMTCGBNIKMSeoLZDpVWSmVaVpTaJw6tP+IgZBWS/xY5Vk2yReFsmKRBOBs7MGJ19W4cx16Y2xVe/3/Q4hg1TuqVAShqBU/ruYVDjrmMeZ+MA2yQsvwvtdnpPapY5qfSgH7STttulQrB+It7upeGt6gWAFJbUC3ZwQJBZtcwMmR7crg5yZjVa2MffWzvO00NatE5WGVLH+Au4li0EjL7kjgXdoe8rrIHcSp/MDvLf8zoCWtIZb8P9TZBqgbty5wtLiYdx+SYWBDjNc7gUhb9Zw6R7H2kp2W0M9r7/Bzh9fRzj8dZZpBMfoB8BaPR/zAwAA</Configuration>\n    </GatewayIntegrationEndpoint>\n  </IntegrationEndpoints>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
