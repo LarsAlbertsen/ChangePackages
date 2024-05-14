@@ -7,40 +7,26 @@
   "uniqueId" : "cpk-4afc530d-f2f7-42f6-b798-6a89d9f135ed",
   "origin" : "tazu-saas",
   "wasSigned" : "true",
-  "wasExported" : "false",
+  "wasExported" : "true",
   "installMode" : "false",
   "aspect" : "All",
   "items" : [ {
-    "name" : "TIFFImage",
-    "itemURL" : "step://objecttype?id=TIFFImage",
-    "inclusion" : "Impacted",
+    "name" : "Remove From Workflow",
+    "itemURL" : "step://businessrule?id=RemoveFromWorkflow",
+    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "PDF Document",
-    "itemURL" : "step://objecttype?id=PDF",
-    "inclusion" : "Impacted",
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Unknown / Undefined",
-    "itemURL" : "step://objecttype?id=DEFAULT",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "XML File",
-    "itemURL" : "step://objecttype?id=XML",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Image Deduplication",
-    "itemURL" : "step://stepworkflow?id=ImageDeduplication",
+    "name" : "Maintain Item",
+    "itemURL" : "step://stepworkflow?id=MaintainItem",
     "inclusion" : "Change",
     "importing" : "Force",
     "instruction" : "",
@@ -74,21 +60,21 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Assets",
-    "itemURL" : "step://objecttype?id=Asset+user-type+root",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Workflows",
     "itemURL" : "step://objecttype?id=Workflows",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
+  }, {
+    "name" : "LAAL BRGroup",
+    "itemURL" : "step://SetupGroup?id=LAALBRGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-14 11:01:10\"    UseContextLocale=\"false\">\n\n  <STEPWorkflows/>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-14 11:06:29\"    UseContextLocale=\"false\">\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"MaintainItem\">\n\n<!-- Definition:\n<scxml name=\"MaintainItem\" initial=\"Initial\" version=\"0.9\">\n  <assignee id=\"$current\" type=\"user\"/>\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=140.0 h=238.0  </editorLayout>\n  <final id=\"Final\" discontinued=\"false\">\n    <editorLayout>   node-size-and-position x=20.0 y=193.0 w=100.0 h=25.0  </editorLayout>\n    <onentry businessactionid=\"RemoveFromWorkflow\"/>\n  </final>\n  <state id=\"Initial\" discontinued=\"false\">\n    <transition target=\"Maintain\"/>\n    <editorLayout>   node-size-and-position x=20.0 y=43.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n  <state id=\"Maintain\" discontinued=\"false\">\n    <transition target=\"Final\"/>\n    <editorLayout>   node-size-and-position x=20.0 y=118.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n</scxml> -->\n      <BusinessRuleLink ID=\"RemoveFromWorkflow\"/>\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"Qualifier root\">Maintain Item</Name>\n      <Configuration>H4sIAAAAAAAAAJWST2/bMAzF7/kUmrCrY+dPsWSwfBkQIMCGFC2KnVWbSYjZlCHScbJPP1lJ1mFA2/Qg8+D3+H6kZDtxa0JBK7Chbx5CNVtbM+Tc1igFHKHsBB5Lj618xwYFqnuPB6xhB2zEd1dljSxAG1o3rfMC/qmt/m/G5bGpTR6LwhhbG33Or7Ui24DRPyyShLMWaLQ6gGd0ZHQ2XmoVfMRG70Xar2na9/24n42d36XTLLtLsy9pbK2L/FOSKKXIVZAw/obEUpW0jkOQI3U02ThTp/jtzWQ+1L2ZzhahqiQpRiq3zLgjAIWV0Z/Lznsg0UpObSDsGHzISK+iYhQcLGFaVSGXjgSpg2CMs+vY4zrku2jTM9t8dobLLnB3f9lULt7SRS/W70BeljZgvfwuRnkauW4h/KfFbYiTyeJDjCukuIBXAbeD4HXAq/9GuuUbG3QUrtOf1HPHSMBsy8E8hDxA4w6w8q756fyvbe36gfiiH3AjZOQenlpxedl/AMTX1UBIAwAA</Configuration>\n    </STEPWorkflow>\n  </STEPWorkflows>\n</STEP-ProductInformation>\n",
   "signatory" : "ALCO",
   "comment" : ""
 }
