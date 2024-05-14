@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessLibraries>
+        <BusinessRule ID="InDirectlyRefd" Type="Library"><!-- Definition:
+<config>
+  <javaScript>
+var libSound;
+
+function setSoundLib2(sound) {
+	libSound = sound;
+	return libSound;
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LibRefTestA"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">InDirectlyRefd</Name>
+            <Configuration>H4sIAAAAAAAAAFWQzWrDMBCEz9FTLDq1h9ptT4VKDpRSaOkh1OnZKI5sNihroR/TUPruVaIk2LflG+3saKyJPVKjrDWofYNd0w7UYS98AqGyWc5MiuXP3sConceBJH8o7jloaoctUi/59/rt7okvKyZeokfS3n9FoysGcAWrkx1M9YzeXyX/UKOqW4c2XPRP3DjlDvzokVxWyqm9Dul8BlMEcwcO64PVku8SKYyivqiDSyl5NSoHBjf1EGn7zFgXqQ3pN+B1OLF08/HGH6db+GWLy1OQ4PPKwukQHU1M/kR5zXGOWs6zinLeQOqonJd07vsfMwptqY8BAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessLibraries>
+</STEP-ProductInformation>

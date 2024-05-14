@@ -1,0 +1,64 @@
+{
+  "version" : "2.1",
+  "id" : "ALCO_CP_BusinessLibrary",
+  "name" : "ALCO_CP_BusinessLibrary",
+  "metadata" : {
+    "GITBranch" : [ {
+      "value" : "DEV",
+      "unit" : ""
+    } ]
+  },
+  "setupGroupId" : "ALCO_ChangePackages",
+  "uniqueId" : "cpk-328cb298-ae24-41e1-9719-9df7e34f39c0",
+  "origin" : "tazu-saas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DirectlyRefd",
+    "itemURL" : "step://businessrule?id=DirectlyRefd",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SG Type 01 Root",
+    "itemURL" : "step://SetupGroup?id=SG+Type+01+Root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "InDirectlyRefd",
+    "itemURL" : "step://businessrule?id=InDirectlyRefd",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LibRefTestA",
+    "itemURL" : "step://SetupGroup?id=LibRefTestA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"GL\"  WorkspaceID=\"Main\"  ExportTime=\"2024-05-14 12:54:36\"    UseContextLocale=\"false\">\n\n  <BusinessLibraries>\n    <BusinessRule ID=\"InDirectlyRefd\" Type=\"Library\">\n\n<!-- Definition:\n<config>\n  <javaScript>\nvar libSound;\n\nfunction setSoundLib2(sound) {\n\tlibSound = sound;\n\treturn libSound;\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"LibRefTestA\"/>\n      <Name QualifierID=\"Qualifier root\">InDirectlyRefd</Name>\n      <Configuration>H4sIAAAAAAAAAFWQzWrDMBCEz9FTLDq1h9ptT4VKDpRSaOkh1OnZKI5sNihroR/TUPruVaIk2LflG+3saKyJPVKjrDWofYNd0w7UYS98AqGyWc5MiuXP3sConceBJH8o7jloaoctUi/59/rt7okvKyZeokfS3n9FoysGcAWrkx1M9YzeXyX/UKOqW4c2XPRP3DjlDvzokVxWyqm9Dul8BlMEcwcO64PVku8SKYyivqiDSyl5NSoHBjf1EGn7zFgXqQ3pN+B1OLF08/HGH6db+GWLy1OQ4PPKwukQHU1M/kR5zXGOWs6zinLeQOqonJd07vsfMwptqY8BAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessLibraries>\n</STEP-ProductInformation>\n",
+  "signatory" : "ALCO",
+  "comment" : ""
+}
