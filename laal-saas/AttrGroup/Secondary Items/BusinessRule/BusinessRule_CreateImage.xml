@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="CreateImage" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="asset" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var file = saveToFile(asset);
+logger.info("Asset saved to "+file);
+var newAsset = manager.getClassificationHome().getClassificationByID("AssetsRoot").createAsset("", "JPEGImage");
+logger.info("New asset "+newAsset.getID());
+var inFile = new java.io.FileInputStream(file);
+// upload content -_- second param gives Filename property on asset
+newAsset.upload(inFile, asset.getName()+".jpg");
+newAsset.setName(asset.getName());
+// Cleanup - Remember to delete if we use files.
+inFile.close();
+file.delete();
+
+
+
+function saveToFile(pAsset) {
+	// Create tmp file -_- can use ByteArrayOutputStream if it's small to avoid files
+	var tmpFile = java.io.File.createTempFile(pAsset.getID(), ".pdf");
+	var outFile = new java.io.FileOutputStream(tmpFile);
+	// Download content using my image conversion 
+	pAsset.download(outFile, "MyLargeThumb");
+	outFile.close();
+	return tmpFile;
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">CreateImage</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVy27bMBA8W1+x8CG1kURubwX8COI8Whd5IUnRY0BLa4UBRbIkZdct+u9dipQtNw3SHppDIA6XO7M7S1OLquDygWktONoHvnjIlFzwYmQJcBMdtgM2Hh19KwUs0Viu5Lj7Ln3bBZSZyrksxt3P9+eH77tHk2Q0rSyXaO1tJXCSAGyAmzodtPcDNDsddz+xJbvLDNeu2T/OHBF94e5xymVuuz4XZbthhpXoSEYA2hD4TCEa7tcax90nSpsKJov0zhkS2p3sCTfcqWTva6XckMoJH9uawrouLHwe7RVumPgEnuOS6XoN0CBAnXKGZY5khBMnlTEo3fX8CTPnQ05iROQ6FpzZGMusxQbfVHQiCI4BshIifA1eJb5kkhVoXqEsQ9S/kHrKQbv80WBz7gVDzoxR5pIcJa7/bcyFypjg39lcYGS8x1IL5nBayVzg4C81b8fxZcFJsmQGFlwgjMGyJd6rc1r0aiP7w0SogpqbcrlQvaDz2O/UoTk4BQHc9xko3CeTuAoxY4jepAW62g++4BnzN+KjKrHXf45P17PTNo+9VSqa3k8zg9SDGo8x4f9BFPHp5uzDrCTCeOBP6q9wBXVtjfBGrddC3P1YBJfnoSe0D3XbuEo9NJO6ctQ9ZGUvFj0YQKWFYmGE6arA4SFYpEUO2jsCBV+iBX9ckj+gjdJo3BqUDGKSjYqQqBfoD8Kul3bFfMP2g+j0SRebGjdHbYz67UwQeCKQyUrDIdxiieWcRoTMy1HQtABfwAqhslgPgk2TQJ9mQlnKMEw8nIZgv6S/RSXrn7b2zOhaRx9+JB3PWLsFrtRhvKgnGZM1y3RNNhrD1teV23TTq+DujQVbMiG8OrZUPA+Sko43hXJFV9qOxLnwd6Qlo/GzGY5U54tNz+psqnIveNyW1Yuk/hRVdapWcsdq/0NfQLkG7ifPw/HqQ9KJSvJ4phcZG0mX6wtm6HI/VuV8Ky0GbZvfMegqI5vqh8nPZ1e/BdQvymiw+17RizbYfdLi6/gLz7seET0HAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_PrintActivity" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var curDir = new java.io.File("./diag/activity/2023-04");
+logger.info("curDir="+curDir.getAbsolutePath().toString());
+
+var ff = getFiles(curDir,null);
+logger.info("ff="+ff);
+
+var activityFiles = getFiles(curDir,"log");
+logger.info("logFiles="+activityFiles);
+
+var lastActivity = activityFiles.get(activityFiles.size()-1);
+logger.info("lastActivity="+lastActivity.getAbsolutePath().toString());
+var a = readFile(lastActivity, "UTF-8");
+logger.info(a);
+
+function getFiles(pDir, pSuffix) {
+	var rv = new java.util.ArrayList();
+	var files = pDir.listFiles();
+	for (var i=0; i<files.length; i++) {
+		if (pSuffix==null || files[i].getName().endsWith(pSuffix)) {
+			rv.add(files[i]);
+		}
+	}
+	return rv;
+}
+
+function readFile(pFile, pEncoding) {
+	var pp = java.nio.file.Paths.get(pFile.getAbsolutePath());
+	var encoded = java.nio.file.Files.readAllBytes(pp);
+	var str = new java.lang.String(encoded, pEncoding);
+	return str;
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_PrintActivity</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVW0/bMBR+bn6FlQeUCkgK28OkNEUtF2kTndBg2sM0IZPYwZPreLZTKIP/vmM7CckK214mVVVyLt/l2I4lr0smrrGUnBF9zeh1XgnKyqmGgJlJn/axbHp0v+JoTZRmlcjCg3gSIiLyqmCizMLPV2f778KjWTBd1JoJovWnmpNZgFAXuHBwqJ/3ofcnWfgBr/Flrpg0bX6eGyD6wsztgolChxYL0C6wwitiQIYP9EPIIvlqdLWRJAu/A2zMsSjjS6NAaDjb4SYdONn5UVcmBTv+4dmTf3fG/OPRTmnSwAJYjiWW7h2hNoJgUkbh3IAM37HEApdE2eRxk2tY5pxh3VStfFWT6dwcc6zbElFz7p+STkTSVzFNur5X5nKqVKWWMFjg+t/zOa9yzNkDvuGkYbwiK8mxIYtaFJwk/6j5eVe8LjhYY4XyWp0whTIkyB1yNayKzxgnkZcWJwXDZQLzZ2tmNsnh5PDN/uStT47TgFclrEDMBK2aDo/YmNz1b3FJzPxGV7w25AKb22gcm8rriMaA4qRQCjKg0LLryDfu2fV7kYbSloLSFqFV6RBeAPMNgPUH+RBxPS36ALMlgg1m5k0CeAY11ms0jGj2QKLx/sHLhD2slrQf+9vsnHEQoQgu3ML1m/fQ1mb7TQS2nmgt3EfjeWLSzgvJy5pSdj9GP4OR5VHr/k6pDePxXCm8OWfaRADkimgzfQsRc8h4RJumlUKRrWHZJEXM7nhXHXMiSnMLod1dRzZiFEUNe5bZTYAeHz3yV/bNjuQj7HYYBYFvlv3UtcVj3z5S6xgXRdR2WPLRU2B/iphaCbCSBk895934pP0H66fNce3MSwmmnHEBZ8Qix3Y9/IK7ru2lamfizj4ptgD8/rDcc84XG2MnL9smbQYHs3d4owavLzPtrEGf9bb1legF3B0wTYY3DNxByfASau6zX71AUwrvBgAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="NodeHandler" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="nodeHandlerSource" type="OutboundBusinessProcessorNodeHandlerSource" contract="OutboundBusinessProcessorNodeHandlerSourceBindContract"/>
+    <binding alias="nodeHandlerResult" type="OutboundBusinessProcessorNodeHandlerResult" contract="OutboundBusinessProcessorNodeHandlerResultBindContract"/>
+    <binding alias="executionReportLogger" type="OutboundBusinessProcessorExecutionReportLogger" contract="OutboundBusinessProcessorExecutionReportLoggerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+// Node Handler Source bound to nodeHandlerSource
+// Node Handler Result bound to nodeHandlerResult
+// ExecutionReportLogger bound to executionReportLogger
+
+var simpleEventType = nodeHandlerSource.getSimpleEventType();
+if (simpleEventType == null) {
+  executionReportLogger.logInfo("No event information available in node handler");
+} else {
+  executionReportLogger.logInfo("Event with ID '" + simpleEventType.getID()+ "' passed to node handler");
+}
+var node = nodeHandlerSource.getNode();
+if (node != null && node instanceof com.stibo.core.domain.Product) {
+  executionReportLogger.logInfo("Node handler handling product with URL: " + node.getURL());
+  var mesg = {};
+  mesg.stepid = node.getID() + "";
+  mesg.name = node.getValue("UPC").getSimpleValue() + "";   // UPC
+  if (nodeHandlerSource.isDeleted()) {
+    nodeHandlerResult.addMessage("delete", JSON.stringify(mesg));	
+  } else {
+    mesg.category = node.getParent() == null ? null : node.getParent().getTitle() + "";
+    mesg.productName = node.getValue("ProductName").getSimpleValue() + "";  // Product Name
+    mesg.manufacturerName = node.getValue("MFGName").getSimpleValue()+ ""; // MFG Name Name
+    nodeHandlerResult.addMessage("upsert", JSON.stringify(mesg));	
+  }
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">NodeHandler</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVW31MaMRB+Ln/FlgeFsT3at46AjD9bHUUGtH104t1yppNLrkmOah3/924ugQMBizP1hbvb7Lf77bebkFwUKZc3LM8FR3PDxzexkmOedgwZ7F7ul72t2+ndZwImqA1Xslv/HH2qA8pYJVym3fr11cnHL/XeXq1zUBgu0ZhhIXCvBjAzDMpwML/uTadH3foZm7BRrHlup+v7saVEP7i9O+AyMXUXi6INmGYZWqLhDfMmcJG8N1w95Nit/6SwkWAyjUZWE9H63paw7YVKtn4VyrapHP9S1eS/y8L8a28rte2aC+ByXLC8/AaYWoCUsprFlmh4xGVhb1Uhk5kEWsX0ULqvEvzGZCJQj1ShY3T4wwAPRPYFZyYEks/9g8+s9EPBzMy5EMK/tf4LwyGaQtjNGXr/N2d4fI9x4WZkiLnS9lylKep/sMRVmNcwdTxb8+3vtGa4NQN5rLXSF0SZpfjWg3muYib4H3YrMGS8wiwXzOJB4XrT2pBztR3XE261wA0JhK6DH0womwVWwdLM1p4j/KCsRPglh1jZ5gqzsqO12oRpMJxKx+MJSutqgO4ypShFO1p0azTbNT6GxhKa4DQMTXgkyVZmjYRKT+VYNXxX+kTOoYGTTWfMuQOpyIVrD1lLOnDn+XgM5X4CFAY3zlIShN90TFLjYDvMys7z4l2hp0eN5g54j23IachxJvsyjVLCcmmNbq6VU7FKv/deIdhiWd4ufzyeS2OZjFGNaXdnkbH8VkWx0hglKmNcRrSlkyK2r5G2YuyfNJGQ+zBejOvh+S7M1HA8HGeyNppNd+C46jI0KVX3+OQM7oO4Yc6TUPFUM5iK5n9nzpI2zJzrdyYKDASvB4dByWrC/PpSNNp8NOUEoLBTKRe15uYIBW3NhKiXEsHyTolYkoQdHygkJca/f4Cz0WWfqnM7l48fGo4/6fCOgs3NW6grpuMiVfphrjY6HWiQiHzYBdDzj90lD/d+xa1YUWmVIXSqv17AQeWxuZCkY8CBA1b5MiaLMf0jFBr1C0kvTr6+lPB5PkpHiDJVlW+DzhS5QW036EztaemknjOUF6BOa/F6RRew1uINLFzm/gLzDOBq7AkAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

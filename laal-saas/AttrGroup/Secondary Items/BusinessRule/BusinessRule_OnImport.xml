@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="OnImport" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+logger.info("ImportObject "+node);
+throw "OnImport "+node
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="ApproveActions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">OnImport</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTXU/CMBR9369o9kA0RqZvJvsggJpgJBDB+EjKdiklXVvbDj9+vd1axogh8cW39tzTc889uZWsIpSvsJSMgl7RzSoXfENJoi1gMunKDkuTwWfJ0B6UpoKn4W3/JkTAc1FQTtLwdfl4fRcOsiAZVZpy0PqlYpAFCLXAvJFD3bqDJvdp+IT3eJErKs2hPsyNbfRGzXZEeaHDWsuqzbHCJRhrwwFdCNVKjo2WXxLScGdl+wxz0l8YZY2GWY+Z+GSS3nslTGzHcYfjTO7eDOaOgx4xcVAL1D2mWDZ3hA4IskkZhXNjbbgX40op4Ga23kFuasrYM3yvIaNYey4XBXi4HWjMsG7rFWPuFLU+oq6RJGrfnYnmQSmhpjZbTOC/I3oWOWb0G68Z+I5LKCXDBkYVLxhEf/R8XIzzhpkgBFSf8o24cD4mpRTK544cdFUHfBkHZqvEh8dm3BG7lN+eOkCzdEl0utJ26aPTrfcf6Acbzw28YAMAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

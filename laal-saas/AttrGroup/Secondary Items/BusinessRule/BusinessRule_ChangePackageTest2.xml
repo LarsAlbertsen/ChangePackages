@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="ChangePackageTest2" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var aNode = manager.getNodeFromURL("step://SetupGroup?contextid=Context1&id=CPFeatures&workspaceid=Main");
+logger.info("aNode "+aNode);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ChangePackageTest2</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVTTU/DMAy991dEPVQgRMtuiLabtsEQiKJpH+I4WW1WAmkSknTAvydpuq4TGtzs95xnP9cVtC4J24AQlGC1IdtNztmWlIkygB4KRzssTUZfFUU7LBXhLPUH4ZWPMMt5QViZ+uvV7PLaHw29ZFIrwrBSi5rioYdQB8wbOdTnHfRwm/qPsINlLonQe36ca9PohejXCWGF8q2WUZuDhAprM4YD+hCySq4arb4FTv03IxtSYGW41NIM6g8DquMjJ8FHzXVs7Ljg4MnljTEXjoJSx54VsD0yEE2O0B5BZlNaQq7NGO5FBgxKLC05bbm2y5gSUG1V5apapnMzpaD2Jaym1EVRN0TUnyKJuncn9nInJZeZWazp9cd+/hc6fKrTKt4OJIJnXmCUotZfWGJtkZnk1XrxdOb8KI3FTRQtsa7FveS1GNkt4i9NinTqokEAlYhtPp9h0LXEqkE+uXxXAnJsqAwIc4LnsUd5afsRtuVtFzeKiy+axJT9XloPaM4riY6P15x3dHzf7a/yA84nGIRKAwAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

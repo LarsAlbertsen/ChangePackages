@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="ba_MJANtest" Scope="Global" Type="Action" RunPrivileged="true"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="usr" type="User" contract="UserBindContract">
+      SERVICE-ACCOUNT-INTEGRATION
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+logger.info(usr.getName());
+logger.info(usr.getValue("ForceAuthentication"));
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ba_MJANtest</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTwW4bIRS8+yvQHiznYDa9VfKurfXGqbZKnMjepEfrBT8TKhY2wEZJv75g1o6tNlIvvcEMzJt58FrZcaE20LZSoN2I3YZptRM8sx5w0zbSEcuz2VsjySsaK7TKky/0MiGomN4KxfPkob4ef01m00E276xQaO2qkzgdEHIE7vdy5JSPUHWVJ9/hFdbMiNYd+II5X+iHcM9zobY2CVpe7R4MNOi8jQicQiQoxdOkfm8xT356WSpBcbp2xhtNpkPpJmdJhi+ddhMfJy4+MsX9PlhczobcTQZBINS4hXa/J+SAEN8pZ4A5b6O/bNEEpuyJvkQhBdj+SGdNjx5jlBLsgWa6odaJJ02ZNki3ugGhqGhaSYN45RfxYPCyXqweq3IxLsry7mFZj6tlvfi2Kurqbhk8psHKMUN6GiJLj9U/aevCGG1u/bsAx//d3hvNQIpf8CSxr1ijDwoO553aSkz/0fPHp/rcsNSco6FC7fTIvwXl6JZeYnRxMRn8hXsE2eEoGr7WhmHRuWdUTjAI3zUS/u4f5k6A/c/N0vO58JOTno9OP4W/AS623FKlAwAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

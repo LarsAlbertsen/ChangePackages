@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="EventsFilter" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (JavaScriptBusinessConditionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+/** @type{Product} */
+var p = node;
+
+log("on "+p.getID()+ "/"+p.getManager().getCurrentWorkspace().getID());
+
+
+var nonApproved = p.getNonApprovedObjects();
+logger.info("nonApproved="+nonApproved)
+logger.info("Value "+p.getValue("LAAL_1").getSimpleValue())
+
+nonApproved.forEach(element => {
+    log(p.getID()+"\t"+element)
+});
+
+return true
+
+function log(s) {
+    logger.info("EventsFilter "+s);
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">EventsFilter</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUwY7TMBC9+yusHKqkFQl7Q2rT0pauBGqhooW9IFXeZJr14trGdipg1X/Hjt00BVbiws1+M37z5o1tyeqK8h2RklHQO7rfFYLvaTXSFjBj6cMey0eT7weGj6A0FTyPbtKXEQZeiJLyKo8+bW9fvIomYzSa1Zpy0PpjzWCMMG6BdUOHu3EPvX2TR+/IkWwKRaU5x+eCl9TYWnfUPMwoL3Xk6CzhmihyAGOVeKALYUfms/H2h4Q8erTMKSO8SjdGWa3RuMfM8KqZ3rdamKHtyC8ubfl905tfTnqVGSJH4GqsiGz2GJ8RbM0yihTGyvAn5rVSwM2H+0cojEuZh4xQa8oo0SGXixIC3DY0Z0S38Zoxv8paHVlXyChrzz1jzUIpoVbWXlLB/7ZoKQrC6E9yzyBU3MJBMmJgVvOSQfaPmi9343nBWb+PXxsbfForUdaFOeF+ho5EYYlz7IwdIsREFXuRgmO/GMi0AjutOBngs7WdwIpwK1vFiduEUd4J9VVLUoBH3dnEkjfFuOBTKZU4QmnLNhTvL5C/BDq26VaK5U0p34v4PPw2L5g66EDJX058JqyGqz4aJESX0+lyd+PXjdANteaDT0kShDrs6V6oBSkeYmBwsC3i3I0GPzXzcK5dXPKEX8L1HYQDCTo5DxSYWnFsVA0I7WteuPfbEOjkwvZbG4ujJdC3lLl5B1pt2U7oz7vRAZrHP8qufxf7/2TXH1D4y34BXjZo++sEAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="isActive" Scope="Global" Type="Condition" RunPrivileged="false"><!-- Definition:
+Condition #1 (JavaScriptBusinessConditionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+return true;
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="ELFRBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">isActive</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTTU/DMAy971dEOfTGCjekfkysgARiYmJDHKes9UqmLAmJMwG/nrTpuk5oEhdu9rPz/J7laOFqLldMa8HBrvhmVSq54XVqPYC5DuWAZenkcyfIHozlSmb0anxJCchSVVzWGX1d3l9c00k+SqfOcgnWvjgB+YiQHpi3dGRYD9DDbUYf2Z4tSsM1HuqFkhVHP+uN4/uUy8rShs4TzplhO0CvJABDiDRkoZssvzRkdOuZx4LJerxA47XSPBKYnJiJPpzCxDsKwdFWyFtvIZxENSajhqCZMWO6zQk5IMQvCw0r0csILwpnDEh8Xm+hxKal6Dq6WTeCM9v1SlVBB/eGCsFsX3dChCjudcRDIWncvzuzmjtjlJn59bIa/ntFT6pkgn+ztYBu4hJ2WjCEqZOVgPiPmo+3cV6wAXRGEjQOkl+MA6A9mTQ+vUl/tfHp2XY/4AesFH4hIQMAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

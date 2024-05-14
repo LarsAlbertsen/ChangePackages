@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAALAuditAction" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="transition" type="CurrentTransition" contract="CurrentTransitionBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+logger.info("auditObject "+node + " transition "+transition);
+
+
+var msg = transition.getMessage();
+var event = transition.getEvent();
+var source = transition.getSource();
+var target = transition.getTarget();
+
+logger.info("auditObject msg="+msg);
+logger.info("auditObject event="+event);
+logger.info("auditObject source="+source);
+logger.info("auditObject target="+target);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Audit Action</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUTW/bMAy9+1cIPgQtgtrdbUDsBE3WAhtWrFg87BiwNqOpUCRPH8G2Xz/Jkh0HaZvusJv4+Eg+kgJbbikTG2hbzlBv2HZTS7FltNAOMPM2uANWFotfO072qDSTokzfZdcpQVHLhglapt+qu6v36WKeFEurmUCtv1qO84SQAXjo0pGxP0AfP5TpJ9jDulasNb3/pjau0HdmfiyZaHTqc7lsD6Bgh8bJCMAYIj5TYJPqd4tl+uTSZhwEzdZGOaHpfMLN7KiTyU8rzcy1Ex6HnoLdNRaeiwk1s8Qn8DXuoe1sQnqEuEkZBbVxMkLEyiqFwnx5fMLaeMoqMmKtG85AR66QDUZ4aGjFQQ9+y3l45W+tWykQmvkxnqltBuK/KPD18/EoinyIe2E5t0pJde+2CxT/95I+yxo4+wOPHGPFCnctB4NLKxqO+Rs1H77my4K5pBRVxsRWXgQdYBsWF08CMvUbJtNokcPMe/8BuZwlSbIHRXaaknJEzSia2MyFI3kK7t2mT0i3Hu0pWlpV4wln3cE9yYBy2Amp6mBPSl5v0kmN25i6p+O/Tu9k9wGdcTYktNHHBOtsUGirDwrW5TNrHwHdZSny47vlLlt+fNrilfwLogy+7kUFAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

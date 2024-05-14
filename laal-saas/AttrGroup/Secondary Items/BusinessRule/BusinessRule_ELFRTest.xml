@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="ELFRTest" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="logger" type="Logger" contract="LoggerBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+/*var user = manager.getUserHome().getUserByID('ELFR')
+
+user.getValues().toArray().forEach(function(v) {
+	logger.info(v.getAttribute().getID() + ' ' + v.getSimpleValue())	
+})
+
+var method = user.getClass().getMethod('getLog')
+var res = method.invoke(user)
+logger.info(res)
+*/
+
+
+//var nc = manager.getNodeCollectionHome().getNodeCollectionByID('32159714')
+var nc = manager.getNodeCollectionHome().getNodeCollectionByID('108118')
+
+logger.info(nc)
+var q = nc.queryNodes()
+q.forEach(function(n){
+	logger.info(n)
+	return true;
+})
+
+
+/*
+var a = manager.getAttributeHome().getAttributeByID('Bullet01')
+logger.info(a.getValidatorName())
+logger.info(a.getValidatorMaximumLength())
+logger.info(a.getValidatorMaximumValue())
+*/
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="ELFRBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ELFRTest</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVW0/bMBR+xr/CygNNQGsI2zSmXlBbisbUMsRle0QmdVMzx04du6Kb9t93bKeXDDGYtikv9ncu33eOj+OCm4yJW1IUnNHylk1vUymmLGuXAOhu4c0e67SPH3KOF1SVTIpOkDQPAkxFKidMZJ3g5vr01VFw3EXtvimZoGV5aTjtIozXwIVLh7ftHjo76QQfyYJcpYoVemXvpRqIvjA96zMxKQObC7JdEEVyqkGGB7YhbDN5b3y9LGgnuIe0TU5E1rzSCoQG3V2uW7VKdudG6haU4xebmvzeFeaXx7uZbiGbwHKMSeH2GK8QDJ3SiqQaZPiIgVGKCv3p7p6m2roMKo+Kq8cZKStfISe0gtcFDTgp13bDuV/Fz/KOZJZR9Qwhd07/inJMBHmeM/def0JqKePthrfjddwTIzBUSqoxzBBw/e9RGMmUcPaN3HFaMV7TvOBE074RE07jF2reXICnBcd7C6KwKSGkg6tWNjOqbwD5IHMaRqtdf3l2EjaGo9PLRoSQjbCWz4QbWoKXlj2lyBJWU6mGJJ2FUyPcfQsXEf6OdvxsNJmYynBhQ3saNNwZXXFA9gjv4wZ8+9g5XDGomjqGMIp20A/gtWqhwpmcgN6VCHfWPsvY2cIGLGFiQakNULS01TkTCFjIrzS0sRHaFgVeEdqLEUJxbKNEWm/JOdymgeScuqo2zanjvk2vD5O3798lbyoBf5MqOThKkiPb822xIvWZ55BYpM25oWppo6ENaP74CET0ywmICO0oqo0SWCtDW665KN5zSUld7fqgNkLXkNfYhwtG9UHSqHeUVBPCJkRLdU5s9O88xuSB5SYfUZHp2YtcV8MB5/boPmwB7sfejuvPBjwscf1lqR6pn7fAtlnEBgAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true">
+                <ValidObjectType ID="Operator user-type root"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

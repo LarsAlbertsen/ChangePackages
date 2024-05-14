@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_MyAction" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="myFunction" type="BusinessFunctionScriptingProxy" contract="BusinessFunctionBindContract">
+      <?xml version="1.0" encoding="UTF-8"?>
+      <BusinessFunctionReference>
+        <BusinessFunction>BusinessFunctionWithArg</BusinessFunction>
+      </BusinessFunctionReference>
+      
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+var argument = new java.util.HashMap()
+argument.put("FunctionArgument", "Hello World")
+
+var returnValue = myFunction.evaluate(argument);
+logger.info("returnValue = "+returnValue);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_MyAction</Name>
+            <FunctionDependency FunctionID="BusinessFunctionWithArg"></FunctionDependency>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUy27bMBC86ysIHQQbban2VsCWDdttkBQNGiRuczRoaa0woEiVD7fJ13dFSrIdQ00vPYmcnd3Zh7i1cCWXG1bXgoPZ8N0mV3LHy6lBwM7qYA5YNp3/rgTZgzZcySz+QN/HBGSuCi7LLP6+vnj3MZ7PounSGS7BmFsnYBYR0gM3Phw5tgfo6lMWf2F7dpdrXtvOvsgtCt1z+7DksjBxEwuj3TDNKrCYRgCOIdJECmyyfqohix8xLBVMlvTOakw0niXCTk4qSX46ZSdYTjgcagp3X1g4zpPSTqImQKNxzWp/J6RDCHbKapZbTCN4rJzWIO237SPktqGsWkartRCcmZYrVQEt3Be0Esz0didEOKWv6nY9vHDSd/EV6eqpI/4tgVxV1Fi+VTRXGmihKsYl5VUt6LbV0zhTumtj0ab5xs+UatgBdiIH+jK1285yhYGCUFNewqp6cjaqBuzH1V+ORtZjYWz9de6Pfnxt4ME8eiY2eIDbUV7izc+60GXnlg75RYOM8ywST8P5JSe37u+bpv2sBt7DZ62VvkYNVsL/fhdfVc4Ef2ZbAa3iGnCszMLSyUJA+o85H7bBcMLRnmnCdOkqfGEkIxJ+Ec9ylgt6ycwD9mg0jjoKrZ0dhYS7bi9aU0DfkvC9BCEUuVdaFAEYR15Lg3Va/mDCAcod3gyFPWJY46iTGk8iocoSNOVyp1rRU/eAvTkC0Sk6b80R4BfeND1dp7hw09ON2y7vP/a45lncBQAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true">
+                <ValidObjectType ID="TestItem"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

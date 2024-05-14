@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="UpdateNameFromID" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+node.setName(node.getID());
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="TestBR"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">UpdateNameFromID</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVSTU/DMAy971dEOUzbgRZuSP2YtgISSIOJbeI4hTYLmbI0JO4E/x636bpOaHCzn+1nP9tGVULqDTNGSe42crvJS72VInYIQGp82GNJPPnaK3Lg1slSJ/QmuKaE67wspBYJXa8erm7pJB3Es8pJzZ17rRRPB4R0wKKhI/24hx7vEvrEDmyZW2ngGJ/mgI3eJHzMpC4crbmQbcEs23PAMTzQh0jN5LPJ6tvwhO6QNlBMi2AJFgel6VBBdKZk+FmVEKEcb5w0eb8R5s3JUEA0qAnqHnNmGp+QI0JwU2BZDjiGr8gqa7mGl/cdz6FOydqMttdUSebaXF0WvIU7QZlirotXSnkr7OYI+4PEYVd3YTX31pZ2jrtlgv+xov+JTte6zFLrCRyHZ6wbNY7guJnReBz9atADmrPG4fnT4FuF53/VvugP2wGDJcICAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="TestItem"></ValidObjectType>
+                <ValidObjectType ID="Tree"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

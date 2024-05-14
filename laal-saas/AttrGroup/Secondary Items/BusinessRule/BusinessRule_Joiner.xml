@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="Joiner" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="joinerSource" type="OutboundBusinessProcessorJoinerSource" contract="OutboundBusinessProcessorJoinerSourceBindContract"/>
+    <binding alias="joinerResult" type="OutboundBusinessProcessorJoinerResult" contract="OutboundBusinessProcessorJoinerResultBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+// Joiner Source bound joinerSource
+// Joiner Result bound to joinerResult
+
+function appendFromGroup(messageGroup) {
+  var seen = [];
+  var first = true;
+  while(joinerSource.hasNext(messageGroup)) {
+    var messageString = joinerSource.getNextMessage(messageGroup);
+    var hash = messageString.hashCode();
+    if (seen.indexOf(hash) == -1) {
+      seen.push(hash);
+      if (first) {
+        first = false;
+      } else {
+        joinerResult.appendToMessage(",");
+      }
+      joinerResult.appendToMessage(messageString);
+    }
+  }
+}
+
+joinerResult.appendToMessage("{\"products\":{\"upsert\":[");
+appendFromGroup("upsert");
+joinerResult.appendToMessage("],\"delete\":[");
+appendFromGroup("delete");
+joinerResult.appendToMessage("]}}");
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Joiner</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAKVVXW/TMBR9z6+4ykPVSVvC3hBpWm2FISaNTWsRD2OqTOIknlw7+GN0mvLfsWMnTUCDTjzZPj733HuunbimuiRsg+qaEiw3pNhknBWknEkDqHntth2Wzha7LYVHLCThLA1PozchYJbxnLAyDb+sL07ehot5MDvXkjAs5a2meB4A9MBNKwfDfQd9ep+Gl+gRrTJBatXtn2XKJPpKVHVOWC5Dq2XUbpBAW6xMGQ4YQmCVHBvWTzVOwwcjG1HEymilhCk0nE+oSkZOJj80V4mx4yZ7T27dGnPTxaRUSWAFbI4rVLdrgA4B0yklUKZMGS7iWqvvXLO8b4HgmRm4uORmLVZciwzb0KWP9DWcUYKk13gYUP12b3hJkex4TFPqZvH/1nWLpabqoLoc9TV12ariYQNncR/3wpF+EIKLK1MgKvFfjvbfQvtb9rJKHIPrArieQ9spGB5DsOc4/56jOAy7EgSFZu0tBvOJYZZfCL79KLiup1tnpl0cwbOp9hEJkBgzSOHuPvFAQYRUBlFCY4v9rAjF02EpUYXkZ7xTY0Un6TT8hrNntEbRJVY22vd2LJL0EiZHZSJHSjZxteQ5nnoiKWBqDUTmaPHuuphawhGkKZycdvVAazGqtazcduJhG9ya3TOhd18gKnHHbACb1YA17Hjk+rzmnSF38Y7d0GdrggNCR259qA1sgiYIDkj6/M2NteC5zpT0y3cdrmuJherQu77E36/KkN2TDsh/f+y1c0zNB3BoIsd+VaKm6eh/fIEDoP1fz+Lxa2Dei3j8YPi35xe+25DGmwYAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

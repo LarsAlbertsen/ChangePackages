@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_Delete" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+// Documentation is added in second version
+if (node!=null) {
+	node.delete();
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_Delete</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTy07DMBA8k68wOVTtgQRuSHlUfYAEoqKiRRwr194GV44TbKfiIf4dO07TVKgSF267s+vd2cmk5FXGxAqXJWegVmyzIoXYsCxWBtBp6coOS+Lhe87RDqRihUj8q+DSRyBIQZnIEv95eXtx7Q9TLx5XiglQ6qnikHoItcC8Hoe6dQfdTRP/Hu/wgkhW6n19RLRZ9ML065gJqnw7y0ybY4lz0IaGA7oQspNcN1p+lJD4WzM24FhkwUJLQ9RPe1xHR5f03qpCR+YcFxxucnl9mAuHvUxHnh1gd8xwWecI7RFklNISE21ouBeTSkoQ+nG9BaJty6TpaHaNOMOq6RUFhQZuD5pwrNp6xbmLwpZH2CUSh+27E9LcSFnImdEWZ/DfEj0UBHP2idccmo1LyEuONYwrQTmEf+R8MMZpwmGIpgWpciM1tqZBTCFMKVBk/KbAfBa6v8VjG9S3Up8nVtAB+vLObBpQ4GZnfxB5379ZdYDadnF4bGpj+/DY980v9AMi6WRQYgMAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+                <ValidObjectType ID="MyEntity"></ValidObjectType>
+                <ValidObjectType ID="ProductImage"></ValidObjectType>
+                <ValidObjectType ID="TestItem"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

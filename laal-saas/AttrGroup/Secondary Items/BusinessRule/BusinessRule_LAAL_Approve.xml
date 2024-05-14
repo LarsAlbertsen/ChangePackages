@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_Approve" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+node.approve();
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_Approve</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVSTU/DMAy991dEOVRwoIUbUr+0FZBAmpjYEMcqtFnJlCUhcSv496RN17USg5v97Dy/51jxpmaiIEpxRk3BdkUpxY7VsbEApMqVHZbE2deBo5Zqw6RI8E1wjREVpayYqBP8un24usVZ6sXLxjBBjXlpOE09hEZg3dOhad1Bj3cJfiIt2ZSaKTjWFyXYQW8MPpZMVAZ3XJZtTTQ5ULAyHDCFUMfkutH2W9EE7y1twImogw1oKxSnPodo5sT/bCRE1o4LTp5c3htzYebXEHkdQTdjRVSfI3REkN0UaFKCleFe5I3WVMDz+56W0LXkQ8cwa8EZMUOvkBUd4NFQzokZ6w3nLgpHHeFUSByO786s5l5rqVd2t6Smf6zof6LTb51n6fwE9rS0bOnF5S/yJkD/l3E4vxR7S+H8mIa7/AFoDO8WtwIAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

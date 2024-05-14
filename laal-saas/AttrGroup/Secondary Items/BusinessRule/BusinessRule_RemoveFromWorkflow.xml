@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="RemoveFromWorkflow" Scope="Global" Type="Action" RunPrivileged="true"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+/*
+var approvedDescription = manager.executeInWorkspace("Approved", function(approvedManager) {
+	logger.info("approvedManager="+approvedManager);
+	
+     return approvedManager.getObjectFromOtherManager(node).getTitle();
+});
+logger.info("approvedDescription="+approvedDescription);
+
+
+function f(m) {
+   logger.info("f.m="+m);
+} 
+
+manager.executeWritePrivileged(f);
+
+
+manager.executeWritePrivileged(function(m) {
+	logger.info("m="+m);
+	return null;
+ });
+*/
+
+manager.executeWritePrivileged(function(otherManager){
+	logger.info("otherManager="+otherManager);
+	var wfI = node.getWorkflowInstanceByID("CreateItem");
+	if (wfI!=null) {
+		wfI.delete("Removing from Workflow"); 
+	}
+	else {
+		logger.info("not in workflow");
+	}
+});
+
+ 
+/*
+manager.executeWritePrivileged(function(privilegedManager) {
+		logger.info("privilegedManager="+privilegedManager);
+		var privilegedNode = privilegedManager.getObjectFromOtherManager(node);
+		logger.info("privilegedNode="+privilegedNode);
+		privilegedNode.getWorkflowInstanceByID("CreateItem").delete("Workflow is completed. Object automatically removed from Workflow");  
+	}
+);
+*/
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Remove From Workflow</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVWW0/bMBR+rn+FlwcU2JZsb5N6QbRsUqdxEXTiEZnkJJg5duY4BTbx33ccOyVpqQoPe6gUn8v3navdUtQ5l9esLAWH6ppn14mSGc9HFQrMpHRqJxuPDh8KQZegK67kOPgcfQooyESlXObj4Ofi28cvweGEjKZ1xSVU1UUtYEIoXQnOGzja1TvR/HgcfGdLdploXppWf5QYJLri5nbKZVoFFgvRzplmBRgMwwm6ImqRnDVdPJYwDu4QNhJM5tGl0RhoMNkTZtjLZO93rcwQ03Efzzm5c5OY+zzcy82QWADLccLK5kxpK6FYKaNZYjAM5zGrtQZpzm7uIDHWZOYtPNeR4KzytlKl4MWrhGaCVSt9LYT7infynjDJctA7GAtn9RZSSxl3sx/FK78t/fiqtdIn2FDk+t99+aESJvgfdiPAMy6gKAUzMK1lKiB+ZczP07g9YELiA7JkmuL6aLWE9BiqxgWDp2PqixvBAyS1gbm8UvpXVbIEQhf1kXdzpw80q2Uz8WGL55u4T/+SgVC5BeMyU959zcpX5f2685AMXIoaTK0lXdNHOfjp/KZVcWZuQXtNaOdx3+oX3AgIEekJf9sD6aS/HkxHhRCEtKnSLCxsehjeJm4WFS1OYckpIWs1vdLcwLnmSy4ghzTMGvBdRm2Ziy2F7bEOfNnsHuDK2QocxK/nUJ2C7r/I1rVoiXteGIMdsvtsjkNle2JbYmcpE+p+LivDZALTx/mxB5xpwHGfGyjc2QLwjIYI8G5s02jSHuAxSkHgxHu/CyjUEgebZjgItCVoMSgZPJEBiAoa7808pDIUL/f7NT/rZotGqN2W15atXMm6O/AC64ZhW8JNBAylKeSz5hSLiTXdMN21E8MdoVjczThOW9e+6K3d7Det9aS8wkcAbzpUpRF10VNWG1Uww/FOFI94ARR2F7f0t2mwm+6N67EjaB7dUdx/0vHRj/uvvv8D8Q8tmBEfYAgAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
