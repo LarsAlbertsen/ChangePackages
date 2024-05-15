@@ -8,6 +8,7 @@
                     <Value>TableConfigurationView#Instrument#Default System For Value Holder#32160625</Value>
                 </MultiValue>
             </MetaData>
+            <UserGroupLink UserGroupID="ProductPlatformTeam2"></UserGroupLink>
             <UserGroupLink UserGroupID="Stibo"></UserGroupLink>
             <SystemSetup>
                 <SystemSetupValue Type="WB_USERSET" Name="CurrentContext">Context1</SystemSetupValue>
