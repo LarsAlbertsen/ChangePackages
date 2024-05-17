@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main" UseContextLocale="false">
+    <PortalConfigurations>
+        <PortalConfiguration ID="testWebUI"><!-- Definition:
+<portal-config xmlns="http://stibosystems.com/step/portal-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <screens>
+    <loginscreen>
+      <parameter id="PortalTitle" value="STEP Web UI"/>
+    </loginscreen>
+    <screen id="Name and ID" type="NodeDetails">
+      <component id="Main" type="NodeEditor">
+        <parameter id="LabelLayout" value="LEFT"/>
+        <parameter-list id="Rows">
+          <component id="Rows" type="IdValue">
+            <parameter id="CssClass" value="stibo-IdValue"/>
+            <parameter id="Label" value="i18n.stibo.IdValue.Label"/>
+          </component>
+          <component id="Rows" type="NameValue">
+            <parameter id="CssClass" value="stibo-NameValue"/>
+            <parameter id="Label" value="i18n.stibo.NameValue.Label"/>
+            <parameter id="Mandatory" value="false"/>
+            <parameter id="ReadOnly" value="false"/>
+          </component>
+        </parameter-list>
+      </component>
+      <parameter id="EnforceValidity" value="false"/>
+      <parameter id="ShowWarning" value="false"/>
+      <parameter id="Title" value="Name and ID"/>
+    </screen>
+    <screen id="homepage" type="HomePage">
+      <parameter id="CssClass" value="stibo-HomePage"/>
+      <parameter id="DisableTitle" value="false"/>
+      <parameter id="PagingEnabled" value="false"/>
+      <parameter id="Title" value="Welcome to the STEP Web UI"/>
+      <parameter-list id="Content">
+        <component id="Content" type="WidgetGrid">
+          <parameter-list id="Widgets">
+            <component id="Widgets" type="TextWidget">
+              <parameter id="CssClass" value="stb-staticText"/>
+              <parameter id="DoubleWidth" value="false"/>
+              <parameter id="Text" value="Click the gear icon in the corner bar to begin configuring the Web UI. For help and guidance on configuring Web UIs, see the Web User Interfaces section of the online help."/>
+              <parameter id="Title" value="Welcome"/>
+            </component>
+            <component id="Widgets" type="UserWidget">
+              <parameter id="Title" value="i18n.stibo.UserWidgetServerComponent.Title"/>
+              <parameter id="UserDetailsScreen" value="userdetails"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="login" type="LoginScreen"/>
+    <screen id="main" type="Main">
+      <parameter id="DefaultSidePanel" value="SHOWN"/>
+      <parameter id="Resizeable" value="true"/>
+      <parameter-list id="Left">
+        <component id="Left" type="PrimaryNavigation">
+          <parameter-list id="MenuItems">
+            <component id="MenuItems" type="GlobalNavigationSearch">
+              <parameter id="Label" value="Global Search 2"/>
+              <parameter-list id="SearchConfigurations">
+                <component id="SearchConfigurations" type="GlobalNavigationSearchConfiguration">
+                  <parameter id="Title" value="Name/Id/Attributes"/>
+                  <parameter-list id="SearchPlugins">
+                    <component id="SearchPlugins" type="NameOrIdOrAttributes">
+                      <parameter id="ForceIDNameSearch" value="false"/>
+                      <parameter id="SearchInDataContainers" value="false"/>
+                    </component>
+                  </parameter-list>
+                </component>
+              </parameter-list>
+            </component>
+            <component id="MenuItems" type="TreeItem">
+              <parameter id="HideLeaves" value="false"/>
+              <parameter id="Icon" value="account_tree"/>
+              <parameter id="Label" value="i18n.stibo.webui.primarynavigation.TreeItem.Label"/>
+              <parameter id="ShowLeaves" value="false"/>
+              <parameter id="showRecycle" value="false"/>
+            </component>
+          </parameter-list>
+        </component>
+      </parameter-list>
+      <parameter-list id="Mappings">
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="userdetails"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="UserCondition"/>
+          </parameter-list>
+        </component>
+        <component id="Mappings" type="ScreenMapping">
+          <parameter id="Screen" value="Name and ID"/>
+          <parameter-list id="Conditions">
+            <component id="Conditions" type="AlwaysTrueCondition"/>
+          </parameter-list>
+        </component>
+      </parameter-list>
+    </screen>
+    <screen id="userdetails" type="UserDetails">
+      <component id="Buttons" type="Buttons">
+        <parameter-list id="Actions">
+          <component type="SaveAction">
+            <parameter id="CssClass" value="SaveButton"/>
+          </component>
+          <component type="ResetAction">
+            <parameter id="CssClass" value="ResetButton"/>
+          </component>
+        </parameter-list>
+      </component>
+      <component id="Main" type="NodeEditor">
+        <parameter-list id="Rows">
+          <component id="UserId" type="IdValue">
+            <parameter id="Label" value="User ID"/>
+          </component>
+          <component id="UserEmail" type="UserEmail">
+            <parameter id="Label" value="Email Address"/>
+            <parameter id="Mandatory" value="True"/>
+          </component>
+          <component id="UserPassword" type="UserPassword">
+            <parameter id="NewPasswordLabel" value="New password"/>
+            <parameter id="OldPasswordLabel" value="Old password"/>
+            <parameter id="RepeatPasswordLabel" value="Repeat new password"/>
+          </component>
+        </parameter-list>
+      </component>
+    </screen>
+  </screens>
+  <theme/>
+</portal-config> -->
+            <SetupGroupLink SetupGroupID="WebUIs"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">testWebUI 2</Name>
+            <Configuration>H4sIAAAAAAAAALVYTXPiOBC9z69Q+bzYyexlagoylQ1kQhVJqMBM9rYl7AZUKySXJIewv35alj+xDSa1cwtSv37d6u4nOXGy4kxvIRoNv73vOHkDpZkUI+/av/IIiFBGTGxG3o/l/eCL9+3m0zCWylA+CKVYsw1BjNAjb2tM/DUItGErqQ/awE77odzhAsRBDeE5yNd3zQrYfr/393/6Um2Cz1dX18Hfj7NFuIUdHTChDRUheDefCBnqUAEIbf/GX1xucDtdciu4FlNFd2BAERaNvHlKvGSGg0feKE9g5C2Wkzl5hRX5MfWCzFNw5CojSn1s5Q5iukEH5hAj/gF/z+3v1LDON2aarjjUCdeUa3BUx+FRZN1MhMVEPezrfl+B4wkDMZKYLZBGXkfgO63vONW6wKe1GhTpHGEG2BXGAaUwIIyXnRVyxlLgQm0zO5xXFm3AfFcs8polKV06M13YNNzmBpnbJbwbt1SBNE9fYi8D2plt22F2oFoP9TQCoykAd5yF/6YF2ADFfWxywkS6EEolELLCZazRCrDYxM1AorDuqY0rmE/upSJb4DGhIiKbhEW26YmsA5yx/oNogBKtkWOKVVBrGoLGvdDgABO5Tk2k4ExA6ts/mVVLf6wGOHyGhWnCFewwKKrVt4I2yvMVtFZjMJRxvUgnsAgmwZ3I7VxQTXb9Rfhpn/tlAAtQKHJ3ebS+g5xObxjUuzjXjZph02gY5JpSVZRUbPKDmdkfWbJB3W5HS7NH+3fLVL+AZv+BFZAiaaOSdvkYw5om3CxYhBMvgJeS+PD8+tQtADNYd0x/upNFOFdsR9Xhib6xDbUdeFIBHkEkU3tLdGtAaZIxfOdyRXlJsMCBC7en+mlGV5U0HZ44GPnc1UdlkM7yLpvAlFPX6BoxtyJOhl+zPXJ+prufcCeYRsGtMYqtEgNHo3E6rTlP7J3XoOzIKTfPkrHcz2oaPasKe9NVIwPUuRCmYwvPyndCqTt8OOBUjKmh9v7B0cBHy3lHrbKVb7XN9xlgN6iPQDbae4mDbxf6N3RF3vawSpgfuxkURY/5uVPfIU9Jp97K/QuEh7D97dKBmuIFVZjTMJSJMP8YZD2JWiDXDOgbnCzbEegBhesc6P/T7g7donGMV7Fu18NiNyup0/VstUUP3Vn0uOk63mURO9ak5vMst6lcxMVqhaDPIf2WfK0UpK+e6fh35HvL9/Sgl3gnfjTrvtd6NZFcJWUE2Xum7fJuynntII6sJ2JtxfMn5QzzOPT4XrBT9kqVsMVosz4uZvncsIFPkEWqvNFbdGhGDzIpX8Kzyf2y+KJqqd+L3JeVO+JO9zLuafTTOqwWuacIZsim1vX7FMqJK+3RFJPuuG39zkT+AjR6Fry1dpelWpB9NNky2m7oI3YjxR7ojLepD20yWjVqH52q5lV0qjY6H2rWft1nuabRB/vPfX+NL+kaC5ng655Xk3ULPUlTY3IbRQq0vqiCS3VZh9vQ5tg+e6miarjFWif3M49yo3rwuEHiHN4d+xPs2/G40Qf/AjFQ0+7C7RHR6unyrm6c2l+JMZVLKP/Z3Z63Yf1mq/jLrlZ89zij7hNvjLoFOe6+JXdk+FUJ5mK2FHWW7hKJCCr/8BuaLeD3jl2t/T/xZqhjzszNL118nc7JFAAA</Configuration>
+        </PortalConfiguration>
+    </PortalConfigurations>
+</STEP-ProductInformation>
