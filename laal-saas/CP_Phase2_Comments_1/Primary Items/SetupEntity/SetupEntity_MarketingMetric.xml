@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="MarketingMetric" UserTypeID="CompletenessMetric"><!-- Definition:
+Configuration=
+<plugin id="AggregatorMetricCalculator">
+  <simple id="BusinessFunction">&lt;?xml version=&quot;1.0&quot;encoding=&quot;UTF-8&quot;?&gt;&lt;BusinessFunctionProxy&gt;&lt;Mappings/&gt;&lt;/BusinessFunctionProxy&gt;</simple>
+  <simplelist id="Metrics">
+    <entry>Bullet01</entry>
+    <entry>Bullet02</entry>
+    <entry>Bullet03</entry>
+    <entry>Bullet04</entry>
+    <entry>Bullet05</entry>
+  </simplelist>
+</plugin>
+Name=MarketingMetric -->
+            <SetupGroupLink SetupGroupID="Metrics"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">MarketingMetric</Name>
+            <Configuration>H4sIAAAAAAAAAKVTy2rDMBC85yuEDr61TvqAUjs2iePcDKFNzsU4qhAosiqtSvz3tSQjJzUUSm47uzOzYhkVrfhk1KgaWCuWaX4+cfRNlLYIL+7nGBHRtEcm6BIf9tu7F5xns1RyQ5lA7LjERVVcWuBshlCq2Uly4uY7R/3YlLu3sljtyw3OIg7J1aLoy7SQ9Nt8Ma702O31ZR5RSGbWYHyCn6woVYTW0KqKgGJNUfPGcIv93AkRslL/Os40jHIv0ldczyYCVGc7Goh8jeN3AkaWAhh0eS9fG84JzBeWGgfuP9UPN6kfb1I/3aR+nqhdYzzx5O7jzddGM0G03hrR2OyMx4/qk0wmKbHNkJQALtISej4xAeaudMkZjH+v3qn23AVW/9yBV9VS9tY6njjEf1tcXCFENvaZdTgdhv1nGtp9pSVnkP0AtapyBZMDAAA=</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

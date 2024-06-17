@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <SetupEntities>
+        <SetupEntity ID="Marketing" UserTypeID="SufficiencyConfigurationType"><!-- Definition:
+Configuration={"completenessMetrics":[{"id":"MarketingMetric","renderedAsBoolean":true},{"id":"GarbageData01","renderedAsBoolean":true}],"businessCondition":null,"aggregatorBusinessFunction":null,"triggerGates":[],"severityLevels":{"SUCCESS":{"minLevel":100,"maxLevel":100},"ERROR":{"minLevel":0,"maxLevel":69},"WARNING":{"minLevel":70,"maxLevel":99}},"description":null,"sequence":null,"contexts":[{"id":"Context1"}]} -->
+            <SetupGroupLink SetupGroupID="Sufficiencies"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Marketing</Name>
+            <Configuration>H4sIAAAAAAAAAH2QwU7DMAyG38XnHNoLqBUgbWVUSGxIrRAHtEOWmigidUrioqGq707KhmgvO9n+/dn+5cLRu9G9l2wc3Q6gXNtZZCQMYYvsjQqQvw1gGshhK/0HsiF96oAAj9Sgx2YV1s5ZlAQ5+x5HcZ4opT9IjfeSZZJe4PcCDn0w09XCUWMmN5BTb60AqbVHLdn59Rl56EnNiWhGa/SlZJzcxmUBv9Ab/n6K0UZtgPqlKDZ1PaWtoV8d8jRJBLTy+F+OAjZV9VwtuQV1lUXodVXtHnflErtecFk2RrDBoLzp5nYDfvZICv9q5YjxyLNHFyclhXE/3oTOGr77AQrQCQupAQAA</Configuration>
+        </SetupEntity>
+    </SetupEntities>
+</STEP-ProductInformation>

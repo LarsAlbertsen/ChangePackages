@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <AssetPushConfigurations>
+        <AssetPushConfiguration ID="MyAssetPushConfig" AssetPushEventQueueID="DTPConfiguration" RelativePathTemplate="$configID$/$contentdimensionpointsID$/$IDpath$/$assetID$.$autodetected-extension$" AutoCleanup="false" ImageConversion="web-proof-xlarge" ImageConversionType="Pipeline">
+            <Name QualifierID="Qualifier root">MyAssetPushConfig</Name>
+            <AssetPushMIMETypes></AssetPushMIMETypes>
+            <AssetPushAttributes></AssetPushAttributes>
+        </AssetPushConfiguration>
+    </AssetPushConfigurations>
+</STEP-ProductInformation>

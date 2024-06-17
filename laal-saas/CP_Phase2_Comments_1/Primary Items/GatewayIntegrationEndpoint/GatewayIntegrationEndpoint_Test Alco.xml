@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <IntegrationEndpoints>
+        <GatewayIntegrationEndpoint ID="Test Alco" UserTypeID="GatewayEndpoint user-type root" Enabled="false"><!-- Definition:
+CheckConnectivityProgram=
+PluginConfiguration= -->
+            <SetupGroupLink SetupGroupID="Gateway Integration Endpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Test Alco</Name>
+            <Configuration>H4sIAAAAAAAAAIWPPQ+CMBiEd35F8+6Kbg6lxAC6OBDF2TSl1jeWQvqB8u9FcHDS7S557nKXteaKKljusTUJTZ+NJr207u1gvVwBkUa0NRqVwLnaLTaQsoh2Oig0BOsE9tzLBx+y7x5gESHUYdNpOUHZTYr7iBgpPPbohwN3/hSEkM4BMUHrBLwNEuK/ydK2yvLmd+ozqpxmXvKiPBbZtipyYDSesfFEPL8Yles0evYC5AHE0AsBAAA=</Configuration>
+        </GatewayIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>
