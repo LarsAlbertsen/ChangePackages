@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Assets>
+        <Asset ID="ELFRAutoClass" UserTypeID="AutoClassificationRuleSet">
+            <Name>ELFRAutoClass</Name>
+            <ClassificationReference ClassificationID="AutoClassificationRuleSets"></ClassificationReference>
+            <Values>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">RuleSet.xml</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">376</Value>
+                <Value AttributeID="asset.uploaded">2023-02-17 08:09:05</Value>
+                <Value AttributeID="stibo.uid">AZ-0_/0le8jryzx-0q1islh-0haz1ltw9m3nk.txt</Value>
+            </Values>
+            <AssetContent QualifierID="Qualifier root">
+                <AssetContentSpecification ImageConversionConfigurationID="" IncludesBinaryContent="true"></AssetContentSpecification>
+            </AssetContent>
+            <AssetBinaryContent QualifierID="Qualifier root" ImageConversionConfigurationID="" Filename="RuleSet.xml" MIMEType="text/plain; charset=us-ascii" Checksum="c20e2a536ba1c737566dc0bfe88146725a0a3c2a">
+                <BinaryContent>PFJ1bGVTZXQgZW5naW5lPSJkZWZhdWx0IiB2ZXJzaW9uPSIyIiBhY3Rpb249ImxpbmsiIGxpbmtpZD0iRGlzcGxheSI+CiAgPEFsbG93UnVsZXMvPgogIDxMaW5rUnVsZXM+CiAgICA8TGlua1J1bGUgaWQ9IjEiPgogICAgICA8VGFyZ2V0PnN0ZXA6Ly9jbGFzc2lmaWNhdGlvbj9pZD1BdXRvQ2xhc3NpZmljYXRpb25SdWxlU2V0czwvVGFyZ2V0PgogICAgICA8Q29uZGl0aW9ucz4KICAgICAgICA8Q29uZGl0aW9uIGxocz0iRUxGUkxvdkF0dHIiIG9wPSI9Ij4KICAgICAgICAgIDxWYWx1ZT5BQTQ4ODk8L1ZhbHVlPgogICAgICAgIDwvQ29uZGl0aW9uPgogICAgICA8L0NvbmRpdGlvbnM+CiAgICA8L0xpbmtSdWxlPgogIDwvTGlua1J1bGVzPgo8L1J1bGVTZXQ+Cg==</BinaryContent>
+            </AssetBinaryContent>
+        </Asset>
+    </Assets>
+</STEP-ProductInformation>

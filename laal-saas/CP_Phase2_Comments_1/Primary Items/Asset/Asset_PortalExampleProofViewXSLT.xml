@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Assets>
+        <Asset ID="PortalExampleProofViewXSLT" UserTypeID="Configuration">
+            <Name>Portal Example Proof View XSLT</Name>
+            <ClassificationReference ClassificationID="PortalConfigurations"></ClassificationReference>
+            <Values>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">PortalExampleProofViewXSLT.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">1908</Value>
+                <Value AttributeID="asset.uploaded">2014-12-11 06:38:02</Value>
+                <Value AttributeID="stibo.uid">0i3k8data-02teide-1xwqhf4av7f9c</Value>
+            </Values>
+            <AssetContent QualifierID="Qualifier root">
+                <AssetContentSpecification ImageConversionConfigurationID="" IncludesBinaryContent="true"></AssetContentSpecification>
+            </AssetContent>
+            <AssetBinaryContent QualifierID="Qualifier root" ImageConversionConfigurationID="" Filename="PortalExampleProofViewXSLT.xml" MIMEType="application/xml" Checksum="6518e8ebb29edda29cca3c8995174dbc7d83b9b4">
+                <BinaryContent>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8eHNsOnN0eWxlc2hlZXQgeG1sbnM6eHNsPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L1hTTC9UcmFuc2Zvcm0iIHZlcnNpb249IjEuMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiPg0KCTx4c2w6dGVtcGxhdGUgbWF0Y2g9Ii8iPg0KCQk8aGVhZD4NCgkJCTx0aXRsZT5Qcm9kdWN0IFByb29mIFZpZXcgZm9yIGNvbnRleHQgRU4gQWxsIEFsbDwvdGl0bGU+DQoJCTwvaGVhZD4NCgkJPGJvZHk+CQ0KCQkJPHRhYmxlIGFsaWduPSJjZW50ZXIiPg0KCQkJCTx0cj4NCgkJCQkJPHRkPgkgIA0KCQkJCQkJPGgxPjx4c2w6dmFsdWUtb2Ygc2VsZWN0PSJQcm9kdWN0L05hbWUiIC8+PC9oMT4NCgkJCQ0KCQkJCQkJPGJyIC8+DQoJCQkJCQk8IS0tIFByaW1hcnkgaW1hZ2UgdGh1bWJuYWlsIC0tPg0KDQoJCQkJCQk8eHNsOnZhcmlhYmxlIG5hbWU9ImNvbnRleHQiIHNlbGVjdD0iUHJvZHVjdC9AQ29udGV4dCIgLz4NCgkJCQkJCTx4c2w6dmFyaWFibGUgbmFtZT0id29ya3NwYWNlIiBzZWxlY3Q9IlByb2R1Y3QvQFdvcmtzcGFjZSIgLz4NCgkJCQkJCQ0KCQkJCQkJPHhzbDpmb3ItZWFjaCBzZWxlY3Q9IlByb2R1Y3QvQXNzZXRDcm9zc1JlZmVyZW5jZVtAVHlwZT0nUHJpbWFyeSBJbWFnZSddIj4NCgkJCQkJCQk8eHNsOnZhcmlhYmxlIG5hbWU9InByaW1hcnlJbWFnZVVybCIgc2VsZWN0PSJjb25jYXQoJy9hc3NldHMvJywgLi9AQXNzZXRJRCkiIC8+CQkJCQkNCgkJCQkJCQk8aW1nIHNyYz0iL3BvcnRhbC9wcm9vZnZpZXd7JHByaW1hcnlJbWFnZVVybH0vdGh1bWJuYWlsP2NvbnRleHQ9eyRjb250ZXh0fSZhbXA7d29ya3NwYWNlPXskd29ya3NwYWNlfSIgc3R5bGU9ImJvcmRlcjpub25lOyIgLz4NCgkJCQkJCTwveHNsOmZvci1lYWNoPg0KDQoJCQkJCQk8YnIgLz4NCgkJCQkJCTxiciAvPg0KCQkJCQkJPGJyIC8+DQoJCQkNCgkJCQkJCTx4c2w6Y2FsbC10ZW1wbGF0ZSBuYW1lPSJhdHRyaWJ1dGVzIj4NCgkJCQkJCQk8eHNsOndpdGgtcGFyYW0gbmFtZT0icHJvZHVjdElkIiBzZWxlY3Q9IkBJRCIgLz4NCgkJCQkJCTwveHNsOmNhbGwtdGVtcGxhdGU+DQoJCQkJCTwvdGQ+DQoJCQkJPC90cj4NCgkJCTwvdGFibGU+DQoJCTwvYm9keT4NCgk8L3hzbDp0ZW1wbGF0ZT4NCg0KCTwhLS0gaGVscGVyIHRlbXBsYXRlIGZvciBwcm9kdWN0IHZpZXcuIERpc3BsYXkgYXR0cmlidXRlcyAtLT4JDQoJPHhzbDp0ZW1wbGF0ZSBuYW1lPSJhdHRyaWJ1dGVzIj4NCgkJPHhzbDpwYXJhbSBuYW1lPSJwcm9kdWN0SWQiIC8+DQoJCQ0KCQk8dGFibGUgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIzIiBjbGFzcz0iYXR0cmlidXRlTGlzdCI+DQoJCQk8dGhlYWQ+DQoJCQk8dHI+DQoJCQkJPHRoPg0KCQkJCQlBdHRyaWJ1dGUNCgkJCQk8L3RoPg0KCQkJCTx0aD4mIzE2MDs8L3RoPg0KCQkJCTx0aD4NCgkJCQkJVmFsdWUNCgkJCQk8L3RoPg0KCQkJPC90cj4NCgkJCTwvdGhlYWQ+DQoJCQkNCgkJCTx0Zm9vdD4NCgkJCQk8dHI+DQoJCQkJCTx0ZCBjb2xzcGFuPSIzIj48aHIgLz48L3RkPg0KCQkJCTwvdHI+DQoJCQk8L3Rmb290Pg0KCQkJDQoJCQk8dGJvZHk+DQoJCQkJPHhzbDpmb3ItZWFjaCBzZWxlY3Q9Ii8vVmFsdWVzL1ZhbHVlIj4NCgkJCQkJPHRyPg0KCQkJCQkJPHRkPg0KCQkJCQkJCTx4c2w6dmFsdWUtb2Ygc2VsZWN0PSJAQXR0cmlidXRlSUQiIC8+DQoJCQkJCQk8L3RkPg0KCQkJCQkJDQoJCQkJCQk8dGQ+DQoJCQkJCQk8L3RkPg0KDQoJCQkJCQk8dGQ+DQoJCQkJCQkJPHhzbDp2YWx1ZS1vZiBzZWxlY3Q9Ii4iIC8+DQoJCQkJCQk8L3RkPg0KCQkJCQk8L3RyPgkJCQ0KCQkJCTwveHNsOmZvci1lYWNoPg0KCQkJPC90Ym9keT4NCgkJPC90YWJsZT4NCgk8L3hzbDp0ZW1wbGF0ZT4NCjwveHNsOnN0eWxlc2hlZXQ+</BinaryContent>
+            </AssetBinaryContent>
+        </Asset>
+    </Assets>
+</STEP-ProductInformation>

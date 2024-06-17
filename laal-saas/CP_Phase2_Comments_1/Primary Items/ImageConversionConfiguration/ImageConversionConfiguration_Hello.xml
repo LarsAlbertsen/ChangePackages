@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <ImageConversionConfigurations>
+        <ImageConversionConfiguration ID="Hello"><!-- Definition:
+<ImageConversionConfiguration Version="1.3">
+  <Property Name="Color">None</Property>
+  <Property Name="Format">pict</Property>
+  <Property Name="FormatInterlaced">Pixel</Property>
+  <Property Name="FormatJPEGQuality">80</Property>
+  <Property Name="SizePixelHeight"></Property>
+  <Property Name="SizePixelWidth"></Property>
+  <Property Name="SizeResizeType">cubic</Property>
+  <Property Name="SizeResizeIf">Always</Property>
+  <Property Name="SizeResizeUnit">Pixels</Property>
+  <Property Name="SizeResolution">72</Property>
+  <Property Name="FormatKeepColorProfile">false</Property>
+  <Property Name="FormatKeepTransparency">false</Property>
+  <Property Name="SizeMaintainAspect">true</Property>
+  <Property Name="SizeMaxBoundingBox">false</Property>
+  <Property Name="SizeFillBoundingBox">false</Property>
+  <Property Name="SizeResize">true</Property>
+  <Property Name="WatermarkAdd">false</Property>
+  <Property Name="WatermarkTiled">false</Property>
+  <Property Name="WatermarkFixed">true</Property>
+  <Property Name="WatermarkSize">50</Property>
+  <Property Name="WatermarkOpacity">20</Property>
+  <Property Name="WatermarkRotate">0</Property>
+  <Property Name="WatermarkPosition">0</Property>
+  <Property Name="WatermarkRequestedTileWidth">50</Property>
+  <Property Name="WatermarkActualWidth"></Property>
+  <Property Name="WatermarkActualHeight"></Property>
+  <Property Name="WatermarkTileSpacing">0</Property>
+  <Property Name="WatermarkImageExternalID"></Property>
+ </ImageConversionConfiguration>
+ -->
+            <Name>Hello</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">Hello</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">1508</Value>
+                <Value AttributeID="asset.uploaded">2023-06-07 10:50:56</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="SmartSheetConfigurations"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAAAJ2U3U7CMBSA732KpQ8gijF6MZoMBJ1GnIByXbuz0di1s+108+ntBpJIDB682NKf8/X8nzAuWA4jrd7BWKGVX2UirwxzfhM8rw8H5PT4jNCjIAgTo0swrgmmrIABGWmpDaFTrSDsfd/9JjjRpmCO0FJwh5GMlQMjGYeU0ETUIDHQbTK+fqyYFK4h9PJkPzIXn9C9fAMiX3nTkOJLkboVRnoG1v8XTQmE8upFcCwSZ4RG8oM1Fks8KeE2ccIxWlZtggm96GMCewdQdqn2t5mQ3qGMSYtKeYsuDFO2ZAYUb1Boa+U9E8r5L7IlcO+dMxWKqoe6UqlQ+VDXaGUTIeV/uHX4McYtmS/ogpnXKE1Rz2+BhQ/4gcjEV0J6kFXzzo3zP3pmK/5QMt51WR9LzLTzS0Kx8om2Yl2iaA3wVoF1kLYB23Qp2qGIOz84UL29w+DGx49sztvoqRzvWjekx7XfKSbjqx1lYW/fEKdHXz+Y0NvkBQAA</Configuration>
+        </ImageConversionConfiguration>
+    </ImageConversionConfigurations>
+</STEP-ProductInformation>
