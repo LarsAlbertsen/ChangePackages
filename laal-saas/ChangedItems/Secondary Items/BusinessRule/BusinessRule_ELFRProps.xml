@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="ELFRProps" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings/>
+  <messages/>
+  <javaScript>
+var regs = ['InMemory.Plugin', 'TaskList.Streaming\..*', 'Portal.TaskList.Max', 'OAuthSSO\.Logout.*']
+
+function matches(str) {
+	var found = false;
+	regs.every(function(regex) {
+		found = str.matches(regex)
+		return !found
+	})
+	return found
+}	
+
+var set = com.stibo.systemconfig.ConfigUtil.getAllProperties()
+set.toArray().forEach(function(k) {
+	//if ((k+'').match(/InMemory\.Plugin/)) 
+	if (matches(k))
+		logger.info('ConfigUtil: ' + k + ' = ' + com.stibo.systemconfig.ConfigUtil.getProperty(k))	
+})
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="ELFRBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ELFRProps</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUTY/TMBA9x7/C5NAkLDhwQ/RLLSzSrlptRbviwKLKm05SU8cOtlO1oP3v2HHTD6GV9sIhivNm5s17dsYVrwsmlrSqOAO9ZPkykyJnRU9bwAwqH/ZYvzfclRxvQWkmRT98T96FGEQmV0wU/fB+8eXth3A4QL1xrZkArb/WHAYI4yMwa+jwedxDN5/74S3d0nmmWGXa+CgzttE3ZtZjJlY6dFyWbUYVLcFYGR44h7Bj8tl4sa+gH/60tIRTUZC5UVZoOOhw071w0vlVS9O1dvzi5Ml/N8b8ctgpTBc5AtdjSqu0AXrpUcAzkq6VkmpqPdEC/re0icwoZ7/pI4dDxwWUFacGxrVYcXip5tOBPC94SxVWUGjcx9+jGzGFUqo98YcavcHRgurNhGnjCoCWtuaBkNcuMpPKUE6OCVO6c/DdqDbr+fzugUxkIWtjk38glNei+RdwSU22Bh1roxL8BwWufy6tLSsgp1xDFwVODwG7g/u4rYstBrumImjTLQVp6XzYBhWYWgn8qklCwVOCWsgjTwFCrqcGYykyWRJt2KMkeq8NlH5OyKfmdW8YJwWYEeczJStQxk5YnCBbSowcKUX3cUJyqa5ptj4p3TQq05TlOI43V1GUeJVx2m7vw2F/0yTBKHB5rY1N4jxwWRSgCBO5jKOTlo84wld4Y5/ISnfrF8k/aN878gDZDfnnxzkDmonspZfzbm+E9PJKONwufwFnhKfRfQQAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

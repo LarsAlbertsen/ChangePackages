@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="QueryLeafs" Scope="Global" Type="Function" RunPrivileged="false"><!-- Definition:
+Function #1 (JavaScriptBusinessFunctionWithBinds):
+<config>
+  <bindings>
+    <binding alias="log" type="Logger" contract="LoggerBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+    <binding alias="LeafObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      Leaf
+    </binding>
+  </bindings>
+  <functionparameters>
+    <functionparameter alias="currentNode" type="Node" contract="NodeBindContract"/>
+    <functionparameter alias="searchString" type="String" contract="StringBindContract"/>
+  </functionparameters>
+  <returntype type="com.stibo.query.home.QuerySpecification"/>
+  <messages/>
+  <javaScript>
+var c = com.stibo.query.condition.Conditions;
+var h = manager.getHome(com.stibo.query.home.QueryHome);
+var querySpecification = h.queryFor(com.stibo.core.domain.Product).where(
+	c.name().like(searchString)
+     .and(c.objectType(LeafObjType))
+);
+
+/*
+
+var querySpecification = h.queryFor(com.stibo.core.domain.entity.Entity).where(
+     c.valueOf(active).eq("No")
+     .and(c.objectType(location))
+ );
+
+var querySpecification = h.queryFor(com.stibo.core.domain.Product).where(
+     c.objectType(LeafObjType)
+);
+
+  
+  */
+ 
+return querySpecification;
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">QueryLeafs</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAL1WXU/bMBR9Xn6FlQeUIM3Z3iY1DYICGhMdDJimPSHj3KZmjp06Tjf262fHaZN+0bJ1SJXq3K9zfHJ944JXGRP3pCg4g/Keje6pFCOWxaUx6KRwbmfrx0e/co6moEomRd9/j9/5CASVKRNZ3/96d/72g3+UxCdVyQSU5U3FIfEQmhuu62qo63emi9O+/4lMyS1VrNAz/3klqDZI35genzCRln4S34CulLh7KiChMselZg8STypQT3gsc8Bf7PK2AMpGjBKbHUedHMPG8LkmiuSgzT6coWtClotDQzal7z8aYpgTkeFbrcxO/eSA696CFAeTSuqe0cMtWlHcc62MWx4dZLrn2QIWY0iK+hmhmQUZqbUiVBsaLuNSZhko6xs0rgbkmDNSNkFcZo11vpEBJ+XMLSrO3SraijckgmwHzF3UvkCvHh6Baqv3FtxLICMTbCOfw257g0oFOJU5YQKzvOC4hbowjy7c8rOVLcHIMpi/paj7muJoDrahcc6UkmpoeteI878b6FJSwtlv8sChQbwDsyOi4aQSKYdoR86zYza3vkb3rwXd5Th8lum2HqGVUiC0jWy8p1DWk6Vlu6/GdaJsIVQCUXTsQvfCqO7MZyXc/bW30/GVXnkL2FF30bjjaK9lWCq3IM2Sb7so7UdosxhTohBFfbRM0vRGyiwqHsxWZc+z0WMT3QxMnIH+aHYTbN6idYcucbKyZVNp7DLOpQrWj7lrJdOK6hD/HIOCwHtDsTB7DELM2Q8Iut0YOhkwEWlAsZyPxqAzZ8PQM3S86ND7B07mPDL9hM/qvzmzGpziKeEVXI0Cc3rYFEIMk2B22N3/RppcOgqGI7Ik9ydaQ22DJLUiCJnfYeQhT9V9tga5t9JyHUN9+4jdDag1Duq7VqXq/GTZveBFLF355DDBdN8//f75eHgx8KMdCjTj/uWJ3cPy8ux18+fvqyx/vFYqRVt0jhYvqYnXWup7bHMh/gNHR6+iMAsAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

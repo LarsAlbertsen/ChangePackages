@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="PrefixName" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var curName = node.getName();
+if (curName==null) {
+	curName = "";
+}
+var newName = "Prefix "+curName;
+node.setName(newName);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">PrefixName</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVTUU/CMBB+tr+i6QOBGDd9M9k6AqiJJigRjI+kjm6WlG62HWKM/512LWOLQV+Wu+/uvrvveit5lTOxJGXJGVVLli3TQmQsj5UBdFK6sMNwPNxtONxSqVghMLoKLhGkIi1WTOQYvSzuLq7RMAHxuFJMUKWeK04TAGEDzGo62I476P4GoweyJfNUslIf4qNUm0avTL+PmVgpZLkM24xIsqHajOGANgQtk8uGi6+SYrQ2tAEnIg/mWppBUdLjOuoo6X1UhY6MHGccNTm/FubMYS/XEbAEtseUlLUP4QGBZlNaklSbMVzFpJKSCv30tqaptikTn+F7jTgjyueKYkU93AiacKKaeMW5s8JmjrA9SBw2dSdWcytlIadmtySnf6zof6Lja51m2RIJ00o+mjKIoVUX5FRbtz+IAMtg30cxttIG8BucHfOdUveNwA+wbIJ+dqIzSTO28865r41A3Ur5Vr7GdPy9nxZQH1Mcdk/VHHPYvWb/Y+wBvKvITjgDAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

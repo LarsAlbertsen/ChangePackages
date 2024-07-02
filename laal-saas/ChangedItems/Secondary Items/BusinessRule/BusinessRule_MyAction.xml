@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="MyAction" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+logger.info("MyAction on "+node.getID());
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="TestBR"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">MyAction</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAIVSTU8CMRC98yuaHgjEuKs3k/0ggJpoQiSC8UjqUmpJaWvbJfLvnd1ZliUGTXqYvpm+eW86VpVC6hWzVknuV3KzKozeSJF6AEJuMY1Ylo6+d4rsufPS6IzeRjeUcF2YtdQio2/Lx+s7Osp76aT0UnPvX0vF8x4hLTCv6Ug3j9DTfUaf2Z4tCidtOObHRYBG7zJ8TqRee1pxAducObbjAWQg0IVIxYTVZHmwPKNboI0U0yJaBAdCad5XITlz0v8qTUjADgYnT3ivjWE46ouQ9CqCqseM2fpOyBEhMKngWBFABr6Yls5xHV4+trwIVcm0qWh6jZVkvqnVZs0buDU0Vcy3+VIpjOJWR9wVksbtuwujeXDOuBnMlgn+x4j+Jzr91mUWZYTgLpJ6Ywaoe3bAPyVwELmqTEeCw8QGw2Hyq3EHqL87jc+XCdYtPt+3ZnV/AExjbKPaAgAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

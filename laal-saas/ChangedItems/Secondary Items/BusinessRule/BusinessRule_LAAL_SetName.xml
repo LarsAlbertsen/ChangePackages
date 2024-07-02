@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_SetName" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="message" type="DataIssuesContext" contract="DataIssuesContextBind"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+/** 
+ *  This is a comment *
+ */
+var name = node.getName();
+logger.info("name="+name);
+name = "X "+name;
+node.setName(name);
+logger.info("Xname="+name);
+
+// Hello World
+
+var x = lib.test();
+
+message.addError("Hello ["+name+"]", node);
+return message;
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_SetName</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVU32/TMBB+z19xykM1OojhDalJq7UDMcTGxIo2CaHKTa6ZJ8cOtlMV/nrOsdel2ibgASlSzt+dv+9+JNfKrhZqxdtWCrQrsVmVWm1EnVsC3LQN7oAV+WzXSNiisUKrIn2TvU4BVakroeoi/bp8/+ptOpsm+byzQqG1XzqJ0wRgD1z2dDD0B+jstEg/8i2/Ko1o3b3/pHQkdC3c7Vyoyqaei9guueENOkojAEMIPFOIhuXPFov0jmgzyVWdXTlDiabTkXSTg0pGPzrtJlROMB5qCue+sGDORrWbJJ7Aa5zztj8D3CNAnXKGl47SCDcWnTGo3Of1HZbOhyxiRNQ6kYLbGKt0hRHeF7SQ3O79nZTBYn/UPeWOn1nbofWCuOu1n9BsqM+8/idZL8qG9edsf++ZibwzRpvzIPW/J/NJl1yKX3wtMSousWkldzjvVCWR/WXOD9/j8wmz8RgSGAMsb4UFejhNomlo4DAmnCVbbkARKRTgp5vV6C7oePRikkhd12gyoTb6KDaaPLGyY29TULwbwBsYOMnnCW0kjPGPSW+eYE0Ygw8opYZrbWSV9GnuSEeKdebQOp9fEj+NjFdVP79IGC5+GzAeB/t7eL3sKyUCg64zCiLN5FHHB0D/J+fscE/QJmGHqyRupd+a566etQQAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Item"></ValidObjectType>
+                <ValidObjectType ID="Variant"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

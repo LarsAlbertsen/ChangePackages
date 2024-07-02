@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="SystemChangeGenerateEvent" Scope="Global" Type="Action" RunPrivileged="true"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="SystemChangeObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      SystemChange
+    </binding>
+    <binding alias="SystemChangeDateObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      SystemChangeDate
+    </binding>
+    <binding alias="SystemChangeUserObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      SystemChangeUser
+    </binding>
+    <binding alias="SystemChangeYearObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      SystemChangeYear
+    </binding>
+    <binding alias="SystemChangeMonthObjType" type="ObjectType" contract="ObjectTypeBindContract">
+      SystemChangeMonth
+    </binding>
+    <binding alias="SystemChangesRoot" type="Classification" contract="ClassificationBindContract">
+      SystemChangesRoot
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+if (node != null) {
+
+
+	logger.info("Workspace " + node.getManager().getCurrentWorkspace().getID());
+	if (node.getManager().getCurrentWorkspace().getID().equals("Approved")) {
+		logger.info("Creating main node");
+		var mainManager = node.getManager();
+		mainManager.executeInWorkspace("Main", function (mainManager) {
+			var mainNode = mainManager.getObjectFromOtherManager(node);
+			handleNode(mainNode);
+			return;
+		});
+	}
+	else {
+		handleNode(node);
+	}
+}
+
+function handleNode(pNode) {
+	if (pNode != null) {
+		var url = pNode.getURL();
+		logger.info("SystemChangeGenerateEvent Type=" + pNode.getClass().getName() + " URL=" + url);
+		var type = pNode.getClass().getSimpleName().replace("Front", "").replace("Impl", "");
+		var id = pNode.getID();
+		var user = pNode.getManager().getCurrentUser();
+		var configRoot = pNode.getManager().getClassificationHome().getClassificationByID("SystemChangesRoot");
+
+		var now = new java.util.Date();
+		var currentLocale = java.util.Locale.getDefault();
+		var dateFormat = java.text.DateFormat.getDateInstance(java.text.DateFormat.DEFAULT, currentLocale);
+		var dateString = dateFormat.format(now);
+
+
+		var userDateClassification = getUserClassification2(configRoot, user, now);
+
+
+		var changeName = type + " ID=" + id;
+		var existingChanges = userDateClassification.getChildren();
+		for (var i = 0; i < existingChanges.size(); i++) {
+			if (changeName.equals(existingChanges.get(i).getName())) {
+				logger.info("Found existing change for " + existingChanges.get(i).getTitle());
+				return;
+			}
+		}
+		var c = userDateClassification.createClassification("", SystemChangeObjType.getID());
+		c.setName(changeName);
+	}
+	else {
+		logger.info("SystemChangeGenerateEvent No Node");
+	}
+}
+
+
+
+//
+// get or create classification for the give user on the given date organized in data hierarchy
+//
+function getUserClassification2(pConfigRoot, pUser, pNow) {
+	var formatter = new java.text.SimpleDateFormat("yyyy/MM/dd");
+	var dateString = formatter.format(pNow);
+
+	var id = "SystemChange " + dateString + "/" + pUser.getID();
+	var userCls = pConfigRoot.getManager().getClassificationHome().getClassificationByID(id);
+	if (userCls == null) {
+		//logger.info("Did not userCls ["+id+"]");
+		var dateCls = getDateClassification2(pConfigRoot, pNow);
+		userCls = dateCls.createClassification(id, SystemChangeUserObjType.getID());
+		userCls.setName(pUser.getTitle());
+	}
+	return userCls;
+}
+
+function getDateClassification2(pConfigRoot, pNow) {
+	//var formatter = new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
+	var formatter = new java.text.SimpleDateFormat("yyyy/MM/dd");
+	var dateString = formatter.format(pNow);
+
+	var id = "SystemChange " + dateString;
+	var dateCls = pConfigRoot.getManager().getClassificationHome().getClassificationByID(id);
+	logger.info("Found date " + dateCls);
+	if (dateCls == null) {
+		logger.info("Create date [" + id + "]");
+		var monthCls = getMonthClassification2(pConfigRoot, pNow);
+		dateCls = monthCls.createClassification(id, SystemChangeDateObjType.getID());
+		dateCls.setName(dateString);
+		logger.info("Created day");
+	}
+	return dateCls;
+}
+
+function getMonthClassification2(pConfigRoot, pNow) {
+	//var formatter = new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
+	var formatter = new java.text.SimpleDateFormat("yyyy/MM");
+	var dateString = formatter.format(pNow);
+
+	var id = "SystemChange " + dateString;
+	var monthCls = pConfigRoot.getManager().getClassificationHome().getClassificationByID(id);
+	logger.info("Found month " + monthCls);
+	if (monthCls == null) {
+		logger.info("Create month [" + id + "]");
+		var yearCls = getYearClassification2(pConfigRoot, pNow);
+		logger.info("Got year - creating [" + id + "]");
+		monthCls = yearCls.createClassification(id, SystemChangeMonthObjType.getID());
+		monthCls.setName(dateString);
+		logger.info("Create month");
+	}
+	return monthCls;
+}
+
+function getYearClassification2(pConfigRoot, pNow) {
+	//var formatter = new java.text.SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
+	var formatter = new java.text.SimpleDateFormat("yyyy");
+	var dateString = formatter.format(pNow);
+
+	var id = "SystemChange " + dateString;
+	logger.info("Look for [" + id + "]");
+	var yearCls = pConfigRoot.getManager().getClassificationHome().getClassificationByID(id);
+	logger.info("Found " + yearCls);
+	if (yearCls == null) {
+		logger.info("Create year [" + id + "] below [" + SystemChangesRoot.getID() + "]");
+		yearCls = pConfigRoot.createClassification(id, SystemChangeYearObjType.getID());
+		yearCls.setName(dateString);
+		logger.info("Created year");
+	}
+	return yearCls;
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">System Change Generate Event</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>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</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_DeleteAndApprove" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+if (node!=null) {
+	node.delete().approve();
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_DeleteAndApprove</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVTy07DMBA8k68wPlT0QAI3pDyqtoAEoqKiRRwrN9kGV65tbKfiIf4dO07TVKgSF267s+vZ2dFasqqkfEGkZBT0gq4WueArWibaAiaTvuyxNBm8bxjagtJU8BRfhhcYAc9FQXmZ4uf57fkVHmRBMqo05aD1U8UgCxBqgWlNh7p1D91dp/iebMksV1SaXX2YGzvohZrXEeWFxo7Lsk2JIhswVoYHuhByTL4bzT8kpHhtaUNGeBnOjLJCcdZjJj7YpPdWCRPbdXyw38nn9WI+HPRKEweOwM2YEFnnCO0QZJ0yiuTGyvAvxpVSwM3jcg25cS3jpqOZNWSU6KaXiwIauF1ozIhu6xVjPopaHVFXSBK1745Yc6OUUBPrLSnhvy16EDlh9JMsGTQT57CRjBgYVbxgEP1R8/4wjgumK3Tm7DtNnUl99BWcuDQsgFmes35oL1yJrY3i4Pv3zA5QH1USHZ6sPero8KqbD/IDcs+hrEADAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Asset user-type root"></ValidObjectType>
+                <ValidObjectType ID="AutoClassificationRuleSet"></ValidObjectType>
+                <ValidObjectType ID="BusinessRuleExample"></ValidObjectType>
+                <ValidObjectType ID="Configuration"></ValidObjectType>
+                <ValidObjectType ID="DEFAULT"></ValidObjectType>
+                <ValidObjectType ID="Icon"></ValidObjectType>
+                <ValidObjectType ID="Illustration"></ValidObjectType>
+                <ValidObjectType ID="InstallationManual"></ValidObjectType>
+                <ValidObjectType ID="Item"></ValidObjectType>
+                <ValidObjectType ID="JPEGImage"></ValidObjectType>
+                <ValidObjectType ID="Logo"></ValidObjectType>
+                <ValidObjectType ID="MSDS"></ValidObjectType>
+                <ValidObjectType ID="OwnersManual"></ValidObjectType>
+                <ValidObjectType ID="PDF"></ValidObjectType>
+                <ValidObjectType ID="ProductImage"></ValidObjectType>
+                <ValidObjectType ID="ProductVideo"></ValidObjectType>
+                <ValidObjectType ID="Swatch"></ValidObjectType>
+                <ValidObjectType ID="XML"></ValidObjectType>
+                <ValidObjectType ID="stibo.BulkUpdateConfig"></ValidObjectType>
+                <ValidObjectType ID="stibo.ExportManagerConfig"></ValidObjectType>
+                <ValidObjectType ID="stibo.ImageConversionConfig"></ValidObjectType>
+                <ValidObjectType ID="stibo.ImportManagerConfig"></ValidObjectType>
+                <ValidObjectType ID="stibo.TranslationConfig"></ValidObjectType>
+                <ValidObjectType ID="stibo.ValueSubstitutionTransConfig"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

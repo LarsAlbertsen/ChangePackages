@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_ApproveDelete" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+var p1 = manager.getProductHome().getProductByID("24050308");
+logger.info("p1="+p1);
+if (p1!=null) {
+	logger.info("delete p1");
+	var p2 = p1.delete()
+	logger.info("p2="+p2);
+	/*if (p2!=null) {
+		logger.info("approve p2");
+		var p3 = p2.approve();
+		if (p3!=null) {
+			logger.info("p3="+p3);
+		}
+	}*/
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_ApproveDelete</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUXW/TMBR9rn+FyUOVDpE0yZCQmrRaNxBDq1SxIh4rk7jByLGN41QM1P+Ov5qmWifxwpt97r3nnHv9IWhXE7ZFQlCC2y3ZbUvOdqTOWw2ouXBhhxX54ldD4R7LlnBWBEk0DSBmJa8Iq4vgy+bDm3fBYg7yZdcShtv2c0fxHEDYA2tLB4dxB93fFcEntEePpSRCHeM3pdJCX4n6viSsagPDpdnWSKIGK23DAUMIGiaXDTdPAhfBD00bUcTq6FFJbTSYj6manXUy/tlxNdPtuMWpJ7e3jbnlYlyrGTAERmOFhN1DeESgnpSSqFTahqtYIYZqLE3w1se8yg0lqPVZjcvykb6bW4raYwrrKHWruDcRD13kcV/3wlzeS8nlSg9Wa/3v+TzwElHyG32j2CtucCMoUnjZsYri+B89n27Fy4bBHkkoElhAP8eoxmotedWV6iNvcDgZAMun+7vQuU2vp2+n2dR7n8wA5bWpJmzHfYpIfJOvRaITyA6GInlVmMOYwD9g9LyiwlSb13Z61pG1l2p7IolcOJxcKhVpL5aauvjK6qUDvQtV+u1KvteK6UnRSWZGMo18QmgDljEbMl4ykvVGMlt1AKPDVQwOADw/sgFgH2Qenz93/SHE5z+C/1z+Ag9uUk58BAAA</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

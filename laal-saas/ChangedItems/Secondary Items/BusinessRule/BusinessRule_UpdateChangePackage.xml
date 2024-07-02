@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="UpdateChangePackage" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="logger" type="Logger" contract="LoggerBindContract"/>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+logger.info("AutoUpdateEP " + node)
+
+if (node != null) {
+	/** @type{ChangePackageHome} */
+	var cpHome = manager.getHome(com.stibo.core.domain.changepackage.ChangePackageHome)
+	var cp = cpHome.getChangePackageByID("ChangedItems")
+
+	if (!isOpen(cp)) {
+		log.info("AddToChangePackage Reopen")
+		cp.reOpen()
+	}
+
+	cp.addItem(node)
+}
+
+/**
+ * 
+ * @param {ChangePackage} pCP 
+ * @returns {boolean}
+ */
+function isOpen(pCP) {
+	var state = pCP.getValue("ChangePackageState").getSimpleValue()
+	logger.info("AddToChangePackage state = " + state)
+	if ("Change Package (Sealed)".equals(state)) {
+		logger.info("isOpen(" + pCP.getName() + " false")
+		return false
+	}
+	logger.info("isOpen(" + pCP.getName() + " true")
+	return true;
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Update ChangePackage</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVXU/bMBR9bn6FyQNKOy3Z3ib1A2hhGhOMipbtEbnJbTBzbM920Bjqf9917H5kDLHPh0r28fU59557Uytel0xcU6U4A3PNlte5FEtWDgcHXytO7kAbJsUwfp2+igmIXBZMlMP4av725Zv4YBQNxrVhAoy5rDlkuDdIZEfK0/4F1ygiZANMGzqye+6h0+Nh/J7e0VmumbLr86PcotAnZm/GTBQmdlzINqWaVmAxDQ/sQsQx+Wgyv1cwjG+RNuVUlOnMakw0Hu1z229Vsv+llraP5fjFtia/bwrzy4P90vYjR+A0zqlq9oSsEYJOWU1zi2n4G5NaaxD2YnELuXUhkxARtI44oybECllAgDcFTTg1m/Oac7/KntU9k2UJ+hlB3gT9K8lzKujzmpWP+h1RJ5ntGj7INveeGIETraU+xxlCrf89Cmcyp5x9owsOQXEOleLUwrgWBX5Ov5jz9gN4OmHfsZSJpUx8Hke1lVeqQLWTKQlZvyBulLpRxJYkcUuyNyTO1S55iDpZr0cOLQo8TG6QG6Y0/4xJv5MVrEgvizp3VJNcuT0ZktCvtATrkCSXVWosW8g0lxrSQlaUiTRvmJRnSh/xdtekSOiZHV8rbHx/ehxK8nhxaqEyHsFSOq6WPWYuFIgkV92mlA760TKjKOayRUsuQeKNNU2nk6tUQ0OCuxXyIkCLRizxriGIFkWkR9zvULkmkbZXK6ImU3+swdZaGPKwkJIDFavIebisRfPnRULCGN4k7FwwFpuFRiDmXPhIeQ2tyoPIzMWFxF3gjOFUgQ/H3H8yCo+rX2ttBqMBut7NXU2yvpHMgHIouv4whS815Sbx1zae/yAcityIhMo+4HAnXdyHgyUywbYT3jmPulb8ObHV9ZY30Dqs73r56MPbAZoXZJC13yd8wbL2ExZew+9MMmJpZQcAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

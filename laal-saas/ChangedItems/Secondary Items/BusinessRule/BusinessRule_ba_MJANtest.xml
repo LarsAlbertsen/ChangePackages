@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="ba_MJANtest" Scope="Global" Type="Action" RunPrivileged="true"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="usr" type="User" contract="UserBindContract">
+      SERVICE-ACCOUNT-INTEGRATION
+    </binding>
+    <binding alias="gateway" type="GatewayPlugin" contract="GatewayBinding">
+      giep_CertCheck
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+var request = gateway.post();
+var response;
+response = request.invoke();
+logger.info(response);
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">ba_MJANtest</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUy27bMBC8+ysIHYzkYLm9FZBkw1aVQEXjBLbSHg1GWjNsKJIhKbfJ15c0KdtCG7Qo0Nvu7HB3hi/JOkL5FkvJKOgt3W1rwXeUpNoCZiZ92WNZOv/RMrQHpangWfQ+fhch4LVoKCdZdF9dTT5E89koXXaactB63TGYjRA6AneHdui87qHyYxZ9wnu8qRWVpq8vamMHfaXmcUl5oyPXy3a7wwq3YKwMD5xDyHXybFS9SMiib7ZtzDAn8cYoKzSajZlJBk7Gz50wibXjg5Mnnx+M+XA+JiYZuQZuxg2WhxyhHkF2p4zCtbEywmINylXyUAgjFoxiHSidVgE92sgZ1n25Fm2sDX0QcS0UxI1oMeUxbSWLXfPSBp7otGyK9ZcyLyaLPL+9X1WTclUV1+tFVd6unMapk/JHzdfYwHf84op2F36jmHjCP6qm3ABR2J0t8EYKm8ehY3ylrJgwvzzxisAbmiUU5DYHZfJHqJ+G/o5Zf0jp9KjzjWtTKCXUjb13mMD/vj6fRY0ZfcUPDMLECqw3a3zZ8YbB9C81nx7N24L3WCEFzx1ogzLU77QU2lxcJiNf1VJwDcmojywxLLHHtRdP4KhMEALKAjtx0RMvk19EngGHF5pOh+/f/hDT4RcRfpufejoEwY0EAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

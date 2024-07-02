@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="LAAL_GetLogs" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+    <binding alias="assetType" type="ObjectType" contract="ObjectTypeBindContract">
+      Asset user-type root
+    </binding>
+    <binding alias="logFileRoot" type="Classification" contract="ClassificationBindContract">
+      LogFiles
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+var profilingDir = new java.io.File("/opt/stibo/step/diag/logs");
+var maxCount = 1000;
+var count = 0;
+var foundFiles = 0;
+var doUpload = true;
+var totalFileSize = 0;
+var skipped = 0;
+
+getFiles(profilingDir);
+logger.info("Uploaded "+count+" profiling files");
+logger.info("Found files "+foundFiles);
+logger.info("skipped "+skipped);
+logger.info("totalFileSize "+((totalFileSize/1024))/1024+"mb");
+
+function getFiles(pDir) {
+	logger.info("Getting files from "+pDir.getAbsolutePath());
+	var allFiles = pDir.listFiles();
+	if (allFiles!=null) {
+		for (var i=0; i<allFiles.length; i++) {
+			var curFile = allFiles[i];
+			if (curFile.isDirectory()) {
+				//getFiles(curFile);
+			}
+			else {
+				getFile(curFile);
+			}
+		}
+	}	
+}
+
+function getFile(pFile) {
+	logger.info("Getting file from "+pFile.getAbsolutePath());
+	var id = pFile.getName();
+	foundFiles++;
+	totalFileSize += pFile.length();
+	
+	if (count>=maxCount) {
+		skipped++;
+		return;
+	}
+
+	if (!doUpload) {
+		logger.info("Was going to upload "+id);
+		skipped++;
+		return;
+	}
+
+	var asset = manager.getAssetHome().getAssetByID(id);
+	if (asset==null) {
+		logger.info("Create asset ID="+id);
+		asset = logFileRoot.createAsset(id, assetType);
+		asset.setName(id);
+		copyFileToAsset(pFile, asset);
+		count++;
+		return;
+	}
+	skipped++;
+}
+
+function copyFileToAsset(pFile, pAsset) {
+	logger.info("Uploading data from file "+pFile.getAbsolutePath());
+	var is = new java.io.FileInputStream(pFile);
+	pAsset.upload(is, pFile.getName());
+	is.close();
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="LAALBRGroup"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">LAAL_GetLogs</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVWW2/bNhR+tn8F64dAhlvJGfYwwFaCXJYtRbMFTYo+DEVAS5TCliI5ksqaDvnvOzykZKuO56JAH+LoHH7nfOfGixZtzeUd1VpwZu94dVcoWfF6aUHhjnRYDrp8efy5EeSBGcuVzCeH6XxCmCxUyWWdT97dXrz6ZXJ8NF6etpZLZu3bVrCjMSG94hrdkc31oLo8zyev6QO9KQzXrls/KRwQvefu/pTL0k68L/B2TQ1tmIMwgmJTRbyngCa3j5rlk4/gNhVU1umNMxDo5OhAuMUgk4O/W+UWkE74WOcUZEwsfB4f1G4x9g48xxXVKBPSaQhUyhlaOAgjWFxRSWtm/OJZXIssJ4JTG1FNQMWVPpszQW0Hka0Q4SvbS/rn6iMrnM9/Dy+4Z4j7P+ZCNal1fKXSQhmWlqqhXKa80SJdE12CGOA+uhPvl7SWmVcOFolRyvlwMx/P3vCRnFe8oL7/e1IQqr7ggr31DN+XxIUB70POYTZvAoUdZtBL3Rgss555x2D+aowyVzDZ0OwfPaBvVEEF/0JXgkXGWwZZUcdOW1kKln1jzOttuTvgB2qINqriAsRzbkhOJPuHIJCr1BcvibOrtMuwD/DLdFZyWmfQQhuWp4ux99XQz2eqlQ78HM7n86AsoiaKFYgltmWtK9U7LRQtQeNMy4LSKUeFB97wL2yNtZ+41qwMinHNHPpKNtOAaCA02Jcpl5WKGQQGMAziDMOaxcb01qTCgemS2nZz4cMPqM7TOqNnLbqAIzqKz0KHKUeDJBmos8P5Tz9Pp/gvht+s+oDHVSvx9CXryviKkH/Ho22+35hzfdKkMqrpSL1RCi5OVlaJ1rFr6u6TKRCMfA+oEF0HESi4jWQewSuSdIgXuT//kH5UKUMSb87z+YJwP+wdLBVM1u4etLNZACNP0Rq/DDQd8C/+YeFXPUdcTbmFGOA4U+YRQgzWoyzrCxBxUzR88j9MWBZxEbUNgr+n0fhpu6KJRuD+ig4LiqHurCj3A91j/oB9jKVcj9ZsBuJwPmadRSgeGoTq42z7cyLvdmQoS5w99DUyzLVGwhfkiFYvum0YwNvJvaeW1Mqn5xRpw46N6fESK7ebAMcGb5ecxFsTq+FVvyufbi+ePl6eJ8EhjpLX5RtztB3YmWFwPkb//XXUBdXRbtw4aYEWSAdUL0l/oa4tUhsbEd0USj96+1sVzLD20TIC/InydeqbNdmcph3uNEo7piu0xzegpI6G+cJJ+8Yhs88c8JdStw4uBEabONmADlGkoccJty+/nk1sjk0LoSxO6tP2jbShwAffMhs+J+HBmQ1fnPHx+h+S9Og33AoAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="Product user-type root"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

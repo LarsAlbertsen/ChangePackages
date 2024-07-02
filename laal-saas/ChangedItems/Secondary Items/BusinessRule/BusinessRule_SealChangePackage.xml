@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="SealChangePackage" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+  </bindings>
+  <messages/>
+  <javaScript>
+/** @type{ChangePackageHome} */
+	var cpHome = manager.getHome(com.stibo.core.domain.changepackage.ChangePackageHome)
+	var cp = cpHome.getChangePackageByID("ChangedItems")
+
+	if (!isOpen(cp)) {
+		log.info("AddToChangePackage Reopen")
+		cp.reOpen()
+	}
+
+	removeDeletedItems(cp)
+    cp.sealPackage("AutoSeal")
+
+
+    /**
+ * 
+ * @param {ChangePackage} pCP 
+ * @returns {boolean}
+ */
+function isOpen(pCP) {
+	var state = pCP.getValue("ChangePackageState").getSimpleValue()
+	logger.info("AddToChangePackage state = " + state)
+	if ("Change Package (Sealed)".equals(state)) {
+		logger.info("isOpen(" + pCP.getName() + " false")
+		return false
+	}
+	logger.info("isOpen(" + pCP.getName() + " true")
+	return true;
+}
+
+/**
+ * 
+ * @param {ChangePackage} pCP 
+ */
+function removeDeletedItems(pCP) {
+	var allItems = pCP.getPrimaryItems();
+	allItems.toArray().forEach(function (item) {
+		if (item != null) {
+			var n = pCP.getManager().getNodeFromURL(item);
+			if (n==null) {	
+				logger.info("AddToChangePackage.removeDeletedItems item in package is deleted "+item)
+				pCP.removeItem(item)
+			}
+		}
+	})
+}
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">Seal ChangePackage</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVVXU/bMBR9Tn6FyQNKipZub5PaFNoCGhOwipbtEZnEDd4cO9hOtQ71v+/6I2k7xoQ27aFSfD/OuffcW7tmTUn5Ha5rRom6o8u7XPAlLbPh8feKoRWRigqeRe/StxEiPBcF5WUW3S7O37yPjkfhcNIoyolSNw0jfTgrANKj2sH+A9YoRKgzzCwc2vU708VpFn3EKzzPJa116x/nGoi+UP0wobxQkcECtBmWuCIaynCGXRMySC4aLdY1yaKvAJsyzMt0riUUGo0OmR7sdXL42Ag9gHbcx7Ynd7aNuc/jw1IPQgNgOK5wbc8ItRYESmmJcw1luIwrzHFJpHFOvc+zjBnFykdVLsp7um6mDKs2hDeMua9+V0R/t4phv8t7QZczKYW8AmGB63/rcylyzOgPfM+IZ1yQqmZYk0nDC9ixV9a83YqXCw76vR460eB9mj6Ag8xw/g0YP4iKbFCvHwYrLFFemzPKkBc7LYk2ljgXVao0vRdpLiRJC1FhytPcItUOKX2Gm7SgAOiQDd5e2GR9cRo7XZy9uNCkUs6ShGFAlyg+oOpTTXic10mCnsIgYKJMKV8KnzkuioXYg0U3REBGCxMEeZ1KYkHgtAFcSSqxIqeEgYqO08BbfSFWEcw8VMvRaDEHa1eZDQVRQ9RD5ndSm5mgfXU3qJ7OnFsS3Uiu0NO9EIxgvgmN6suG2z8w8i1CuG3R6KY0bAJIBzaj22fMGrKnlSeZmzhflwmcU1gi4sKhWxDLTPLPerVcfnuPnCFx+u9yojYjNmqQInHOlDw2mKnYpXVT+oXYN9mR+M6uYZfjBM7esQQksp2dU85ZzfD+HljLZovrYY1tEMJKvHqWO1P7zRbtThAzZo3bIc4krbBcu9BkEAZtSKrFWEq8jpN0KeQZzh/ijiWmEOE0NeMwJ3SQIXPbOasl41sWf6HGdh2uRUHOpahuby4d0MBkGCCeZR4jMKZXbUr6vGVkC4I3y18EsMuocH4v/JHltRymQgdhcuPOAWM1v01iRvHsytsx2Adt2N9/LuFB7e+/qP5x/gmLn2eg9AcAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>

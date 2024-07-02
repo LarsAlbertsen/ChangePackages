@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="CreateTestAsset" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
+    <binding alias="assetType" type="ObjectType" contract="ObjectTypeBindContract">
+      ProductImage
+    </binding>
+  </bindings>
+  <messages/>
+  <javaScript>
+var createCount = 0;
+var n = 1000;
+while (node.getAssets().size()<n) {
+	//logger.info("Asset Count "+node.getAssets().size());
+	node.createAsset("",assetType.getID());
+	createCount++;
+}
+logger.info("Created "+createCount+" assets");
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="RecycleProject"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">CreateTestAsset</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAALVUTY/TMBA9b36FlUPVqOB0b0hJWrVZkIpYUbFFe6zcZJr1yrGD7RTYFf8df6RpqqUsFy6R5834vTdjxw1rK8q3pGkYBbWl+20h+J5WqTKAnjU+7bEsnf+oGTqAVFTwLLzG0xABL0RJeZWFXzcf3r4L57MgXbaKclDqS8tgFiDUA2tHh4Z5D61usvAjOZC7QtJGH/OLQhuhe6oflpSXKrRchm1NJKlBGxseGELIMvlqtPnZQBY+GlrMCK/wnZbGaDgbMZ2cdTL61gqdmHb84tSTj11jfjkfVToJLIHVuCWNixE6IshMSktSaGPD78hbKYHrz7tHKLQtybuKTmvBKFFdLRcldHDfUM6I6vMtY34Vv6rrBe0IXhE19ODq/qZciBorTXcCF0ICLkVNKMe0bhg+Ca1M6Mutu7UUZWsM1aQCazO2PvrxxcP5pXEveuFE30sp5K25Eobsf5/sJ1EQRp/IjkGnuAHTGdGwbHnJIP5Hz6f7fNnwgUhUSDDcuWi5RhmaJoEFuVleT6cm+v5AGaCxvRu4Ar2wx6XGEVb0CcaRNcwj9BxcxTETVQUSU74XY9+UK0ae2iOTCzxREly5lHfjsh2J/77p74ndvbrxWwbeJ5Mk+BW89JC7kvKoP9zRHYpjVj6I/jDZAeD++DQ+f0/MixOfPznd6/UbB3Q9FN0EAAA=</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false">
+                <ValidObjectType ID="TestAssetsSubFolder"></ValidObjectType>
+            </ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
