@@ -27,15 +27,15 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Display Sequence",
-    "itemURL" : "step://attribute?id=DisplaySequence",
-    "inclusion" : "Impacted",
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Change Packages",
-    "itemURL" : "step://objecttype?id=ChangePackages",
+    "name" : "All Setup Actions",
+    "itemURL" : "step://ActionSet?id=All+setup+actions",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
@@ -48,37 +48,9 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Change Package",
-    "itemURL" : "step://objecttype?id=stibo.chgpck.groupvalidity",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Purpose",
-    "itemURL" : "step://attribute?id=Purpose",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
     "name" : "Completeness Score",
     "itemURL" : "step://attribute?id=Completeness+Score",
     "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Setup Group type root",
-    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
-    "inclusion" : "Precondition",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Attribute Groups",
-    "itemURL" : "step://attributegroup?id=Attribute+group+root",
-    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -97,22 +69,15 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Validation Error Message",
-    "itemURL" : "step://attribute?id=ValidationErrorMessage",
-    "inclusion" : "Impacted",
+    "name" : "Outbound Setup Group Category",
+    "itemURL" : "step://objecttype?id=OutboundSetupGroupCategory",
+    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
     "name" : "SampleMetadataOnAttribute",
     "itemURL" : "step://attribute?id=SampleMetadataOnAttribute",
-    "inclusion" : "Impacted",
-    "importing" : "Ignore",
-    "instruction" : "",
-    "recursive" : false
-  }, {
-    "name" : "Help Text",
-    "itemURL" : "step://attribute?id=27715ad5-b32c-46de-9819-a6f4d2916ef9",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
@@ -132,8 +97,15 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Metadata",
-    "itemURL" : "step://attributegroup?id=Metadata",
+    "name" : "Archived Setup",
+    "itemURL" : "step://objecttype?id=ArchivedSetup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=OutboundEndpoint+user-type+root",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
@@ -167,8 +139,8 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "GetCompleteness",
-    "itemURL" : "step://attribute?id=GetCompleteness",
+    "name" : "English",
+    "itemURL" : "step://context?id=Context1",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
@@ -181,6 +153,153 @@
     "instruction" : "",
     "recursive" : false
   }, {
+    "name" : "stepsys",
+    "itemURL" : "step://user?id=STEPSYS",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Users created on target systems use temporary password. Reset manually if passwords are managed by STEP.",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Change Packages",
+    "itemURL" : "step://objecttype?id=ChangePackages",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stibo Users",
+    "itemURL" : "step://group?id=Stibo",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Change Package",
+    "itemURL" : "step://objecttype?id=stibo.chgpck.groupvalidity",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Collections",
+    "itemURL" : "step://collectiongroup?id=CollectionGroup+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Transfer Change Package To GIT",
+    "itemURL" : "step://OutBoundIntegrationEndpoint?id=TransferChangePackageToGIT",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "Enable, set to read events and verify event triggers, if queue-based. Verify linked business rules are included.",
+    "recursive" : false
+  }, {
+    "name" : "Classification 1 root",
+    "itemURL" : "step://classification?id=Classification+1+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Help Text",
+    "itemURL" : "step://attribute?id=27715ad5-b32c-46de-9819-a6f4d2916ef9",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Metadata",
+    "itemURL" : "step://attributegroup?id=Metadata",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://eventqueue?id=TransferChangePackageToGIT",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Enable, set to read events and verify event triggers.",
+    "recursive" : false
+  }, {
+    "name" : "eCatalogs",
+    "itemURL" : "step://tradingterms?id=eCatalog+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "Price/Terms List/Collections from Lists must be recreated manually. Ignore impact analysis.",
+    "recursive" : false
+  }, {
+    "name" : "All User Actions",
+    "itemURL" : "step://ActionSet?id=All+user+actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Entity hierarchy root",
+    "itemURL" : "step://entity?id=Entity+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GetCompleteness",
+    "itemURL" : "step://attribute?id=GetCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
     "name" : "Change Packages",
     "itemURL" : "step://SetupGroup?id=ChangePackages",
     "inclusion" : "Precondition",
@@ -188,7 +307,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-02 12:51:37\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a11\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a11 v2</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"AutoUpdatedChangePackages\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">AutoUpdatedChangePackages</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"ChangePackages\"/>\n    </Attribute>\n\n    <Attribute ID=\"a8\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a8</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"a2\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a2 v2</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"AutoUpdateChangePackages\" UserTypeID=\"ChangePackages\" ParentID=\"ChangePackages\">\n      <Name QualifierID=\"Qualifier root\">Auto Update ChangePackages</Name>\n      <MetaData>\n        <MultiValue AttributeID=\"AutoUpdatedChangePackages\">\n          <Value>ChangedItems-LAAL</Value>\n        </MultiValue>\n      </MetaData>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-02 12:53:08\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a11\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a11 v2</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"AutoUpdatedChangePackages\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">AutoUpdatedChangePackages</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"ChangePackages\"/>\n    </Attribute>\n\n    <Attribute ID=\"a8\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a8</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"a2\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a2 v2</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"AutoUpdateChangePackages\" UserTypeID=\"ChangePackages\" ParentID=\"ChangePackages\">\n      <Name QualifierID=\"Qualifier root\">Auto Update ChangePackages</Name>\n      <MetaData>\n        <MultiValue AttributeID=\"AutoUpdatedChangePackages\">\n          <Value>ChangedItems-LAAL</Value>\n        </MultiValue>\n      </MetaData>\n    </SetupGroup>\n  </SetupGroups>\n\n  <IntegrationEndpoints>\n    <OutBoundIntegrationEndpoint ID=\"TransferChangePackageToGIT\" UserTypeID=\"OutboundEndpoint user-type root\" ProcessPluginID=\"Export\" ErrorReporterPluginID=\"EmailErrorReporter\" QueueForEndpoint=\"OutboundQueue\" QueueForProcssing=\"Out\" MaxNumberOfActiveBackgroundProcesses=\"1\" MaximumAgeOfFailedBackgroundProcesses=\"604800000\" MaximumNumberOfFailedBackgroundProcesses=\"10\" MaximumAgeOfSucceededBackgroundProcesses=\"604800000\" MaximumNumberOfSucceededBackgroundProcesses=\"10\" TransactionType=\"STRICT\" ResponsibleUserID=\"STEPSYS\" EnableRetry=\"true\" RetryDuration=\"1h\" UseCrossContext=\"false\" DataSourcePluginID=\"EventQueueDataSourcePlugin\" DeliveryMethodPluginID=\"com.stibo.configurationmanagement.repository.delivery.ChangePackageGitDeliveryPlugin\" MultiThreadCount=\"1\" RefreshCollections=\"false\">\n\n<!-- Definition:\nScheduleSpecification:\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries>\n\nDataSourcePluginConfiguration:\n<Parameters>\n  <Parameter ID=\"DaysToRetainEvents\" Type=\"java.lang.Integer\">0</Parameter>\n  <Parameter ID=\"eventQueueBatching\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1</Parameter>\n  <Parameter ID=\"eventQueueBundleMessages\" Type=\"com.stibo.util.integrationendpoints.BooleanIntegerParameter\">1</Parameter>\n</Parameters>\n\nDeliveryMethodPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"ContextId\" Type=\"com.stibo.util.integrationendpoints.ContextParameter\">Context1</Parameter>\n  <Parameter ID=\"ConvertBusinessRulesToEditableFormat\" Type=\"java.lang.Boolean\">false</Parameter>\n  <Parameter ID=\"DirectoryTemplate\" Type=\"java.lang.String\">$systemname$/$changepackageid$</Parameter>\n  <Parameter ID=\"RemoteRepositoryUri\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.RemoteRepoUri._5</Parameter>\n  <Parameter ID=\"RepositoryAccessMethod\" Type=\"com.stibo.configurationmanagement.repository.changepackagedelivery.ChangePackageGitDeliveryPlugin$RepositoryAccessMethod\">HTTPS</Parameter>\n  <Parameter ID=\"RepositoryBranchName\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.Branch._2</Parameter>\n  <Parameter ID=\"RepositorySshUri\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.SshPrivateKeyUri._1</Parameter>\n  <Parameter ID=\"RepositoryUsername\" Type=\"com.stibo.util.integrationendpoints.ConfigStringCollectionLOVParameter\">ChangePackageGitDelivery.RemoteRepoUsername._1</Parameter>\n  <Parameter ID=\"SplitWebUiConfigurations\" Type=\"java.lang.Boolean\">false</Parameter>\n</Parameters>\n\nProcessPluginConfiguration:\n<EventSpecificExportConfiguration>\n  <ExportConfiguration MatchAllTypes=\"false\">\n    <EventType>15</EventType>\n    <EventType>16</EventType>\n    <EventType>17</EventType>\n    <ExportManagerConfig>\n      <ExportManagerConfig ContentMode=\"\" ContextID=\"Context1\" ECatalogID=\"\" EffectiveDate=\"\" EffectiveDateTimeZoneID=\"America/New_York\" ExecutionMode=\"\" ExportSelectedProducts=\"false\" InheritProductData=\"true\" LeafProductExport=\"true\" Name=\"\" ProcessTemplate=\"Exporter\" ResolveInlineRefs=\"true\" ScheduleDate=\"\" SelfContainedReferences=\"false\" UseContextLocale=\"false\" Version=\"2\" VersionID=\"\" WorkspaceID=\"Main\" isSorted=\"false\">\n        <Delivery Name=\"File\">\n          <Parameter Name=\"FileNameTemplate\">$filename-$timestamp(yyyy-MM-dd_HH.mm.ss).$extension</Parameter>\n        </Delivery>\n        <Format Name=\"AdvancedSTEPXML\">\n          <Parameter Name=\"CrossContextChooser\">No</Parameter>\n          <Parameter Name=\"Recorder\">&lt;?xml version='1.0'?&gt;&lt;STEP-ProductInformation&gt;&lt;ChangePackages ExportSize=&quot;Selected&quot;/&gt;&lt;/STEP-ProductInformation&gt;</Parameter>\n        </Format>\n        <ProductMapping SelectedURLType=\"product\"/>\n        <ProductSelection/>\n      </ExportManagerConfig>\n    </ExportManagerConfig>\n    <ObjectType>stibo.chgpck.groupvalidity</ObjectType>\n    <ObjectType>stibo.chgpck.verified</ObjectType>\n    <ObjectType>stibo.chgpck.editing</ObjectType>\n  </ExportConfiguration>\n</EventSpecificExportConfiguration>\n\nErrorReporterPluginConfiguration:\n<Parameters>\n  <Parameter ID=\"emailAddress\" Type=\"java.lang.String\">laal@stibosystems.com</Parameter>\n  <Parameter ID=\"fatalEmailAddress\" Type=\"java.lang.String\">laal@stibosystems.com</Parameter>\n  <Parameter ID=\"includeWarnings\" Type=\"java.lang.Boolean\">true</Parameter>\n</Parameters> -->\n      <SetupGroupLink SetupGroupID=\"Outbound Integration Endpoints\"/>\n      <Name QualifierID=\"Qualifier root\">Transfer Change Package To GIT</Name>\n      <ScheduleSpecification>H4sIAAAAAAAAAD2NOw6DQAwFe06xslKbpOfTQJkqJwiLEZaWXQl7Ubg9TkR41dMUM1X7WYLbaBVOsYYH3qFtioqirkzSFM79/u58eIvU4NOCojwkzMoBxc805kAjTRxZzYGvE3UXuv1Rb539yTErgZnP0ZdaGkoLl1f5AOswyiiaAAAA</ScheduleSpecification>\n      <DataSourcePluginConfiguration>H4sIAAAAAAAAALWQuwrCQBBFe79imd7VdBZ5QIhCCkElfsCYDHFlMxuym2D+3g1otLCwsTww99zLhMm90WKgzirDEQRyDYK4NJXiOoJzsVtuIIkX4QE7bMj5u3ghxBtFnkWQ4WgLcyKHircDsbMgirGlCG44oNTItczZUU0dxOtwNae/uGjKH3vqKUVXXv2Ml6s0jbROXYzsndJSTcIOnd9NXLXGs5WpMZqQn2WzGeLg59aeK017shZrsn/o/gD/ywe3+NFpgAEAAA==</DataSourcePluginConfiguration>\n      <DeliveryMethodPluginConfiguration>H4sIAAAAAAAAAL2TSW/bMBBG7/kVAqFrmQUo0IOtoLaTJugm2HJyNGhqIk/DRSBHRvTvM7Zqx9ncAAV8HBIf3yNn2Dt/sCZZQojoXV+cyhORgNO+RFf1xbS4/PRFJJGUK5XxDvrCeXGe9XIVlAXiWHaUJE9lcj3qizFYTzCG2kckH9ppQJEUbc1p7a2MhHMvG0Ij0RFUQRGzwZW15zrKoXd3WE0osMLQGwN6tf/j982WIrLhQrkKcqXvVQXfkEZgkC/Ryic2U+Xsc+94m3rTdOM4CMrpxS/eO5hqh5Szs486ftUaYvwJtPDla0u9dmk6Rasc0yw4kmGbl3qtUncq5cbjPcHcNBW69B1+dlUU+eSj6tMIwR3ycXfm4C9azk5f2O4TnsTFIceWcXnApSL4Du16cv8tO8LADHYtwNaGoxvbP2qppGGS7GxElsY2EtjVM6TH6bMxwDLd30S+FyvSoInouP3jxkAs/EWJpOYGLn2wil6TB94bUE5kd8pE2E+Y1AbpFuZTHO7OcPy/U/ksgge6fuOr7G3iKrTbsm7leTt2ipg9AoIsfIpDBQAA</DeliveryMethodPluginConfiguration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"0\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets DontFollowClassificationToAssetReference=\"true\" ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nCompression=true\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"stibo.chgpck.groupvalidity\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nParentTriggering=\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products DontFollowClassificationToProductReference=\"true\" ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=Approved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\ncontext=Context1\nobjecttype=stibo.chgpck.groupvalidity -->\n        <Configuration>H4sIAAAAAAAAANVUwU7jMBC98xWW7zSgvXCIi6oWUCV2qdrAnt1kmjV1bMvjdMt+PU5iE5UG0b3BKfF45nne8/NMEMFlUBnJHbD0el9JsgOLQitGL0cXlIDKdSFUyehjdnt+Ra/HZ+kqu1mcL6wu6tzN1UbbijtfQZaAWu5grqRQsIQNMrrhEoGSWy2l/vvgoa0oYFWvQ3WfcbM32roZWLGDYuKcfdsanxGSTppGMWStxD9g9KdQoqorSmZaue6AqeSIYiPytp9Mt1W+EbCehi9xtu7wImLSgicdumeWfEBtnKKRwo2bxsS6dvAtNIvN3gtsmH7K7p1834DiYcfD/gj3fZhK5iqXdQEL7q3hgjOCG96BniKcrowFbPVpkEL4Yf0MucteDNxZXRsvF7K0Dy5rCdgeORA7iJL+dz5jFJ1Y61H+pzT5dlQ20DsuRSHcS6RwBHgcCj12AmRWlKUXWZUx3HH98h5IY/b/joZQNzQcIuagR8Ld/OIVJHGS9O9MbZNBu70dE7eP+cadsJxajXhU1g6q4a0nLmvAuJpxx6eePPdyW/zs1DQJy849UdMTnN8b57e2WzTcKzkxxmp/VSHlUYmv7yNPu+nz1En5FAj8COvcSw17x6bd9zKEdfvmnH9z7OM3G3JfAdOomEaLBwAA</Configuration>\n      </EventQueue>\n      <ProcessPluginConfiguration>H4sIAAAAAAAAAJVUyY6jSBC9z1eU+orUGDCLpeqSMJjFJg02Ozf2LSHZbAxf37ZqRjNSl0qavOVbMpShiPd+uKftZHZpXGZlfHh0aJgE1GZlfhvCqUTtx19vb+9f4G8gnOKCh9BaunT89SML4Zj+eKlf+tejL+KDoN/xf29/sMy3LPsnq0dVGn8C41RG6Gdc5F1c/8wHdOvuISyTclre8f/Ivvfd0+H58TT5H5b0WaJs8y8cn20CYRvm6fDZrQ9lO6r8P0chLMvHQ7AXdtwyjgKrTHyiTckFIsnJp0N9UEmFThzoc0LiM0mDWMkYBn3DxJNmsmsMaY6MmjU7b/UK8+pu5d2T5Fgy1ypYwZ27/LbSNqk1T9TlzcE7XusDlzAmgDIRCJbQ7mtVX92FKGXEUFBZXXp0XI0HRreZkdltx8IowmDzKKORqfd2R/qazc12d0Qur9x8sgOrLcO21psraF1R9CYNCWJ/OkQEIpSU1oBwrDaXADMUXCLq4tzIZ1Na6dNypWu2u1UHXfT5fEGiPN/VeHaWc31NBYod4K2q3dGwpXDJna6dVSuA9khEuJuo4ZhIt56HVl8CNXbS4+ZZqGTIJOK5XKDorC+albOrIxBE2spM5CXYjuF40hcvfbgnzKDA5hB4tZ1NQhMIdEKtGw5kqcjOlMYenQ318GY6qATAz0HoDyaxTRkT7Xz3Su+msxKhUuZqthStor2Tptaz/eqys+Wyjc+dkjWbQbjLFd68O2dGvUoos7Y0kKI9JC/TDWEEOFRcobTk/Zz6yn3X4z3ANBwaWw2nrN7wGmuTWA50BCm8DDh7jZRl61gwJGJvgInMUySv1mzf0HshTgvVpFjDfmQYcivAyLqtnlCmXLZBED24oacuLh4Hva57Oyw7LjYdW+GOBoWX14jFcnxDXU6cAJWBXSGZ8l4UBllj5OJzQn89V+6LKX6FAP5lOvy9ot8lyG95TWXeZAQAAA==</ProcessPluginConfiguration>\n      <ErrorReporterPluginConfiguration>H4sIAAAAAAAAALXQsQrCMBSF4VcJdzfq5tCkKiq4CVacr81VIjeJJGmxb28mqdDV8YfDN5yqfjsWPcVkg1ewlAsQ5NtgrH8ouDSH2QpqLaoTRnSUy04LMUpx3Cm4Y0beO7S8MSZSSiCa4UUKntijZPQPec6xiKAZkdcp21tIQ8rkkmyDq+Zfb0Knf8HWt9wZumL0hZiwtyEwoQedY0c/1ijKIR9PM06/RQEAAA==</ErrorReporterPluginConfiguration>\n      <ContextLink ContextID=\"Context1\"/>\n      <WorkspaceID>Approved</WorkspaceID>\n    </OutBoundIntegrationEndpoint>\n  </IntegrationEndpoints>\n</STEP-ProductInformation>\n",
   "signatory" : "LAAL",
   "comment" : "AutoSeal"
 }
