@@ -5,6 +5,7 @@
             <Name QualifierID="Qualifier root">AutoUpdatedChangePackages</Name>
             <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
             <AttributeGroupLink AttributeGroupID="Metadata"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="ChangePackages"></UserTypeLink>
         </Attribute>
     </AttributeList>
 </STEP-ProductInformation>

@@ -34,6 +34,13 @@
     "instruction" : "",
     "recursive" : false
   }, {
+    "name" : "Change Packages",
+    "itemURL" : "step://objecttype?id=ChangePackages",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
     "name" : "a8",
     "itemURL" : "step://attribute?id=a8",
     "inclusion" : "Change",
@@ -58,6 +65,13 @@
     "name" : "Completeness Score",
     "itemURL" : "step://attribute?id=Completeness+Score",
     "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
@@ -139,7 +153,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-02 12:36:07\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a9\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a9</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"AutoUpdatedChangePackages\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">AutoUpdatedChangePackages</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n    </Attribute>\n\n    <Attribute ID=\"a8\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a8</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-02 12:37:08\"    UseContextLocale=\"false\">\n\n  <AttributeList>\n\n    <Attribute ID=\"a9\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a9</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n    <Attribute ID=\"AutoUpdatedChangePackages\" MultiValued=\"true\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">AutoUpdatedChangePackages</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"Metadata\"/>\n      <UserTypeLink UserTypeID=\"ChangePackages\"/>\n    </Attribute>\n\n    <Attribute ID=\"a8\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"Qualifier root\">a8</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"ATG_LAAL\"/>\n    </Attribute>\n\n  </AttributeList>\n</STEP-ProductInformation>\n",
   "signatory" : "LAAL",
   "comment" : "AutoSeal"
 }
