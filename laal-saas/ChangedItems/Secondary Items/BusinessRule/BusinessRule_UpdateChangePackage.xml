@@ -11,7 +11,7 @@ Action #1 (JavaScriptBusinessActionWithBinds):
   </bindings>
   <messages/>
   <javaScript>
-logger.info("AddToChangePackage " + node)
+logger.info("AddToChangePackage user=" + node.getManager().getCurrentUser().getID() + "node=" + node)
 
 if (node != null) {
 	/** @type{ChangePackageHome} */
@@ -31,11 +31,11 @@ if (node != null) {
 	}
 	if (node instanceof com.stibo.core.domain.AttributeGroup ||
 		node instanceof com.stibo.core.domain.setupgroup.SetupGroup) {
-		logger.info("AddToChangePackage addHierarchy "+node.getClass().getName())
+		logger.info("AddToChangePackage addHierarchy " + node.getClass().getName())
 		cp.addHierarchy(node)
 	}
 	else {
-		logger.info("AddToChangePackage addItem "+node.getClass().getName())
+		logger.info("AddToChangePackage addItem " + node.getClass().getName())
 		cp.addItem(node)
 	}
 }
@@ -60,7 +60,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVW227bOBB9tr6C9UMgp6jUvi3gOBe7tyyaNIizu48BLY0VthTJkpSx2ST/vjMkfUO2cIJsHwSQw5lz5gxnCBnZNUJdc2OkAHct5teVVnPRjA6O/m4lW4B1QqtR/13xts9AVboWqhn1/7j6+Oa3/tFhdjDunFDg3GUnocS9QyB/aCLsC7AOM8ZWhosAxzbPo+n0/aj/O1/waWWF8cvzk8oj0V/C34yFql2fsBDtglvegsc0omHTxAgperOrWwOj/jeELSRXTTH1FhPtH+5JP9xSsvej036IcuJirSnug7C4PNpr/DAjAOI44ybsGVtaGFbKW155TCNGTDprQfmvs29QeXKZJI/EdSIFd8lX6RqSeSVoIrlbnXdSxlW5k/eLbhqwOwhlcPq/KM+44rs52+j1HFKiLDcLflCu4n7SAh+s1fYMewi5fnUrfNEVl+IfPpOQGK+gNZJ7GHeqxnF6Ys7rAfh5wvHGCqHmOo95nNT1lZ7coBNc8Oo7srOU+2tGDTXIMjFnOS3ZqxGj2g7YXdYr9/fZsUeau63gz7qFB7ZfZr0Ft6wytGcjlm6taMCTJa90WzgvZrqotIWi1i0XqqgCkolIxSPcwRIUASMy4W25jW9P3ydh0V6femhdtKCUHml5JdxXAyqvzCBI6WFVdpTEAkUsYXq9yhTRlOPuIeGGGgnlPFcV6Dn7b5EC77aYpSfK4hNWXMJCOKi3n61TdIvZlSWW73ZGSbR6AYxLyRA9RFHTnCPt0RNVIAD2ARtfJinDpRZCplIFEcFswXdWDUneM9SdeOy0Wefhk9WdYff3iPS0SId8pqGoYkrLALC6n91dy+v6swDLbXVzm1r4NTGHHqHXIR/Q8hwnJh+kO9yMicqDXJAOnkVMlXsG57rQRIftg8OUsX1G37GhoWbbU/XAzOQiHsdrcexuprUErh4ymrZ5p0LXsNTa6B5KR/OCdfc0g2ijZP7ksoOtGUkkU/JLfUGOU+pUiO6Y6JNqseRaPSHBMIgdtMnJlhH5FLiEehAPC/jRcenyGLbs/8fUSeaKJmmLhcZ9OpgjFqynNtYuWsNFvwDa226NnIDJNqT7fPRYbxjCX8dBuf1Pg3895fZvT/qD+hc8Z2ovmQkAAA==</Configuration>
+            <Configuration>H4sIAAAAAAAAALVW227cNhB9Xn3FZB8MyUWl9q3Aeu14N23jIk4Mr9M+GlxpVmZKkQxJLeo6/vcOL9oL3GBtpH0QIA6H58yZC0Et+pbLW6a14Ghv+eq2VnLF2+nJ2V+dgDUay5Wcjn8sfxgDylo1XLbT8cebX77/aXx2mp3MesslWnvdC6xobQnIneoI+w1YpxnAxnAV4GB3P5ou3kzHv7E1W9SGazfsn9eOiP7g7m7GZWPHHovQrphhHToKIxp2TeCRojfc3Gucjj8RbCmYbMuFMxTo+PRIuMmekqPPvXITkhN/tpriOgiLv2dHrZtkHsBzXDId1gCDBShTzrDaURjxxLw3BqX7sPyEtfMu8+SRuM4FZzb5StVgMm8EzQWzm/1eiPhXHeR9p9oWzQFCEZz+K8pLJtlhzi56vYTUU1a7CT+pNue+0gI/G6PMJfUQcf3frfBO1Uzwv9lSYGK8wU4L5nDWy4bG6Zkxbwfg6wHHipVcrlQe4zhvmhs1vyMnvGL1n8QOvUWTAobvwHdV2aJL5ckLv0ht+dEOhos3eUHO20bcByiyjK8g97/wagq+QgU8ZKPq+BheOwr2YS+Et6rDRziustGaGai1X8MUUu09n7fktepK6/hSlbUyWDaqY1yWdUDSEal8glsMoAQYkYOgXbfZPclJ8xfszYXDzkYLSRl5La+4/aBR5rUugpQR5fZAYg36EwPMaFTrMppyWj0m3JAjLq1jska1gn8XyalDymW66AxdhOU1rrnFZv/yuyC3GF1VUfrulz6ITq0RmBBA6OGUb733RHv2TBUEQN0Es+skZTJo8cg+VUFEMBt0vZETL+8F6s4d9euyd/irUb2GL18I6XknLfHp1p8qF/43AGzqc7j3WdO85WiYqe/u4ckMhFsmNvx7mry8SFXcPRW1B8EoLL6I2ufuRazbZHtCaiEaqAyOwX+vtb8eYH+yHkHPr+J2LI2Fh6VSApl8zPzErXoZOgdSe5N7SJ+fGcq983NINh/M70z0uDcniWTh/VJveMeF71aM7hTos7IxcG2yEQxF7KJdThhO5AtkApsibpb4uWfC5vHYMANPqZPMDU3SFhO9udFgRVi4ndyYu2gNpf4GaGf6LXIC9raJr+eTa3/HEN4vJ9X+64jeT9X+Ayq9xf4B5kXvAOMJAAA=</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
