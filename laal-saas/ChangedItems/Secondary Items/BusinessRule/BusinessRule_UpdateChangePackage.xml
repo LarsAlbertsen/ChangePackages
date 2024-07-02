@@ -8,6 +8,7 @@ Action #1 (JavaScriptBusinessActionWithBinds):
     <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
     <binding alias="logger" type="Logger" contract="LoggerBindContract"/>
     <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+    <binding alias="eventQueue" type="EventQueue" contract="CurrentEventQueueBinding"/>
   </bindings>
   <messages/>
   <javaScript>
@@ -30,6 +31,8 @@ if (node != null) {
 		log.info("AddToChangePackage reOpen")
 		cp.reOpen()
 	}
+
+	logger.info("AddToChangePackage "+eventQueue)
 
 	if (node instanceof com.stibo.core.domain.impl.businessrule.RevisedBusinessActionImpl) {
 		// maybe remove all of RevisableNode?
@@ -68,7 +71,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVW32/bNhB+tv8K1g+Bla7S9jbAUdLY2VoXTRvEzvYY0NLZYUeTKkkZy9L8770jKVluVthBtwcD4vHu++63Wcl6JdQtryopwN6K5W2h1VKs8pOzv9eSbcBYoVU++CX9ecBAFboUapUPbua/v/p1cHbaPxnXViiw9rqWkOHZIpA7rQLsD2Cd9hlrBVcejnXvg2h6kQ/e8Q2fFUZUrrk/LxwS/Snc3Vio0g4IC9GuuOFrcOhGEHRFjJCCNpvfV5APPiFsKrlapTNn0NHB6ZF0o51Ijj7X2o0wnPCxjSmcfWDh8+xo5UZ9AiCOS175M2ONhGGmnOGFQzeCxaQ2BpT7uPgEhSOVSdSIXOdScBt1lS4hituAJpLb9r6WMnxle3nf69UKzB5C6ZX+K8pLrvh+znXQeg4pUWbdhJ9krd13WuA3Y7S5xB5Crv+7Fd7rgkvxD19IiIxzWFeSOxjXqsRxOtDn7QB83+FQsVSopR4GP87Lcq4nd6gEV7z4C9lZbcFEh9lLRl2VrsDF8gwTOsS2vLGNYHoxTFA5WpHNLkLS74slG9Ine5EzKlHCHvq97PiYvXbo7cOOD2/1Gh7ZcdbvbbhhRUVnlrNYfCIkybDQ69Q6sdBpoQ2kpV5zodLCI1UBKX2CmzSg0wuEjGPmlcqpg7V9FUQvDw+8AUS44KrX7PKO71GPGDEPPUpEUeV5m4Re17QwgKXfsW5KVTt9U5Xf3tpw+xML+L2eB0wtuA+cckTSUSubCewt+IPLGoaddJ477JBF7XyGQmStyDsfSN5M52PDVXEXjklL+hjjeiHsxwoUsiYhNOy4Pe1mgCwiYPAziIYdXN84QlmH5KCX7N8rT7Gli7j+Df49pNewERbK3b+EKaoF77IMe+p+QU6s9QYYl5IhureigfyAtGcHRoEAOGNsfB1DGTWxEDJ1lg/Ciw242qgRhfeM6NqCvDG6rtiXL4h0mCXWva5WZJXO6NMDtPXZvxF4Wb4VYLgp7u7Zk83gd2/oGd9xSaxi1yrE7gMGaeFZ1JS7Z7Fuk02E2EK4ZfrsmNHvdUVLk+2um0dWTa7CdSiNZQ8LrSVw9dinNbSsle8cFtsb1X36aO4x946WE8rImTBa3bUSSWakF3uDFLuTiI4elI2Gq82GFyShi7qcrLEYzoBLKJNwmcLnmks7DGbNDDyljmG2NDG2kOjtnl8iFmwnN+QuSH2pfwDamXqLHIFJNqJ6Pvkz7Aj8q+4k230z4qsy231WxhfqV3pcxHn5CgAA</Configuration>
+            <Configuration>H4sIAAAAAAAAALVW33PTOBB+Tv4KkYdOXMC+e7uZNC1NykEYCqVJj8eOYm9SgSIZSc5cr/R/Z1eSHecKk3SAh2Ss1e737Y9PsktZLYW65mUpBdhrsbjOtVqI5fDo5N+VZGswVmg17P2Z/tFjoHJdCLUc9q5mfz//q3dy3D0aVVYosPaykpDh2iKQOy4D7E9gHXcZawwXHo6194NpcjbsveFrPs2NKF29f5o7JPoo3M1IqML2CAvRLrjhK3CYRjC0TYyQgjeb3ZYw7H1C2FRytUynzmCiveMD6QZblRx8qbQbYDnhYVNTWPvCwuPJwdINugRAHOe89GvGagvDTjnDc4dphIhxZQwo937+CXJHLuPoEblOpeA2+ipdQDQ3BY0lt81+JWV4ynbyvtXLJZgdhNI7/SrKc674bs5V8PpVpLG/L9f496GCCsgNZ/cdZmh8HkNO1Fl72kdZE/cD/b00RptzFDAW+rt1+FbnXIr/+FxCZJzBqpTcwahSBZ7lPXPenL4fJxzkkgq10P2Qx2lRzPT4Bp3gguefkZ1VFkxMmD1lJOl0CS5qo5/QIs7sytaGyVk/QecYRTHbCEm3KxasT4/syZDRiBJ21+1kh4fshcNs77ZyeK1XcM8Os25nzQ3LS1qzIYvKI0Ky9HO9Sq0Tc53m2kBa6BUXKs09UhmQ0ge4SQ06OUPIqEHvVEwcrOzzYHq6f+E1IMKFVL1nm3d0i37EiH3oUCPycjhsmtBph+YGcPRb0fWoKqevyuL/uzbsPmMBv9PxgKkF945Tj8g6aGxTgdqCf7isoN9q56lDhcwr5zsUKmtMPvlA8moyGxmu8puwTBrS+1jXE2Hfl6CQNQmloeJ2yM0ARUTAkGcw9SPuXqKNQ9vcEHWnveSEsg7TBr1g39cMdSWdx7eWwbdaeglrYaHYfpNN0C3UlWWoxts5pb/Sa2BcSoboPoqO8jukPdmzfgTA08lGl7EJg7oLhEya9EV4swFXGTWgxjyiumaUr4yuSvb1KyLtF4mKqcolRaVTevQAzWR3j4UXxWsBhpv85pY9uFP8rR3U5rWaxPm3o0LtvmCQFh5FTb17FOum2USI4sP7qcsOGf1elHTdsu2L6p6V44uwHUZj2d1cawlc3XfpAltUyiuHxYOB7r59dGNg7x1da2ijZMKhbF9IkWRKflEb5Ng+w8me56PmarrhDUlQUZuT1RH9KXAJRRI2U/hScWn7Iaw+Aw+pY5kNTawtNHrzhlggFmzOfOhdsPpR/wS0M9UGOQKTbUDzfPAabRn8x+hRtv2pix/D2fbXcPyw/gZ+8p0jsAsAAA==</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
