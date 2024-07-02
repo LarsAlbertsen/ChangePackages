@@ -19,18 +19,23 @@ if (node != null) {
 	var cp = cpHome.getChangePackageByID("ChangedItems")
 
 	if (!isOpen(cp)) {
-		log.info("AddToChangePackage Reopen")
+		log.info("AddToChangePackage reOpen")
 		cp.reOpen()
 	}
 
-	logger.info("AddToChangePackage "+node.getClass().getName())
+	if (node instanceof com.stibo.core.domain.impl.businessrule.RevisedBusinessActionImpl) {
+		// maybe remove all of RevisableNode?
+		log.info("AddToChangePackage removing BR");
+		cp.removeItem(node);
+		return;
+	}
 	if (node instanceof com.stibo.core.domain.AttributeGroup ||
 		node instanceof com.stibo.core.domain.setupgroup.SetupGroup) {
-		logger.info("AddToChangePackage addHierarchy")
+		logger.info("AddToChangePackage addHierarchy "+node.getClass().getName())
 		cp.addHierarchy(node)
 	}
 	else {
-		logger.info("AddToChangePackage addItem")
+		logger.info("AddToChangePackage addItem "+node.getClass().getName())
 		cp.addItem(node)
 	}
 }
@@ -44,10 +49,10 @@ function isOpen(pCP) {
 	var state = pCP.getValue("ChangePackageState").getSimpleValue()
 	logger.info("AddToChangePackage state = " + state)
 	if ("Change Package (Sealed)".equals(state)) {
-		logger.info("isOpen(" + pCP.getName() + " false")
+		//logger.info("isOpen(" + pCP.getName() + " false")
 		return false
 	}
-	logger.info("isOpen(" + pCP.getName() + " true")
+	//logger.info("isOpen(" + pCP.getName() + " true")
 	return true;
 }
   </javaScript>
@@ -55,7 +60,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVW21LbMBB9jr9C5IGxw9Rp3zqTCyShLXSgZEjaPjKKvTGiiiQkmSkF/r0rS7m4lAn08pAZabV7zu7ZVSzFy4KJC6oUZ2Au2Pwik2LOil53//uCkxvQhknRa75JXzcJiEzmTBS95ufp+1dvm/v9qDssDRNgzHnJoY17g0C2rzzsX2D1I0JWhnEFRzbPven4sNf8SG/oJNNM2eX5ILNI9JXZyyETuWk6LEQbU00XYDENb9g0EYfkvcn0VkGveYWwKaeiSCdWY6LN/i63nVolu9eltB0sxy/WNfl9VZhf7u8WthM5AMdxSlW1J2RpIaiU1TSzmIaPGJVag7BnsyvIrHMZBY/ANeCMmuArZA7BvCpoxKlZnZec+1V7K++JLArQWwh55fSvKE+poNs5F97rJaSOsr0peLe9intiBN5pLfUpzhBy/e9ROJEZ5ewHnXEIjFNYKE4tDEuR43V6Zs7rC/B0wr5jKRNzGfs8Bnk+laNLdIIxzb4hOwm57xE3UEkUsTmJ3ZLs9IjTNiF3UaPdapEDizR3teAjuYAH0mpHjRuqSabcnvRI6FpagHWWOJOL1Fg2k2kmNaS5XFAm0qxCUh4pfYSbLEER0CM7vJrb8Pb4MBTm7fmxhYXxFiyl4WrZYeZMgYgzlVSlNFCVLZKcg8SIJUyjkalUQwWCuwfEfYGwe07LKnM3s3Hilp+wj3GS+PwqrZkwlooM5Jz8XqyBxZ7OSgsftCwVub/HtJ4XacCWqnBR6cQtK4CVEtvLoHl+xEBTnV3e1iTZPIj98KA4DeAGXoTuevYrsLOtMVFyHMCItIj7HSh3EUh9Eh+IGo39scYqtTDkbiYlByoeIjeh81JUHwgSxgHdKxHcjKGC1s0t2lx7vlBeQm2uAsnE+YVUneOE4c0F7548cyqWXKtrVxnCLGxykmVEPAHKIU/8YQrXJeUm9mFP9TEUuSIJlfnBw304mCMSrLX3ynlr1cs/Bra6XOMGWGfruF4++nPbMFRf6W67/gbAV0K7/kwIL46fdYRiMckIAAA=</Configuration>
+            <Configuration>H4sIAAAAAAAAALVW227bOBB9tr6C9UMgp6jUvi3gOBe7tyyaNIizu48BLY0VthTJkpSx2ST/vjMkfUO2cIJsHwSQw5lz5gxnCBnZNUJdc2OkAHct5teVVnPRjA6O/m4lW4B1QqtR/13xts9AVboWqhn1/7j6+Oa3/tFhdjDunFDg3GUnocS9QyB/aCLsC7AOM8ZWhosAxzbPo+n0/aj/O1/waWWF8cvzk8oj0V/C34yFql2fsBDtglvegsc0omHTxAgperOrWwOj/jeELSRXTTH1FhPtH+5JP9xSsvej036IcuJirSnug7C4PNpr/DAjAOI44ybsGVtaGFbKW155TCNGTDprQfmvs29QeXKZJI/EdSIFd8lX6RqSeSVoIrlbnXdSxlW5k/eLbhqwOwhlcPq/KM+44rs52+j1HFKiLDcLflCu4n7SAh+s1fYMewi5fnUrfNEVl+IfPpOQGK+gNZJ7GHeqxnF6Ys7rAfh5wvHGCqHmOo95nNT1lZ7coBNc8Oo7srOU+2tGDTXIMjFnOS3ZqxGj2g7YXdYr9/fZsUeau63gz7qFB7ZfZr0Ft6wytGcjlm6taMCTJa90WzgvZrqotIWi1i0XqqgCkolIxSPcwRIUASMy4W25jW9P3ydh0V6femhdtKCUHml5JdxXAyqvzCBI6WFVdpTEAkUsYXq9yhTRlOPuIeGGGgnlPFcV6Dn7b5EC77aYpSfK4hNWXMJCOKi3n61TdIvZlSWW73ZGSbR6AYxLyRA9RFHTnCPt0RNVIAD2ARtfJinDpRZCplIFEcFswXdWDUneM9SdeOy0Wefhk9WdYff3iPS0SId8pqGoYkrLALC6n91dy+v6swDLbXVzm1r4NTGHHqHXIR/Q8hwnJh+kO9yMicqDXJAOnkVMlXsG57rQRIftg8OUsX1G37GhoWbbU/XAzOQiHsdrcexuprUErh4ymrZ5p0LXsNTa6B5KR/OCdfc0g2ijZP7ksoOtGUkkU/JLfUGOU+pUiO6Y6JNqseRaPSHBMIgdtMnJlhH5FLiEehAPC/jRcenyGLbs/8fUSeaKJmmLhcZ9OpgjFqynNtYuWsNFvwDa226NnIDJNqT7fPRYbxjCX8dBuf1Pg3895fZvT/qD+hc8Z2ovmQkAAA==</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
