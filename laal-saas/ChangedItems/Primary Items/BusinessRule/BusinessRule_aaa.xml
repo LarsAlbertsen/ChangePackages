@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <BusinessRules>
+        <BusinessRule ID="aaa" Scope="Global" Type="Action" RunPrivileged="false"><!-- Definition:
+Action #1 (JavaScriptBusinessActionWithBinds):
+<config>
+  <bindings/>
+  <messages/>
+  <javaScript>
+  </javaScript>
+</config> -->
+            <SetupGroupLink SetupGroupID="Actions"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">aaa</Name>
+            <OnApprove ApproveSetup="Never"></OnApprove>
+            <Configuration>H4sIAAAAAAAAAJWRMU/DMBCF9/wKy0M2EtiQYieiAiSQKlW0iDGyUtcccm1jOxX8ey4xtMlAEdv5O+vde3dO9wpMK5zTIEMLu7azZgeKBQSxdqmdGGfNx16Tg/QBrOH0qrikRJrObsEoTp839xfXtKkztugDGBnCU69lnRFyBKtRjkz7CT3ccvooDmLdeXDxp3/TRRz0AvF1AWYb6KCFaivhxV5GtJHAFJFBKf0mm08nOX1D2UILo4p19GiU1rmO1SxJ/t7bWGGcVJwypfcYLJVNrmKVDQLDjKVw5QhYeTTwi6U7761fYiah5BlrfwudtvQPlQkYd8bK+UXwZuX8aN/3/wLN1wEtHwIAAA==</Configuration>
+            <ValidObjectTypes AllObjectTypesValid="false"></ValidObjectTypes>
+        </BusinessRule>
+    </BusinessRules>
+</STEP-ProductInformation>
