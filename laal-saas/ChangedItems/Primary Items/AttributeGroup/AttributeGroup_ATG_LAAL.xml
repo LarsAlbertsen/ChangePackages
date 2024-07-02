@@ -9,7 +9,7 @@
         <AttributeGroup ID="ATG_LAAL" ShowInWorkbench="true" ManuallySorted="false" ParentID="Attribute group root">
             <Name QualifierID="Qualifier root">ATG_LAAL</Name>
             <MetaData>
-                <Value QualifierID="en-US" AttributeID="Purpose">For Tests</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Test</Value>
             </MetaData>
         </AttributeGroup>
     </AttributeGroupList>

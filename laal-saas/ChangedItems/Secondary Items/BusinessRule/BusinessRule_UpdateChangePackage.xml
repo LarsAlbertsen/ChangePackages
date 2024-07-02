@@ -23,6 +23,7 @@ if (node != null) {
 		cp.reOpen()
 	}
 
+	logger.info("AddToChangePackage "+node.getClass().getName())
 	cp.addItem(node)
 }
 
@@ -46,7 +47,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVVXU/bMBR9bn6FyQNKOy3Z3ib1A2hhGhOMipbtEbnJbTBzbM920Bjqf9917H5kDLHPh0r28fU59557Uytel0xcU6U4A3PNlte5FEtWDgcHXytO7kAbJsUwfp2+igmIXBZMlMP4av725Zv4YBQNxrVhAoy5rDlkuDdIZEfK0/4F1ygiZANMGzqye+6h0+Nh/J7e0VmumbLr86PcotAnZm/GTBQmdlzINqWaVmAxDQ/sQsQx+Wgyv1cwjG+RNuVUlOnMakw0Hu1z229Vsv+llraP5fjFtia/bwrzy4P90vYjR+A0zqlq9oSsEYJOWU1zi2n4G5NaaxD2YnELuXUhkxARtI44oybECllAgDcFTTg1m/Oac7/KntU9k2UJ+hlB3gT9K8lzKujzmpWP+h1RJ5ntGj7INveeGIETraU+xxlCrf89Cmcyp5x9owsOQXEOleLUwrgWBX5Ov5jz9gN4OmHfsZSJpUx8Hke1lVeqQLWTKQlZvyBulLpRxJYkcUuyNyTO1S55iDpZr0cOLQo8TG6QG6Y0/4xJv5MVrEgvizp3VJNcuT0ZktCvtATrkCSXVWosW8g0lxrSQlaUiTRvmJRnSh/xdtekSOiZHV8rbHx/ehxK8nhxaqEyHsFSOq6WPWYuFIgkV92mlA760TKjKOayRUsuQeKNNU2nk6tUQ0OCuxXyIkCLRizxriGIFkWkR9zvULkmkbZXK6ImU3+swdZaGPKwkJIDFavIebisRfPnRULCGN4k7FwwFpuFRiDmXPhIeQ2tyoPIzMWFxF3gjOFUgQ/H3H8yCo+rX2ttBqMBut7NXU2yvpHMgHIouv4whS815Sbx1zae/yAcityIhMo+4HAnXdyHgyUywbYT3jmPulb8ObHV9ZY30Dqs73r56MPbAZoXZJC13yd8wbL2ExZew+9MMmJpZQcAAA==</Configuration>
+            <Configuration>H4sIAAAAAAAAALVVXU/bMBR9bn6FyQNKipZsb5P6AbQwjQlGRcv2iNzkNpg5tnEcBEP977uO3Y+MIdjXQyX73Otz7j3XqRWvCyauqFKcQXXFFleZFAtWDPr79yUnd6ArJsUgfJe8DQmITOZMFIPwcvbhzftwfxj0R3XFBFTVRc0hxX2FRGaoHO1fcA0DQtbApKEj23EHnRwNwk/0jk4zzZRZxQ8zg0JfmbkeMZFXoeVCtgnVtASDZThgGyKWyWWT2YOCQXiDtAmnokimRmOh4XCXm16rk93bWpoetuMWm57cvmnMLfd3C9MLLIHVOKOq2ROyQgg6ZTTNDJbhToxrrUGY8/kNZMamjH2G1zrkjFY+V8gcPLxuaMxptY7XnLtV+qLuqSwK0C8I8ibpX0meUUFf1ixd1u+IWsl02/B+uj73zBU41lrqM7xDqPW/r8KpzChn3+mcg1ecQak4NTCqRY6f0ytr3nwAzxfsJpYwsZCRq+OwNvJS5ah2PCG+6j1ir1IcBGxBIrskOwNiXY3JY9BJu11yYFDgcXyN3DCh2Tcs+qMsYUm6adC5o5pkyu7JgPh5JQUYi0SZLJPKsLlMMqkhyWVJmUiyhkk5puQJb7wiRULHbPlaaaOHkyPfksPzEwNl5RBspWN72WHVuQIRZSpuWumgHy0z8nwmW7TkAiSeWNF0OplKNDQkuFsi7y8sfcriAnvWy6Zye1uj2C4/4wSjGLmQmOZN0ZFzH8nR6oB0if0dKDts0vZ8SdR44sIaTK1FRR7nUnKgYhnYWSxq0fwJEt84pjeNWzcrg0NHQxGzhXyhvIaWg15kavO8ATZxyvB2gkuPX9n/Smt9wRogdlPZ1iSrE9EUKIc8dsEEbmvKq8gdW8/uJ2Hf5FrEd+Ysxr0PLJAJNhN1zjnUjvTPiY2uN7ye1mI9O8snH/AW0LxE/bT9zuFLmLafQv+q/gBmuvBNrQcAAA==</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
