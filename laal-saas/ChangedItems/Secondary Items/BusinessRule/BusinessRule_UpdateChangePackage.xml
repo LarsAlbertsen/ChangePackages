@@ -11,7 +11,7 @@ Action #1 (JavaScriptBusinessActionWithBinds):
   </bindings>
   <messages/>
   <javaScript>
-logger.info("AutoUpdateEP " + node)
+logger.info("AddToChangePackage " + node)
 
 if (node != null) {
 	/** @type{ChangePackageHome} */
@@ -55,7 +55,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVWTVPbMBA9x79C+MDYYeq0t86QAEmgLR0oGQLtkVHsjRFVJCHJTCnw37uylA8XmEA/DpmRdlfv7b5dRVa8Kpm4oEpxBuaCTS9yKaas7HV3f8w4uQFtmBS9+F32NiYgclkwUfbi87MPb97HuztRd1AZJsCY04pDB/cGgeyO8rB/gbUTEbIwjGo4sur3psP9XvyZ3tBxrpmyc38/t0j0jdnLAROFiR0Woo2opjOwmIY3rJqIQ/LR5OxWQS++QtiMU1FmY6sx0Xhnk9vtRiWb15W021iOXyxr8vu6ML/c3SztduQAHMcxVfWekLmFoFJW09xiGv7EsNIahD2ZXEFuXcgwRASuPmfUhFghCwjmRUFDTs3CX3HuV521vEeyLEGvIeR10L+iPKaCruec+ajXkDrKzqrg3c7i3DMjcKC11Mc4Q8j1v0fhSOaUs590wiEwnsFMcWphUIkCr9MLc15egOcT9h3LmJjKxOfRr6w8VwWyHYxIyHqLuFFKo4hNSeKWZKNHnKopuYtanXab7FkkuBteIjaMaP4dk/4kZ/BA2p2odUM1yZXbkx4J/cpKsM6S5HKWGcsmMsulhqyQM8pEltdIyiNlj3DTOSgCemSH1wgb3B7uh5K8vTi0MDPegqW0XC0bzJwoEEmu0rqUFurREKMozmQDlpyCxBNzmFYrV5mGGgR3D4j7hKSPUbxjy2lZZ+6mNUnd8gt2MElTn1+tNRPGUpGDnJKnxepb7OaksvBRy0qR+3tM62UnDdhKle5UNnbLGmChxPoyaFF8YqCpzi9vG5KsOhI/PChOC7iBV6G7nv0O7GxLTJQcBzAibeJ+e8pdAdKcxAeihiPv1lilFobcTaTkQMVD5CZ0Won6aSBhHDC8FsHNGCpo3dyizbXnK+UVNOYqkIxdXEjVBY4Z3lnw4ekLp2LOtbh2tSHMwionmZ9IxkA5FKl3ZnBdUW4Sf+y5PoYiFyShMj94uA+OKSLBUnuvnLfWvfxjYKurJW6AdbZt18tHf2srhvp97naarz9+H3SaHwjhW+MX79KfXcMIAAA=</Configuration>
+            <Configuration>H4sIAAAAAAAAALVW21LbMBB9jr9C5IGxw9Rp3zqTCyShLXSgZEjaPjKKvTGiiiQkmSkF/r0rS7m4lAn08pAZabV7zu7ZVSzFy4KJC6oUZ2Au2Pwik2LOil53//uCkxvQhknRa75JXzcJiEzmTBS95ufp+1dvm/v9qDssDRNgzHnJoY17g0C2rzzsX2D1I0JWhnEFRzbPven4sNf8SG/oJNNM2eX5ILNI9JXZyyETuWk6LEQbU00XYDENb9g0EYfkvcn0VkGveYWwKaeiSCdWY6LN/i63nVolu9eltB0sxy/WNfl9VZhf7u8WthM5AMdxSlW1J2RpIaiU1TSzmIaPGJVag7BnsyvIrHMZBY/ANeCMmuArZA7BvCpoxKlZnZec+1V7K++JLArQWwh55fSvKE+poNs5F97rJaSOsr0peLe9intiBN5pLfUpzhBy/e9ROJEZ5ewHnXEIjFNYKE4tDEuR43V6Zs7rC/B0wr5jKRNzGfs8Bnk+laNLdIIxzb4hOwm57xE3UEkUsTmJ3ZLs9IjTNiF3UaPdapEDizR3teAjuYAH0mpHjRuqSabcnvRI6FpagHWWOJOL1Fg2k2kmNaS5XFAm0qxCUh4pfYSbLEER0CM7vJrb8Pb4MBTm7fmxhYXxFiyl4WrZYeZMgYgzlVSlNFCVLZKcg8SIJUyjkalUQwWCuwfEfYGwe07LKnM3s3Hilp+wj3GS+PwqrZkwlooM5Jz8XqyBxZ7OSgsftCwVub/HtJ4XacCWqnBR6cQtK4CVEtvLoHl+xEBTnV3e1iTZPIj98KA4DeAGXoTuevYrsLOtMVFyHMCItIj7HSh3EUh9Eh+IGo39scYqtTDkbiYlByoeIjeh81JUHwgSxgHdKxHcjKGC1s0t2lx7vlBeQm2uAsnE+YVUneOE4c0F7548cyqWXKtrVxnCLGxykmVEPAHKIU/8YQrXJeUm9mFP9TEUuSIJlfnBw304mCMSrLX3ynlr1cs/Bra6XOMGWGfruF4++nPbMFRf6W67/gbAV0K7/kwIL46fdYRiMckIAAA=</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
