@@ -24,7 +24,8 @@ if (node != null) {
 	}
 
 	logger.info("AddToChangePackage "+node.getClass().getName())
-	if (node instanceof com.stibo.core.domain.AttributeGroup) {
+	if (node instanceof com.stibo.core.domain.AttributeGroup ||
+		node instanceof com.stibo.core.domain.setupgroup.SetupGroup) {
 		logger.info("AddToChangePackage addHierarchy")
 		cp.addHierarchy(node)
 	}
@@ -54,7 +55,7 @@ function isOpen(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Update ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVWTVPbMBA9x79C+MDYYWq3t84kAZJAWzpQMiS0R0axN0ZUkYQsM6VM/ntXlvLhAhPoxyEz0u7qvd23KyuKVwUTV1QpzqC8YrOrTIoZK3rdgx9zTu5Al0yKXvgueRsSEJnMmSh64eXkw5v34cF+0B1UJRNQlhcVhxT3JQKZfeVg/wJrPyBkZRjVcGTT70wnR73wM72j40wzZZb+fmaQ6Bsz1wMm8jK0WIg2oprOwWAazrBpIhbJRZPJvYJeeIOwCaeiSMZGY6Lh/i43nUYlu7eVNB0sxy3WNbl9XZhbHuwWphNYAMtxRlW9J2RpIaiU0TQzmIY7May0BmHOpzeQGRsy9BGeq88ZLX2skDl486qgIaflyl9x7lbpVt5TWRSgtxDyOuhfUZ5RQbdzzl3Ua0gtZbopeDddnXtmBI61lvoMZwi5/vconMqMcvaTTjl4xgnMFacGBpXI8Tq9MOf1BXg+YdexhImZjFwe/crIS5Uj2/GI+Kz3iB2lOAjYjER2SXZ6xKoak4eglbbb5NAgwcPwGrFhRLPvmPQnOYcFaadB645qkim7Jz3i+5UUYKwlyuQ8KQ2byiSTGpJczikTSVYjKYeUPMKNl6AI6JAtXiNscH9y5Ety9vzEwLx0FiylZWvZYeW5AhFlKq5LaaEeDTHyfCIbsOQCJJ5YwrRamUo01CC4WyDuE5I+RnGOPatlnbmd1ii2yy/YwSiOXX611kyUhooM5Iw8LVbfYDenlYGPWlZqVcj2LGief2Kgqc6u7xsVbToi13usrQW8hFehW8l/B7a2NSYqhvMTkDaxv0NlJ5g0B2lB1HDk3BpMpUVJHqZScqBiEdgBm1Wi/rIT300Mr0WwI4LSGTt2aLPqfqW8gsZYeJKxjfOp2sAxwysHLjx+YVOXXKtbUxt8Kzc5yfJENAbKIY+dM4HbivIycsee66MvckXiK3Nzg3vvmCESrLV3yjlr3cs/Bja6WuN6WGvr2F4++iptGOrntZs2H2983tPm++7/KvwCkEY1UoIIAAA=</Configuration>
+            <Configuration>H4sIAAAAAAAAALVWTVPbMBA9x79C+MDYYeq0t86QAEmgLR0oGQLtkVHsjRFVJCHJTCnw37uylA8XmEA/DpmRdlfv7b5dRVa8Kpm4oEpxBuaCTS9yKaas7HV3f8w4uQFtmBS9+F32NiYgclkwUfbi87MPb97HuztRd1AZJsCY04pDB/cGgeyO8rB/gbUTEbIwjGo4sur3psP9XvyZ3tBxrpmyc38/t0j0jdnLAROFiR0Woo2opjOwmIY3rJqIQ/LR5OxWQS++QtiMU1FmY6sx0Xhnk9vtRiWb15W021iOXyxr8vu6ML/c3SztduQAHMcxVfWekLmFoFJW09xiGv7EsNIahD2ZXEFuXcgwRASuPmfUhFghCwjmRUFDTs3CX3HuV521vEeyLEGvIeR10L+iPKaCruec+ajXkDrKzqrg3c7i3DMjcKC11Mc4Q8j1v0fhSOaUs590wiEwnsFMcWphUIkCr9MLc15egOcT9h3LmJjKxOfRr6w8VwWyHYxIyHqLuFFKo4hNSeKWZKNHnKopuYtanXab7FkkuBteIjaMaP4dk/4kZ/BA2p2odUM1yZXbkx4J/cpKsM6S5HKWGcsmMsulhqyQM8pEltdIyiNlj3DTOSgCemSH1wgb3B7uh5K8vTi0MDPegqW0XC0bzJwoEEmu0rqUFurREKMozmQDlpyCxBNzmFYrV5mGGgR3D4j7hKSPUbxjy2lZZ+6mNUnd8gt2MElTn1+tNRPGUpGDnJKnxepb7OaksvBRy0qR+3tM62UnDdhKle5UNnbLGmChxPoyaFF8YqCpzi9vG5KsOhI/PChOC7iBV6G7nv0O7GxLTJQcBzAibeJ+e8pdAdKcxAeihiPv1lilFobcTaTkQMVD5CZ0Won6aSBhHDC8FsHNGCpo3dyizbXnK+UVNOYqkIxdXEjVBY4Z3lnw4ekLp2LOtbh2tSHMwionmZ9IxkA5FKl3ZnBdUW4Sf+y5PoYiFyShMj94uA+OKSLBUnuvnLfWvfxjYKurJW6AdbZt18tHf2srhvp97naarz9+H3SaHwjhW+MX79KfXcMIAAA=</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
