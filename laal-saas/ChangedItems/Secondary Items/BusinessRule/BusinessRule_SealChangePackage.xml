@@ -6,9 +6,12 @@ Action #1 (JavaScriptBusinessActionWithBinds):
 <config>
   <bindings>
     <binding alias="manager" type="Manager" contract="ManagerBindContract"/>
+    <binding alias="node" type="Node" contract="CurrentObjectBindContract"/>
   </bindings>
   <messages/>
   <javaScript>
+logger.info("SEALING "+node)
+
 /** @type{ChangePackageHome} */
 var cpHome = manager.getHome(com.stibo.core.domain.changepackage.ChangePackageHome)
 var cp = cpHome.getChangePackageByID("ChangedItems")
@@ -59,7 +62,7 @@ function removeDeletedItems(pCP) {
             <SetupGroupLink SetupGroupID="TrackChanges"></SetupGroupLink>
             <Name QualifierID="Qualifier root">Seal ChangePackage</Name>
             <OnApprove ApproveSetup="Never"></OnApprove>
-            <Configuration>H4sIAAAAAAAAALVV227bMAx9jr9C9UNhZ5i9vQ3IpU3SFuvQdkGTbo+FaiuuNllyJTloVuTfR13sxOgFBYYBCWAdkofkIW1VrC4ov8VVxShRt3R1mwm+osVoePRYMrQmUlHBR+Hn5FOICM9ETnkxCm+WZx+/hEfjYDitFeVEqeuakRTOCoj0uHK0/8A1DhBqgbmlQ/t2B52fjMJveI0XmaSVbuyTTEOin1TfTynPVWi4gG2OJS6JhjIcsA8hw+S80XJTkVH4C2gThnmRLLSEQsPxIdODTieHD7XQA2jHPex6cmfbmHs8Oiz0IDAEJsclruwZoQZBoJSWONNQhou4xBwXRBrjzNt8lgmjWHmv0nl5S9vNjGHVuPCaMfeUtkWk+1UM0zbuFV1OpRTyEoSFXP9bnwuRYUb/4DtGfMYlKSuGNZnWPIcde2fNu614veC030fHGoxPs3vAyRxnvyHhV1GSLeqnwRpLlFXmiEbIS50URBskykSZKE3vRJIJSZJclJjyJLNElSNKntHGnhP4HLGh63hNN+cnkRPF4fm5JqVySBwEkpRiTU4Ig06dKcoqwOkKRQdUfa8IN0CMnoIeE0VC+Up4vkmeL0UnGbomAgIa8l5WJZJYijjYBgEcFcHMOzcstRYLQNuKQMWgj+B3XJkJoK6YW1TN5tYqia4lV+jpTghGMN8GIPGq5vZlRb50cLalG5mUhqmDUoAZmX5gVpOOND7Fwvj5cozjgsLCEOceWxXM3N4WosnlN/WDAyDa6LqfEzURkRGB5LEzJuShxkxFLsy28EJi32SbxHd2BXsbxXD2hhUwkXYoPSecQ4Pe9qWO3kmsZb3j9bQGG5hpmzkiGCR6e5Jof2ovbOP+BDFjFtwNcS5pieXGucaDoNe4JFpMpMSbKE5WQp7i7D5qs0QUPJymZhzmhA5GyHzZHGqT8V0W//GM7DpciZycSVHeXF84ooGJMEQQ0WF516okz3tGtiK4oPx7D8uMcmffLZRNbbOYIh2JiY5aA0zW/Lf23Xv2hdsD7P01TLu3I9yfafcC9XfxX8/DCZXjBwAA</Configuration>
+            <Configuration>H4sIAAAAAAAAALVW227aQBB9xl+x4SGyiWrat0pcEiBJS5ULCqR9jBZ7IJuud531GpVG/HtnL4BpSJOqqpRI3jMz58zNXnJezpm4o3nOGRR3bHaXSDFj8077+EfGyQJUwaTo1D/E7+sERCJTJuad+u3k/N3H+nE3aPfLggkoipuSQxPPBRLpbu5o/4GrGxCyAUaWjlTtDhqedupf6IKOE8Vyvbb3Eo1C35i+7zORFnXDhWwjqmgGGtNwQBUihsl5k8kyh079AWljTsU8HmuFida7h1y3dio5fCylbmE57mFbkzvbwtzj8eFctwJDYDQuaW7PhKwRgp3SiiYa03ARl1TQOShjHHibV+lxRgvvlTkvb9lUM+C0WLuIknP31HxVdFAqBUJfTx8g0a9IC5nC3+ga1Wa1+nZzE/fCPM6UkuoSB4o1/u+5XMiEcvaTTjl4xQlkOaca+qVIcbffmPN2G19OmMs5Di1mYiZDl8f4rHcxvPpE3OnI9DYKgmajQU40kjwN7jEeRjT5jol9lhmsSKMZLKgiSW6OpEP8KsRz0AYJE5nFhWZTGSdSQZzKjDIRJ5Yod0TxM9rIcyKfIzZ0O1795fDUJ+3wdKghKxyCOSvI5AJOgWNHnClMcsTZjIQHrLjOQRggIk9BDftQbUIvTSdyR4zcgMSANXktyWMFliIKVkGAxwIo985rllLLMaKbjLCLQYPg30luJkV2m7ki+WBkrQp0qURBnqZScqBiFWCLZ6WwHxPiU0dnm7ppU6FxO7BTiJk2faW8hJ3WeImx8fPpGMcxw8UC5x7ZLvy2DXsasdbyG33kAIw2fa1qknVEaJoAaeSMMTyWlBehC7Ml7BH2RW5EfGVXuN9hhGdvmCETbIZSc41zaFBb7avojcRalVteT2uwlpm2mSPBQZI/T5JUp7ZnG6sTpJxbcDvEkWIZVUvnGrWC2tol1rKnFF2GUTyT6owm9+FGJWTo4XpqxmFO5KBDzBfQoVZMbFX8xz2063CFL/u5ktntzYUjapkIQ4QROyxvWpX4ec3EZoQXqH/vcZlJ6uzbhbLSVsUk6UhMdLgx4GTN/8q+e8++hBXA3q/t5u7tjfd7c/eC978VfgGP6qirgwgAAA==</Configuration>
             <ValidObjectTypes AllObjectTypesValid="true"></ValidObjectTypes>
         </BusinessRule>
     </BusinessRules>
