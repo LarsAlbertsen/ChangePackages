@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'laal-saas/**'
+      - 'laal-vm/**'
 jobs:
   detect-directory-changes:
     name: "Detect Directory Changes"
