@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main">
+    <ImportConfigurations>
+        <ImportConfiguration ID="5292"><!-- Definition:
+<?xml version="1.0"?>
+<ImportManagerConfig Version="2" Name="ExcelImpUpdateABeforeDataConf" ContextID="GL" WorkspaceID="Main" Approver="stepsys" RejectNewProducts="no" RejectProductUpdates="no" MatchUnitsByID="no" CountUnmapped="no" ProcessTemplate="Importer" TestImport="no" ReplaceTerms="CLEAR_ENTIRE_TERMSLISTS" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" BatchDirectoryID="">
+  <Source Name="File">
+    <Parameter Name="Filename">C:\Users\stibosw\Desktop\Automated Test Data - DO NOT TOUCH\ExcelImpUpdateABeforeData.xls</Parameter>
+  </Source>
+  <Format Name="Excel">
+    <Parameter Name="HasHeader">Yes</Parameter>
+    <Parameter Name="TrimWhitespace">Yes</Parameter>
+  </Format>
+  <ProductMapping>
+    <ID Match="yes" Mandatory="no"><SourceValue AttributeID="&lt;ID&gt;"/></ID>
+    <Name Match="no" Mandatory="no"><SourceValue AttributeID="&lt;Name&gt;"/></Name>
+    <ParentProduct Match="no" Mandatory="no"><SourceValue AttributeID="&lt;Parent ID&gt;"/></ParentProduct>
+    <Value Match="no" Mandatory="no" AttributeID="integer (mul val)" MultiValueSeparator=";">
+      <Contents><SourceValue AttributeID="integer (mul val)"/></Contents>
+    </Value>
+    <Value Match="no" Mandatory="no" AttributeID="fraction (mul val hard lov)" MultiValueSeparator=";">
+      <Contents><SourceValue AttributeID="fraction (mul val hard lov)"/></Contents>
+    </Value>
+    <Value Match="no" Mandatory="no" AttributeID="numeric text w unit (mul val med lov)" MultiValueSeparator=";">
+      <Contents><RemoveUnit><SourceValue AttributeID="numeric text w unit (mul val med lov)"/></RemoveUnit></Contents>
+      <Unit><ExtractUnit><SourceValue AttributeID="numeric text w unit (mul val med lov)"/></ExtractUnit></Unit>
+    </Value>
+    <Value Match="no" Mandatory="no" AttributeID="text (sin val)">
+      <Contents><SourceValue AttributeID="text (sin val)"/></Contents>
+    </Value>
+    <Value Match="no" Mandatory="no" AttributeID="date (sin val hard lov)">
+      <Contents><SourceValue AttributeID="date (sin val hard lov)"/></Contents>
+    </Value>
+    <Value Match="no" Mandatory="no" AttributeID="number w unit (sin val med lov)">
+      <Contents><RemoveUnit><SourceValue AttributeID="number w unit (sin val med lov)"/></RemoveUnit></Contents>
+      <Unit><ExtractUnit><SourceValue AttributeID="number w unit (sin val med lov)"/></ExtractUnit></Unit>
+    </Value>
+    <ObjectType Match="no" Mandatory="no"><SourceValue AttributeID="&lt;Object Type Name&gt;"/></ObjectType>
+    <ProductReference Type="Alternative" Match="no" Mandatory="no"><SourceValue AttributeID="Alternative Product Reference"/></ProductReference>
+    <AssetReference Type="Secondary Image" Match="no" Mandatory="no"><SourceValue AttributeID="Secondary Image Asset Reference ID"/></AssetReference>
+  </ProductMapping>
+  <ReplacementRules>
+  </ReplacementRules>
+</ImportManagerConfig>
+ -->
+            <Name>ExcelImpUpdateABeforeDataConf</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="asset.extension">xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.filename">ImportConfig3959703258112705107.xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.mime-type">application/xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.size">2895</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.uploaded">2009-12-10 06:14:00</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAA/61WTW/iMBC991dYPlTdQ8vuHreEihK6jVSggtBqJaTKhAG8TeLIdlr49zu2Ez4LWygXCBPPe288j7GrN7MkJm8gFRepR39cfac3tbNqkGRC6hZL2QRkQ6RjPiFP5aKflLRZAh5tziKIcWk/GzEN9VsYCwk+08xkUIKfGmY68D36+4GSZyFfVcYiMIEW4ykl9SyTAsk9qjRkaq4o6cJfiHQb3h+lGOWRVh5NRRkuYo6veNNiOpr2U67V7dwgm1hD5KnupwnLMhi5EKZGoFQISRZjskddiSApCUFp96vkwiURhCAT5Gg8NOvdl2Y7DLrNl7DZbfUegl7Yo8SHMcvjUtMjk5DaWosAmXKQTEbTOZFC6M314TyD1dW5AnmpMVisvjVl+Vxi1ULawmjtjJBqT+QygqIBdzwGG8YXKABjWNDKuxSfaK3xa9BHdDVQmg+Feh/4oF61yAb1XIsEN2Nkt4CYzpFL4ndIuxOSsNNv3A92tvhqFqtqZUFqtVWcOPt8JyRCrxpll9B7pu6BjbATtT+wifnB+lDy5HnK0QDGTB8lVSuO3T4XG9xCL/B0UmAGvvONR+egjIdSLA/32RqgVmzyE4tzIHWtJR/m2nbrPNbXgX8+0de0UqtWAr/AM8pKRGfKAwBN8gLS/FgWjpYqDXIsukMhK6rXcAsul7yTYx2W4/8a5wK5SHKcHSz+hsvR2dyC9CDDXmCmR6+LliO+nQWpVnvEbqMasYtEp7NiE48RPZYs0ji/FvhkyuSIxOLtNPL34Z+0kDRPQPKImNlK3kmOo2/JmcDhJXUhwSFsRuie8j7HagpdhduoGmldvDnTZrtOxrmGV7FfX91mS3qheOq8eIgVNlJP2n0zhhfYKxY7RN8ujFPbdIj/5rJtJduibV8w4l7ck1vwv2yfM19naG4w5tg/epQ7CGIx1g6NJXZ5dLjh3oUx4KzH+4J559F6jCdkyjR/A3qUihUAUh5MCxJ3uGwwF4LqSsGWnB5EAonlnAQJXjSPk7QBQizTUhQefFbXugB3S9i+GlSLu1+ChunmMSi3cDuKZ//2Fbl29g/3cDh+TwsAAA==</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

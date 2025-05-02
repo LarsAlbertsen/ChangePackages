@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main">
+    <BulkUpdateConfigurations>
+        <BulkUpdateConfiguration ID="8578"><!-- Definition:
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkUpdate Version="1">
+  <Operations>
+    <BulkUpdateDocumentUpdate>
+      <Parameters>
+        <Parameter ID="PayloadXML" Type="java.lang.String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;Payload/&gt;</Parameter>
+      </Parameters>
+    </BulkUpdateDocumentUpdate>
+  </Operations>
+</BulkUpdate>
+ -->
+            <Name>BuDocUpdate</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="asset.extension">xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.filename">BulkUpdateConfig.xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.mime-type">application/xml</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.size">364</Value>
+                <Value QualifierID="std.lang.all" AttributeID="asset.uploaded">2014-10-23 13:15:11</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="Bulk Update Configurations"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAA/32QzQrCMBCE732KsIfebPQmNG1BRBAUBX/wuthY1DSpdVvs25sSrdWDt51vh81MRPLIFatleT8bHcEoGAKT+mjSs84i2G1ngzEksScmlbruihRJsn1nhthjTKwKWSJZcm+lBR/v1ByrXGpyyq2tYY0l5pLsnTfqQzafRrDGRhlMD8sFsG1TyAguWGOgUGfBhkqbDmJfUfgV379VhkLbwQ2fIk5XdBqM3Zj4GYVee+D1EG+B4F2ILiv/DSv4v36C97+j7429J6HDesJsAQAA</Configuration>
+        </BulkUpdateConfiguration>
+    </BulkUpdateConfigurations>
+</STEP-ProductInformation>
