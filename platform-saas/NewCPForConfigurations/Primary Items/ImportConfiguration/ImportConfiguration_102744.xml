@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <ImportConfigurations>
+        <ImportConfiguration ID="102744"><!-- Definition:
+<?xml version="1.0"?>
+<ImportManagerConfig Version="2" Name="PlainSTEPXMLImportConfig" ContextID="Context1" WorkspaceID="From file" Approver="STEPSYS" RejectNewProducts="no" RejectProductUpdates="no" MatchUnitsByID="no" CountUnmapped="no" ProcessTemplate="Importer" TestImport="no" ReplaceTerms="CLEAR_ONLY_FOR_IMPORTED_PRODUCTS" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" BatchDirectoryID="" SelectedURLType="product">
+  <Source Name="File">
+    <Parameter Name="Filename">/Users/alco/Desktop/CP to import back.xml</Parameter>
+  </Source>
+  <Format Name="STEPXML">
+    <Parameter Name="Validate">No</Parameter>
+  </Format>
+  <ProductMapping>  </ProductMapping>
+  <ReplacementRules>
+  </ReplacementRules>
+</ImportManagerConfig>
+ -->
+            <Name>PlainSTEPXMLImportConfig</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">xml</Value>
+                <Value AttributeID="asset.filename">ImportConfig10662095502908968957.xml</Value>
+                <Value AttributeID="asset.format">XML (Extensible Markup Language document)</Value>
+                <Value AttributeID="asset.mime-type">application/xml</Value>
+                <Value AttributeID="asset.size">779</Value>
+                <Value AttributeID="asset.uploaded">2025-04-30 09:47:12</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAA/3VSyW7bMBC9+ysI3hs1PUsKEskGDFi2oCVNTgZLj23W4gKSauO/71CiiyBpTxy+efNmTR/e5EB+gXVCq4ze332lD/kiXUujra+YYiewhVZHcSLPN9I3SrZMQkbrgQnVdsv6pdrMETOVEnw9vPl1mdFo3lPyXduLM4xDgFdWS3IUA1DyaIzVWEJGg1b72lLSwE/gfgu/a6sPI/cuo0rf4Ij15sA8RE/FPD/3Snj3dA3yASv0qHyvJDMGDjOEoRyc60CaAYMzOpcNlpIOnJ9/t1xI4dCBlZij2Cwfm/1uu3ndr3bNfl3Vu6Zblvu62ZV90WHJJRzZONyKq5kFNfUfAXIWYJnl5yuxWvuP/O5q4D17dGC/eAQj+yn0VwqL7Ws7dUhJCwN+4dA3mxCeUTMH03xBSNrq0XKIm1qFQQcYHVgaYtjzO59Ci+ZJj1ldwgaukxLcxWuTFDXxmohpMOQH45c7PJg0+Ssy5UrmZJO90lYyH7Xjcfwv9TMbRFgizbf6k+YsNNlxKhVuUqhTHrwfoMCKG5M4+GYcwM0yn9E0+cd554s/+IPsyQsDAAA=</Configuration>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>

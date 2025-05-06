@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <ImageConversionConfigurations>
+        <ImageConversionConfiguration ID="ConvertImage2"><!-- Definition:
+<ImageConversionConfiguration Version="1.3">
+  <Property Name="Color">None</Property>
+  <Property Name="Format">None</Property>
+  <Property Name="FormatCompression">None</Property>
+  <Property Name="FormatInterlaced">Line</Property>
+  <Property Name="FormatJPEGQuality">80</Property>
+  <Property Name="SizePixelHeight"></Property>
+  <Property Name="SizePixelWidth"></Property>
+  <Property Name="SizeResizeType">cubic</Property>
+  <Property Name="SizeResizeIf">Always</Property>
+  <Property Name="SizeResizeUnit">Pixels</Property>
+  <Property Name="SizeResolution">72</Property>
+  <Property Name="FormatKeepColorProfile">true</Property>
+  <Property Name="FormatKeepTransparency">false</Property>
+  <Property Name="SizeMaintainAspect">true</Property>
+  <Property Name="SizeMaxBoundingBox">false</Property>
+  <Property Name="SizeFillBoundingBox">false</Property>
+  <Property Name="SizeResize">false</Property>
+  <Property Name="WatermarkAdd">false</Property>
+  <Property Name="WatermarkTiled">false</Property>
+  <Property Name="WatermarkFixed">true</Property>
+  <Property Name="WatermarkSize">50</Property>
+  <Property Name="WatermarkOpacity">20</Property>
+  <Property Name="WatermarkRotate">0</Property>
+  <Property Name="WatermarkPosition">0</Property>
+  <Property Name="WatermarkRequestedTileWidth">50</Property>
+  <Property Name="WatermarkActualWidth"></Property>
+  <Property Name="WatermarkActualHeight"></Property>
+  <Property Name="WatermarkTileSpacing">0</Property>
+  <Property Name="WatermarkImageExternalID"></Property>
+ </ImageConversionConfiguration>
+ -->
+            <Name>Convert Image2</Name>
+            <MetaData>
+                <Value AttributeID="asset.extension">txt</Value>
+                <Value AttributeID="asset.filename">ImageConversionConfig.txt</Value>
+                <Value AttributeID="asset.format">Text (Plain ASCII text)</Value>
+                <Value AttributeID="asset.mime-type">text/plain; charset=us-ascii</Value>
+                <Value AttributeID="asset.size">1560</Value>
+                <Value AttributeID="asset.uploaded">2025-04-29 17:29:04</Value>
+            </MetaData>
+            <ClassificationReference ClassificationID="AssetPushConfigurations"></ClassificationReference>
+            <Configuration>H4sIAAAAAAAA/52UW0/CMBTH3/kUSz+AKMbow2gyEHRecALKc93ORmPXzrbTzU9vtymJxMDBhy29/H85PVc/zFkGYyXfQRuupFulPCs1s27jPXeHQ3JydEpoz/P8SKsCtK29GcthSMZKKE3oTEnw+z93fwmnSufM4pVjlRcaTGMdD4XSghYshoTQO45jbqLJ1WPJBLc1oRfHu5EF/4SIVyCugWdr5w5SvuKJXWPUczDuv6wLIDQuX3iMRcKU0EB8sNpgiSfJnQPt83CMEqVt03E+wAT2FqBoy8Pdplw4h6wuUSlpyKVm0hRMg4xdXlImzB60eeQ949K6LzAFxBZjsKOqkSplwmU2UhXa2JQL8R+uiz5KvmKunnOmX4MkOQxYuoAfiExdJSSYmG2IRevH2Z6e2cgfCha3XTbAEnNl3ZJQrD5ShnclirYAbyUYC0kTsO8uRTsUxNYNDlRvbzG48fErm4smejLDu9YO9knldpKJ8HLLmN/fNfhp7wvYFqanGAYAAA==</Configuration>
+            <ImageConversionConfigurationCache>none</ImageConversionConfigurationCache>
+        </ImageConversionConfiguration>
+    </ImageConversionConfigurations>
+</STEP-ProductInformation>
