@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="GL" WorkspaceID="Main">
+    <ImportConfigurations>
+        <ImportConfiguration ID="KRMA-41812960">
+            <Name>CSVImport</Name>
+            <ClassificationReference ClassificationID="stibo.IMConfigFolder"></ClassificationReference>
+        </ImportConfiguration>
+    </ImportConfigurations>
+</STEP-ProductInformation>
