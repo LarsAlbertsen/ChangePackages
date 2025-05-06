@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <IntegrationEndpoints>
+        <InBoundIntegrationEndpoint ID="systemdemo-ee-preprocessor" UserTypeID="InboundEndpoint user-type root" PreProcessorPluginID="ExternalInboundPreprocessor" ProcessPluginID="Import" PostProcessorPluginID="Default" ErrorReporterPluginID="DefaultInboundErrorReporter" QueueForEndpoint="InboundQueue" QueueForProcssing="In" MaxNumberOfActiveBackgroundProcesses="1000" MaximumAgeOfFailedBackgroundProcesses="604800000" MaximumNumberOfFailedBackgroundProcesses="100" MaximumAgeOfSucceededBackgroundProcesses="604800000" MaximumNumberOfSucceededBackgroundProcesses="100" TransactionType="NONE" ResponsibleUserID="STEPSYS" EnableRetry="false" ReceiverPluginID="restdirect" MessagesPerBackgroundProcess="1"><!-- Definition:
+ScheduleSpecification:
+<entries>
+  <entry class="com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleNever"/>
+</entries>
+
+PreProcessorPluginConfiguration:
+<Parameters>
+  <Parameter ID="ExternalPreprocessor" Type="com.stibo.integration.extension.domain.parameter.ExternalPreprocessorExtensionConfiguration">eyJlbmdpbmVJZCI6ImVlLXBsYXRmb3Jtc3lzdGVtZGVtby1qc29uLXRvLWNzdi1wcmVwcm9jZXNzb3IiLCJpZCI6ImNvbS5zdGliby5xYS5lZS5wcmVwcm9jZXNzb3IuanNvbnRvY3N2Lkpzb25Ub0NzdiIsInVybCI6Imh0dHA6Ly9leHRlbnNpb24tZW5naW5lLWVlLXBsYXRmb3Jtc3lzdGVtZGVtby1qc29uLXRvLWNzdi1wcmVwcm9jZXNzb3Iuc3RpYm9xYS1wbGF0Zm9ybS5zdmMuY2x1c3Rlci5sb2NhbDo4MDgwL2V4dGVuc2lvbnMvY29tLnN0aWJvLnFhLmVlLnByZXByb2Nlc3Nvci5qc29udG9jc3YuSnNvblRvQ3N2IiwicGFyYW1ldGVycyI6eyJyZWplY3RFeGlzdGluZyI6ImZhbHNlIn0sInRpbWVvdXQiOm51bGwsImZhaWx1cmVTdHJhdGVneSI6IkZBSUwiLCJzaWduYXR1cmUiOiJmZmVkYmQ3NiJ9</Parameter>
+</Parameters>
+
+PostProcessorPluginConfiguration:
+<Parameters/>
+
+ReceiverPluginConfiguration:
+<Parameters/>
+
+ProcessPluginConfiguration:
+<ImportManagerConfig Approver="STEPSYS" BatchDirectoryID="" ContextID="Context1" CountUnmapped="no" DefaultProductParentID="Product hierarchy root" DefaultProductTypeID="Product user-type root" MatchUnitsByID="no" Name="" ProcessTemplate="Importer" RejectNewProducts="no" RejectProductUpdates="no" ReplaceTerms="CLEAR_ONLY_FOR_IMPORTED_PRODUCTS" SelectedURLType="product" TestImport="no" Version="2" WorkspaceID="Main">
+  <Format Name="CSV">
+    <Parameter Name="CharacterSet">UTF8</Parameter>
+    <Parameter Name="Delimiter">SemiColon</Parameter>
+    <Parameter Name="HasHeader">Yes</Parameter>
+    <Parameter Name="MultiLineValues">No</Parameter>
+    <Parameter Name="TrimWhitespace">No</Parameter>
+  </Format>
+  <ProductMapping>
+    <ID Mandatory="no" Match="yes">
+      <SourceValue AttributeID="&lt;ID&gt;"/>
+    </ID>
+    <Name CanHaveDimPoint="yes" Mandatory="no" Match="no">
+      <Contents>
+        <SourceValue AttributeID="&lt;Name&gt;"/>
+      </Contents>
+    </Name>
+    <ObjectType Mandatory="no" Match="no">
+      <SourceValue AttributeID="&lt;Object Type ID&gt;"/>
+    </ObjectType>
+    <ParentProduct Mandatory="no" Match="no">
+      <SourceValue AttributeID="&lt;Parent ID&gt;"/>
+    </ParentProduct>
+  </ProductMapping>
+  <ReplacementRules/>
+  <Source Name="File">
+    <Parameter Name="Filename">/var/folders/v8/mdhz5fz92hv1wk213d2gzs4c0000gp/T/SampleCSV.csv</Parameter>
+  </Source>
+</ImportManagerConfig>
+
+ErrorReporterPluginConfiguration:
+<Parameters/> -->
+            <SetupGroupLink SetupGroupID="Inbound Integration Endpoints"></SetupGroupLink>
+            <Name QualifierID="Qualifier root">System Demo Extension Engine -Preprocessor</Name>
+            <ScheduleSpecification>H4sIAAAAAAAA/z2Nyw5AMBAA776iaZy33NGLs4svoFZs0kfSLeHvNYLbZA4zjT6dFQdGpuBbWUMldVc06FMk5K4Q4uFLGDsxt9IEB5xoDrAnssBmw2W3uOBKnlJuwPiq/lflpwbMI6lyX/2DG/ynwpGBAAAA</ScheduleSpecification>
+            <PreProcessorPluginConfiguration>H4sIAAAAAAAA/6WS247aMBCG7/cpotw3mwNBjQSsCiwhUcjuBsjpLnZS8GI7aY6Yp++E1bZV1bteWLI1/3zzz3hmT1dGpb6oG1LyuawpqiwVHJc54ae5fDxsvnyVnxYPs9eszljRgm7xIEm/n5KznsvPV7jxjL7WRVWXuGiaspalg6iKuYxLpjQtQaVCeFuc6qyFQkoBGXwsqeQlywhXqk+g8i/Y86d8VfLv5NR9UORFIVyKWF4hFrrpypk6LKRevGySOGDIcFts0Ftuh20KBwntB9atzouD3ov8W060AbMQjvWexv4NGQ7xVm71wfF7tDchlxIkzGuyN2m6N//WdxkHHQ/6xPB171LdkG4ekTqyncbhoUB31lnNt9+mnrBosQ0o4n6F9EmbRibPIpN60X957rARVAmzwKM2IHujpswSd+9s1yX6VYM4xcRskO6f0bqc7NanwdPDCdTosE7B/65PdKv1uK9mkdt7fHP2xjnypUjjpYA8ig2/B8bdS25b79hIuv3YOw36N+jdIQPB9kYkkUaBK7BwpvA3Io0qmhjBprDHnmiXinEe6RltfepwFWYUVCgK+zx+Iy/M1JA9NGM8i8A3Cw/51j0Djxd7yLuky/1xGP/olkV5B/MCzZG8EJelLLwkDJwQ15o9/lpO2NvHPxf3J4BKYAftAgAA</PreProcessorPluginConfiguration>
+            <PostProcessorPluginConfiguration>H4sIAAAAAAAA/7Oxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347IJSCxKzE0tAarTt+MCABs9DU01AAAA</PostProcessorPluginConfiguration>
+            <ReceiverPluginConfiguration>H4sIAAAAAAAA/7Oxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347IJSCxKzE0tAarTt+MCABs9DU01AAAA</ReceiverPluginConfiguration>
+            <ProcessPluginConfiguration>H4sIAAAAAAAA/51UTU/jMBC98yssH7gtod1diRVJECStqNQvJSmop8ok08ZLYke2Uyi/nkmcQpcPVdqcJm9m3pvxjO1ePZcF2YLSXAqP9s7O6ZV/4o7KSiozYYJtQAVSrPmG3O2D+pRMWQkepQRdBp7NKPRoZ/YouZfqUVcshQaeMC4oua4qJVHFo3EymMfLmJII/kJqpvA0VzKrU6M9KuQe7rBFlTEDnWfCTJovBDf6ZtcwN1gga2EWomRVBZmFMDUFrRMoqwKTPWp7AUVJAtrYv70WhqSQgCpRIxgPrqPVbDperoazaDWazGdRMghX82gWLoIESw5hzepiX9ycKRBt6x1Acg6KqTTfESWl+Rif7Co4jK41qB8GwS76pukv5Arbl6rtkJIYCvyFbBGNm3SPVjaZ+ieEuLGsVQrdMIa8gBZGB5aGGPZ84BNoUd/ZMuWsZZHhMJ3thVNm+cvv9cuffr7tPT32ez+z/uZF/0rP8dtUTuLEDM8RgvjuLNVb13ljbgtwbAWtPZSqZKYTxPjvagmh4CVv5uHHUPJAFlJ84P0iK8gRwJNQMWDzi2R4cTznlulbYFmjtAR9PD5RvLzPsbR2eak/lcdzJjhfPuYC7lhRg/4iyXXsybR2N/sJ7isXm45zFNrd9ugOGdAWuPW4Au2S+t2UW35ybYziD7VpF+m0MJej8HRjLqnju84o7PiayvaM9uIcEpKAiVu2hZCXc8mFsao2FZPbayyMPqLbaLwpv+VYfadxvp8XevYr/21RR9QsCzlo9h/eTmv20DwdzT35byFLQVqOA7V3ZjvRz2N0u7ekxKqiugBtAz+jOKfPb6t/8gqbbwnyiAUAAA==</ProcessPluginConfiguration>
+            <SampleFileConfiguration SampleFileName="/Users/alco/Desktop/SampleCSV.csv">
+                <SampleFileContents>H4sIAAAAAAAA/1Oy8XSxU7JWsvFLzE0FMwISi1LzShSgwv5JWanJJQohlQWpYCEupRDv4CBnN11DoCwSM6AoP6UUqDAjM7UosSg5o1KhKD+/BEnCLT8nJbVICQDECAWlcAAAAA==</SampleFileContents>
+            </SampleFileConfiguration>
+            <ErrorReporterPluginConfiguration>H4sIAAAAAAAA/7Oxr8jNUShLLSrOzM+zVTLUM1BSSM1Lzk/JzEu3VQoNcdO1ULK347IJSCxKzE0tAarTt+MCABs9DU01AAAA</ErrorReporterPluginConfiguration>
+            <ContextLink ContextID="Context1"></ContextLink>
+            <WorkspaceID>Main</WorkspaceID>
+        </InBoundIntegrationEndpoint>
+    </IntegrationEndpoints>
+</STEP-ProductInformation>
